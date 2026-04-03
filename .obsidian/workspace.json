@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Github Test Commit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Github Test Commit"
             }
           }
         ],
@@ -240,9 +240,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef3d41af5715db6f",
+  "active": "e35ce44363a19596",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Github Test Commit.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
