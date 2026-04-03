@@ -1,0 +1,37 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "Images",
+      "color": {
+        "a": 1,
+        "rgb": 15991041
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0.3,
+  "nodeSizeMultiplier": 1.74620146314012,
+  "lineSizeMultiplier": 3.17566685424873,
+  "collapse-forces": true,
+  "centerStrength": 0.141374563168485,
+  "repelStrength": 11.6922059309889,
+  "linkStrength": 0,
+  "linkDistance": 30,
+  "scale": 0.09869311843495979,
+  "close": true
+}

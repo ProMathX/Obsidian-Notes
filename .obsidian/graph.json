@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "Images",
+      "color": {
+        "a": 1,
+        "rgb": 15991041
+      }
+    },
+    {
+      "query": "tag:#DBS  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#studies  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -2.9,
+  "nodeSizeMultiplier": 1.88645833333333,
+  "lineSizeMultiplier": 1.5546875,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 20,
+  "linkStrength": 0.494791666666667,
+  "linkDistance": 282,
+  "scale": 0.03955078125,
+  "close": false
+}

@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"b925ba9d9b6d7c2f","type":"text","text":"Kandidatenschlüssel / Minimalschlüssel (Candidate Key)","x":-300,"y":-220,"width":640,"height":50,"color":"6"},
+		{"id":"391065ee466a58ba","type":"text","text":"Primärschlüssel (Primary Key)","x":368,"y":-1160,"width":332,"height":60,"color":"3"},
+		{"id":"ab718627fd738e8e","type":"text","text":"Definition:\nEin Superschlüssel ist eine Teilmenge von Attributen, die jeden Datensatz (Tupel) innerhalb einer Relation eindeutig identifiziert.\n\n**Formale Definition:** Eine Attributmenge S⊆U heißt Superschlüssel für eine Relation r(R), wenn für alle Paare von Tupeln $t_{1},t_{2} \\in r$ gilt:\n\n$t_{1}​[S]=t_{2}[S]\\to t_{1}=t_{2}​$\n\n_(Sprich: Wenn die Werte im Superschlüssel gleich sind, müssen es dieselben Datensätze sein.)_","x":405,"y":-710,"width":590,"height":380,"color":"2"},
+		{"id":"0d8c1ccc6be7496a","type":"text","text":"Superschlüssel","x":-105,"y":-710,"width":250,"height":60,"color":"2"},
+		{"id":"d3a3f1f55c2e6b9a","type":"text","text":"schlüssel hierarchie #DBS #studies \n![[Pasted image 20260316215147.png]]","x":-740,"y":-1290,"width":510,"height":320,"color":"1"},
+		{"id":"e20831ae45306efb","type":"text","text":"Der Primärschlüssel ist ein spezieller Schlüsselkandidat, der vom Datenbankdesigner ausgewählt wurde, um die Tupel der Relation eindeutig zu identifizieren.\n\n**Formale Definition:** Sei C={K1​,K2​,…,Km​} die Menge aller Schlüsselkandidaten einer Relation R. Der Primärschlüssel PK ist ein beliebig gewähltes Element aus C:\n\nPK∈C\n\n_Zusatzbedingung in SQL:_ Ein Primärschlüssel darf niemals `NULL`-Werte enthalten (Entity Integrity Constraint).","x":192,"y":-1860,"width":684,"height":434,"color":"3"},
+		{"id":"884344869c0b2d5e","type":"text","text":"Ein Schlüsselkandidat ist ein Superschlüssel, der minimal ist. Das bedeutet, man kann kein Attribut weglassen, ohne die Identifikationseigenschaft zu verlieren.\n\n**Formale Definition:** Eine Attributmenge K⊆U ist ein Schlüsselkandidat, wenn gilt:\n\n1. K ist ein **Superschlüssel**.\n    \n2. Für jede echte Teilmenge K′⊂K gilt, dass K′ **kein** Superschlüssel ist (**Minimalität**).","x":-300,"y":0,"width":635,"height":392,"color":"6"}
+	],
+	"edges":[
+		{"id":"5b2ba79fa8b07cb4","fromNode":"d3a3f1f55c2e6b9a","fromSide":"bottom","toNode":"0d8c1ccc6be7496a","toSide":"left"},
+		{"id":"2dbb409017fc0498","fromNode":"0d8c1ccc6be7496a","fromSide":"bottom","toNode":"ab718627fd738e8e","toSide":"left"},
+		{"id":"aafc9dad489a8630","fromNode":"d3a3f1f55c2e6b9a","fromSide":"bottom","toNode":"b925ba9d9b6d7c2f","toSide":"left"},
+		{"id":"e9f063434b7f65bb","fromNode":"b925ba9d9b6d7c2f","fromSide":"bottom","toNode":"884344869c0b2d5e","toSide":"top"},
+		{"id":"fce8c64a18f3b96f","fromNode":"d3a3f1f55c2e6b9a","fromSide":"right","toNode":"391065ee466a58ba","toSide":"left"},
+		{"id":"88cc052eb6addf64","fromNode":"391065ee466a58ba","fromSide":"top","toNode":"e20831ae45306efb","toSide":"bottom"}
+	]
+}

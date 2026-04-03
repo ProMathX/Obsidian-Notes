@@ -1,0 +1,377 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "dimension": 46.748681898066785,
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "71ffbfa6149d9aa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Kanoische Ueberdeckung (minimale Ueberdeckung)"
+            }
+          },
+          {
+            "id": "ca50e8c506b0400a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Boyce-Codd-Normalform"
+            }
+          },
+          {
+            "id": "f055f02b1f2f5992",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Boyce-Codd-Normalform"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "fed9e80040abfb95",
+        "type": "tabs",
+        "dimension": 53.25131810193322,
+        "children": [
+          {
+            "id": "5d8ab0592451a54b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "f76cf626-6863-4ac7-9397-1016ffae49a6"
+            }
+          },
+          {
+            "id": "b14904b6dee2c538",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "exercise4_de"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2381e115d5e498f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac54c3517604f0e8",
+        "type": "tabs",
+        "dimension": 67.24343675417661,
+        "children": [
+          {
+            "id": "d291971ab12f06ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "16d41367a84f0ce3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"course\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b9f5c16c8fcaa060",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c96b09984e330787",
+        "type": "tabs",
+        "dimension": 32.756563245823386,
+        "children": [
+          {
+            "id": "669b0f609f66fd0b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "21a0bf3b18dd7290",
+    "type": "split",
+    "children": [
+      {
+        "id": "f00ecf2ef886c42b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec16f06b7fbd47fb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for f76cf626-6863-4ac7-9397-1016ffae49a6"
+            }
+          },
+          {
+            "id": "dc2bc3ccc9d87417",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DBS/ER-Diagramme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ER-Diagramme"
+            }
+          },
+          {
+            "id": "5f12c5d76c977157",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2e260651e927f832",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2baf7a38b6605041",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of f76cf626-6863-4ac7-9397-1016ffae49a6"
+            }
+          },
+          {
+            "id": "e35ce44363a19596",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "ca50e8c506b0400a",
+  "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
+    "Documents/ADM.zip",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/08_Algebraische Strukturen/bisherADM-065.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2020-01-31.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/05_Relationen + Funktionen/bisherADM-135.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/01_Induktion/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2014-04-02-2.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/06_Kombinatorik/bisherADM-156.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/04_Aussagenlogik + Mengen/bisherADM-138.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/07_Graphentheorie/bisherADM-048.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/05_Relationen + Funktionen/bisherADM-101.pdf",
+    "Documents/Zettlr Tutorial/citing.md",
+    "Documents/Zettlr Tutorial/split-view-intro.md",
+    "Documents/Zettlr Tutorial/helpful-links.md",
+    "Documents/Untitled Diagram-Page-1.drawio.png",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
+    "Documents/Zettlr Tutorial/welcome.md",
+    "Documents/libadwaita-theme-changer/README.md",
+    "Documents/Zettlr Tutorial/Zettelkasten.md",
+    "Documents/Zettlr Tutorial/LaTeX Guide.md",
+    "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
+    "Documents/Zettlr Tutorial/zettlr.png",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
+    "Images/Pasted image 20260331182416.png",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Normalformen.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Github.md",
+    "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Relationale Entwurfstheorie.md",
+    "Images/Pasted image 20260329165057.png",
+    "Images/Pasted image 20260329165005.png",
+    "Images/Pasted image 20260329162626.png",
+    "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
+    "[[Ableitung.md",
+    "Images/Pasted image 20260329154432.png",
+    "DBS/Zusammen/Mitschrift.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Normalisieren durch Zerlegung der Relationen.md",
+    "DBS/Zusammen/relationelle-algebra/kategorien/Projektion.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
+    "Images/Pasted image 20260329141223.png",
+    "DBS/DBS Canvas.canvas",
+    "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
+    "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
+    "Misc/Untitled.canvas"
+  ]
+}

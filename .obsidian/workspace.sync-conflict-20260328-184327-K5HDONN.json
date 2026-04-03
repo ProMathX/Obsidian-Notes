@@ -1,0 +1,370 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "dimension": 60.35645472061657,
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "0ccf6ba2c67ba054",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Funktionale Abhaengigkeiten"
+            }
+          },
+          {
+            "id": "e6ccb9904dbe18ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Normalisieren durch Zerlegung der Relationen.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Normalisieren durch Zerlegung der Relationen"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "81fd1660f30b17ec",
+        "type": "tabs",
+        "dimension": 39.64354527938343,
+        "children": [
+          {
+            "id": "c23ab0ee1afb5f02",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "f76cf626-6863-4ac7-9397-1016ffae49a6"
+            }
+          },
+          {
+            "id": "9bab2e2942006f65",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/DBS-5.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DBS-5"
+            }
+          },
+          {
+            "id": "f8c29088c2440e35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Github.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Github"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2381e115d5e498f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac54c3517604f0e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d291971ab12f06ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "16d41367a84f0ce3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b9f5c16c8fcaa060",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "21a0bf3b18dd7290",
+    "type": "split",
+    "children": [
+      {
+        "id": "f00ecf2ef886c42b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec16f06b7fbd47fb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DBS/ER-Diagramme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ER-Diagramme"
+            }
+          },
+          {
+            "id": "dc2bc3ccc9d87417",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DBS/ER-Diagramme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ER-Diagramme"
+            }
+          },
+          {
+            "id": "5f12c5d76c977157",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2e260651e927f832",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2baf7a38b6605041",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DBS/ER-Diagramme.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ER-Diagramme"
+            }
+          },
+          {
+            "id": "669b0f609f66fd0b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "4beaca5522421f77",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "0ccf6ba2c67ba054",
+  "lastOpenFiles": [
+    "Pasted image 20260328162956.png",
+    "DBS/DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
+    "Pasted image 20260328161531.png",
+    "Pasted image 20260328161535.png",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+    "DBS/Zusammen/DBS-Folien/DBS-5.pdf",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Normalformen.md",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Github.md",
+    "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
+    "DBS/Zusammen/Images/Pasted image 20260327154445.png",
+    "DBS/Zusammen/Images/Pasted image 20260327154212.png",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
+    "DBS/Zusammen/Images/Pasted image 20260327154004.png",
+    "DBS/Zusammen/Images/Pasted image 20260327153348.png",
+    "DBS/Zusammen/Images/Pasted image 20260327153326.png",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
+    "DBS/Zusammen/Images/Pasted image 20260327145605.png",
+    "DBS/Zusammen/Images/Pasted image 20260327145454.png",
+    "DBS/DBS Canvas.canvas",
+    "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Normalisieren durch Zerlegung der Relationen.md",
+    "EP2/Dokumente/ep2-26s-1seitig.pdf",
+    "DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf",
+    "DIR/Sources/Besonderer Teil/DIR Datenschutz.pdf",
+    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO V2.md",
+    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO T1.md",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Schluessel.md",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
+    "DBS/Zusammen/Mitschrift und Notizen/relationelle-algebra/Join.md",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
+    "[[Boyce-Codd-Normalform]].md",
+    "DBS/Zusammen/Mitschrift.md",
+    "[[Zweite.md",
+    "[[Erste.md",
+    "Daily Notes/2026-03-26.md",
+    "DBS/Zusammen/Mitschrift und Notizen/Schlüssel Hierarchie Canvas.canvas",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform.md",
+    "DBS/Zusammen/Mitschrift und Notizen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform.md",
+    "DBS/Zusammen/Zweite Normalform 2NF.md",
+    "DBS/Zusammen/Erste Normalform 1NF.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE3/exercise3_de.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE4",
+    "DBS/Zusammen/Images/Pasted image 20260324121619.png",
+    "DBS/Zusammen",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
+    "Misc/Untitled.canvas"
+  ]
+}

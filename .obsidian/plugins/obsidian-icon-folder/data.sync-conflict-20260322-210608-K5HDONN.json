@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": "#bababa",
+    "recentlyUsedIcons": [
+      "☠",
+      "LiTerminal",
+      "OcLaw16",
+      "LiDatabase",
+      "CoCalendarDays",
+      "LiArrowDownRightSquare",
+      "LiAlertOctagon",
+      "LiBadgeInfo",
+      "LiActivity"
+    ],
+    "recentlyUsedIconsSize": 12,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Daily Notes": {
+    "iconName": "CoCalendarDays",
+    "iconColor": "#f9f001"
+  },
+  "DBS": {
+    "iconName": "LiDatabase",
+    "iconColor": "#f07070"
+  },
+  "DIR": {
+    "iconName": "OcLaw16",
+    "iconColor": "#00e00f"
+  },
+  "EP1": "LiTerminal",
+  "EP2": "☠"
+}
