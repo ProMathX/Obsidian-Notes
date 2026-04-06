@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "1e82b4e7bea29c83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Rekursion"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,8 +215,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e82b4e7bea29c83",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
     "Templates/Daily Note.md",
     "Github Test Commit.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
@@ -286,7 +262,6 @@
     "Images/Pasted image 20260329154432.png",
     "DBS/Zusammen/Mitschrift.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Normalisieren durch Zerlegung der Relationen.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Projektion.md",
     "Images/Pasted image 20260329141223.png",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
