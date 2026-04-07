@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "ceb9e08b370abe87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DSGVO Zusammenfassung"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -56,7 +31,7 @@
       {
         "id": "ac54c3517604f0e8",
         "type": "tabs",
-        "dimension": 80.25666337611057,
+        "dimension": 67.24343675417661,
         "children": [
           {
             "id": "d291971ab12f06ec",
@@ -103,7 +78,7 @@
       {
         "id": "c96b09984e330787",
         "type": "tabs",
-        "dimension": 19.743336623889437,
+        "dimension": 32.756563245823386,
         "children": [
           {
             "id": "669b0f609f66fd0b",
@@ -240,34 +215,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ceb9e08b370abe87",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
-    "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
-    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
-    "DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf",
+    "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
+    "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "Images/Pasted image 20260407150627.png",
     "Images/Pasted image 20260407150519.png",
-    "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "Images/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
-    "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
-    "EP1/PDF/2025W-23-EP1-Arrays_Methoden.pdf",
-    "EP1/PDF/2025W-21-EP1-Arrays_Referenzen.pdf",
-    "EP1/PDF/2025W-20-EP1-Arrays_Grundlagen.pdf",
-    "EP1/PDF/2025W-22-EP1-Mehrdimensionale_Arrays.pdf",
-    "EP1/PDF/2025W-29-EP1-Elementare_Sortieralgorithmen.pdf",
-    "EP1/PDF/2025W-28-EP1-Suchalgorithmen.pdf",
-    "EP1/PDF/2025W-27-EP1-Komplexitätsfunktionen.pdf",
-    "EP1/PDF/2025W-26-EP1-Komplexitätsanalyse.pdf",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
+    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
+    "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
     "Templates/Daily Note.md",
     "Github Test Commit.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+    "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
+    "Documents/ADM.zip",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/08_Algebraische Strukturen/bisherADM-065.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2020-01-31.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/05_Relationen + Funktionen/bisherADM-135.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/01_Induktion/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2014-04-02-2.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/06_Kombinatorik/bisherADM-156.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/04_Aussagenlogik + Mengen/bisherADM-138.pdf",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/07_Graphentheorie/bisherADM-048.pdf",
     "Documents/Zettlr Tutorial/citing.md",
     "Documents/Zettlr Tutorial/split-view-intro.md",
     "Documents/Zettlr Tutorial/helpful-links.md",
@@ -287,6 +261,7 @@
     "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Relationale Entwurfstheorie.md",
     "Images/Pasted image 20260329165057.png",
+    "Images/Pasted image 20260329165005.png",
     "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
