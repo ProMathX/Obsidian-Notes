@@ -147,7 +147,31 @@
 
 *Jetzt wirds brutal bruder*
 #### Informationspflichten
-****
+1. **Datenschutzerklärung:**
+	- Namen und Kontaktdaten des Verantworlichen
+	- Ggf. Kontaktdaten des Datenschutzbeauftragten
+	- Kategorien der personenbezogener Daten
+	- Quellen und Empfänger
+	- Verarbeitungszwecke
+	- Berechtigtes Interesse der Verarbeitung
+	- Möglichkeit des Widerrufs
+	- Dauer
+	- Betroffenenrechte
+	- Beschwerderecht (bei DSb)
+	- Gesetzliche und vertragliche Verpflichtungen
+	- Bestehen automatisierter Entscheidungsfindung
+
+>[!Kategorien]
+>Name, Adresse, Geburtsdatum, E-Mail-Adresse, IP-Adresse, Kontonummer, Kfz-Kennzeichen, Interessen, Vorlieben, Logindaten, Accountdaten, Bankdaten, Positionsdaten, Versicherungsdaten, Nutzerdaten, Nutzungsdaten, Nutzungshistorie, Kommunikationsdaten, Bilddaten, Nachrichteninhalte, Vertragsdaten, Kontaktdaten, Metadaten, …
+
+>[!Besondere Kategorien]
+>rassische und ethnische Herkunft, politische Meinungen, religiöse oder weltanschauliche Überzeugungen oder die Gewerkschaftszugehörigkeit hervorgehen, sowie die Verarbeitung von genetischen Daten, biometrischen Daten zur eindeutigen Identifizierung einer natürlichen Person, Gesundheitsdaten oder Daten zum Sexualleben oder der sexuellen Orientierung einer natürlichen Person 
+
+2. **Daten aus anderen Quellen**
+		- Information innerhalb eines Monats
+		- Spätestens zum Zeitpunkt der ersten Mitteilung
+		- Spätestens zum Zeitpunkt der ersten Offenlegung
+
 
 
 #### Datensicherheitsmaßnahmen
