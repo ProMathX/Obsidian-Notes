@@ -168,14 +168,40 @@
 >rassische und ethnische Herkunft, politische Meinungen, religiöse oder weltanschauliche Überzeugungen oder die Gewerkschaftszugehörigkeit hervorgehen, sowie die Verarbeitung von genetischen Daten, biometrischen Daten zur eindeutigen Identifizierung einer natürlichen Person, Gesundheitsdaten oder Daten zum Sexualleben oder der sexuellen Orientierung einer natürlichen Person 
 
 2. **Daten aus anderen Quellen**
-		- Information innerhalb eines Monats
-		- Spätestens zum Zeitpunkt der ersten Mitteilung
-		- Spätestens zum Zeitpunkt der ersten Offenlegung
+	- Information innerhalb eines Monats
+	- Spätestens zum Zeitpunkt der ersten Mitteilung
+	- Spätestens zum Zeitpunkt der ersten Offenlegung
 
+3. **Ausnahmen**
+	- Obsolet
+	- Unverhältnismäßiger Aufwand
+	- Erlangung oder Offenlegung durch Rechtsvorschriften
+	- Berufsgehimnis oder satzungsmäßige Geheimhaltungspflicht
 
 
 #### Datensicherheitsmaßnahmen
+ 1. Pseudonymisierung 
+ 2. CIA Triad 
+ 3. Auftragsprinzip 
+ 4. Selbstevaluierungsprozesse
+ 5. Zertifizierungsverfahren 
+ 6. Privacy by Design, Privacy by Default 
+
 #### Verarbeitungsverzeichnis
+- Namen und Kontaktdaten des Verantworlichen
+- Ggf Kontaktdaten des Datenschutzbeauftragten
+- Verarbeitungszwecke und Rechtsgrundlagen
+- Kategorien personenbezogener Daten
+- Kategorien von Empfänger
+- Übermittlung an Drittländer
+- Löschfristen
+- Datensicherheitsmaßnahmen
+###### Ausnahmen
+- |Unternehmen| < 250
+- Datenverarbeitung kein Risiko für die Rechte und Freiheit betroffenen Person dar
+- Verarbeitung erfolgt nur gelgentlich
+- Keine Verarbeitung von sensiblen Daten
+
 #### Risikoanalyse
 
 #### Datenschutzbeauftragte
