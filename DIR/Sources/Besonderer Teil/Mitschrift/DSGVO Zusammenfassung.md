@@ -145,10 +145,22 @@
 5. Ggf. Datenschutzbeauftrage bestellen
 6. **Datenschutzverletzung:**  **<font color="#ff0000">UNVERZÜGLICHE</font> MELDUNG AN <font color="#ff0000">DATENSCHUTZBEHÖRDE</font>**
 
+*Jetzt wirds brutal bruder*
 #### Informationspflichten
+****
+
+
 #### Datensicherheitsmaßnahmen
 #### Verarbeitungsverzeichnis
 #### Risikoanalyse
+
+#### Datenschutzbeauftragte
+
+
+# Vertreter
+
+# Auftragsgeber
+
 
 
 ![[Pasted image 20260407150627.png]]
