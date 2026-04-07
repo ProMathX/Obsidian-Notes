@@ -354,7 +354,31 @@ An die Behörde zu übermittelnde Informationen:
 - i.d.R Bearbeitung von Begehren, Dialog mit Betroffenen
 ##### Qualifikationen
 - Fachliches Wissen insb. Datenschutzrechts
-- Mögliche Zerti
+- Mögliche Zertifizierungen
+	- TÜV,WIFI, ETC
+##### Verpflichtende Bestellung
+- Verarbeitung von sensiblen Daten
+- umfangreiche regelmäßige und systematische Überwachung von betroffenen Personen (z.B. Banken, Versicherungen, Kreditauskunfteien, Detektive, …)
+
+
+#### Gemeinsame Verantworliche
+Kontext und Definition
+
+- Entspricht dem ehemaligen Informationsverbundsystem aus dem DSG 2000.
+    
+- Tritt ein, wenn zwei oder mehrere Verantwortliche gemeinsam über die Zwecke und Mittel der Verarbeitung entscheiden.
+    
+
+Zusammenarbeit und Vereinbarung
+
+- Die Beteiligten müssen in einer transparenten Vereinbarung festlegen, wer welche Verpflichtungen gemäß der DSGVO erfüllt.
+    
+- Diese Aufteilung hat direkte Auswirkungen auf spätere Regressansprüche unter den Verantwortlichen.
+    
+
+Rechte der Betroffenen
+
+- Ungeachtet der internen Vereinbarung können betroffene Personen ihre Rechte gegenüber jedem einzelnen der Verantwortlichen geltend machen.
 
 #### Data Breach Meldung
 ###### Meldepflichten bei Datenverletzungen
@@ -385,10 +409,35 @@ Benachrichtigung der betroffenen Personen
 - Kontakt: Angabe von Ansprechpartnern oder Kontaktdaten für weitere Informationen
 
 # Vertreter
+##### Bestellung eines EU-Vertreters
 
-# Auftragsgeber
+Verpflichtung Unternehmen ohne Niederlassung in der EU müssen einen Vertreter benennen, wenn:
+
+- Waren oder Dienstleistungen für Personen in der EU angeboten werden.
+    
+- Das Verhalten von Personen innerhalb der EU beobachtet wird (z. B. Tracking).
+    
+
+Ausnahmen
+
+- Die Pflicht gilt unter anderem nicht für Behörden oder öffentliche Stellen.
+    
+
+Aufgaben und Pflichten des Vertreters
+
+- Vertretung des Verantwortlichen hinsichtlich aller Verpflichtungen aus der DSGVO.
+    
+- Zentrale Anlaufstelle für Aufsichtsbehörden und betroffene Personen bei allen Anfragen zur Datenverarbeitung.
+
+# Auftragsverarbeiter
+
+**Beispiel:** IT-Dienstleister
+**Gegenbeispiel:** Steuerberater
 
 
+# Strafen
+
+# Behörden
 
 ![[Pasted image 20260407150627.png]]
 
