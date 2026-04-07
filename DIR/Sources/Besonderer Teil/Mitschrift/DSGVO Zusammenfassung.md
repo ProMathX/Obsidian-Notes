@@ -1,6 +1,6 @@
 #DSGVO #studies #Recht #DIR 
-
 # Was ist Datenschutz?
+![[Pasted image 20260407150519.png]]
 
 ### Datenschutz
 - Recht auf Schutz personenbezogener Daten
@@ -17,7 +17,6 @@
 	- sexuelle Orientierung
 	- Gesundheitsdaten
 
-
 # Pseudonymisierung vs. Anonymisierung
 
 ### Pseudonymisieren
@@ -32,9 +31,18 @@
 - Daten unterliegen nicht der DSGVO
 - Geeignet für Löschantrag
 
-
 ### Geltungsbereich
-- 
+- Verarbeitung p. Daten
+	- Verarbeiten: Jede Interaktion
+- Verantworliche oder Auftragsverarbeiter
+	- EU
+	- Marktortprinzip
+		- Waren oder Dienstleistung in EU angeboten
+		- Verhalten von Personen in der EU beobachten
+
+### Prinzipien (Art. 5 DSGVO)
+
+
 
 
 
