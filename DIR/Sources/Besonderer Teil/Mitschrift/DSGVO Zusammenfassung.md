@@ -285,7 +285,31 @@ Um das "hohe Risiko" zu bestimmen, werden folgende Kriterien herangezogen:
     - Video-/Audioverarbeitung zu reinen Dokumentationszwecken.
 
 
-###### 7.
+###### 7. Beschreibung der geplanten Verarbeitungsvorgänge
+- Art Umfang  der Datenverarbeitung
+- Personenbezogene Daten, Empfänger und Speicherfrist
+- funktionale Beschreibung der Vorgänge
+- Hardware, Software, Netzwerke, Benutzerkreise
+- Dokumentation, Richtlinien
+###### 8. Verarbeitungszweck
+- Rechtmäßigkeitsgrundlage des berechtigten Interesses
+- Gesetz, Richtlinie, Vertrag
+###### 9. Notwendigkeit und Verhältnismäßigkeit
+Datenverarbeitung ist unumgänglich, Prüfkriterien:
+- Zweck ist legitim
+- Datenverarbeitung ist erheblich und notwendige Maßnahmen beschränkt
+- Betroffenenrechte sind er
+
+
+
+######  10. Risikobewertung
+
+###### 11. Abhilfemaßnahmen
+
+###### 12. Standpunkt der Betroffenen
+###### 13. Konsultation der Datenschutzbehörde
+
+
 #### Datenschutzbeauftragte
 
 
