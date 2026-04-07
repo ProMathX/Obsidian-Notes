@@ -18,8 +18,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "2439bcb19ff9f9cc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-07 14.01.01.excalidraw"
+            }
+          },
+          {
+            "id": "9423fdbbe99420e2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-07 14.01.01.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,8 +240,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "2439bcb19ff9f9cc",
   "lastOpenFiles": [
+    "Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
+    "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
+    "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "EP1/PDF/2025W-23-EP1-Arrays_Methoden.pdf",
     "EP1/PDF/2025W-21-EP1-Arrays_Referenzen.pdf",
     "EP1/PDF/2025W-20-EP1-Arrays_Grundlagen.pdf",
@@ -231,7 +259,6 @@
     "Templates/Daily Note.md",
     "Github Test Commit.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
-    "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
@@ -261,8 +288,6 @@
     "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
     "[[Ableitung.md",
     "Images/Pasted image 20260329154432.png",
-    "DBS/Zusammen/Mitschrift.md",
-    "Images/Pasted image 20260329141223.png",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
