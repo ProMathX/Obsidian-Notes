@@ -1,7 +1,5 @@
 #DSGVO #studies #Recht #DIR 
 # Was ist Datenschutz?
-![[Pasted image 20260407150519.png]]
-
 ### Datenschutz
 - Recht auf Schutz personenbezogener Daten
 - nichtautomatisierte Verarbeitung personenbezogener Daten 
@@ -46,3 +44,8 @@
 
 
 
+![[Pasted image 20260407150627.png]]
+
+
+# Quelle 
+[DSGVO](https://datenschutz-grundverordnung.eu/dsgvo/art-5-dsgvo-grundsaetze-fuer-die-verarbeitung-personenbezogener-daten/)

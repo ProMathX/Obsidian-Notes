@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "2439bcb19ff9f9cc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-07 14.01.01.excalidraw"
-            }
-          },
-          {
-            "id": "9423fdbbe99420e2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-07 14.01.01.excalidraw"
-            }
-          },
-          {
             "id": "ceb9e08b370abe87",
             "type": "leaf",
             "state": {
@@ -68,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "89a64af4318def7a",
@@ -284,11 +260,12 @@
   },
   "active": "ceb9e08b370abe87",
   "lastOpenFiles": [
-    "Pasted image 20260407150519.png",
+    "Images/Pasted image 20260407150627.png",
+    "Images/Pasted image 20260407150519.png",
     "DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf",
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
-    "Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
+    "Images/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "EP1/PDF/2025W-23-EP1-Arrays_Methoden.pdf",
     "EP1/PDF/2025W-21-EP1-Arrays_Referenzen.pdf",
@@ -328,7 +305,6 @@
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Relationale Entwurfstheorie.md",
     "Images/Pasted image 20260329165057.png",
     "Images/Pasted image 20260329165005.png",
-    "Images/Pasted image 20260329162626.png",
     "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
