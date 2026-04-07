@@ -134,7 +134,21 @@
 >[!Definition]
 >Verantwortliche: ist die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
 
+- **Ansprechpartner** für Betroffene und Behörden 
+- **Gesamtverantworlich**, muss nachweislich Pflichten erfüllen
 
+### Pflichten
+1. Informationspflichten
+2. Risikoanalyse
+3. Implementierung der Datensicherheitsmaßnahmen
+4. Verzeichnis aller Datenverarbeitungstätigkeiten
+5. Ggf. Datenschutzbeauftrage bestellen
+6. **Datenschutzverletzung:**  **<font color="#ff0000">UNVERZÜGLICHE</font> MELDUNG AN <font color="#ff0000">DATENSCHUTZBEHÖRDE</font>**
+
+#### Informationspflichten
+#### Datensicherheitsmaßnahmen
+#### Verarbeitungsverzeichnis
+#### Risikoanalyse
 
 
 ![[Pasted image 20260407150627.png]]
