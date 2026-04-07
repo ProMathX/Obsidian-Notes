@@ -480,8 +480,7 @@ Die Zusammenarbeit muss rechtlich fixiert sein (oft über EU-Standardvertragskla
     
 - Rechte und Pflichten des Verantwortlichen.
 
-### Internationaler Datenverkehr
-#### Internationaler Datenverkehr & Drittstaaten
+#### 3. Internationaler Datenverkehr & Drittstaaten
 
 ##### 1. Die EU-US Historie (Abkommen)
 
@@ -539,7 +538,8 @@ Falls kein Angemessenheitsbeschluss vorliegt (z. B. bei nicht-zertifizierten US-
 *Aufgaben*
 - Führung von datenschutrechtlichen Beschwerdeverfahren
 - Amtswegige Prüfverfahren
-- Verwaltungs
+- Verwaltungsstrafverfahren
+- Zusammenarbeit mit anderen Datenschutzbehörden
 
 
 ![[Pasted image 20260407150627.png]]
