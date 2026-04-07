@@ -327,9 +327,62 @@ Datenverarbeitung ist unumgänglich, Prüfkriterien:
 - Begründung erforlderlich wenn Entscheidung vom Standpunkt der Betroffenen abweicht
 ###### 13. Konsultation der Datenschutzbehörde
 
+Eine Konsultation der Datenschutzbehörde ist zwingend erforderlich, wenn das Ergebnis einer DSFA ein hohes Risiko aufzeigt und der Verantwortliche keine ausreichenden Maßnahmen zur Eindämmung dieses Risikos treffen kann.
+
+Beteiligte Akteure:
+
+- Verantwortliche
+    
+- Datenschutzbeauftragte
+    
+- Auftragsverarbeiter
+
+An die Behörde zu übermittelnde Informationen:
+
+- Zwecke und Mittel der beabsichtigten Verarbeitung.
+    
+- Maßnahmen und Garantien zum Schutz der Rechte und Freiheiten der betroffenen Personen.
+    
+- Die durchgeführte Datenschutz-Folgenabschätzung.
 
 #### Datenschutzbeauftragte
+##### Aufgaben
+- Beratung eines Unternehmen hinsichtlich DSGVO
+- Überwachung und Überprüfung der Datenschutzvorschriften
+- Sensibilisieung und Schulung der Mitarbeiter
+- Beratung DSFA, Verzeichnis, Applikationsbeschreibung
+- i.d.R Bearbeitung von Begehren, Dialog mit Betroffenen
+##### Qualifikationen
+- Fachliches Wissen insb. Datenschutzrechts
+- Mögliche Zerti
 
+#### Data Breach Meldung
+###### Meldepflichten bei Datenverletzungen
+
+Meldung an die Aufsichtsbehörde (DSb)
+
+- Erforderlich, wenn die Verletzung ein Risiko für die Rechte und Freiheiten natürlicher Personen darstellt.
+    
+
+Benachrichtigung der betroffenen Personen
+
+- Zwingend erforderlich, wenn die Verletzung voraussichtlich ein hohes Risiko für die persönlichen Rechte und Freiheiten zur Folge hat.
+    
+###### Zeitlicher Rahmen
+
+- Die Meldung muss unverzüglich erfolgen.
+    
+- Die Frist beträgt maximal 72 Stunden ab dem Zeitpunkt, an dem der Verstoß bekannt wurde.
+    
+###### Inhalt der Meldung
+
+- Art der Verletzung: Beschreibung der Kategorie und der betroffenen Daten.
+    
+- Mögliche Folgen: Darstellung der wahrscheinlichen Konsequenzen für die Betroffenen.
+    
+- Abhilfemaßnahmen: Ergriffene oder vorgeschlagene Schritte zur Behebung des Schadens und zur Minimierung der Auswirkungen.
+    
+- Kontakt: Angabe von Ansprechpartnern oder Kontaktdaten für weitere Informationen
 
 # Vertreter
 
