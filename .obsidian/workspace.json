@@ -45,6 +45,24 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "89a64af4318def7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9316cbfddd2c5559",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Datenschutz SS2026"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -56,7 +74,7 @@
       {
         "id": "ac54c3517604f0e8",
         "type": "tabs",
-        "dimension": 67.24343675417661,
+        "dimension": 80.25666337611057,
         "children": [
           {
             "id": "d291971ab12f06ec",
@@ -103,7 +121,7 @@
       {
         "id": "c96b09984e330787",
         "type": "tabs",
-        "dimension": 32.756563245823386,
+        "dimension": 19.743336623889437,
         "children": [
           {
             "id": "669b0f609f66fd0b",
@@ -240,11 +258,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2439bcb19ff9f9cc",
+  "active": "9316cbfddd2c5559",
   "lastOpenFiles": [
+    "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
-    "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "EP1/PDF/2025W-23-EP1-Arrays_Methoden.pdf",
     "EP1/PDF/2025W-21-EP1-Arrays_Referenzen.pdf",
     "EP1/PDF/2025W-20-EP1-Arrays_Grundlagen.pdf",
@@ -287,7 +305,6 @@
     "Images/Pasted image 20260329162626.png",
     "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
     "[[Ableitung.md",
-    "Images/Pasted image 20260329154432.png",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
