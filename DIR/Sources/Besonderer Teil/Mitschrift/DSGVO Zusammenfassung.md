@@ -434,10 +434,113 @@ Aufgaben und Pflichten des Vertreters
 **Beispiel:** IT-Dienstleister
 **Gegenbeispiel:** Steuerberater
 
+#### 1. Allgemeine Pflichten des AV
+
+- **Datensicherheit:** Implementierung geeigneter technischer und organisatorischer Maßnahmen.
+    
+- **Dokumentation:** Führung eines Verzeichnisses aller Datenverarbeitungstätigkeiten (VVT).
+    
+- **Personal:** Gegebenenfalls Bestellung eines Datenschutzbeauftragten.
+    
+- **Risikomanagement:** Durchführung von Risikoanalysen.
+    
+- **Unterstützung:** Hilfeleistung für den Verantwortlichen bei der Erfüllung von DSGVO-Pflichten (z. B. Betroffenenrechte).
+    
+- **Kooperation:** Zusammenarbeit mit den Aufsichtsbehörden (DSb).
+    
+- **Warnpflicht:** Unverzügliche Meldung an den Verantwortlichen, falls eine Weisung gegen Datenschutzrecht verstößt.
+    
+
+#### 2. Der AV-Vertrag (Inhalte)
+
+Die Zusammenarbeit muss rechtlich fixiert sein (oft über EU-Standardvertragsklauseln 2021).
+
+**Kerninhalte des Vertrags:**
+
+- **Weisungsgebundenheit:** Verarbeitung erfolgt nur auf dokumentierte Weisung des Verantwortlichen.
+    
+- **Vertraulichkeit:** Sicherstellung, dass sich die zur Verarbeitung berechtigten Personen zur Verschwiegenheit verpflichtet haben.
+    
+- **Sicherheitsmaßnahmen:** Verbindliche Zusage über das Schutzniveau.
+    
+- **Unterauftragsverarbeiter:** Festlegung der Bedingungen und Genehmigungsprozesse für Sub-Unternehmer.
+    
+- **Unterstützungspflicht:** Hilfe bei Anträgen von Betroffenen oder Meldungen von Datenpannen.
+    
+- **Abschluss:** Verpflichtung zur Löschung oder Rückgabe aller Daten nach Ende der Vertragserfüllung.
+    
+
+**Strukturdaten im Vertrag:**
+
+- Gegenstand und Dauer der Verarbeitung.
+    
+- Art und Zweck der Verarbeitung.
+    
+- Kategorien personenbezogener Daten und betroffener Personen.
+    
+- Rechte und Pflichten des Verantwortlichen.
+
+### Internationaler Datenverkehr
+#### Internationaler Datenverkehr & Drittstaaten
+
+##### 1. Die EU-US Historie (Abkommen)
+
+Die rechtliche Basis für Datenübermittlungen in die USA war stetig im Wandel:
+
+- **2000 – 2016:** Safe Harbour (durch EuGH gekippt).
+    
+- **2016 – 2020:** EU-US Privacy Shield (durch EuGH gekippt).
+    
+- **Seit 2023:** **EU-US Data Privacy Framework (DPF)**.
+    
+    - Basis: _Executive Order_ von Präsident Biden (2022).
+        
+    - Neuerung: US-Nachrichtendienste haben nur noch eingeschränkten Zugriff.
+        
+    - Rechtsschutz: Einrichtung des **Data Protection Review Court (DPRC)** für EU-Bürger.
+        
+
+##### 2. Genehmigungsfreier Datenverkehr
+
+Datenübermittlungen sind ohne zusätzliche Genehmigung erlaubt in:
+
+- **EU- und EWR-Länder.**
+    
+- **Drittländer mit Angemessenheitsbeschluss** (Prüfung alle 4 Jahre):
+    
+    - _Beispiele:_ Andorra, Argentinien, Schweiz, Israel, Japan, Kanada, UK, Südkorea, Uruguay.
+        
+    - **USA:** Gilt **nur** für Unternehmen, die nach dem _Data Privacy Framework_ zertifiziert sind (Prüfung via [dataprivacyframework.gov](https://www.dataprivacyframework.gov/list)).
+        
+
+##### 3. Standardvertragsklauseln (SCC)
+
+Falls kein Angemessenheitsbeschluss vorliegt (z. B. bei nicht-zertifizierten US-Firmen oder anderen Drittstaaten), müssen **Standard Contractual Clauses (SCC)** genutzt werden:
+
+- **Prüfpflicht:** Exporteur und Importeur müssen vorab prüfen, ob das Recht im Drittland ein Schutzniveau bietet, das dem der EU im Wesentlichen entspricht (_Transfer Impact Assessment_).
+    
+- **Verbindlichkeit:** Die Klauseln müssen rechtsverbindliche und durchsetzbare Garantien enthalten.
+    
+- **Aufsicht:** Die verwendeten Klauseln müssen von der EU-Kommission oder einer Aufsichtsbehörde genehmigt/abgenommen sein.
+
 
 # Strafen
+- **Gravierende Verstöße** Bis zu 20 Mio. EUR Strafe Bis zu 4% des gesamten weltweit erzielten Jahresumsatzes für Unternehmen
+
+- **Weniger gewichtige Verstöße** Bis zu 10 Mio. EUR Strafe Bis zu 2% des gesamten weltweit erzielten Jahresumsatzes für Unternehmen
 
 # Behörden
+## Datenschutzbehörde (DSb)
+
+- Unabhängige Justizbehörde, Aufsichtsbehörde für Datenschutz 
+
+- Leiter:in von BReg. nominiert und vom BPräs. auf 5 Jahre bestellt.
+
+*Aufgaben*
+- Führung von datenschutrechtlichen Beschwerdeverfahren
+- Amtswegige Prüfverfahren
+- Verwaltungs
+
 
 ![[Pasted image 20260407150627.png]]
 
