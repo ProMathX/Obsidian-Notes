@@ -55,8 +55,6 @@
 7. **Rechenschaftspflicht:** Der Verantwortliche muss die Einhaltung dieser Grundsätze nachweisen können.
 
 # Betroffenenrechte
-
-
 > [!Zitat ]
 > Welche Recht moruk? 
 
@@ -78,10 +76,24 @@
 - <mark style="background:#40a9ff">Recht auf Berichtigung</mark>
 	- Änderung, vervollständigung der Daten
 	
-- Recht auf Löschung 
-	- 
+- <mark style="background:#9254de">Recht auf Löschung </mark>
+	- Daten sind für Zweck nicht mehr Notwending
+	- Widerruf der Einwilligung
+	
+- <mark style="background:#fdbfff">Recht auf Löschung - Ablehnungsgründe</mark>
+	- Freie Meinungsäußerung der Info.
+	- Aufbewahrungspflicht
+	- Öffentliches Interesse
+	- Archivzwecke, Wissenschaftlich, histor. Forschungszwecken, statistische Zwecke
+	- Getendmachung, Ausübung oder Verteidigung von Rechtsansprüchen 
 
+- Recht auf Einschränkung
+	- Daten dürfen nur mehr gespeichert werden
 
+- Alternative zur Löschung, das Recht auf Einschränkung
+	- Richtigkeit wird bestritten, Prüfung ausständig
+	- Widerspruch gegen Verarbeitung, Prüfung auss.
+	- Daten sind nicht für def. Zweck nicht notwending ABER für Getendmachung, Ausübung oder Verteidigung von Rechtsansprüchen
 
 ![[Pasted image 20260407150627.png]]
 
