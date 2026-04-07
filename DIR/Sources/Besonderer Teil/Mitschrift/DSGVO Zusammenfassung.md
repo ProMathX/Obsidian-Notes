@@ -87,13 +87,27 @@
 	- Archivzwecke, Wissenschaftlich, histor. Forschungszwecken, statistische Zwecke
 	- Getendmachung, Ausübung oder Verteidigung von Rechtsansprüchen 
 
-- Recht auf Einschränkung
+- <mark style="background:#ff4d4f">Recht auf Einschränkung</mark>
 	- Daten dürfen nur mehr gespeichert werden
 
-- Alternative zur Löschung, das Recht auf Einschränkung
+- <mark style="background:rgba(240, 167, 216, 0.55)">Alternative zur Löschung, das Recht auf Einschränkung</mark>
 	- Richtigkeit wird bestritten, Prüfung ausständig
 	- Widerspruch gegen Verarbeitung, Prüfung auss.
 	- Daten sind nicht für def. Zweck nicht notwending ABER für Getendmachung, Ausübung oder Verteidigung von Rechtsansprüchen
+
+- <mark style="background:#b1ffff">Recht auf Datenübertragbarkeit</mark>
+	- Betroffene Person darf Daten einem anderen Verwantwortlichen übermitteln
+	
+	- **Format:** Bereitstellung in einem strukturierten, gängigen und maschinenlesbaren Format (keine Systemanpassungspflicht).
+    
+	- **Umfang:** Gilt für alle personenbezogenen Daten inklusive Nutzungsdaten.
+    
+	- **Sicherheit:** Übertragung muss durch technische Maßnahmen abgesichert sein.
+    
+	- **Schutz Dritter:** Keine Verletzung von Urheberrechten oder dem Briefgeheimnis Dritter.
+    
+	- **Ausnahmen:** Kein Anspruch auf Übertragung von Geschäftsgeheimnissen oder eigenständig erzeugten Profil-Daten.
+- Wi
 
 ![[Pasted image 20260407150627.png]]
 
