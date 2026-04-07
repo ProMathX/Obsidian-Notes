@@ -56,12 +56,30 @@
 
 # Betroffenenrechte
 
-Welche Recht moruk? 
-- Informationsrecht
-	- Betroffene Person weiß, dass p. Da
 
+> [!Zitat ]
+> Welche Recht moruk? 
 
-
+- <mark style="background:#fff88f">Informationsrecht</mark>
+	- Betroffene Person weiß, dass p. Daten verarbeitet werden
+	
+- <mark style="background:#ff4d4f">Auskunftsrecht</mark>
+	- Daten 
+	- Verarbeitungszwecke
+	- Quellen und Empfänger
+	- Speicherfrist
+	- Ggf Algo bei Verarbeitung
+	- Ggf Garantien für internationale Datentransfers
+	- Grundsätzlich schriftliche Beantwortung
+	- Auf Wunsch mündliche Beantwortung möglich
+	- Identität muss vom Verantwortlichen sichergestellt werden
+	- Ggf. Leermeldung
+	
+- <mark style="background:#40a9ff">Recht auf Berichtigung</mark>
+	- Änderung, vervollständigung der Daten
+	
+- Recht auf Löschung 
+	- 
 
 
 
