@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "5f467fbe633f7031",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "EP1/PDF/2025W-23-EP1-Arrays_Methoden.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2025W-23-EP1-Arrays_Methoden"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,11 +215,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5f467fbe633f7031",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "EP1/PDF/2025W-23-EP1-Arrays_Methoden.pdf",
     "EP1/PDF/2025W-21-EP1-Arrays_Referenzen.pdf",
     "EP1/PDF/2025W-20-EP1-Arrays_Grundlagen.pdf",
-    "EP1/PDF/2025W-23-EP1-Arrays_Methoden.pdf",
     "EP1/PDF/2025W-22-EP1-Mehrdimensionale_Arrays.pdf",
     "EP1/PDF/2025W-29-EP1-Elementare_Sortieralgorithmen.pdf",
     "EP1/PDF/2025W-28-EP1-Suchalgorithmen.pdf",
