@@ -107,7 +107,35 @@
 	- **Schutz Dritter:** Keine Verletzung von Urheberrechten oder dem Briefgeheimnis Dritter.
     
 	- **Ausnahmen:** Kein Anspruch auf Übertragung von Geschäftsgeheimnissen oder eigenständig erzeugten Profil-Daten.
-- Wi
+	
+- <mark style="background:#9254de">Widerspruchsrecht</mark>
+	- Daten dürfen nicht weiterverarbeitet werden
+	
+<mark style="background:#d2cbff">- Es kann Abgelehnt werden, wenn </mark>
+	- Rechtsgrundlage 
+	- Verabeitung folgt wissenschaftl. , stat, öffentliches Interesse
+	- Verarbeitung der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen
+##### Fristen 
+- Frist: 1 Monat (ggF. 3 Monate, bei hoher Komplexität oder vielen Anfragen) 
+
+ - Kostenlos, ausgenommen offenkundig unbegründeten / exzessiven Anträgen 
+ 
+ - Eskalation: Binnen eines Jahres bei der DSb
+ 
+ - Geldstrafen: 20 Mio. EUR oder 4% des weltweiten Jahresumsatzes
+
+
+
+
+
+
+# Verantwortliche
+
+>[!Definition]
+>Verantwortliche: ist die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
+
+
+
 
 ![[Pasted image 20260407150627.png]]
 
