@@ -39,6 +39,27 @@
 		- Verhalten von Personen in der EU beobachten
 
 ### Prinzipien (Art. 5 DSGVO)
+1. **Rechtmäßigkeit, Treu und Glauben, Transparenz:** Verarbeitung nur auf rechtmäßiger Basis und für den Betroffenen nachvollziehbar.
+    
+2. **Zweckbindung:** Erhebung nur für festgelegte, eindeutige und legitime Zwecke.
+    
+3. **Datenminimierung:** Beschränkung auf das für den Zweck notwendige Maß.
+    
+4. **Richtigkeit:** Daten müssen sachlich richtig und aktuell sein; Unrichtiges ist zu löschen oder zu berichtigen.
+    
+5. **Speicherbegrenzung:** Speicherung nur so lange, wie es für den Verarbeitungszweck erforderlich ist.
+    
+6. **Integrität und Vertraulichkeit:** Gewährleistung angemessener Sicherheit durch technische und organisatorische Maßnahmen.
+	1. CIA (Confidentiality Integrity Availabilty)
+    
+7. **Rechenschaftspflicht:** Der Verantwortliche muss die Einhaltung dieser Grundsätze nachweisen können.
+
+# Betroffenenrechte
+
+Welche Recht moruk? 
+- Informationsrecht
+	- Betroffene Person weiß, dass p. Da
+
 
 
 
@@ -50,3 +71,5 @@
 # Quelle 
 [DSGVO](https://datenschutz-grundverordnung.eu/dsgvo/art-5-dsgvo-grundsaetze-fuer-die-verarbeitung-personenbezogener-daten/)
 [EU-LEX](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
+[Folien]([[Datenschutz SS2026.pdf]])
+
