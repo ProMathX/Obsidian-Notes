@@ -203,6 +203,58 @@
 - Keine Verarbeitung von sensiblen Daten
 
 #### Risikoanalyse
+>[!Definition]
+>Prüfung ob eine Datenschutzfolgeabschätzung notwendig ist
+
+##### Datenschutzfolgeabschätzung (DSFA)
+
+###### 1. Definition & Auslöser
+
+Die DSFA ist ein obligatorisches Prüfverfahren, wenn eine Datenverarbeitung **voraussichtlich ein hohes Risiko** für die Rechte natürlicher Personen darstellt.
+
+###### 2. Gesetzliche Regelfälle (Wann immer nötig?)
+
+In folgenden drei Szenarien ist eine DSFA laut DSGVO fast immer zwingend:
+
+- **Systematisches Profiling:** Umfassende Bewertung persönlicher Aspekte (z. B. Kreditwürdigkeit durch Banken).
+    
+- **Sensible Daten im großen Stil:** Verarbeitung von Gesundheitsdaten, genetischen Daten oder Biometrie (z. B. Krankenhaus-Informationssysteme).
+    
+- **Öffentliche Überwachung:** Umfangreiche Videoüberwachung öffentlich zugänglicher Räume (z. B. Dashcams/Kameras in Bussen).
+    
+
+###### 3. Die 9 Bewertungskriterien (WP29-Leitlinie)
+
+Um das "hohe Risiko" zu bestimmen, werden folgende Kriterien herangezogen:
+
+1. **Profiling:** Bewertung oder Einstufung von Personen.
+    
+2. **Automatisierte Entscheidungen:** Verarbeitung mit Rechtswirkung für den Betroffenen.
+    
+3. **Systematische Überwachung:** Beobachtung von Personen in Echtzeit oder über Zeiträume.
+    
+4. **Sensible Daten:** Art. 9 Daten (Gesundheit, Religion, etc.) oder hochpersönliche Daten.
+    
+5. **Großflächige Verarbeitung:** Hohe Anzahl an Betroffenen, Datenmenge oder lange Dauer.
+    
+6. **Datenabgleich:** Verknüpfung von Datensätzen aus verschiedenen Quellen.
+    
+7. **Schutzbedürftige Personen:** Daten von Kindern, Arbeitnehmern oder Patienten.
+    
+8. **Innovative Technik:** Einsatz von KI, IoT oder biometrischer Authentifizierung.
+    
+9. **Rechtsverweigerung:** Wenn die Verarbeitung verhindert, dass jemand einen Vertrag abschließt (z. B. Kreditablehnung).
+
+###### 4. Die Faustformel
+
+- **Regel:** Treffen **zwei oder mehr** dieser Kriterien zu, ist eine DSFA **verpflichtend**.
+    
+- **Ausnahme:** Ein Kriterium allein kann ausreichen, wenn es in die „Rote Kategorie“ fällt (extrem hohes Risiko).
+    
+
+> **Beispiel Krankenhaus:** > 1. Sensible Daten (Gesundheit) + 2. Schutzbedürftige (Patienten) + 3. Umfangreich = **DSFA-Pflicht.**
+
+
 
 #### Datenschutzbeauftragte
 
