@@ -298,15 +298,33 @@ Um das "hohe Risiko" zu bestimmen, werden folgende Kriterien herangezogen:
 Datenverarbeitung ist unumgänglich, Prüfkriterien:
 - Zweck ist legitim
 - Datenverarbeitung ist erheblich und notwendige Maßnahmen beschränkt
-- Betroffenenrechte sind er
-
-
+- Betroffenenrechte sind erfüllt
+- Zuverlässiger Auftragsverarbeiter
+- Adäquater Vertrag mit Auftragsverarbeiter
 
 ######  10. Risikobewertung
-
+- Ursache, Art und Schwere der Risiken (unerwünschter Zugriff)
+- Risikoquellen
+- Auswirkungen auf Betroffenen
+- Eintrittswahrscheinlichkeit
+- Maßnahmen
 ###### 11. Abhilfemaßnahmen
+- Datenverfremdung: Einsatz von Pseudonymisierungs- oder Anonymisierungsverfahren.
+
+- Organisation und Personal: Kontrolle von Zutritt und Zugang, Nutzung von Zertifizierungen sowie Festlegung von Richtlinien und Prozessen.
+
+- Technische Maßnahmen: Verschlüsselung von Daten, Protokollierung von Vorgängen und Einhaltung von Löschfristen.
+
+- IT-Sicherheit: Schutz der Endgeräte (Endpoint-Protection), Firewalls, Schulungen der Mitarbeiter sowie klare Passwortregeln.
+
+- Datensicherung: Erstellung von Backups und Planung von Notfallprozessen zur Wiederherstellung.
+
+- Bauliche Maßnahmen: Absicherung von Bereichen durch physische Kontrollen und Sperrkreise.
 
 ###### 12. Standpunkt der Betroffenen
+- Alernative: Standpunkt der Vertreter
+- Alternative: Begründung weshalb Standpunkt nicht eingeholt wurde
+- Begründung erforlderlich wenn Entscheidung vom Standpunkt der Betroffenen abweicht
 ###### 13. Konsultation der Datenschutzbehörde
 
 
