@@ -49,3 +49,4 @@
 
 # Quelle 
 [DSGVO](https://datenschutz-grundverordnung.eu/dsgvo/art-5-dsgvo-grundsaetze-fuer-die-verarbeitung-personenbezogener-daten/)
+[EU-LEX](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
