@@ -245,7 +245,7 @@ Um das "hohe Risiko" zu bestimmen, werden folgende Kriterien herangezogen:
     
 9. **Rechtsverweigerung:** Wenn die Verarbeitung verhindert, dass jemand einen Vertrag abschließt (z. B. Kreditablehnung).
 
-###### 4. Die Faustformel
+###### 4. Faustformel
 
 - **Regel:** Treffen **zwei oder mehr** dieser Kriterien zu, ist eine DSFA **verpflichtend**.
     
@@ -254,8 +254,38 @@ Um das "hohe Risiko" zu bestimmen, werden folgende Kriterien herangezogen:
 
 > **Beispiel Krankenhaus:** > 1. Sensible Daten (Gesundheit) + 2. Schutzbedürftige (Patienten) + 3. Umfangreich = **DSFA-Pflicht.**
 
+###### 5. Kriterien zur Risikobewertung, Black-List gem. DSFA-V 
+
+- **Profiling:** Bewertung oder Einstufung natürlicher Personen.
+    
+- **Automatisierte Entscheidungsfindung:** Prozesse ohne menschliches Eingreifen mit Rechtswirkung.
+    
+- **Öffentliche Überwachung:** Systematische Bild- oder Tonaufnahmen in öffentlich zugänglichen Räumen.
+    
+- **Innovative Technologien:** Einsatz neuartiger technischer Lösungen (z. B. KI, Biometrie).
+    
+- **Unerwartete Datenverknüpfung:** Zusammenführung von Datensätzen aus unterschiedlichen Quellen.
+    
+- **Höchstpersönlicher Bereich:** Verarbeitung von Daten aus der Intimsphäre oder extrem sensiblen Kontexten.
+
+###### 6. White-List (DSFA-AV): DSFA in der Regel nicht erforderlich
+
+- **Administration & Finanzen:** Kundenverwaltung, Rechnungswesen, Buchführung und Logistik.
+    
+- **Personal- & Mitgliederverwaltung:** Verwaltung von Mitarbeitern oder Vereinsmitgliedern.
+    
+- **Bestandsverwaltung:** Sach- und Inventarverwaltung sowie Registerführung.
+    
+- **IT-Sicherheit:** Verwaltung von Zugriffsberechtigungen für EDV-Systeme.
+    
+- **Standard-Bildverarbeitung:** * Stationäre Videoüberwachung (zu Schutzzwecken).
+    
+    - Echtzeit-Übertragung ohne Speicherung.
+        
+    - Video-/Audioverarbeitung zu reinen Dokumentationszwecken.
 
 
+###### 7.
 #### Datenschutzbeauftragte
 
 
