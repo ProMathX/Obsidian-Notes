@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "c3a81ce62cc9e8d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,8 +215,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3a81ce62cc9e8d1",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Documents/Zettlr Tutorial/citing.md",
+    "Documents/Zettlr Tutorial/Zettelkasten.md",
+    "Documents/Zettlr Tutorial/zettlr.png",
     "conflict-files-obsidian-git.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
@@ -268,17 +246,14 @@
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
-    "Documents/Zettlr Tutorial/citing.md",
     "Documents/Zettlr Tutorial/split-view-intro.md",
     "Documents/Zettlr Tutorial/helpful-links.md",
     "Documents/Untitled Diagram-Page-1.drawio.png",
     "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "Documents/Zettlr Tutorial/welcome.md",
     "Documents/libadwaita-theme-changer/README.md",
-    "Documents/Zettlr Tutorial/Zettelkasten.md",
     "Documents/Zettlr Tutorial/LaTeX Guide.md",
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
-    "Documents/Zettlr Tutorial/zettlr.png",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "Images/Pasted image 20260331182416.png",
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
@@ -287,7 +262,6 @@
     "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Relationale Entwurfstheorie.md",
     "Images/Pasted image 20260329165057.png",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
