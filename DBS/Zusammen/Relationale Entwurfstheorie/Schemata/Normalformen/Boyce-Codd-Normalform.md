@@ -1,4 +1,6 @@
 #DBS 
+
+**ACHTUNG:** mindestens eine Bedingung muss erfüllt sein!
 ![[Pasted image 20260324120649.png]]
 Fuer die Unterschiede zwischen 
 [[Dritte Normalform 3NF]] und [[Boyce-Codd-Normalform]]
