@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Berechnung der Attributhülle"
+              "title": "Kanoische Ueberdeckung (minimale Ueberdeckung)"
             }
           }
         ],
@@ -242,6 +242,7 @@
   },
   "active": "56b30af2c594ea0c",
   "lastOpenFiles": [
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "Documents/analysis-ue-2026s.pdf",
     "Documents/Taschenbuch-der-algorithmen.pdf",
@@ -254,7 +255,6 @@
     "Documents/bisherADM.pdf",
     "Documents/math/Pareigis_LineareAlgebraFuerInformatiker.pdf",
     "Documents/Probetests_WS25.pdf",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "Documents/Zettlr Tutorial/citing.md",

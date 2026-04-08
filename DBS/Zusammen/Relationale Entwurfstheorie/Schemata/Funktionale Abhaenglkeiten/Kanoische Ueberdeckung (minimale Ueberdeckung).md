@@ -17,15 +17,8 @@ Deshalb ist das Ziel eine minimal-Menge $F_{c}^{+} = F^{+}$ zu finden
 
 #### Algorithmus 
 ![[Pasted image 20260323213009.png]]
-
-
-
-
-
 #### Beispiel
-
 **R:={ABCDE}**
-
 
 FDs={
 	 **BD->AE  
