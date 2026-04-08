@@ -46,7 +46,7 @@ $(A)⁺ = \{\}$ C bleibt
 A -> BD atomar
 
 ##### Rechtsreduktion
-$(BDA)⁺=\{E,B,D\}$ E geht weg
+$(BDA)⁺=\{E,B,D\}$ E geht weg (weil D->E)
 
 $(AC)⁺=\{B,D\}$ B geht weg
 
