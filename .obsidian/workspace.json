@@ -23,12 +23,24 @@
             "id": "56b30af2c594ea0c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Documents/Untitled Diagram-Page-1.drawio.png"
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Untitled Diagram-Page-1.drawio"
+              "icon": "lucide-file",
+              "title": "Berechnung der Attributhülle"
             }
           }
         ],
@@ -44,7 +56,7 @@
       {
         "id": "ac54c3517604f0e8",
         "type": "tabs",
-        "dimension": 80.25666337611057,
+        "dimension": 65.21739130434783,
         "children": [
           {
             "id": "d291971ab12f06ec",
@@ -91,7 +103,7 @@
       {
         "id": "c96b09984e330787",
         "type": "tabs",
-        "dimension": 19.743336623889437,
+        "dimension": 34.78260869565217,
         "children": [
           {
             "id": "669b0f609f66fd0b",
@@ -230,18 +242,18 @@
   },
   "active": "56b30af2c594ea0c",
   "lastOpenFiles": [
-    "Documents/algebra_4.pdf",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "Documents/analysis-ue-2026s.pdf",
+    "Documents/Taschenbuch-der-algorithmen.pdf",
+    "Documents/Untitled Diagram-Page-1.drawio.png",
+    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/09_Vektoren/bisherADM-018.pdf",
+    "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2020-01-31.pdf",
+    "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2020-06-03.pdf",
+    "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/mam1inf_prufung_panholzer_03-03-06.pdf",
+    "Documents/algebra_4.pdf",
     "Documents/bisherADM.pdf",
     "Documents/math/Pareigis_LineareAlgebraFuerInformatiker.pdf",
     "Documents/Probetests_WS25.pdf",
-    "Documents/Taschenbuch-der-algorithmen.pdf",
-    "Documents/math/978-3-662-58633-4.pdf",
-    "Documents/math/978-3-642-54274-9.pdf",
-    "Documents/math/978-3-642-37972-7.pdf",
-    "Documents/math/[Springer-Lehrbuch ] Prof. Dr. Reinhard Wilhelm, Dr. Dieter Maurer (auth.) - Übersetzerbau_ Theorie, Konstruktion, Generierung (1997, Springer) [10.1007_978-3-642-59081-8] - libgen.li.pdf",
-    "Documents/ADM/01_Might be helpful/TU_Wien-Algebra_und_Diskrete_Mathematik_UE_(diverse)_-_kongruenzen.pdf",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
@@ -264,7 +276,6 @@
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
     "Documents/Zettlr Tutorial/split-view-intro.md",
     "Documents/Zettlr Tutorial/helpful-links.md",
-    "Documents/Untitled Diagram-Page-1.drawio.png",
     "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "Documents/Zettlr Tutorial/welcome.md",
     "Documents/libadwaita-theme-changer/README.md",
