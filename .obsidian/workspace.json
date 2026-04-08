@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DSGVO Zusammenfassung"
+              "title": "Funktionale Abhaengigkeiten"
             }
           }
         ],
@@ -240,8 +240,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e35ce44363a19596",
+  "active": "a48b6caac2656c27",
   "lastOpenFiles": [
+    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Normalformen.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "Documents/math/[Springer-Lehrbuch ] Prof. Dr. Reinhard Wilhelm, Dr. Dieter Maurer (auth.) - Übersetzerbau_ Theorie, Konstruktion, Generierung (1997, Springer) [10.1007_978-3-642-59081-8] - libgen.li.pdf",
     "Documents/math/Pareigis_LineareAlgebraFuerInformatiker.pdf",
     "Documents/math/978-3-662-58633-4.pdf",
@@ -252,22 +260,16 @@
     "Images/Pasted image 20260407150627.png",
     "Images/Pasted image 20260407150519.png",
     "Images/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
-    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
     "Templates/Daily Note.md",
     "Github Test Commit.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "Documents/ADM.zip",
     "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/08_Algebraische Strukturen/bisherADM-065.pdf",
     "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2020-01-31.pdf",
-    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/05_Relationen + Funktionen/bisherADM-135.pdf",
     "Documents/Zettlr Tutorial/citing.md",
     "Documents/Zettlr Tutorial/split-view-intro.md",
     "Documents/Zettlr Tutorial/helpful-links.md",
@@ -279,10 +281,7 @@
     "Documents/Zettlr Tutorial/LaTeX Guide.md",
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "Documents/Zettlr Tutorial/zettlr.png",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "Images/Pasted image 20260331182416.png",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Normalformen.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Github.md",
     "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Relationale Entwurfstheorie.md",
