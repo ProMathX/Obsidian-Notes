@@ -18,8 +18,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "c3a81ce62cc9e8d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,8 +240,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c3a81ce62cc9e8d1",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
