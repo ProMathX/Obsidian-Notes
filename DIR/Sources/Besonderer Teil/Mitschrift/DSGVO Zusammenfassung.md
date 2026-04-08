@@ -480,7 +480,7 @@ Die Zusammenarbeit muss rechtlich fixiert sein (oft über EU-Standardvertragskla
     
 - Rechte und Pflichten des Verantwortlichen.
 
-#### 3. Internationaler Datenverkehr & Drittstaaten
+#### Internationaler Datenverkehr & Drittstaaten
 
 ##### 1. Die EU-US Historie (Abkommen)
 
