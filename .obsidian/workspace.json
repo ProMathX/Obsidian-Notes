@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Github.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,24 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dritte Normalform 3NF"
+              "title": "Github"
+            }
+          },
+          {
+            "id": "dd2a09499f6a1d22",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
+                "viewState": {
+                  "x": 106.75909865453433,
+                  "y": -1144.6692231425209,
+                  "zoom": -0.3437572982672785
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Schlüssel Hierarchie Canvas"
             }
           }
         ],
@@ -242,6 +259,10 @@
   },
   "active": "219204c2ac8048cf",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Github.md",
+    "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "Documents/math/978-3-642-37972-7.pdf",
     "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
@@ -253,7 +274,6 @@
     "DBS/DBS Canvas.canvas",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "Documents/analysis-ue-2026s.pdf",
@@ -264,7 +284,6 @@
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2020-06-03.pdf",
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/mam1inf_prufung_panholzer_03-03-06.pdf",
     "Documents/algebra_4.pdf",
-    "Documents/bisherADM.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "Documents/Zettlr Tutorial/citing.md",
     "Documents/Zettlr Tutorial/Zettelkasten.md",
@@ -285,11 +304,9 @@
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "Images/Pasted image 20260331182416.png",
     "DBS/Zusammen/Relationale Entwurfstheorie/Normalformen.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Github.md",
     "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
     "Images/Pasted image 20260329165057.png",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
-    "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
     "Misc/Untitled.canvas"
   ]
