@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dritte Normalform 3NF"
+              "title": "Boyce-Codd-Normalform"
             }
           },
           {
@@ -259,7 +259,9 @@
   },
   "active": "219204c2ac8048cf",
   "lastOpenFiles": [
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+    "[[Dritte.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Schluessel.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
@@ -269,7 +271,6 @@
     "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Github.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "Documents/math/978-3-642-37972-7.pdf",
     "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
@@ -305,7 +306,6 @@
     "Documents/Zettlr Tutorial/LaTeX Guide.md",
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "Images/Pasted image 20260331182416.png",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Normalformen.md",
     "Images/Pasted image 20260329165057.png",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
