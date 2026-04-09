@@ -14,7 +14,7 @@ Siehe [hier]([[DBS-5.pdf]]) Seite 46/60
 ### Beispiel aus den Folien
 ![[Pasted image 20260329165057.png]]
 
-(Achtung von Gemini) 
+==(Achtung von Gemini)== 
 #### 1. Die erste neue Tabelle (Ri1​)
 
 Die Formel lautet: Ri1​:=α∪β Das Symbol ∪ bedeutet „Vereinigung“ (wir werfen beides in einen Topf).
