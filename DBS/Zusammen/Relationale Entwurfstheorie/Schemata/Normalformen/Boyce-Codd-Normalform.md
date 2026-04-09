@@ -26,7 +26,6 @@ Die Formel lautet: Ri1​:=α∪β Das Symbol ∪ bedeutet „Vereinigung“ (wi
 - **Ergebnis Ri1​:** `{zip, city, region}`
     
 - _In deinem Beispiel-Bild ist das die Tabelle, die **`cities`** genannt wird._
-    
 
 Das ist der einfache Teil. Wir haben einfach die störende Abhängigkeit in eine eigene, isolierte Tabelle ausgelagert. Hier ist `{zip}` jetzt der Schlüssel, also ist alles in Ordnung.
 
@@ -45,9 +44,6 @@ Die Formel lautet: Ri2​:=Ri​−β Das Symbol − bedeutet „Mengenabzug“ 
 - _In deinem Beispiel-Bild ist das die Tabelle, die **`streets`** genannt wird._
 ### Beispiel
 ![[Pasted image 20260327154212.png]]
-
-
-
 
 #### BCNF Algorithmus 
 >[! Schritt 1]
