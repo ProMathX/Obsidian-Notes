@@ -23,9 +23,21 @@
             "id": "219204c2ac8048cf",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Lizenzen 2026"
+            }
+          },
+          {
+            "id": "63073bcbc005d9d6",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+                "file": "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Boyce-Codd-Normalform"
+              "title": "Lizenzen DIR"
             }
           },
           {
@@ -61,7 +73,25 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "2ef18b1d6db41d60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec6e6de78f873426",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Lizenzen 2026"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,8 +287,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "219204c2ac8048cf",
+  "active": "63073bcbc005d9d6",
   "lastOpenFiles": [
+    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
+    "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
+    "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
+    "DIR/Sources/Besonderer Teil/DIR_WS25_Hilfsmittel_DSGVO.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "[[Dritte.md",
@@ -285,9 +319,6 @@
     "Documents/Untitled Diagram-Page-1.drawio.png",
     "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/09_Vektoren/bisherADM-018.pdf",
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2020-01-31.pdf",
-    "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2020-06-03.pdf",
-    "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/mam1inf_prufung_panholzer_03-03-06.pdf",
-    "Documents/algebra_4.pdf",
     "Documents/Zettlr Tutorial/citing.md",
     "Documents/Zettlr Tutorial/Zettelkasten.md",
     "Documents/Zettlr Tutorial/zettlr.png",
@@ -302,8 +333,6 @@
     "Documents/Zettlr Tutorial/helpful-links.md",
     "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "Documents/Zettlr Tutorial/welcome.md",
-    "Documents/libadwaita-theme-changer/README.md",
-    "Documents/Zettlr Tutorial/LaTeX Guide.md",
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "Images/Pasted image 20260331182416.png",
     "Images/Pasted image 20260329165057.png",
