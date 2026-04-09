@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "a92c6f449b11e516",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DSGVO Zusammenfassung"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,10 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a92c6f449b11e516",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Normalformen.md",
