@@ -55,6 +55,44 @@ Transitive Abhängigkeit:
 
 Nein, deshalb [[Boyce-Codd-Normalform]]
 
+
+
+## 3 NF Algorithmus
+
+
+>[!Schritt 1]
+>Bestimme die kanonische Überdeckung 
+
+>[!Schritt 2]
+>Aus jeder FD der kanonischen Überdeckung entsteht eine neue Relation
+
+>[!Schritt 3]
+>Füge ein neues Relationsschema mit einem Kandidatenschlüssel hinzu, falls keiner der Kandidatenschlüssel vollständig in einem Schema enthalten ist
+
+>[!Schritt 4]
+>Eliminiere Ra, wenn Ra ⊆ Ra'
+
+### Beispiel 
+
+R = {[A,B,C,D,E]}
+
+FD's = {
+		CD->AEB
+		 BCE -> AD
+		 E -> AD
+	}
+Mit der [minimalen Überdeckung]([[Kanoische Ueberdeckung (minimale Ueberdeckung)]])
+Hat man CD->EB E -> AD und K = {C,D,E}
+
+1. Schritt done
+2. $R_{1} := \{C,D,E,B\}$ $R_{2} := \{E,A,D\}$
+3. Es gilt $K \subseteq R_{1}$
+4.  Eliminiere Triviale Abhängigkeiten
+###### Final 
+$R_{1} := \{C,D,E,B\}$ $R_{2} := \{E,A,D\}$
+$\square$
+---
+
 #### Links 
 [Wikipedia](https://de.wikipedia.org/wiki/Normalisierung_(Datenbank)?useskin=vector)
 
