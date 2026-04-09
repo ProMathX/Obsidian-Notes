@@ -23,24 +23,12 @@
             "id": "219204c2ac8048cf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Documents/math/978-3-642-37972-7.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Arrays und Rekursion"
+              "icon": "lucide-file-text",
+              "title": "978-3-642-37972-7"
             }
           }
         ],
@@ -242,6 +230,7 @@
   },
   "active": "219204c2ac8048cf",
   "lastOpenFiles": [
+    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
@@ -272,7 +261,6 @@
     "Images/Pasted image 20260407150627.png",
     "Images/Pasted image 20260407150519.png",
     "Images/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "Templates/Daily Note.md",
     "Github Test Commit.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
