@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "f25318b95999d208",
+            "id": "cd0e9c8708716fb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Dritte Normalform 3NF"
             }
           }
         ],
@@ -240,20 +240,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f25318b95999d208",
+  "active": "cd0e9c8708716fb5",
   "lastOpenFiles": [
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "conflict-files-obsidian-git.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
     "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
     "DIR/Sources/Besonderer Teil/DIR_WS25_Hilfsmittel_DSGVO.pdf",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "[[Dritte.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Schluessel.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
