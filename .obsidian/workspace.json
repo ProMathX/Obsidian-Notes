@@ -18,78 +18,6 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "219204c2ac8048cf",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Lizenzen 2026"
-            }
-          },
-          {
-            "id": "63073bcbc005d9d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Lizenzen DIR"
-            }
-          },
-          {
-            "id": "dd2a09499f6a1d22",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
-                "viewState": {
-                  "x": 106.75909865453433,
-                  "y": -1144.6692231425209,
-                  "zoom": -0.3437572982672785
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Schlüssel Hierarchie Canvas"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "2ef18b1d6db41d60",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ec6e6de78f873426",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Lizenzen 2026"
-            }
           }
         ]
       }
@@ -287,10 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63073bcbc005d9d6",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
+    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
     "DIR/Sources/Besonderer Teil/DIR_WS25_Hilfsmittel_DSGVO.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
