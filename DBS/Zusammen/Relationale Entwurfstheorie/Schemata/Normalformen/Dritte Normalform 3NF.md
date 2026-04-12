@@ -86,7 +86,7 @@ Hat man CD->EB E -> AD und K = {C,D,E}
 
 1. Schritt done
 2. $R_{1} := \{C,D,E,B\}$ $R_{2} := \{E,A,D\}$
-3. Es gilt $K \subseteq R_{1}$
+3. Es gilt $K \subseteq R_{i}$
 4.  Eliminiere Triviale Abhängigkeiten
 ###### Final 
 $R_{1} := \{C,D,E,B\}$ $R_{2} := \{E,A,D\}$
