@@ -26,7 +26,6 @@ FDs={
      ACDE->B  
      A->BD**
      }
-
 ##### Linksreduktion:
 $(D)⁺ = \{E\}$ B bleibt
 $(B)⁺ = \{\}$ D bleibt
@@ -37,7 +36,6 @@ $(C)⁺ = \{\}$ A bleibt
 $(A)⁺ = \{\}$ C bleibt
 
 A -> BD atomar
-
 ##### Rechtsreduktion
 $(BDA)⁺=\{E,B,D\}$ E geht weg (weil D->E)
 
@@ -45,8 +43,6 @@ $(AC)⁺=\{B,D\}$ B geht weg
 
 $(AD)⁺=\{E\}$ B bleibt
 $(AD)⁺=\{\}$ D bleibt
-
-
 ##### Vereinigen
 BD -> A
 D -> E
@@ -58,7 +54,6 @@ BD->A
 D->E
 A->BD
 
-
 ##### Schlüsselkandidat
 
 N={ }
@@ -67,13 +62,3 @@ L={ }
 M={A,B,D,E}
 
 Schlüsselkandidat $K = (N \cup L \cup M) \implies \{A,B,D,E\}$
-
-
-
-
-
-
-
-
-
-
