@@ -142,4 +142,5 @@ Also je nach Operatorfunktion, es so zurechtschreiben, sodass es passt.
 
 ## Related Topics
 - [[DBS-6.pdf]]
-- 
+- [TUW Tool](https://gordon.dbai.tuwien.ac.at/eSQL-tutorial/coursesList.action)
+- [Internet Übungstool](https://sqlbolt.com/)
