@@ -9,6 +9,8 @@ tags:
 ## Key Concepts
 Bisher mit Relationen (Mengen)
 Jetzt SQL betrachten wir Tabellen (Bags, Mutlimengen)
+
+SQL ist eine deklarative Sprache
 ##### Datenbeschreibungssprache
 - Datentypen
 	- varchar(n) für variable länge von dem character eigentlich String? 
@@ -24,11 +26,12 @@ INSERT INTO takes
 ```
 
 - Revoke ausführen, um zu sichern ob, sodass nutzer nichts macht 
-
+---
 ##### Transaktionssprache
 - kennzeichnet beginn einer Transaktion (Banküberweisung)
 - COMMIT, schließt eine Transaktion ab
 - ROLLBACK, setzt eine Transaktion zurück
+---
 
 ##### Anfragesprache SQL-Grundlagen
 - Der SFW Blcok 
@@ -39,13 +42,84 @@ INSERT INTO takes
 
 Grundgerüst einer Abfrage
 ```mySQL 
-SELECT <Liste von Attributen>
+SELECT <Liste von Attributen>  (Projektion)
 
-FROM <Liste von Tabllen>
+FROM <Liste von Tabllen> (Kreuzprodukt)
 
-WHER
+WHERE <Bedingung>;  (Selektion)
 
 ```
+- Man macht zuerst das FROM also das Kreuzprodukt, dann WHERE, dann SELECT
+
+Auswahl von Tabellen 
+```mySQL
+SELECT *
+FROM wine AS W;
+	
+	
+SELECT *
+FROM wine w1, wine w2; 
+```
+
+Natural Join (alt)
+```mySQL
+SELECT*
+FROM wine,producer
+WHERE wine.vineyard = producer.vineyard
+```
+
+(neu)
+```mySQL
+SELECT*
+FROM wine,producer
+WHERE wine NATURAL JOIN producer;
+```
+
+Es gibt auch das Kreuzprodukt als expliziter Operator
+Man kann ein neues Tupel erstellen für Zwischenergebnisse
+```mySQL
+SELECT result.vineyard
+FROM (wine NATURAL JOIN producer AS W)
+```
+
+Sortierung 
+```mySQL
+SELECT empid, name, rank 
+FROM  professort
+ORDER BY rank DESC, name ASC
+```
+- DESC... descending
+- ASC ... ascending 
+ 
+ <> .... != 
+ 
+```mySQL
+IS NULL
+```
+Testet ob null Wert
+
+Bei Mengenoperation ist Duplikateneliminierung (disting) defualt
+
+
+Durchschnitt (INTERSECT) und Mengendifferenz (EXCEPT) werden auch unterstützt
+
+Existenzquantoren mit 
+- ALL  $\forall$
+- ANY $\exists$
+
+Unkorrelierte Unteranfragen
+attribut IN (SFW Block)
+
+```mySQL
+SELECT name
+FROM professor
+WHERE empid IN(SELECT taughtby
+				FROM course);
+```
+
+NOT IN :<= > ist ähnlich wie ein Differenzenoperators in der relationalen Algebra
+
+
 
 
 ## Important Details
