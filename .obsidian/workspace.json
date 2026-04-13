@@ -18,8 +18,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "684b89a28f77f870",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,14 +240,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "684b89a28f77f870",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "DBS/Zusammen/SQL/SQL.md",
+    "DBS/Zusammen/SQL",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
+    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
-    "conflict-files-obsidian-git.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
     "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
@@ -245,8 +274,6 @@
     "Documents/analysis-ue-2026s.pdf",
     "Documents/Taschenbuch-der-algorithmen.pdf",
     "Documents/Untitled Diagram-Page-1.drawio.png",
-    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/09_Vektoren/bisherADM-018.pdf",
-    "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Prüfung_2020-01-31.pdf",
     "Documents/Zettlr Tutorial/citing.md",
     "Documents/Zettlr Tutorial/Zettelkasten.md",
     "Documents/Zettlr Tutorial/zettlr.png",
@@ -260,7 +287,6 @@
     "Documents/Zettlr Tutorial/split-view-intro.md",
     "Documents/Zettlr Tutorial/helpful-links.md",
     "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
-    "Documents/Zettlr Tutorial/welcome.md",
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "Images/Pasted image 20260331182416.png",
     "Images/Pasted image 20260329165057.png",
