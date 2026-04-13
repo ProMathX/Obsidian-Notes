@@ -1,4 +1,4 @@
-```SQL
+```mySQL
 --
 -- PostgreSQL database dump
 --
@@ -146,7 +146,6 @@ COPY assistant (empid, name, area, boss) FROM stdin;
 3006	Newton	Kepler's laws	2127
 3007	Spinoza	God and Nature	2134
 \.
-
 
 --
 -- Data for Name: course; Type: TABLE DATA; Schema: public; Owner: postgres
@@ -369,8 +368,7 @@ ALTER TABLE ONLY grades
 --
 -- Name: requires_predecessor_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
-
-ALTER TABLE ONLY requires
+ ALTER TABLE ONLY requires
     ADD CONSTRAINT requires_predecessor_fkey FOREIGN KEY (predecessor) REFERENCES course(courseid) ON DELETE CASCADE;
 
 
