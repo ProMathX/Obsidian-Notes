@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "684b89a28f77f870",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,12 +215,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "684b89a28f77f870",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "DBS/Zusammen/SQL/SQL.md",
-    "DBS/Zusammen/SQL",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
+    "DBS/Zusammen/SQL/SQL.md",
+    "conflict-files-obsidian-git.md",
+    "DBS/Zusammen/SQL",
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
