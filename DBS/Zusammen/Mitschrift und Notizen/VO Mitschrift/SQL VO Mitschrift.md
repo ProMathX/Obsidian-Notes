@@ -133,6 +133,11 @@ Muss geübt werden
 - 
 
 ## Summary
+Ausarbeiten der Folien I guess? So die wichtigsten Keywords, es ist nicht schwer, aber halt neu.
+Dementsprechend ein Keyword list oder canvas eigentlich erstellen und mit diesem, dann arbeiten.
+
+Also je nach Operatorfunktion, es so zurechtschreiben, sodass es passt.
+
 
 
 ## Related Topics
