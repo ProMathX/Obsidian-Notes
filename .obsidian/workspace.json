@@ -42,9 +42,33 @@
               "icon": "lucide-file-text",
               "title": "exercise4_de"
             }
+          },
+          {
+            "id": "66675be311a18812",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Berechnung der Attributhülle"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -239,8 +263,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7b4c48e0a1aa7f3",
+  "active": "66675be311a18812",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
+    "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
+    "DBS/Zusammen/DBS-Aufgbaen/UE3/exercise3_de.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
@@ -261,13 +288,10 @@
     "Documents/ADM/01_Might be helpful/MATHEBIO-RekursiveFolgen.pdf",
     "Documents/ADM/01_Might be helpful/KombSkr.pdf",
     "Documents/ADM/01_Might be helpful/DS07-Rekursionsgleichungen.pdf",
-    "Documents/ADM/01_Might be helpful/9783540459736-c1.pdf",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "Documents/Untitled Diagram-Page-1.drawio.png",
-    "Documents/Taschenbuch-der-algorithmen.pdf",
     "DBS/DBS Canvas.canvas",
-    "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Selektion.md",
@@ -282,7 +306,6 @@
     "EP2/Daten Abstraktion.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
-    "[[Dritte.md",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "Documents/Zettlr Tutorial/zettlr.png",
     "Images/Pasted image 20260407150627.png",
