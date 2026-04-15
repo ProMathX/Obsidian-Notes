@@ -187,8 +187,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -210,9 +210,7 @@
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-importer:Open Importer": false,
-      "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "e7a7b303c61786dc",
