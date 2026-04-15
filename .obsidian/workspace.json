@@ -20,31 +20,31 @@
             }
           },
           {
-            "id": "fbbc3b42b818eaaf",
+            "id": "b2d2675d03fc91be",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf"
+                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Ditigale Barrierefreiheit"
-            }
-          },
-          {
-            "id": "d7b4c48e0a1aa7f3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "exercise4_de"
+              "icon": "lucide-file",
+              "title": "SQL VO Mitschrift"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 300
   },
   "right": {
     "id": "21a0bf3b18dd7290",
@@ -236,61 +236,62 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-importer:Open Importer": false,
       "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7b4c48e0a1aa7f3",
+  "active": "b2d2675d03fc91be",
   "lastOpenFiles": [
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
-    "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
-    "DIR/Sources/Besonderer Teil/DIR_WS25_Hilfsmittel_DSGVO.pdf",
-    "DIR/Sources/Besonderer Teil/DIR Datenschutz.pdf",
-    "DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf",
-    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "Pasted image 20260415112740.png",
     "Pasted image 20260415110100.png",
-    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
-    "Documents/ADM/01_Might be helpful/MATHEBIO-RekursiveFolgen.pdf",
-    "Documents/ADM/01_Might be helpful/KombSkr.pdf",
-    "Documents/ADM/01_Might be helpful/DS07-Rekursionsgleichungen.pdf",
-    "Documents/ADM/01_Might be helpful/9783540459736-c1.pdf",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
-    "conflict-files-obsidian-git.md",
-    "Documents/Untitled Diagram-Page-1.drawio.png",
-    "Documents/Taschenbuch-der-algorithmen.pdf",
-    "DBS/DBS Canvas.canvas",
-    "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Selektion.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/mengenoperationen.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Kreuzprodukt.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Projektion.md",
-    "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
     "DBS/Zusammen/SQL/SQL.md",
-    "EP1/Kozepte/Konzept-Sammlung/Algorithmen.md",
-    "EP2/Daten Abstraktion.md",
+    "conflict-files-obsidian-git.md",
+    "DBS/Zusammen/SQL",
+    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
+    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
+    "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
+    "DIR/Sources/Besonderer Teil/DIR_WS25_Hilfsmittel_DSGVO.pdf",
     "[[Dritte.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Schluessel.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
+    "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Github.md",
+    "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
+    "Documents/math/978-3-642-37972-7.pdf",
+    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
+    "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
+    "Documents/libadwaita-theme-changer",
+    "DBS/DBS Canvas.canvas",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
+    "Documents/Untitled Diagram-Page-1.drawio.png",
+    "Documents/Zettlr Tutorial/citing.md",
+    "Documents/Zettlr Tutorial/Zettelkasten.md",
     "Documents/Zettlr Tutorial/zettlr.png",
+    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "Images/Pasted image 20260407150627.png",
     "Images/Pasted image 20260407150519.png",
     "Images/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
+    "Templates/Daily Note.md",
+    "Github Test Commit.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
     "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
+    "Images/Pasted image 20260331182416.png",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
     "Misc/Untitled.canvas"
   ]
 }
