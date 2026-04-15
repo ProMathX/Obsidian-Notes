@@ -18,49 +18,6 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "2dc83eafd17dc1c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DIR Allgemeiner Teil Zusammenfassung"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "94e9f89a0e39cf69",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8addc8b54b8f4b51",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Öffentlich-rechtliche Grundlagen_202510"
-            }
           }
         ]
       }
@@ -258,10 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8addc8b54b8f4b51",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "Pasted image 20260415112740.png",
     "Pasted image 20260415110100.png",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
