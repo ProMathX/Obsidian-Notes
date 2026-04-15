@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "d2c53b19127dd8ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Division"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,14 +215,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d2c53b19127dd8ac",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Selektion.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/mengenoperationen.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Kreuzprodukt.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Projektion.md",
     "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
