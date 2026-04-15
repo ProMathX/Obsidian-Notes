@@ -18,6 +18,18 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "fbbc3b42b818eaaf",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Ditigale Barrierefreiheit"
+            }
           }
         ]
       }
@@ -187,8 +199,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -210,16 +222,22 @@
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-importer:Open Importer": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
+    "DIR/Sources/Besonderer Teil/DIR_WS25_Hilfsmittel_DSGVO.pdf",
+    "DIR/Sources/Besonderer Teil/DIR Datenschutz.pdf",
+    "DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "Pasted image 20260415112740.png",
     "Pasted image 20260415110100.png",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "Documents/ADM/01_Might be helpful/MATHEBIO-RekursiveFolgen.pdf",
     "Documents/ADM/01_Might be helpful/KombSkr.pdf",
@@ -230,9 +248,6 @@
     "Documents/Untitled Diagram-Page-1.drawio.png",
     "Documents/Taschenbuch-der-algorithmen.pdf",
     "Documents/math/Pareigis_LineareAlgebraFuerInformatiker.pdf",
-    "Documents/math/978-3-662-58633-4.pdf",
-    "Documents/math/978-3-642-54274-9.pdf",
-    "Documents/math/978-3-642-37972-7.pdf",
     "DBS/DBS Canvas.canvas",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
@@ -263,7 +278,6 @@
     "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "Documents/ADM/Geordnet (Zusammengefügte Dateien)/Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
     "Misc/Untitled.canvas"
   ]
 }
