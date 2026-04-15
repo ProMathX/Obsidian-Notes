@@ -47,24 +47,12 @@
             "id": "66675be311a18812",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Berechnung der Attributhülle"
+              "icon": "lucide-file-text",
+              "title": "exercise5_de"
             }
           }
         ],
@@ -265,6 +253,7 @@
   },
   "active": "66675be311a18812",
   "lastOpenFiles": [
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/Zusammen/DBS-Aufgbaen/UE3/exercise3_de.pdf",
@@ -272,7 +261,6 @@
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
     "DIR/Sources/Besonderer Teil/DIR_WS25_Hilfsmittel_DSGVO.pdf",
