@@ -54,7 +54,7 @@ In Österreich ist die rechtspositivistische Sichtweise auf den Staat vorherrsch
 - **Bundesstaat:** Mehrere Staaten schliessen sich zusammen und gründen einen gemeinsamen Oberstaat; die Staatsgewalt wird zwischen Bund und Gliedstaaten aufgeteilt (z.B. Österreich, Deutschland).
 - **Einheitsstaat:** Untergliederungen des Zentralstaates sind reine Verwaltungseinheiten ohne eigene Staatsgewalt (z.B. Frankreich).
 
-# Staatszwecke
+## Staatszwecke
 
 ### Rechtszweck
 
@@ -66,7 +66,7 @@ Gewährleistung materieller Daseinsvoraussetzungen und Förderung von Wohlstand.
 
 ---
 
-# Staatsform und Regierungssystem
+## Staatsform und Regierungssystem
 
 ### Staatsform
 
@@ -83,7 +83,7 @@ Beispiele: parlamentarische Republik, präsidentielle Republik, absolute Monarch
 
 In der Praxis finden sich meist Mischformen.
 
-# Ideengeschichte des Staates: Frühe Neuzeit
+## Ideengeschichte des Staates: Frühe Neuzeit
 
 ## 15. und 16. Jahrhundert
 
@@ -99,7 +99,7 @@ Absolutismus und Aufklärung standen im Widerspruch; Revolutionen (Frankreich 17
 
 ---
 
-# Ideengeschichte des Staates: Moderne
+## Ideengeschichte des Staates: Moderne
 
 ## 19. Jahrhundert
 
@@ -111,7 +111,7 @@ Westliche Demokratie umfasst nicht nur volkslegitimierte Herrschaft, sondern auc
 
 ---
 
-# Moderner Demokratiebegriff
+## Moderner Demokratiebegriff
 
 ## Freiheit
 
@@ -190,7 +190,7 @@ Aufteilung der Staatsgewalt zwischen Bund und Ländern.
 
 ## Herkunft von Normen 2
 
-# Herkunft von Normen
+## Herkunft von Normen
 
 ## Pouvoir constituant vs. Pouvoir constitué
 
@@ -256,10 +256,128 @@ Normen existieren nicht isoliert, sondern stehen in **Beziehungen zueinander**:
 
 - Normen niederrangingen Rechts müssen Normen höherrangingen Rechts entsprechen
 	- niederrangige Norm kann bekämpft und aufgehoben werden
-		- geset
+		- Gesetze/Verordnungen vom VfGH
+		- Bescheidene von Verwaltungsgerichten
+		- Urteile von Gerichten einer höheren Instanz
+
+## Rechtsanwendung
+
+### Ebenen
+
+| Ebene | Begriff | Beschreibung |
+|---|---|---|
+| Faktisch | **Sachverhalt** | Konkrete Lebenssituation in der realen Welt |
+| Normativ | **Tatbestand** | Abstrakte Beschreibung von Lebenssituationen via Tatbestandselemente |
+| Normativ | **Rechtsfolge** | Vom Gesetzgeber angeordnete Konsequenz bei Vorliegen des Tatbestands |
+
+### Subsumtion
+Prüfung ob Sachverhalt einen Tatbestand erfüllt:
+
+1. Erfüllt der Sachverhalt **alle** Tatbestandselemente? → Rechtsfolge tritt ein
+2. Wenn nein → nächsten Tatbestand suchen
+3. Dabei stellt sich immer die Frage: Wie sind die Tatbestandselemente **auszulegen**?
+
+---
+
+## Rechtsauslegung
+
+> [!important] Verbot des non liquet
+> Ein Richter darf sich **nicht** darauf berufen, dass ein Gesetz unklar ist – er muss es so anwenden, wie er es vorfindet, und dabei interpretieren.
+
+- Ziel: einheitliche Praxis, Vermeidung richterlicher Willkür
+- Die Auslegungsregeln stehen in **keiner festen Hierarchie** – es ist eine **Gesamtabwägung** vorzunehmen
+- Wenn Auslegung zu keinem Ergebnis führt → **Lücke** liegt vor → muss geschlossen werden
+
+---
+### 1. Wortinterpretation
+- Richtet sich nach dem **allgemeinen Sprachgebrauch**
+- Oder nach einer **Legaldefinition** desselben Gesetzes (wenn Gesetzgeber den Wortsinn einschränken/erweitern will)
+- Grenze: **Wortlautschranke** – äußerst mögliche Bedeutung des Wortsinns
+- **Grammatikalische Interpretation**: Sinnzusammenhang aus grammatikalischer Logik (z.B. Pronomen wie „dieser")
+
+---
+### 2. Systematische Auslegung
+Auslegung anhand des **Gesamtzusammenhangs im Normengefüge**:
+
+- Niederrangige Normen → müssen im Einklang mit höherrangigen stehen
+- Widersprüche zwischen gleichrangigen Normen:
+  - **Explizit**: Derogationsklausel → z.B. „§ X wird aufgehoben"
+  - **Implizit**: Grundsätze:
+    - *Lex posterior derogat legi anteriori* – neueres Recht bricht älteres
+    - *Lex specialis derogat legi generali* – spezielleres Recht bricht allgemeines
+
+---
+### 3. Subjektiv-historische Auslegung
+- Was hat der Gesetzgeber **zum Zeitpunkt des Erlassens** gemeint?
+- Mittels **Gesetzgebungsmaterialien**
+  - Stenographische Protokolle
+  - Ausschussberichte
+  - Erläuterungen in Regierungsvorlagen
+
+### 4. Objektiv-teleologische Auslegung
+- Zeck "telos" der Norm:
+- Mittels Prinzipien, Ordnungsregeln, Grundsätze
+
+
+###  Hilfe
+Man kann durch Auslegungshilfe den "Interpretationshorizont erweitern"
+- Ähnlichkeitsvermutung zu verwandten Rechtsordnungen
+- Durch EU-Recht Bedeutung stark zugenommen
+
+### Rechtsauslegung des VfGH
+- Herzog-Mantel-Theorie
+- Versteinerungstheorie
+
+>[!TODO]
+>Ausweitern
+
+
+## Lückenschluss
+
+Wenn kein Tatbestand auf einen Sachverhalt passt, liegt eine **Lücke** im Gesetz vor.
+
+> [!important] Entscheidende Unterscheidung
+> - **Planwidrige Lücke** → ungewollt, nicht bedacht → Rechtsanwender *darf* schließen
+> - **Planmäßige Lücke** → gewollt ausgespart → nur der Gesetzgeber selbst kann handeln
+
+### Methoden des Lückenschlusses
+
+| Methode | Logik |
+|---|---|
+| **Analogie** | Ähnliche Sachverhalte → gleiche Rechtsfolge |
+| **Größenschluss** (a fortiori) | Erst-recht-Schluss: wenn schon das Kleinere gilt, muss das Größere erst recht gelten |
+| **Umkehrschluss** | Gegenschluss: Gesetz regelt nur A → B ist bewusst ausgenommen |
+
+---
+
+## Einteilung von Rechtsgebieten
+
+### Öffentliches Recht vs. Privatrecht
+
+Drei Abgrenzungstheorien:
+
+- **Interessenstheorie** (Ulpian): Gemeinwohl = öffentlich; Einzelnutzen = privat
+- **Subordinationstheorie**: Gleichordnung → Privatrecht; Über-/Unterordnung → öffentliches Recht
+- **Subjektstheorie**: Tritt ein Träger von Hoheitsgewalt (*imperium*) auf? → öffentliches Recht
+
+### Privatautonomie und ihre Grenzen
+
+Im Privatrecht gilt grds. **Privatautonomie** – freie Gestaltung des Rechtsverhältnisses. Einschränkung durch den Gesetzgeber möglich:
+
+- **Zwingendes Recht** – keine Abweichung durch Parteien
+	- *Absolut zwingend* → gar keine Änderung erlaubt
+	- *Relativ zwingend* → nur Besserstellung erlaubt
+- **Dispositives Recht** – Abweichung möglich; gilt als Auffangrahmen bei unvollständigen oder missverständlichen Verträgen
+
 
 
 
 # Verfassungsrecht Baugesetze 
 
 
+
+
+
+----
+# Links
+- [Justiz GV](https://www.justiz.gv.at/justiz/justizbehoerden/gerichte/instanzenzug.787.de.html)
