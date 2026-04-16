@@ -18,45 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "fbbc3b42b818eaaf",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Ditigale Barrierefreiheit"
-            }
-          },
-          {
-            "id": "d7b4c48e0a1aa7f3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "exercise4_de"
-            }
-          },
-          {
-            "id": "66675be311a18812",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "exercise5_de"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,6 +200,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -251,8 +215,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66675be311a18812",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
