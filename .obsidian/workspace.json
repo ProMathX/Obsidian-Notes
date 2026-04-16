@@ -18,8 +18,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "59d021125e04e525",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,8 +240,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "59d021125e04e525",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
@@ -240,9 +266,7 @@
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "Documents/ADM/01_Might be helpful/MATHEBIO-RekursiveFolgen.pdf",
     "Documents/ADM/01_Might be helpful/KombSkr.pdf",
-    "Documents/ADM/01_Might be helpful/DS07-Rekursionsgleichungen.pdf",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
-    "conflict-files-obsidian-git.md",
     "Documents/Untitled Diagram-Page-1.drawio.png",
     "DBS/DBS Canvas.canvas",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
