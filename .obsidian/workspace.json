@@ -42,9 +42,33 @@
               "icon": "lucide-file",
               "title": "DIR Allgemeiner Teil Zusammenfassung"
             }
+          },
+          {
+            "id": "dda4ec1cd2f264a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Cheat Sheet"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5,
-    "collapsed": true
+    "width": 239.5
   },
   "right": {
     "id": "21a0bf3b18dd7290",
@@ -242,11 +265,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1915d8e3760f2cf4",
+  "active": "dda4ec1cd2f264a5",
   "lastOpenFiles": [
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
+    "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "Pasted image 20260416123743.png",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "Images/Pasted image 20260416123445.png",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "conflict-files-obsidian-git.md",
@@ -292,7 +316,6 @@
     "Images/Pasted image 20260407150627.png",
     "Images/Pasted image 20260407150519.png",
     "Images/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
-    "Documents/ADM/Geordnet (Einzelne Dateien + Unterordner)/15_Div/TU_Wien-Algebra_und_Diskrete_Mathematik_VU_(Panholzer)_-_Algebra_Test_1_WS_2015_Panholzer.png",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "Misc/Untitled.canvas"
   ]
