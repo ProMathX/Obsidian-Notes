@@ -245,8 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,7 +264,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dda4ec1cd2f264a5",
+  "active": "e35ce44363a19596",
   "lastOpenFiles": [
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
