@@ -23,24 +23,12 @@
             "id": "b2d2675d03fc91be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
               },
-              "icon": "lucide-file",
-              "title": "SQL Cheat Sheet"
+              "icon": "lucide-file-text",
+              "title": "Öffentlich-rechtliche Grundlagen_202510"
             }
           }
         ],
@@ -242,12 +230,13 @@
   },
   "active": "b2d2675d03fc91be",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
+    "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "Pasted image 20260416123743.png",
     "Images/Pasted image 20260416123445.png",
     "Images/Pasted image 20260415112740.png",
     "Images/Pasted image 20260415110100.png",
-    "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "conflict-files-obsidian-git.md",
     "Pasted image 20260415112740.png",
     "Pasted image 20260415110100.png",
@@ -257,7 +246,6 @@
     "DBS/Zusammen/DBS-Aufgbaen/UE5",
     "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/SQL",
-    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
