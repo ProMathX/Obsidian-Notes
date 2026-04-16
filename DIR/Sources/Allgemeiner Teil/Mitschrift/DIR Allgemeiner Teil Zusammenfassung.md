@@ -172,6 +172,94 @@ Aufteilung der Staatsgewalt zwischen Bund und Ländern.
 ---
 # Stufenbau der Rechtsordnung und Rechtsanwendung
 
+## Herkunft von Normen 1
 
+- Pouvoir constituant
+	- Verfassungsgebende Gewalt des Souveräns (= das Volk)
+	- Existiert faktisch, entstand aus Revolutionen
+	- Begründet normativen Geltungsanspruch und schafft Legitimität oder beseigt eine alte Rechtsordnung 
+	
+	- - Bsp: Präambel GG → *„hat sich das Deutsche Volk kraft seiner verfassungsgebenden Gewalt dieses Grundgesetz gegeben"*
+	
+- Pouvoir constitue
+	-  Verfasste instituierte Staatsgewalt, ist von Pouvoir constituant abgeleitet
+	- Existiert innerhalb einer Rechtsordnung und innerhalb dieser  
+
+> [!tip] Merkhilfe > constituant = **schafft** die Verfassung | constitué = **ist durch** die Verfassung geschaffen
+>
+
+## Herkunft von Normen 2
+
+# Herkunft von Normen
+
+## Pouvoir constituant vs. Pouvoir constitué
+
+### Pouvoir constituant
+- **Verfassungsgebende** Gewalt des Souveräns (= das Volk)
+- Originär, inhaltlich ungebunden, unabhängig
+- Existiert **faktisch** – außerhalb jeder Rechtsordnung
+- Historischer Ursprung: meist **Revolutionen**
+- Schafft Legitimität einer neuen Rechtsordnung (oder beseitigt eine alte)
+- Bsp: Präambel GG → *„hat sich das Deutsche Volk kraft seiner verfassungsgebenden Gewalt dieses Grundgesetz gegeben"*
+
+### Pouvoir constitué
+- **Verfasste**, instituierte Staatsgewalt
+- Abgeleitet vom Pouvoir constituant
+- Existiert nur **innerhalb** einer Rechtsordnung
+- Kann Recht nur auf den **vorgesehenen Wegen** abändern
+
+> [!tip] Merkhilfe
+> constituant = **schafft** die Verfassung | constitué = **ist durch** die Verfassung geschaffen
+
+---
+
+### Grundnorm (Kelsen)
+> Aus: Reine Rechtslehre (Rechtspositivismus)
+
+- Fiktive Norm als **Ausgangspunkt** der Rechtsordnung
+- Basiert auf kantianischer **Sein/Sollen-Trennung**:
+  - Aus einem *Sein* folgt kein *Sollen* → „Weil der Richter es sagt, soll der Mörder ins Gefängnis" 
+  - Ein *Sollen* kann nur aus einem anderen *Sollen* folgen
+  - Eine Norm leitet sich nur aus einer **höherrangigen Norm** ab
+- → Infiniter Regress → Notwendigkeit einer **fiktiven Grundnorm** als Abbruchpunkt
+
+  ![[Pasted image 20260416123445.png]]
+---
+#### Vergleich
+
+|                    | Pouvoir constituant  | Grundnorm (Kelsen)    |
+| ------------------ | -------------------- | --------------------- |
+| Ansatz             | Politisch-historisch | Logisch-fiktiv        |
+| Legitimation durch | Volkswillen          | Fiktive Ursprungsnorm |
+| Existenz           | Faktisch             | Gedanklich            |
+
+## System der Rechtsordnung
+*Erklärt von Claude AI*
+Normen existieren nicht isoliert, sondern stehen in **Beziehungen zueinander**: 
+- **Begriffsvoraussetzungen**   eine Norm setzt Begriffe einer anderen voraus 
+	- Bsp: Strafrecht (Diebstahl) übernimmt den Eigentumsbegriff aus dem Privatrecht → „fremde Sache" 
+- **Verweise**  eine Norm verweist explizit auf eine andere 
+- **Delegationsnormen** eine Norm ermächtigt ein Staatsorgan, weitere Normen zu erlassen
+
+ → **Recht regelt seine eigene Erzeugung** 
+
+>[!important] Kernaussage > Aus diesen Beziehungen ergibt sich eine **Über- und Unterordnung** von Normen → der **Stufenbau der Rechtsordnung**
+
+## Stufenbau der Rechtsordnung in Ö
+- Verfassungsreceht 
+- Einfaches Recht
+- Verwaltungsakre mit generellem Adressantekreis
+- Verwaltungsakte mit speziellen Adressantenkreis
+
+
+![[Pasted image 20260416123743.png]]
+
+- Normen niederrangingen Rechts müssen Normen höherrangingen Rechts entsprechen
+	- niederrangige Norm kann bekämpft und aufgehoben werden
+		- geset
+
+
+
+# Verfassungsrecht Baugesetze 
 
 
