@@ -17,7 +17,7 @@ CREATE SEQUENCE serial START  1;
 
 CREATE TABLE league(
 	leagueID int PRIMARY KEY DEFAULT nextval('serial'),
-	name varchar(12),
+	name TEXT NOT NULL,
 	hierarchylevel int NOT NULL
 );
 ```
@@ -46,8 +46,10 @@ CREATE TABLE belongsTOLeague(
 ```
 
 ```PostgreSQL
+CREATE SEQUENCE serial START  4;
+
 CREATE TABLE player(
-	playerID SERIAL PRIMARY KEY,
+	playerID int PRIMARY KEY DEFAULT nextval('serial'),
 	name TEXT NOT NULL,
 	dateofbirth DATE NOT NULL,
 	

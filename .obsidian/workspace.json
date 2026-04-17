@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 41.646778042959426,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -21,63 +20,7 @@
             }
           },
           {
-            "id": "850013cdf1154b79",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "exercise5_de"
-            }
-          },
-          {
-            "id": "158582d153aa6c11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Cheat Sheet 1"
-            }
-          },
-          {
-            "id": "7e33b11517457985",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS-6.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DBS-6"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "b1d9bc1f7747ddfa",
-        "type": "tabs",
-        "dimension": 58.35322195704057,
-        "children": [
-          {
-            "id": "b49aeff95532cf1e",
+            "id": "cdf41a08532ae24d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -100,7 +43,8 @@
               "title": "DBS Aufgabenblatt 5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -296,10 +240,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "850013cdf1154b79",
+  "active": "cdf41a08532ae24d",
   "lastOpenFiles": [
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "Untitled.md",
