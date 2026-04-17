@@ -4,7 +4,7 @@
 SELECT col1, col2
 FROM tabelle
 WHERE bedingung
-ORDER BY col1 DESC
+ORDER BY col1 DESC oder ASC 
 LIMIT 10;
 ```
 
@@ -221,7 +221,7 @@ EXCEPT          -- nur in der ersten Menge
 
 ## Nützliche Funktionen
 
-```sql
+```SQL
 -- String
 UPPER(s)  LOWER(s)  LENGTH(s)
 TRIM(s)   LTRIM(s)  RTRIM(s)
@@ -267,3 +267,80 @@ RELEASE SAVEPOINT sp1;
 ```
 
 
+
+# SQL Constraints – Cheat Sheet
+
+---
+
+## PRIMARY KEY
+
+```sql
+CREATE TABLE league (
+  leagueID   INT          PRIMARY KEY,  -- reicht völlig aus
+  leagueName VARCHAR(100) NOT NULL
+);
+```
+
+| Constraint  | UNIQUE | NOT NULL | Hinweis                  |
+|-------------|--------|----------|--------------------------|
+| PRIMARY KEY | ✓ ja   | ✓ ja     | beides bereits enthalten |
+| UNIQUE      | ✓ ja   | ✗ nein   | erlaubt NULL             |
+| NOT NULL    | ✗ nein | ✓ ja     | Duplikate erlaubt        |
+
+---
+
+## FOREIGN KEY – Syntax
+
+Falsch:
+```sql
+teamID INT FOREIGN KEY(team.teamID)
+```
+
+Richtig:
+```sql
+teamID INT,
+FOREIGN KEY (teamID) REFERENCES team(teamID)
+```
+
+---
+
+## FOREIGN KEY – vollständiges Beispiel
+
+```sql
+CREATE TABLE belongsToLeague (
+  seasonID  INT,
+  leagueID  INT,
+  teamID    INT,
+
+  PRIMARY KEY (seasonID, leagueID, teamID),  -- zusammengesetzter PK
+
+  FOREIGN KEY (seasonID) REFERENCES season(seasonID),
+  FOREIGN KEY (leagueID) REFERENCES league(leagueID),
+  FOREIGN KEY (teamID)   REFERENCES team(teamID)
+);
+```
+
+---
+
+## Alle wichtigen Constraints
+
+| Constraint     | Syntax                                  | Was es tut                          |
+|----------------|-----------------------------------------|-------------------------------------|
+| PRIMARY KEY    | `id INT PRIMARY KEY`                    | eindeutig + nicht null              |
+| FOREIGN KEY    | `FOREIGN KEY (col) REFERENCES tbl(col)` | Verweis auf andere Tabelle          |
+| NOT NULL       | `name VARCHAR(50) NOT NULL`             | kein leerer Wert erlaubt            |
+| UNIQUE         | `email VARCHAR(100) UNIQUE`             | kein doppelter Wert                 |
+| DEFAULT        | `status INT DEFAULT 1`                  | Standardwert wenn nichts angegeben  |
+| CHECK          | `CHECK (age >= 18)`                     | Bedingung muss erfüllt sein         |
+| AUTO_INCREMENT | `id INT AUTO_INCREMENT`                 | zählt automatisch hoch (MySQL)      |
+
+---
+
+## Häufige Fehler
+
+| Fehler                          | Problem                                          |
+|---------------------------------|--------------------------------------------------|
+| `PRIMARY KEY UNIQUE NOT NULL`   | UNIQUE + NOT NULL sind redundant                 |
+| `col INT FOREIGN KEY(tbl.col)`  | FOREIGN KEY muss separat stehen                  |
+| `..., )`                        | Trailing Comma vor ) nicht erlaubt               |
+| `REFERENCES tbl.col`            | Punkt-Notation ungültig → `REFERENCES tbl(col)`  |
