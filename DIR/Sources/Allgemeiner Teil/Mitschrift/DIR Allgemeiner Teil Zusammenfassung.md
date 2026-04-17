@@ -368,16 +368,137 @@ Im Privatrecht gilt grds. **Privatautonomie** – freie Gestaltung des Rechtsver
 	- *Absolut zwingend* → gar keine Änderung erlaubt
 	- *Relativ zwingend* → nur Besserstellung erlaubt
 - **Dispositives Recht** – Abweichung möglich; gilt als Auffangrahmen bei unvollständigen oder missverständlichen Verträgen
-
-
-
-
 # Verfassungsrecht Baugesetze 
 
 
+## Entwicklungsgeschichte der Ö Bundesverfassung
+
+>[!Important]
+>Weil es historisch ist wurde es mit Gemini zusammengefasst!
+
+
+## I. Die Erste Republik (1918–1938)
+
+- **Gründung (1920):** Ausarbeitung durch die Konstituierende Nationalversammlung (erstmals mit Frauenwahlrecht).
+    
+- **Das B-VG 1920:** Am 01.10.1920 wurde das Bundes-Verfassungsgesetz verabschiedet.
+    
+    - **Charakter:** Provisorium (viele Kompromisse).
+        
+    - **Lücken:** Kompetenzverteilung, Schulwesen und Grundrechte blieben zunächst offen.
+        
+    - **Rezeption:** Übernahme der Grundrechte aus der monarchischen _Dezemberverfassung 1867_.
+        
+
+### Wichtige Novellen
+
+> [!abstract] 1. B-VG-Novelle (1925)
+> 
+> - Ausbau der Verwaltungs- und Verfassungsgerichtsbarkeit.
+>     
+> - Stärkung des Rechnungshofes (Kontrolle der Länder).
+>     
+> - Inkraftsetzung der Kompetenzverteilung (Art 10-15 B-VG).
+>     
+
+> [!important] 2. B-VG-Novelle (1929)
+> 
+> - Umwandlung vom rein parlamentarischen zum **semi-präsidentiellen System**.
+>     
+> - **Stärkung des Bundespräsidenten (BPräs):** Direktwahl durch das Volk, Befugnis zur NR-Auflösung sowie Ernennung/Entlassung der Regierung.
+>     
+
+### Das Ende der Ersten Republik
+
+- **1933:** "Selbstausschaltung des Parlaments".
+    
+- **1934:** Ständisch-autoritäre Verfassung (Austrofaschismus).
+    
+- **1938:** Annexion durch das nationalsozialistische Deutsche Reich.
+    
+
+---
+
+## II. Die Zweite Republik (ab 1945)
+
+- **Wiederherstellung (1945):** Unabhängigkeitserklärung am 27.04.1945 durch ÖVP, SPÖ und KPÖ.
+    
+- **Verfassungs-Überleitungsgesetz (V-ÜG):** Setzte das B-VG in der Fassung von 1929 (Stand 1933) wieder in Kraft (**Rechtskontinuität**).
+    
+
+### Meilensteine der Entwicklung
+
+1. **Staatsvertrag von Wien (1955):** Erlangung der vollen Souveränität; Ende der Besatzung.
+    
+2. **Neutralität (1955):** Beschluss des BVG über die immerwährende Neutralität.
+    
+3. **EMRK (1958):** Die Europäische Menschenrechtskonvention steht in Österreich zur Gänze im **Verfassungsrang**.
+    
+4. **EU-Beitritt (1995):** * Massive materielle Änderung der Verfassung.
+    
+    - Vieles steht direkt im EU-Recht (Anwendungsvorrang), nicht im B-VG.
+        
+    - Regelung der Mitwirkung von NR und BR an der EU-Gesetzgebung.
+        
+
+---
+
+## III. Besonderheiten & Systematik
+
+### Das Phänomen der "Verfassungszersplitterung"
+
+Österreich leidet unter einer starken Zersplitterung des Verfassungsrechts:
+
+- **B-VG:** Das Hauptdokument.
+    
+- **BVG außerhalb des B-VG:** Eigenständige Verfassungsgesetze (z.B. Neutralität, Atomfreiheit, Finanz-Verfassungsgesetz).
+    
+- **Verfassungsbestimmungen in einfachen Gesetzen:** Hunderte einzelne Paragraphen in "normalen" Gesetzen stehen im Verfassungsrang (z.B. im Datenschutzgesetz).
+    
+- **Staatsverträge:** Teile des Staatsvertrags von Wien oder die EMRK haben Verfassungsstatus.
+    
+
+### Erzeugung von Verfassungsrecht (Art 44 B-VG)
+
+|**Typ**|**Quorum / Bedingung**|
+|---|---|
+|**Normales BVG**|1/2 Präsenz, 2/3 Mehrheit im Nationalrat.|
+|**Zustimmung Bundesrat**|Erforderlich, wenn Kompetenzen der Länder eingeschränkt werden.|
+|**Gesamtänderung**|Obligatorische **Volksabstimmung** (bei Eingriff in die Bauprinzipien).|
+
+> [!warning] Wichtige Prinzipien
+> 
+> - **Kein Verfassungsgewohnheitsrecht:** Muss explizit im B-VG stehen.
+>     
+> - **Kein unabänderliches Recht:** Theoretisch ist jede Bestimmung änderbar (anders als z.B. die Ewigkeitsklausel im deutschen GG).
+>     
+
+## Landesverfassungsrecht
+
+- Neben dem Bundesverfassungrecht
+>[!Merkmal]
+>Erzeugungsverfahren von Landesverfassungsrecht ist durch das B-VG genauso geregelt wie für BVG; dieselben qualifizierten Quoren in den LT (Art 99 Abs 2 B-VG)
+
+- Art 99 Abs 1 B-VG: Landesverfassungsrecht darf nicht gegen Bundesverfassungsrecht verstoßen, d.h. nicht widersprechen
+	- Bindend z.B. Einkammersystem im LT (Art 95 Abs 1, Art 97 Abs 1 B
+	-  Nicht geregelten Bereiche stehen in der Verfassungsautonomie der Länder
+
+
+## Baugesetze
+
+
+
+
+## Prinzipien
+### Demokratisches Prinzip
+### Republikanisches Prinzip
+### Bundestaatliches Prinzip
+### Rechtsstaatliches Prinzip
+### Gewaltentrennedes Prinzip
 
 
 
 ----
 # Links
 - [Justiz GV](https://www.justiz.gv.at/justiz/justizbehoerden/gerichte/instanzenzug.787.de.html)
+- [B-VG](https://www.ris.bka.gv.at/GeltendeFassungDatumsauswahl.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000138&FassungVom=2022-03-21)
