@@ -54,12 +54,14 @@ CREATE TABLE player(
 	dateofbirth DATE NOT NULL,
 	
 	-- Länderkürzel nach ISO 3166-1 A-3
-	nationality char(3) NOT NULL,
+	nationality TEXT NOT NULL,
 	
 	-- Defense -> D
 	-- Attack -> A
 	-- Mildfield -> M
+	-- GOAL -> G
 	fieldposition char(1) NOT NULL,
+	CHECK (fieldposition IN ('D', 'A', 'M', 'G')),
 	height DECIMAL(5,2) NOT NULL, 
 	CHECK (height BETWEEN 150 AND 270)
 	
@@ -72,9 +74,9 @@ CREATE TABLE  playsFor(
 	team int REFERENCES team(teamID),
 	since DATE NOT NULL,
 	until DATE,
-	nationality TEXT NOT NULL,
-	shirtNumber int NOT NULL UNIQUE,
-	CHECK (shirtNumber BETWEEN 1 AND 99)	
+	shirtNumber int NOT NULL,
+	CHECK (shirtNumber BETWEEN 1 AND 99),
+	PRIMARY KEY (player,team,since)	
 );
 ```
 
