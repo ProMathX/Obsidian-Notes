@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "bfad20cd9cf3fb7f",
+            "id": "850013cdf1154b79",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -54,6 +54,18 @@
               },
               "icon": "lucide-file",
               "title": "SQL Cheat Sheet 1"
+            }
+          },
+          {
+            "id": "7e33b11517457985",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/DBS-6.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DBS-6"
             }
           }
         ],
@@ -163,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "21a0bf3b18dd7290",
@@ -285,12 +296,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b49aeff95532cf1e",
+  "active": "850013cdf1154b79",
   "lastOpenFiles": [
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
-    "Untitled.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
+    "Untitled.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
@@ -305,7 +317,6 @@
     "DBS/Zusammen/DBS-Aufgbaen/UE5",
     "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/SQL",
-    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",

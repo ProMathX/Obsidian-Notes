@@ -1,27 +1,32 @@
 ## Aufgabe 1
 
 1) SQL tabelle zu season
+```PostgreSQL
+CREATE SEQUENCE serial START  1;
 
-```SQL 
 CREATE TABLE season(
-	seasonID SERIAL PRIMARY KEY,
-	startdate DATE,
-	enddate DATE,
+	seasonID int PRIMARY KEY DEFAULT nextval('serial'),
+	startdate DATE NOT NULL,
+	enddate DATE NOT NULL,
 	commonname VARCHAR(12) NOT NULL UNIQUE 
 );
 ```
 
-```SQL 
+```PostgreSQL
+CREATE SEQUENCE serial START  1;
+
 CREATE TABLE league(
-	leagueID SERIAL PRIMARY KEY,
+	leagueID int PRIMARY KEY DEFAULT nextval('serial'),
 	name varchar(12),
 	hierarchylevel int NOT NULL
 );
 ```
 
-```SQL 
+```PostgreSQL
+CREATE SEQUENCE serial START  3;
+
 CREATE TABLE team(
-	teamID SERIAL PRIMARY KEY,
+	teamID int PRIMARY KEY DEFAULT nextval('serial'),
 	name TEXT NOT NULL,
 	abbreviation varchar(3) NOT NULL UNIQUE,
 	stadium varchar(110) NOT NULL
@@ -32,21 +37,17 @@ CREATE TABLE team(
 
 [longest stadium name](https://en.wikipedia.org/wiki/ACA%E2%80%93VDCA_Cricket_Stadium?useskin=vector)
 
-```SQL 
+```PostgreSQL
 CREATE TABLE belongsTOLeague(
-	teamID int,
-	seasonID int,
-	leagueID int,
-	
-	FOREIGN KEY (teamID) REFERENCES team(teamID),
-	FOREIGN KEY(seasonID) REFERENCES season(seasonID),
-	FOREIGN KEY (leagueID) REFERENCES league(leagueID)
+	teamID int REFERENCES team(teamID),
+	seasonID int REFERENCES season(seasonID),
+	leagueID int REFERENCES league(leagueID)
 );
 ```
 
-```SQL
+```PostgreSQL
 CREATE TABLE player(
-	playerID int PRIMARY KEY,
+	playerID SERIAL PRIMARY KEY,
 	name TEXT NOT NULL,
 	dateofbirth DATE NOT NULL,
 	
@@ -63,7 +64,7 @@ CREATE TABLE player(
 );
 ```
 
-```SQL 
+```PostgreSQL
 CREATE TABLE  playsFor(
 	player int REFERENCES player(playerID), 
 	team int REFERENCES team(teamID),
@@ -75,7 +76,7 @@ CREATE TABLE  playsFor(
 );
 ```
 
-```SQL
+```PostgreSQL
 CREATE TABLE match(
 	homeTeamID int REFERENCES team(teamID),
 	awayTeamID int REFERENCES team(teamID),
