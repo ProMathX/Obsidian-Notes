@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "b2d2675d03fc91be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Cheat Sheet"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,14 +215,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b2d2675d03fc91be",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "Pasted image 20260416123743.png",
     "Images/Pasted image 20260416123445.png",
     "Images/Pasted image 20260415112740.png",
     "Images/Pasted image 20260415110100.png",
-    "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "conflict-files-obsidian-git.md",
     "Pasted image 20260415112740.png",
     "Pasted image 20260415110100.png",
