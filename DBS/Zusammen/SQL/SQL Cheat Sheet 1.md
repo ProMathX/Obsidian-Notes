@@ -13,7 +13,7 @@ NIMM DIR SO VIEL ZEIT WIE MÖGLICH, UM DAS DOKUMENT MEHRMALS ZU SCANNEN UND ES D
 >"
 
 >[!Anmerkung]
->Verwendete Dateien waren SQL 1+2
+>Verwendete Dateien waren SQL 1 + 2 
 
 
 
