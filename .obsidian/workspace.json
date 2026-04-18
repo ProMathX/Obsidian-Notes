@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
+                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DIR Allgemeiner Teil Zusammenfassung"
+              "title": "SQL Cheat Sheet 1"
             }
           }
         ],
@@ -61,8 +61,21 @@
               "icon": "lucide-file-text",
               "title": "Öffentlich-rechtliche Grundlagen_202510"
             }
+          },
+          {
+            "id": "cdf78274fb178c8b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/DBS-6.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DBS-6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -258,10 +271,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68ac623d70fe2743",
+  "active": "cdf78274fb178c8b",
   "lastOpenFiles": [
-    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
+    "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
+    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "Untitled.md",
     "Images/Pasted image 20260417224540.png",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
@@ -269,7 +283,6 @@
     "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "conflict-files-obsidian-git.md",
     "Images/Pasted image 20260416123743.png",
-    "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
