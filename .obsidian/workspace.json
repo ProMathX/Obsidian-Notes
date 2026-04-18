@@ -18,64 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "68ac623d70fe2743",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Cheat Sheet 1"
-            }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "cef7f014670f8302",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e65172935211c896",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Öffentlich-rechtliche Grundlagen_202510"
-            }
-          },
-          {
-            "id": "cdf78274fb178c8b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS-6.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DBS-6"
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,10 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68ac623d70fe2743",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
+    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "Untitled.md",
