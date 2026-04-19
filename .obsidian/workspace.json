@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
+                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQL Cheat Sheet 1"
+              "title": "SQL Cheat Sheet"
             }
           },
           {
@@ -272,10 +272,10 @@
   },
   "active": "11fb0d0dfb79f4a7",
   "lastOpenFiles": [
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
-    "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
-    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/SQL/SQL.md",
+    "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
