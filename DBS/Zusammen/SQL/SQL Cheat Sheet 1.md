@@ -228,3 +228,122 @@ Dynamische Integrität & Trigger
     
     - `BEFORE` / `AFTER` auf Zeilen- oder Statement-Ebene.
 
+---
+# DIVISON
+
+Die relationale Division löst Fragen vom Typ: _"Finde X, die mit **allen** Y verknüpft sind."_
+
+### 1. Der "Zähl-Ansatz" (Gruppierung & Vergleich)
+
+Dies ist die modernste und lesbarste Variante. Sie vergleicht die Anzahl der vorhandenen Verknüpfungen mit der Soll-Anzahl.
+
+SQL
+
+```Postgresql
+SELECT x_id
+FROM VerknüpfungsTabelle
+GROUP BY x_id
+HAVING COUNT(DISTINCT y_id) = (SELECT COUNT(*) FROM Y_Tabelle);
+```
+
+- **Wann nutzen?** Fast immer. Sehr performant bei indizierten Spalten und leicht zu verstehen.
+    
+- **Voraussetzung:** Die Verknüpfungstabelle darf keine Duplikate enthalten (sonst `DISTINCT` im Count nutzen).
+    
+
+---
+
+### 2. Der "Doppelte-Verneinung-Ansatz" (Universal-Quantor)
+
+Logik: _"Finde X, für die es **kein** Y gibt, das **nicht** mit X verknüpft ist."_
+
+SQL
+
+```Postgresql
+SELECT x.name
+FROM X_Tabelle x
+WHERE NOT EXISTS (
+    SELECT * FROM Y_Tabelle y
+    WHERE NOT EXISTS (
+        SELECT * FROM VerknüpfungsTabelle v
+        WHERE v.x_id = x.id AND v.y_id = y.id
+    )
+);
+```
+
+- **Wann nutzen?** Wenn du strikt nach relationaler Algebra arbeitest oder Aggregate (`COUNT`) aus Performancegründen vermeiden willst.
+    
+- **Vorteil:** Funktioniert auch, wenn die "Soll-Menge" (Y) leer ist (ergibt dann meist alle X).
+
+### 1. Die "Except"-Variante (Mengenlehre)
+
+Dieser Ansatz ist mathematisch am nächsten an der Definition: _"Die Menge aller Großhändler im Land minus der Menge der Großhändler, mit denen der Kunde einen Vertrag hat, muss leer sein."_
+
+SQL
+
+```Postgresql
+SELECT c.name
+FROM customer c
+WHERE NOT EXISTS (
+    -- Menge aller Großhändler im Land des Kunden
+    SELECT w.name FROM wholesalers w WHERE w.country = c.country
+    EXCEPT
+    -- Menge der Großhändler, mit denen dieser Kunde einen Vertrag hat
+    SELECT d.whname FROM distributor d WHERE d.customer = c.name
+);
+```
+
+- **Vorteil:** Sehr logisch aufgebaut. `EXCEPT` entfernt alle Übereinstimmungen; bleibt nichts übrig, ist die Bedingung erfüllt.
+    
+- **Nachteil:** In der Performance oft etwas langsamer als `COUNT`, da Mengenoperationen teuer sein können.
+    
+
+---
+
+### 2. Die Array-Variante (PostgreSQL-Spezifisch)
+
+In Postgres kannst du alle IDs eines Kunden in ein Array packen und prüfen, ob dieses Array das Array aller Großhändler im Land "enthält" (`@>`).
+
+SQL
+
+```Postgresql
+SELECT c.name
+FROM customer c
+WHERE (
+    SELECT array_agg(DISTINCT name ORDER BY name) 
+    FROM wholesalers w WHERE w.country = c.country
+) <@ (
+    SELECT array_agg(DISTINCT whname ORDER BY whname) 
+    FROM distributor d WHERE d.customer = c.name
+);
+```
+
+- **Vorteil:** Extrem kompakt, wenn man mit Postgres-spezifischen Operatoren arbeitet.
+    
+- **Nachteil:** Überhaupt nicht portierbar auf andere SQL-Dialekte (wie MySQL oder Oracle) und schwerer zu lesen für SQL-Neulinge.
+    
+
+---
+
+### 3. Join mit String-Aggregation (Der "Dirty"-Hack)
+
+Manchmal sieht man Lösungen, die alle Namen alphabetisch sortiert in einen langen Textstring verketten und diese Strings vergleichen.
+
+SQL
+
+```Postgresql
+SELECT c.name
+FROM customer c
+JOIN (SELECT country, string_agg(name, ',' ORDER BY name) as all_wh FROM wholesalers GROUP BY country) w_list
+  ON c.country = w_list.country
+JOIN (SELECT customer, string_agg(DISTINCT whname, ',' ORDER BY whname) as my_wh FROM distributor GROUP BY customer) d_list
+  ON c.name = d_list.customer
+WHERE w_list.all_wh = d_list.my_wh;
+```
+
+- **Vorteil:** Funktioniert gut für Reports, bei denen man die Liste der Partner sowieso sehen will.
+    
+- **Nachteil:** **Ganz schlechter Stil** für reine Logik-Prüfungen. Es ist fehleranfällig (Sonderzeichen in Namen) und performancetechnisch eine Katastrophe, da Strings verglichen werden statt IDs.
+    
+
+
