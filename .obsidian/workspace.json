@@ -54,9 +54,21 @@
               "icon": "lucide-file-text",
               "title": "exercise5_de"
             }
+          },
+          {
+            "id": "3f4fafc79a446cce",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "02d7d6b3890ed66d",
@@ -80,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -95,7 +107,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQL Cheat Sheet 1"
+              "title": "DBS Aufgabenblatt 5"
             }
           }
         ],
@@ -295,11 +307,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd8f34eea0774a20",
+  "active": "3f4fafc79a446cce",
   "lastOpenFiles": [
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
