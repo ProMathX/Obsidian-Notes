@@ -18,8 +18,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "11fb0d0dfb79f4a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DBS Aufgabenblatt 5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,8 +240,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "11fb0d0dfb79f4a7",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
@@ -228,7 +255,6 @@
     "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "conflict-files-obsidian-git.md",
     "Images/Pasted image 20260416123743.png",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "Pasted image 20260416123743.png",
@@ -238,7 +264,6 @@
     "Pasted image 20260415112740.png",
     "Pasted image 20260415110100.png",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5",
     "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/SQL",
