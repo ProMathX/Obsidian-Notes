@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
+                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,29 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQL VO Mitschrift"
+              "title": "DIR Allgemeiner Teil Zusammenfassung"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "68c089b5a557cc82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b266644123fbbf69",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Öffentlich-rechtliche Grundlagen_202510"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,9 +261,9 @@
   },
   "active": "b95a1b31c03e2ca8",
   "lastOpenFiles": [
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "EP2/Daten Abstraktion.md",
     "conflict-files-obsidian-git.md",

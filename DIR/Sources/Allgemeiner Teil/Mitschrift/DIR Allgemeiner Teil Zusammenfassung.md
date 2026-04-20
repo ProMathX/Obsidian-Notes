@@ -634,17 +634,36 @@ Im Privatrecht gilt grds. **Privatautonomie** – freie Gestaltung des Rechtsver
 ## Staatsgebiet
 - Bundesgebiet umfasst die Gebiete der BL (Art 3 Abs 1 B-VG)
 - Keine bundesunmitterlbaren Gebiete
-- 
+- Grenzverlauf von AT von StV St. Germain und Venediger Protokoll
+	- und mit Art 5 StV nach 2WK
 
-
-
+- Grenzänderung  innerhalb Art 3 Abs 3 B-VG 
+- Bundesgebiete müssen 
+	- einheitliches Währungs- Wirtschafts und Zollgebiet (Art 3 B-VG)
+	
 ## Staatsvolk
+- Art 6 Abs 1 B-VG -> einheitliches Staatsbürgerschaftsrecht
+- Art 6 Abs 2 B-VG
+	- Staatsbürger die im Land Hauptwohnsitz -> Landesbürger
+	- LG können dies auch vorsehen
+	- Rechtswirkung: faktisch unerheblich (Art 95 Abs 1 B-VG)
 
 ## Staatsgewalt
+- Abkommen zwischen Teilstaaten eines Bundesstaats
+- Art 15a B-VG 
+- GliedStV Koordination von gemeinschaftlichen Aufgaben
+- Abschluss auf Seiten des Bundes obliegt je nach Materie der BReg oder einem BM
+- Gestzgebung des Bundes gebunden wird; NR zustimmung notwendig (Art 15a B-VG)
+- Unterliegt Völkerrecht
+- Ausschließlich hoheitsrechtliche Belange nach Art 15a B-VG
+- Streitigkeiten vor VfGH (Art 137 oder 138a B-VG)
 
 ## Gliedstaatsverträge
 
 ## Staatssprache
+- Art 8 Abs 1 B-VG
+- Art 7 Z 3 StV von Wien
+	- Slowenisch und kroatische Sprache in Steiermark und Kärnten als Staatssprache annerkannt
 
 ## Kompetenzverteilung
 
