@@ -1,4 +1,4 @@
-#DIR #Recht 
+#DIR #Recht #JUS #Österreich
 
 # _Der Staat_
 ## Staatsbegriff
@@ -486,19 +486,178 @@ Im Privatrecht gilt grds. **Privatautonomie** – freie Gestaltung des Rechtsver
 
 ## Baugesetze
 
+- Art 44 Abs 3 B-VG
+	- Begriffe „Gesamtänderung“ oder „Teiländerung“ sind im B-VG nicht definiert
 
+- Daraus ergibt sich innerhalb des Verfassungsrechtes eine Über- und Unterordnung von Baugesetzen und „einfachem“ Verfassungsrecht
+	- Der VfGH hat in VfSlg 16.327 erkannt, dass „verfassungswidriges Verfassungsrecht“ existiert, nämlich wenn Verfassungsrecht im Widerspruch zu einem Baugesetz steht.
+
+##### Überblick
+- Jedenfalls (VfSlg 2455)
+	1. Demokratisch
+	2. Rechtsstaatlich
+	3. Bundestaatlich
+	
+- Von der Lehre angenommen
+	1. Republikanisch
+	2. Gewaltenteilend
+	3. liberal
+
+- Sozialstaatliches Baugesetzt
+
+- Gesamtänderung in der Praxis
+	- Eindeutige Fälle nciht wahrscheinlich
+	- Praxisnahe Fälle müssen differenziert werden
+		- Bsp.:
+			- B-VG Novelle 1929, EU-Beitritt, NR Verlängerung
 
 
 ## Prinzipien
-### Demokratisches Prinzip
-### Republikanisches Prinzip
-### Bundestaatliches Prinzip
-### Rechtsstaatliches Prinzip
-### Gewaltentrennedes Prinzip
+### 1. Demokratisches Prinzip
+
+> [!abstract] **Kern:** Die Erzeugung von Recht ist an die Mitwirkung des Volkes gebunden.
+
+- **Programmsatz:** Art 1 B-VG ("Österreich ist eine demokratische Republik. Ihr Recht geht vom Volk aus").
+    
+- **Ausgestaltung:**
+    
+    - **Repräsentativsystem:** Gesetzgebung obliegt volksgewählten Parlamenten (NR, BR, LT) auf Bundes-, Landes- und Gemeindeebene.
+        
+    - **Wahlen:** Die Mitwirkung der Staatsbürger ist primär auf Wahlen reduziert.
+        
+    - **Direkte Demokratie:** Ergänzende Elemente (keine Durchbrechung der Alleinzuständigkeit der Parlamente):
+        
+        - **Volksbegehren** (Art 41 Abs 2 B-VG)
+            
+        - **Volksbefragung** (Art 49b B-VG)
+            
+        - **Volksabstimmung** (Art 43 und 44 B-VG)
+            
+- **Rechtliche Basis:** § 1 PartG, Art 8 StV von Wien.
+    
+
+---
+
+### 2. Republikanisches Prinzip
+
+> [!abstract] **Kern:** Stellung und Verantwortlichkeit des Staatsoberhaupts (Gegensatz zur Monarchie).
+
+- **Programmsatz:** Art 1 B-VG.
+    
+- **Staatsoberhaupt (Bundespräsident):**
+    
+    - **Bestellung:** Durch Volkswahl (Art 60 Abs 1 B-VG).
+        
+    - **Zeitliche Begrenzung:** Amtsdauer 6 Jahre, begrenzte Wiederwahl (Art 60 Abs 5 B-VG).
+        
+    - **Verantwortlichkeit:** Politisch und rechtlich (Absetzbarkeit gem. Art 60 Abs 6, 68 und 142 Abs 2 lit a B-VG).
+        
+- **Historische Flankierung:** * **Habsburger-Gesetz** (Vermögensübernahme, Aufrechterhaltung völkerrechtlich via Art 10 Abs 2 Stv von Wien Pflicht).
+    
+    - **Adelsaufhebungsgesetz 1919**.
+        
+
+---
+
+### 3. Bundesstaatliches Prinzip
+
+> [!abstract] **Kern:** Aufteilung der Staatsfunktionen zwischen Bund und Ländern.
+
+- **Programmsatz:** Art 2 B-VG.
+    
+- **Charakteristik:** "Zentralismuslastig", da die Gerichtsbarkeit ausschließlich beim Bund liegt (Art 82 Abs 1 B-VG).
+    
+- **Kompetenzverteilung:**
+    
+    - **Gesetzgebung:** Enumerative Zuweisung an den Bund (Art 10, 11, 12 B-VG); Generalklausel zugunsten der Länder (Art 15 Abs 1 B-VG), faktisch jedoch für Materien geringerer Tragweite.
+        
+    - **Kompetenz-Kompetenz:** Liegt beim Bund.
+        
+    - **Bundesrat (BR):** Vertritt Länderinteressen, faktisch aber stark parteipolitisch geprägt und oft weniger relevant.
+        
+- **Verwaltung:**
+    
+    - Eigene Landesverwaltung.
+        
+    - **Mittelbare Bundesverwaltung:** Länder vollziehen Bundesgesetze (wichtigster Einflussfaktor der Länder).
+        
+
+---
+
+### 4. Rechtsstaatliches Prinzip
+
+> [!abstract] **Kern:** Bindung der staatlichen Macht an das Recht zur Sicherung von Vorhersehbarkeit und Freiheit.
+
+- **Formeller Rechtsstaat:**
+    
+    - **Legalitätsprinzip:** (Art 18 Abs 1 u 2 B-VG) Staatliches Handeln muss auf Gesetzen basieren.
+        
+    - **Rechtsschutzstaat:** Durchsetzbarkeit von Rechten durch unabhängige Gerichte (VfGH, VwGH, ordentliche Gerichte).
+        
+    - **Normenkontrolle:** Prüfung von Gesetzen/Verordnungen durch den VfGH.
+        
+- **Materieller Rechtsstaat:**
+    
+    - Orientierung an **Gerechtigkeit, Würde und Freiheit** (nicht dispositiv).
+        
+    - Bindung der Vollziehung an die **Grundrechte**.
+        
+- **Kontrolle:** Rechnungshof (RH) für Gebarungskontrolle.
+    
+
+---
+### 5. Gewaltentrennendes Prinzip
+
+> [!abstract] **Kern:** Verteilung der Staatsmacht auf verschiedene Organe zur gegenseitigen Hemmung.
+
+- **Systematik:** Trennung in Gesetzgebung, Verwaltung und Gerichtsbarkeit.
+    
+- **Verhältnis Verwaltung / Gerichtsbarkeit:**
+    
+    - **Art 94 Abs 1 B-VG:** Trennung der Instanzenzüge (Organe dürfen nicht in beiden Bereichen tätig sein).
+        
+    - **Ausnahme:** Seit 2014 sind Instanzenzüge von Verwaltungsbehörden an Verwaltungsgerichte erlaubt (Art 94 Abs 2 B-VG).
+        
+- **Verhältnis Gesetzgebung / Vollzug:**
+    
+    - Exklusive Kompetenz der Parlamente zur Erlassung formeller Gesetze.
+        
+- **Besonderheit:** Es fehlt eine strikte materielle Abgrenzung; Überschneidungen existieren (z.B. Verordnungen durch die Verwaltung).
+
+
+![[Pasted image 20260417224540.png]]
+
+
+---
+
+
+# 5 Verfassungsrecht - Bundestaat
+
+## Staatsgebiet
+
+## Staatsvolk
+
+## Staatsgewalt
+
+## Gliedstaatsverträge
+
+## Staatssprache
+
+## Kompetenzverteilung
+
+
+# 6 Verfassungsrecht - Gesetzgebung
 
 
 
-----
+
+
+
+
+---
+---
+---
+
 # Links
 - [Justiz GV](https://www.justiz.gv.at/justiz/justizbehoerden/gerichte/instanzenzug.787.de.html)
 - [B-VG](https://www.ris.bka.gv.at/GeltendeFassungDatumsauswahl.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000138&FassungVom=2022-03-21)

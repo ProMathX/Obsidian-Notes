@@ -91,5 +91,186 @@ CREATE TABLE match(
 );
 ```
 
+---
+# Aufgabe 2
 
 
+
+```sql
+select distinct caughtby, country
+
+from fish
+
+natural join fishery
+
+where fish.caughtby = fishery.name
+
+order by caughtby asc
+```
+
+
+```sql
+select distinct name,country
+
+from fishery
+
+join fish
+
+on fish.caughtby = fishery.name
+
+group by name,country
+
+having count(fish.id) > 40
+
+order by name asc
+
+```
+
+
+```sql
+select name, taxID, count(customer) as customer_count
+
+from wholesalers left join sold
+
+on wholesalers.name = sold.whname
+
+and wholesalers.taxID = sold.whtaxid
+
+  
+
+group by name, taxID
+
+order by customer_count desc
+```
+
+```sql
+select name, taxID, count(customer) as customer_count
+
+from wholesalers left join sold
+
+on wholesalers.name = sold.whname
+
+and wholesalers.taxID = sold.whtaxid
+
+group by name, taxID
+
+having sum(sold.quantity) > 20000
+
+  
+
+order by customer_count desc
+```
+
+```sql
+select name
+
+from customer
+
+where customer.name
+
+NOT IN
+
+(
+
+select distinct sold.customer
+
+from sold
+
+)
+
+AND customer.name NOT IN
+
+(
+
+select distinct distributor.customer
+
+from distributor
+
+)
+```
+
+```sql
+select distributor.customer,
+
+round(avg(distributor.unitprice),2) as unit_avg_price,
+
+(
+
+select sum(sold.quantity)
+
+from sold
+
+where sold.customer = distributor.customer
+
+) as sum_sold
+
+from distributor
+
+group by distributor.customer
+
+having avg(distributor.unitprice) > (select avg(unitprice) from distributor)
+```
+
+```sql
+select c.name , round(avg(d.unitprice),2)
+
+from customer c
+
+join distributor d
+
+on c.name = d.customer
+
+join wholesalers w
+
+on d.customer = c.name and d.whname = w.name
+
+  
+
+-- WAY 1
+
+-- group by c.name
+
+-- having count(distinct d.whname) = (
+
+-- select count(distinct wh.name)
+
+-- from wholesalers wh
+
+-- where wh.country = c.country
+
+-- )
+
+-- order by c.name desc
+
+  
+
+-- WAY 2
+
+where w.country = c.country and not exists (
+
+select *
+
+from wholesalers w1
+
+where w1.country = c.country and not exists (
+
+select *
+
+from distributor d1
+
+where d1.customer = c.name
+
+and d1.whname = w1.name
+
+and d1.whtaxid = w1.taxid
+
+)
+
+)
+
+group by c.name
+
+order by c.name desc;
+
+--https://gregorulm.com/relational-division-in-sql-the-easy-way/
+```

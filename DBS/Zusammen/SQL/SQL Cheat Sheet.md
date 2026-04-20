@@ -53,7 +53,7 @@ LEFT JOIN   -- alle Zeilen aus der linken Tabelle
 RIGHT JOIN  -- alle Zeilen aus der rechten Tabelle
 FULL JOIN   -- alle Zeilen aus beiden Tabellen
 CROSS JOIN  -- kartesisches Produkt
-
+NATURAL JOIN 
 -- Self Join
 FROM mitarbeiter m1
 JOIN mitarbeiter m2 ON m1.chef_id = m2.id

@@ -1,346 +1,349 @@
-## Grundlegende Abfragen
+# ACHTUNG!
+>[!important]
+>Dieses Cheat Sheet wurde von Gemini-Pro erstellt:
+>Prompt 1
+>"
+>erstelle mir ein komplettes SQL Cheat Sheet von dieser PDF, also iuch meine wirklich alles ovn der ganzen pdf, zu jedem Thema
+NIMM DIR SO VIEL ZEIT WIE MÖGLICH, UM DAS DOKUMENT MEHRMALS ZU SCANNEN UND ES DURCHZUGEHEN UND DEINE ANTWORT ZU VERFEINERN, ich kann bist zu mehreren Mintuen warten 
+>"
+>
+>Prompt 2 
+>"
+>passt jetzt in markdown format, für obsidian bitte pdf nocnmalö durchgehen und vorherige antowrt prüfen und dann antweorten
+>"
 
-```sql
-SELECT col1, col2
-FROM tabelle
-WHERE bedingung
-ORDER BY col1 DESC oder ASC 
-LIMIT 10;
-```
+>[!Anmerkung]
+>Verwendete Dateien waren SQL 1 + 2 
 
-```sql
-SELECT * FROM tabelle;                    -- Alle Spalten
-SELECT DISTINCT col FROM tabelle;         -- Ohne Duplikate
-SELECT col AS bezeichnung FROM tabelle;   -- Alias
-```
 
----
 
-## Filtern & Bedingungen
+SQL ist eine **deklarative** Anfragesprache ("Was", nicht "Wie").
 
-```sql
--- Vergleichsoperatoren
-=  !=  <  >  <=  >=
-AND  OR  NOT
-
--- BETWEEN
-WHERE alter BETWEEN 18 AND 65
-
--- IN
-WHERE land IN ('AT', 'DE', 'CH')
-
--- LIKE
-WHERE name LIKE 'M%'    -- beginnt mit M
-WHERE name LIKE '%er'   -- endet mit er
-WHERE name LIKE '_at'   -- ein beliebiges Zeichen
-
--- NULL
-WHERE spalte IS NULL
-WHERE spalte IS NOT NULL
-```
+- **DDL (Data Definition)**: `CREATE`, `ALTER`, `DROP` (Schema-Ebene).
+    
+- **DML (Data Manipulation)**: `INSERT`, `UPDATE`, `DELETE` (Datensatz-Ebene).
+    
+- **DQL (Data Query)**: `SELECT` (Anfragen).
+    
+- **TCL (Transaction Control)**: `BEGIN`, `COMMIT`, `ROLLBACK` (Steuerung).
+    
+- **DCL (Data Control)**: `GRANT`, `REVOKE` (Rechte).
+    
 
 ---
 
-## JOINs
+## 2. DDL: Datendefinition
 
-```sql
--- INNER JOIN (nur übereinstimmende Zeilen)
-SELECT a.*, b.name
-FROM tabelle_a a
-INNER JOIN tabelle_b b ON a.id = b.a_id;
+### Wichtige Datentypen
 
-LEFT JOIN   -- alle Zeilen aus der linken Tabelle
-RIGHT JOIN  -- alle Zeilen aus der rechten Tabelle
-FULL JOIN   -- alle Zeilen aus beiden Tabellen
-CROSS JOIN  -- kartesisches Produkt
+- `char(n)`: Feste Länge, belegt immer $n$ Bytes.
+    
+- `varchar(n)`: Variable Länge, belegt nur genutzten Platz.
+    
+- `numeric(p,s)`: Präzision ($p$ gesamt, $s$ nach Komma).
+    
+- `date`, `xml`, `blob`/`clob` (große Daten).
+    
 
--- Self Join
-FROM mitarbeiter m1
-JOIN mitarbeiter m2 ON m1.chef_id = m2.id
+### Tabellenverwaltung
+
+SQL
+
 ```
-
----
-
-## Gruppieren & Aggregieren
-
-```sql
-COUNT(*)          -- Anzahl aller Zeilen
-COUNT(col)        -- Anzahl Nicht-NULL-Werte
-SUM(col)
-AVG(col)
-MIN(col)  MAX(col)
-
--- GROUP BY & HAVING
-SELECT land, COUNT(*) AS anzahl
-FROM kunden
-GROUP BY land
-HAVING COUNT(*) > 5
-ORDER BY anzahl DESC;
-
--- ROLLUP
-GROUP BY ROLLUP(jahr, monat)
-```
-
----
-
-## Daten manipulieren
-
-```sql
--- INSERT
-INSERT INTO tabelle (col1, col2)
-VALUES ('wert1', 42);
-
--- UPDATE
-UPDATE tabelle
-SET col1 = 'neu', col2 = 0
-WHERE id = 5;
-
--- DELETE
-DELETE FROM tabelle
-WHERE id = 5;
-
--- UPSERT (PostgreSQL)
-INSERT INTO t (id, val)
-VALUES (1, 'x')
-ON CONFLICT (id)
-DO UPDATE SET val = 'x';
-```
-
----
-
-## Tabellen & Schema
-
-```sql
--- CREATE TABLE
-CREATE TABLE nutzer (
-  id   INT PRIMARY KEY,
-  name VARCHAR(100) NOT NULL,
-  mail TEXT UNIQUE,
-  age  INT DEFAULT 0
+-- Erstellen
+CREATE TABLE prof (
+  id integer PRIMARY KEY,
+  name varchar(30) NOT NULL,
+  rank char(2) UNIQUE
 );
 
--- ALTER TABLE
-ALTER TABLE t ADD col INT;
-ALTER TABLE t DROP COLUMN col;
-ALTER TABLE t RENAME TO neu;
+-- Aus anderer Tabelle erstellen
+CREATE TABLE prof2 AS (SELECT * FROM prof); -- [cite: 18]
 
--- DROP
-DROP TABLE IF EXISTS tabelle;
-TRUNCATE TABLE tabelle;   -- Inhalt leeren, Struktur bleibt
+-- Ändern [cite: 18, 19]
+ALTER TABLE prof ADD COLUMN (office integer);
+ALTER TABLE prof ALTER COLUMN name type varchar(50);
+ALTER TABLE prof DROP COLUMN rank;
+
+-- Löschen [cite: 20, 21]
+DROP TABLE prof;
+TRUNCATE TABLE prof; -- Leert Inhalt (schneller als DELETE)
+```
+
+### Constraints & Zahlengeneratoren
+
+- `PRIMARY KEY`: Beinhaltet `NOT NULL` und `UNIQUE`.
+    
+- `FOREIGN KEY (col) REFERENCES tab(id)`: Referenzielle Integrität.
+    
+- **Sequenzen**:
+    
+    SQL
+    
+    ```
+    CREATE SEQUENCE serial START 101; -- [cite: 15]
+    CREATE TABLE wine (id integer DEFAULT nextval('serial')); -- [cite: 16]
+    ```
+    
+
+---
+
+## 3. DML: Datenmanipulation
+
+SQL
+
+```
+-- Einfügen [cite: 559, 563]
+INSERT INTO professor VALUES (2136, 'Curie', 'C4', 36);
+INSERT INTO professor (empid, name) VALUES (2137, 'Kant'), (2138, 'Hegel');
+
+-- Löschen & Ändern [cite: 575, 576]
+DELETE FROM student WHERE semester > 13;
+UPDATE student SET semester = semester + 1;
 ```
 
 ---
 
-## Subqueries & CTEs
+## 4. DQL: Anfragen (Grundlagen)
 
-```sql
--- Subquery
-SELECT * FROM aufträge
-WHERE kunden_id IN (
-  SELECT id FROM kunden
-  WHERE land = 'AT'
-);
+### SFW-Block (Select-From-Where)
 
--- CTE (WITH)
-WITH top_kunden AS (
-  SELECT id, SUM(betrag) AS umsatz
-  FROM aufträge
-  GROUP BY id
-)
-SELECT * FROM top_kunden
-WHERE umsatz > 1000;
+- **SELECT**: Projektion ($\pi$). `DISTINCT` entfernt Duplikate.
+    
+- **FROM**: Kreuzprodukt ($\times$) oder Joins.
+    
+- **WHERE**: Selektion ($\sigma$).
+    
+- **ORDER BY**: `ASC` (Default), `DESC`.
+    
 
--- EXISTS
-WHERE EXISTS (
-  SELECT 1 FROM t WHERE ...
-)
+Join-Varianten
+
+- **Natural Join**: Verbindet über gleichnamige Spalten.
+    
+- **Inner Join**: `A JOIN B ON A.id = B.id` (Theta Join).
+    
+- **Outer Join**: Behält Tupel ohne Partner (`LEFT`, `RIGHT`, `FULL`). Fehlende Werte werden `NULL`.
+    
+
+### Mengenoperationen
+
+Verlangt gleiche Spaltenanzahl/Typen.
+
+- `UNION` / `UNION ALL` (Vereinigung).
+    
+- `INTERSECT` (Schnittmenge).
+    
+- `EXCEPT` (Differenz).
+    
+
+---
+
+## 5. Komplexe Abfragen & Rekursion
+
+### Subqueries (Schachtelung)
+
+- **Mengen-Prädikate**: `IN`, `NOT IN`, `EXISTS`, `NOT EXISTS`.
+    
+- **Quantoren**: `ALL` (alle Bedingungen erfüllt), `ANY` (mind. eine).
+    
+- **Allquantifizierung**: "Welche A haben alle B?" wird über doppelte Negation mit `NOT EXISTS` gelöst.
+    
+
+### Rekursive Anfragen (WITH RECURSIVE)
+
+Wichtig für Hierarchien oder Pfade (z.B. Voraussetzungen von Kursen).
+
+SQL
+
+```
+WITH RECURSIVE transitiveCourse (pred, succ) AS (
+    SELECT predecessor, successor FROM requires -- Basis-Teil
+    UNION
+    SELECT t.pred, r.successor 
+    FROM transitiveCourse t, requires r 
+    WHERE t.succ = r.predecessor -- Rekursiver Teil
+) SELECT * FROM transitiveCourse; -- [cite: 176]
 ```
 
 ---
 
-## Window Functions
+## 6. Aggregation & Gruppierung
 
-```sql
--- Grundsyntax
-FUNKTION() OVER (
-  PARTITION BY col
-  ORDER BY col
-)
+### Funktionen
 
--- Rang & Reihe
-ROW_NUMBER()    -- eindeutiger Rang
-RANK()          -- Lücken bei Gleichstand
-DENSE_RANK()    -- keine Lücken
-NTILE(4)        -- Quartile
+`COUNT(*)`, `SUM(col)`, `AVG(col)`, `MIN(col)`, `MAX(col)`.
 
--- Verschiebung
-LAG(col, 1)    -- vorherige Zeile
-LEAD(col, 1)   -- nächste Zeile
-FIRST_VALUE(col)
-LAST_VALUE(col)
+### GROUP BY & HAVING
 
--- Laufende Summe
-SUM(col) OVER (
-  ORDER BY datum
-  ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
-)
-```
+- `GROUP BY`: Bildet Gruppen basierend auf Attributwerten.
+    
+- `HAVING`: Filtert die **Gruppen** (WHERE filtert Zeilen vor der Gruppierung).
+    
+
+> [!IMPORTANT]
+> 
+> Jedes Attribut im `SELECT`, das nicht aggregiert wird, **muss** im `GROUP BY` stehen!
 
 ---
 
-## Indexes & Performance
+## 7. Fortgeschrittene Konzepte
 
-```sql
--- Index erstellen
-CREATE INDEX idx_name ON tabelle (spalte);
-CREATE UNIQUE INDEX idx_u ON tabelle (spalte);
+### NULL-Werte (Dreiwertige Logik)
 
--- Index löschen
-DROP INDEX idx_name;
+- Vergleiche mit NULL ergeben `unknown`.
+    
+- NULL wird propagiert: `null + 1 = null`.
+    
+- Prüfung immer mit `IS NULL` oder `IS NOT NULL`.
+    
+- `COALESCE(val, replacement)`: Ersetzt NULL durch Alternativwert.
+    
 
--- Query-Plan analysieren
-EXPLAIN SELECT * FROM tabelle;
-EXPLAIN ANALYZE SELECT ...;
+### Window Funktionen
+
+Erlauben Aggregation, ohne Zeilen zusammenzufassen.
+
+- `RANK() OVER (PARTITION BY ... ORDER BY ...)`
+    
+- Führt Berechnungen über "Windows" (Frames) durch.
+    
+
+### Sichten (Views)
+
+Virtuelle Tabellen für Abstraktion oder Sicherheit.
+
+- `CREATE VIEW name AS SELECT ...`.
+    
+- **Materialized Views**: Speichern das Ergebnis physisch zur Performance-Steigerung.
+    
+
+Dynamische Integrität & Trigger
+
+- `ON DELETE CASCADE`: Löscht abhängige Datensätze automatisch.
+    
+- `ON UPDATE SET NULL`: Setzt Fremdschlüssel bei Änderung auf NULL.
+    
+- **Trigger**: Automatische Aktionen nach dem ECA-Prinzip (Event, Condition, Action).
+    
+    - `BEFORE` / `AFTER` auf Zeilen- oder Statement-Ebene.
+
+---
+# DIVISON
+
+Die relationale Division löst Fragen vom Typ: _"Finde X, die mit **allen** Y verknüpft sind."_
+
+### 1. Der "Zähl-Ansatz" (Gruppierung & Vergleich)
+
+Dies ist die modernste und lesbarste Variante. Sie vergleicht die Anzahl der vorhandenen Verknüpfungen mit der Soll-Anzahl.
+
+SQL
+
+```Postgresql
+SELECT x_id
+FROM VerknüpfungsTabelle
+GROUP BY x_id
+HAVING COUNT(DISTINCT y_id) = (SELECT COUNT(*) FROM Y_Tabelle);
 ```
+
+- **Wann nutzen?** Fast immer. Sehr performant bei indizierten Spalten und leicht zu verstehen.
+    
+- **Voraussetzung:** Die Verknüpfungstabelle darf keine Duplikate enthalten (sonst `DISTINCT` im Count nutzen).
+    
 
 ---
 
-## Mengenoperationen
+### 2. Der "Doppelte-Verneinung-Ansatz" (Universal-Quantor)
 
-```sql
-SELECT col FROM tabelle_a
-UNION           -- ohne Duplikate
-SELECT col FROM tabelle_b;
+Logik: _"Finde X, für die es **kein** Y gibt, das **nicht** mit X verknüpft ist."_
 
-UNION ALL       -- mit Duplikaten
-INTERSECT       -- nur gemeinsame Zeilen
-EXCEPT          -- nur in der ersten Menge
-```
+SQL
 
----
-
-## Nützliche Funktionen
-
-```SQL
--- String
-UPPER(s)  LOWER(s)  LENGTH(s)
-TRIM(s)   LTRIM(s)  RTRIM(s)
-CONCAT(a, ' ', b)
-SUBSTRING(s, 1, 3)
-REPLACE(s, 'alt', 'neu')
-
--- Datum & Zeit
-NOW()   CURRENT_DATE   CURRENT_TIME
-DATE_PART('year', datum)
-DATE_TRUNC('month', datum)
-DATE_ADD(datum, INTERVAL 7 DAY)
-
--- Bedingt
-COALESCE(a, b, 'default')
-NULLIF(a, b)
-CASE WHEN x > 0 THEN 'positiv'
-     WHEN x = 0 THEN 'null'
-     ELSE 'negativ'
-END
-
--- Casting
-CAST(col AS INT)
-col::TEXT      -- PostgreSQL
-```
-
----
-
-## Transaktionen
-
-```sql
-BEGIN;   -- oder: START TRANSACTION
-
-  UPDATE konto SET betrag = betrag - 100 WHERE id = 1;
-  UPDATE konto SET betrag = betrag + 100 WHERE id = 2;
-
-COMMIT;   -- oder: ROLLBACK;
-
--- Savepoints
-SAVEPOINT sp1;
-ROLLBACK TO sp1;
-RELEASE SAVEPOINT sp1;
-```
-
-
-
-# SQL Constraints – Cheat Sheet
-
----
-
-## PRIMARY KEY
-
-```sql
-CREATE TABLE league (
-  leagueID   INT          PRIMARY KEY,  -- reicht völlig aus
-  leagueName VARCHAR(100) NOT NULL
+```Postgresql
+SELECT x.name
+FROM X_Tabelle x
+WHERE NOT EXISTS (
+    SELECT * FROM Y_Tabelle y
+    WHERE NOT EXISTS (
+        SELECT * FROM VerknüpfungsTabelle v
+        WHERE v.x_id = x.id AND v.y_id = y.id
+    )
 );
 ```
 
-| Constraint  | UNIQUE | NOT NULL | Hinweis                  |
-|-------------|--------|----------|--------------------------|
-| PRIMARY KEY | ✓ ja   | ✓ ja     | beides bereits enthalten |
-| UNIQUE      | ✓ ja   | ✗ nein   | erlaubt NULL             |
-| NOT NULL    | ✗ nein | ✓ ja     | Duplikate erlaubt        |
+- **Wann nutzen?** Wenn du strikt nach relationaler Algebra arbeitest oder Aggregate (`COUNT`) aus Performancegründen vermeiden willst.
+    
+- **Vorteil:** Funktioniert auch, wenn die "Soll-Menge" (Y) leer ist (ergibt dann meist alle X).
 
----
+### 1. Die "Except"-Variante (Mengenlehre)
 
-## FOREIGN KEY – Syntax
+Dieser Ansatz ist mathematisch am nächsten an der Definition: _"Die Menge aller Großhändler im Land minus der Menge der Großhändler, mit denen der Kunde einen Vertrag hat, muss leer sein."_
 
-Falsch:
-```sql
-teamID INT FOREIGN KEY(team.teamID)
-```
+SQL
 
-Richtig:
-```sql
-teamID INT,
-FOREIGN KEY (teamID) REFERENCES team(teamID)
-```
-
----
-
-## FOREIGN KEY – vollständiges Beispiel
-
-```sql
-CREATE TABLE belongsToLeague (
-  seasonID  INT,
-  leagueID  INT,
-  teamID    INT,
-
-  PRIMARY KEY (seasonID, leagueID, teamID),  -- zusammengesetzter PK
-
-  FOREIGN KEY (seasonID) REFERENCES season(seasonID),
-  FOREIGN KEY (leagueID) REFERENCES league(leagueID),
-  FOREIGN KEY (teamID)   REFERENCES team(teamID)
+```Postgresql
+SELECT c.name
+FROM customer c
+WHERE NOT EXISTS (
+    -- Menge aller Großhändler im Land des Kunden
+    SELECT w.name FROM wholesalers w WHERE w.country = c.country
+    EXCEPT
+    -- Menge der Großhändler, mit denen dieser Kunde einen Vertrag hat
+    SELECT d.whname FROM distributor d WHERE d.customer = c.name
 );
 ```
 
----
-
-## Alle wichtigen Constraints
-
-| Constraint     | Syntax                                  | Was es tut                          |
-|----------------|-----------------------------------------|-------------------------------------|
-| PRIMARY KEY    | `id INT PRIMARY KEY`                    | eindeutig + nicht null              |
-| FOREIGN KEY    | `FOREIGN KEY (col) REFERENCES tbl(col)` | Verweis auf andere Tabelle          |
-| NOT NULL       | `name VARCHAR(50) NOT NULL`             | kein leerer Wert erlaubt            |
-| UNIQUE         | `email VARCHAR(100) UNIQUE`             | kein doppelter Wert                 |
-| DEFAULT        | `status INT DEFAULT 1`                  | Standardwert wenn nichts angegeben  |
-| CHECK          | `CHECK (age >= 18)`                     | Bedingung muss erfüllt sein         |
-| AUTO_INCREMENT | `id INT AUTO_INCREMENT`                 | zählt automatisch hoch (MySQL)      |
+- **Vorteil:** Sehr logisch aufgebaut. `EXCEPT` entfernt alle Übereinstimmungen; bleibt nichts übrig, ist die Bedingung erfüllt.
+    
+- **Nachteil:** In der Performance oft etwas langsamer als `COUNT`, da Mengenoperationen teuer sein können.
+    
 
 ---
 
-## Häufige Fehler
+### 2. Die Array-Variante (PostgreSQL-Spezifisch)
 
-| Fehler                          | Problem                                          |
-|---------------------------------|--------------------------------------------------|
-| `PRIMARY KEY UNIQUE NOT NULL`   | UNIQUE + NOT NULL sind redundant                 |
-| `col INT FOREIGN KEY(tbl.col)`  | FOREIGN KEY muss separat stehen                  |
-| `..., )`                        | Trailing Comma vor ) nicht erlaubt               |
-| `REFERENCES tbl.col`            | Punkt-Notation ungültig → `REFERENCES tbl(col)`  |
+In Postgres kannst du alle IDs eines Kunden in ein Array packen und prüfen, ob dieses Array das Array aller Großhändler im Land "enthält" (`@>`).
+
+SQL
+
+```Postgresql
+SELECT c.name
+FROM customer c
+WHERE (
+    SELECT array_agg(DISTINCT name ORDER BY name) 
+    FROM wholesalers w WHERE w.country = c.country
+) <@ (
+    SELECT array_agg(DISTINCT whname ORDER BY whname) 
+    FROM distributor d WHERE d.customer = c.name
+);
+```
+
+- **Vorteil:** Extrem kompakt, wenn man mit Postgres-spezifischen Operatoren arbeitet.
+    
+- **Nachteil:** Überhaupt nicht portierbar auf andere SQL-Dialekte (wie MySQL oder Oracle) und schwerer zu lesen für SQL-Neulinge.
+    
+
+---
+
+### 3. Join mit String-Aggregation (Der "Dirty"-Hack)
+
+Manchmal sieht man Lösungen, die alle Namen alphabetisch sortiert in einen langen Textstring verketten und diese Strings vergleichen.
+
+SQL
+
+```Postgresql
+SELECT c.name
+FROM customer c
+JOIN (SELECT country, string_agg(name, ',' ORDER BY name) as all_wh FROM wholesalers GROUP BY country) w_list
+  ON c.country = w_list.country
+JOIN (SELECT customer, string_agg(DISTINCT whname, ',' ORDER BY whname) as my_wh FROM distributor GROUP BY customer) d_list
+  ON c.name = d_list.customer
+WHERE w_list.all_wh = d_list.my_wh;
+```
+
+- **Vorteil:** Funktioniert gut für Reports, bei denen man die Liste der Partner sowieso sehen will.
+    
+- **Nachteil:** **Ganz schlechter Stil** für reine Logik-Prüfungen. Es ist fehleranfällig (Sonderzeichen in Namen) und performancetechnisch eine Katastrophe, da Strings verglichen werden statt IDs.
+    
+
+
