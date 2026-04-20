@@ -164,12 +164,38 @@ order by (pred,succ) asc;
 
 ```
 
+mit counter 
+```postgresql
 
+with recursive transitiveCourse(pred,succ, depth)
+as(
+	select predecessor, successor, 0
+	from requires
+union
+	select distinct t.pred, r.successor, t.depth+1
+	from transitiveCourse t, requires r 
+	where t.succ = r.predecessor and t.depth < 1
+)
+select *
+from transitiveCourse
+order by (pred,succ) asc;
+
+```
+
+es sitzt irgendwie aber auch gar nicht eigentlich?
+
+integritätsbedingung
+```postgresql 
+create domain wineColor varchar(5)
+ 
+```
+
+CHECK rank IN()
 
 
 ## Important Details
 Muss geübt werden
-
+Referentielle Integrität nochmal anschauen
 ## Examples
 [[SQL]]
 
