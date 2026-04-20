@@ -119,6 +119,9 @@ WHERE empid IN(SELECT taughtby
 
 NOT IN :<= > ist ähnlich wie ein Differenzenoperators in der relationalen Algebra
 
+---
+### Fortsetzung 20.4 
+
 
 
 
