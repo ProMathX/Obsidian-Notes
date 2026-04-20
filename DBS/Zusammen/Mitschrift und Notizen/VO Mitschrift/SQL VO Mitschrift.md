@@ -122,6 +122,48 @@ NOT IN :<= > ist ähnlich wie ein Differenzenoperators in der relationalen Algeb
 ---
 ### Fortsetzung 20.4 
 
+Es wurde einfach subqueries und group by gemacht
+
+
+
+##### Rekursion und SQL 
+Berechnung der Vorgänger 
+
+
+```sql
+
+with recursive mytable(number) as 
+(
+	values(1)
+union 
+	select number+1
+	from mytable
+	where number < 100
+)
+select sum(number)
+from mytable;
+
+```
+
+es wird immer das letzte ergebnis der rekursion genommen
+
+```postgresql
+
+with recursive transitiveCourse(pred,succ)
+as(
+	select predecessor, successor
+	from requires
+union
+	select distinct t.pred, r.successor
+	from transitiveCourse t, requires r 
+	where t.succ = r.predecessor
+)
+select *
+from transitiveCourse
+order by (pred,succ) asc;
+
+```
+
 
 
 

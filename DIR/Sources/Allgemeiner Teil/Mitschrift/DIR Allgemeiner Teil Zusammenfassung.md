@@ -629,11 +629,14 @@ Im Privatrecht gilt grds. **Privatautonomie** – freie Gestaltung des Rechtsver
 
 
 ---
-
-
 # 5 Verfassungsrecht - Bundestaat
 
 ## Staatsgebiet
+- Bundesgebiet umfasst die Gebiete der BL (Art 3 Abs 1 B-VG)
+- Keine bundesunmitterlbaren Gebiete
+- 
+
+
 
 ## Staatsvolk
 
