@@ -629,22 +629,90 @@ Im Privatrecht gilt grds. **Privatautonomie** – freie Gestaltung des Rechtsver
 
 
 ---
-
-
 # 5 Verfassungsrecht - Bundestaat
 
 ## Staatsgebiet
+- Bundesgebiet umfasst die Gebiete der BL (Art 3 Abs 1 B-VG)
+- Keine bundesunmitterlbaren Gebiete
+- Grenzverlauf von AT von StV St. Germain und Venediger Protokoll
+	- und mit Art 5 StV nach 2WK
 
+- Grenzänderung  innerhalb Art 3 Abs 3 B-VG 
+- Bundesgebiete müssen 
+	- einheitliches Währungs- Wirtschafts und Zollgebiet (Art 3 B-VG)
+	
 ## Staatsvolk
+- Art 6 Abs 1 B-VG -> einheitliches Staatsbürgerschaftsrecht
+- Art 6 Abs 2 B-VG
+	- Staatsbürger die im Land Hauptwohnsitz -> Landesbürger
+	- LG können dies auch vorsehen
+	- Rechtswirkung: faktisch unerheblich (Art 95 Abs 1 B-VG)
 
 ## Staatsgewalt
+- **Bund:** Nationalrat und Bundesrat (Gesetzgebung) sowie Bundesregierung und Ministerien (Verwaltung).
 
+- **Länder:** Landtage (Gesetzgebung) sowie Landesregierungen (Verwaltung)
+
+-  Die ordentliche Gerichtsbarkeit ist ein **Monopol des Bundes**., auch Landesgerichte (LG) sind organisatorisch Bundesbehörden.
+
+- Die Länder verfügen im gerichtlichen Bereich lediglich über die Landesverwaltungsgerichte (LVwG).
+
+- **Gesetzgebung:** Erlässt Verfassungs- und einfache Gesetze (BVG/BG im Bund, LVG/LG in den Ländern).
+
+- **Verwaltungsbehörden (beider Ebenen):** Handeln durch Verordnungen (VO), Bescheide und Akte unmittelbarer verwaltungsbehördlicher Befehls- und Zwangsgewalt (AuvBZ).
+
+- **Gerichte:** Sprechen Urteile, fassen Beschlüsse und setzen Vollzugsakte (Exekutionen) um.
+
+- Die **Kompetenzverteilung** (wer darf was regeln/vollziehen).
+
+- Die mittelbare Bundesverwaltung (Länder vollziehen Bundesrecht).
+
+- Den Finanzausgleich (Regelung der Geldströme).
 ## Gliedstaatsverträge
-
+Abkommen zwischen Teilstaaten eines Bundesstaats
+- *Art 15a B-VG* 
+- GliedStV Koordination von gemeinschaftlichen Aufgaben
+- Abschluss auf Seiten des Bundes obliegt je nach Materie der BReg oder einem BM
+- Gestzgebung des Bundes gebunden wird; NR zustimmung notwendig *(Art 15a B-VG)*
+- Unterliegt Völkerrecht
+- Ausschließlich hoheitsrechtliche Belange nach *Art 15a B-VG*
+- Streitigkeiten vor VfGH *(Art 137 oder 138a B-VG)*
 ## Staatssprache
+- *Art 8 Abs 1 B-VG*
+- *Art 7 Z 3 StV von Wien*
+	- Slowenisch und kroatische Sprache in Steiermark und Kärnten als Staatssprache annerkannt
 
 ## Kompetenzverteilung
 
+1. Exklusivität und Gesichtspunktetheorie
+- **Exklusivität:** Eine rechtliche Angelegenheit kann immer nur genau einem Kompetenztatbestand zugeordnet werden. Es gibt keine echten Doppelzuständigkeiten.
+
+- **Gesichtspunktetheorie:** Ein realer Sachverhalt kann aber sehr wohl aus verschiedenen Blickwinkeln_von Bund und Ländern geregelt werden.
+
+2. Vollständigkeit und Auffangregel
+- **Vollständigkeit:** Das System ist lückenlos. Es gibt kein denkbares Thema, das nicht zugeordnet werden könnte.
+
+- **Generalklausel (Art. 15 Abs. 1 B-VG):** Materien, die in der Verfassung nicht ausdrücklich genannt sind und sich auch nicht zuordnen lassen, fallen als „Restbestand“ automatisch in die Zuständigkeit der Länder
+
+**Besondere Zuständigkeitsregeln**
+- **Kompetenz-Kompetenz:** Das Recht, die Spielregeln der Verteilung zu ändern (also festzulegen, wer wofür zuständig ist), liegt ausschließlich beim Bund.
+
+- **Annex-Kompetenz:** Hilfsmaterien folgen der Hauptmaterie. Wer für einen Sachbereich zuständig ist, hat grundsätzlich auch die Kompetenz, die dazugehörige Organisation oder das Verfahren zu regeln.
+
+**Auslegung durch den Verfassungsgerichtshof (VfGH)**
+- **Versteinerungstheorie:** Ein Kompetenzbegriff wird so ausgelegt, wie er zu jenem Zeitpunkt rechtlich definiert war, als er in die Verfassung aufgenommen wurde (meistens das Jahr 1925). Der Begriff ist quasi historisch „versteinert“.
+    
+- **Intrasystematische Fortentwicklung:** Um zu verhindern, dass durch die Generalklausel jede moderne Neuerung automatisch an die Länder fällt, werden neue Sachgebiete bestehenden (historischen) Kompetenzen zugeordnet, wenn sie inhaltlich verwandt sind.
+	- Bsp Medienrecht mit dem ORF (Rundfunkrecht)
+
+## Kompetenzverteilung in der Finanzverfassung (F-VG)
+
+- §2 
+>[!Quote]
+>Sofern nichts anderes bestimmt, tragen die Gebietskörperschaften den Aufwand, der sich aus der Besorgung ihrer Aufgaben ergibt (wobei die Grenzen der Leistungsfähigkeit nicht überschritten werden dürfen, § 4)
+- §6
+>[!Quote]
+>An diese Formen knüpft an, wie die Zuständigkeit zur Erhebung und die Erträge zwischen den Gebietskörperschaften verteilt werden; das wird gem 3 Abs 1 F-VG per einfachem (!) BundesG beschlossen →der einfache Bundesgesetzgeber erhält durch § 3 Abs 1 F-VG die Kompetenz-Kompetenz hinsichtlich der Abgabenerhebungskompetenz und der Ertragshoheit. Regelungen sind in FinanzausgleichsG enthalten, das für jeweils mehrere (vier oder fünf) Jahre beschlossen wird . Formell Bundesrecht, aber es gehen intensive Verhandlungen zwischen den Gebietskörperschaften voraus
 
 # 6 Verfassungsrecht - Gesetzgebung
 

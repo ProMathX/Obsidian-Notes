@@ -119,12 +119,83 @@ WHERE empid IN(SELECT taughtby
 
 NOT IN :<= > ist ähnlich wie ein Differenzenoperators in der relationalen Algebra
 
+---
+### Fortsetzung 20.4 
 
+Es wurde einfach subqueries und group by gemacht
+
+
+
+##### Rekursion und SQL 
+Berechnung der Vorgänger 
+
+
+```sql
+
+with recursive mytable(number) as 
+(
+	values(1)
+union 
+	select number+1
+	from mytable
+	where number < 100
+)
+select sum(number)
+from mytable;
+
+```
+
+es wird immer das letzte ergebnis der rekursion genommen
+
+```postgresql
+
+with recursive transitiveCourse(pred,succ)
+as(
+	select predecessor, successor
+	from requires
+union
+	select distinct t.pred, r.successor
+	from transitiveCourse t, requires r 
+	where t.succ = r.predecessor
+)
+select *
+from transitiveCourse
+order by (pred,succ) asc;
+
+```
+
+mit counter 
+```postgresql
+
+with recursive transitiveCourse(pred,succ, depth)
+as(
+	select predecessor, successor, 0
+	from requires
+union
+	select distinct t.pred, r.successor, t.depth+1
+	from transitiveCourse t, requires r 
+	where t.succ = r.predecessor and t.depth < 1
+)
+select *
+from transitiveCourse
+order by (pred,succ) asc;
+
+```
+
+es sitzt irgendwie aber auch gar nicht eigentlich?
+
+integritätsbedingung
+```postgresql 
+create domain wineColor varchar(5)
+ 
+```
+
+CHECK rank IN()
 
 
 ## Important Details
 Muss geübt werden
-
+Referentielle Integrität nochmal anschauen
 ## Examples
 [[SQL]]
 
