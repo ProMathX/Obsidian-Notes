@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "1b4d6d3e9aa52400",
+            "id": "f17b51a6776d8ff0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,29 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "DIR Allgemeiner Teil Zusammenfassung"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "0cf4fe0d77519958",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a894c32e17c8cee1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Öffentlich-rechtliche Grundlagen_202510"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,8 +258,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b4d6d3e9aa52400",
+  "active": "f17b51a6776d8ff0",
   "lastOpenFiles": [
+    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
@@ -250,8 +270,6 @@
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
-    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "Untitled.md",
     "Images/Pasted image 20260417224540.png",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",

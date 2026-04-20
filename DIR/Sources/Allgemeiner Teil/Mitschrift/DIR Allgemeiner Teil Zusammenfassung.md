@@ -717,10 +717,90 @@ Abkommen zwischen Teilstaaten eines Bundesstaats
 # 6 Verfassungsrecht - Gesetzgebung
 
 
+## Nationalrat - Allgemeines
+-  Allgemeiner Vertretungskörper der vom Bundesvolk gewählt wird
+-  Gemeinsam mit BR Gesetzgebung des Bundes
+-  Gesetzgebungsperiode dauert 5 Jahre (Art 27 Abs 1 B-VG)
+- Vorzeitige Auflösung ist möglich
+	- Quoren
+	- (Art 67 Abs 1 B-VG) und (Art 29 Abs 1 B-VG)
+	- (Art 60 Abs 6 B-VG)
+
+## Nationalrat - Wahlrecht
+
+###  (Art 26 B-VG)
+
+- **Allgemein:** Alle Staatsbürger wählen. **Aktiv:** ab 16 Jahren (wählen gehen). **Passiv:** ab 18 Jahren (kandidieren). Ausschluss vom Wahlrecht nur durch **einfaches Gesetz** und nach **rechtskräftiger Verurteilung** möglich.
+
+- **Gleich:** Jede Stimme zählt exakt gleich viel (gleicher Zählwert).
+
+- **Unmittelbar:** Es gibt keine Wahlmänner. Die Listen der Parteien stehen fest und werden direkt gewählt.
+
+- **Persönlich:** Du musst selbst wählen; eine Stellvertretung (Stv.) ist verboten.
+ 
+- **Geheim:** Niemand darf wissen, was du wählst. Vorkehrungen (Wahlzelle) sind Pflicht. Freiwilliges Offenlegen ist aber erlaubt.
+
+- **Frei:** Du darfst ohne Zwang entscheiden. Wahlwerbung und Stimmabgabe dürfen nicht behindert werden.
+
+### **Das Wahlsystem**
+
+- **Verhältniswahlrecht:** Die Sitze (Mandate) werden nach dem prozentualen Stimmenanteil vergeben.
+
+- **Hürden:** Um ins Parlament einzuziehen, braucht eine Partei laut **NRWO** entweder:
+    
+    1. Mindestens **4 %** der Stimmen bundesweit **oder**
+    
+    2. Ein **Grundmandat** (einen Sitz direkt in einem Regionalwahlkreis).
+
+## Nationalrat - Wahl
+- NRWO
+- Wahlkreise
+- 183 Mandate
+- **Zuständigkeit:** Die **Wahlbehörden** leiten die Wahl. Die oberste Instanz ist die **Bundeswahlbehörde**, die im **BMI** (Bundesministerium für Inneres) angesiedelt ist.
+
+- **Startschuss:** Die **BReg** (Bundesregierung) legt per **VO** (Verordnung) den Wahltag fest.
+
+- **Wählerlisten:** Die Wähler-VZ (Wählerverzeichnisse) werden von den Gemeinden erstellt und gepflegt (**Art 26 B-VG**, das Bundes-Verfassungsgesetz).
+
+Um die 183 Sitze fair zu verteilen
+
+1. **Stufe (Regionalwahlkreise):** Es gibt 39 kleine Gebiete. Wer hier genug Stimmen für ein Mandat sammelt, erhält ein Direktmandat.
+
+2. **Stufe (Landeswahlkreise):** Stimmen, die auf Stufe 1 nicht für ein Mandat gereicht haben, werden auf Ebene der 9 Bundesländer zusammengefasst und dort in Mandate umgerechnet.
+
+3. **Stufe (Bundesebene):** Der **bundesweite Proportionalausgleich**. Hier werden alle restlichen Stimmen aus ganz Österreich verwertet. Ziel ist, dass die Sitzverteilung im Nationalrat exakt dem prozentualen Gesamtergebnis der Parteien entspricht.
+
+## Nationalrat - Organisation
+- Art 30 Ans 1 B-VG
+- Ausschuss 
+	-  Art 55 Abs 1
+	- Freiwillige 
+	- Einfachgesetzlich vorgeschriebene
+- Verfahren richtet sich nach GOGNR; Änderung benötigt erhöhte Quoren
+
+## Nationalrat - Gesetzesinitiative
+- Mitglieder des NR: Initiativantrag (fünf Mitglieder) oder Ausschussantrag
+- BReg: Regierungsvorlage
+- BR von einem Drittel seiner Mitglieder
+- Volksbegehren: Art 41 Abs 2 B-VG
+
+## Nationalrat - Verfahren der Gesetzgebung
+
+## Nationalrat  - Verhältnis zur Vollziehung
+
+## Bundesrat - Zusammensetzung
+
+## Bundesrat  - Aufgaben
+
+## Bundesversammlung
+
+## Landtage
+
+## Rechtsstellung der Mitglieder gesetzgebender Körperschaften
 
 
 
-
+# 7 Verfassungrecht - Verwaltung
 
 ---
 ---
