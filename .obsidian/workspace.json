@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "2c8ade51cff83ffa",
+            "id": "68b0592f33c71f02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,29 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "DIR Allgemeiner Teil Zusammenfassung"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "e74f71b1524eb5ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6aacc118bc53e5e9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Öffentlich-rechtliche Grundlagen_202510"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,11 +259,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c8ade51cff83ffa",
+  "active": "68b0592f33c71f02",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
+    "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
@@ -255,7 +274,6 @@
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "Untitled.md",
     "Images/Pasted image 20260417224540.png",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
     "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "Images/Pasted image 20260416123743.png",

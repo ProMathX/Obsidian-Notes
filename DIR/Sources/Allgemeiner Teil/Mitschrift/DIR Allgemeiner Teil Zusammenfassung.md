@@ -784,21 +784,85 @@ Um die 183 Sitze fair zu verteilen
 - BR von einem Drittel seiner Mitglieder
 - Volksbegehren: Art 41 Abs 2 B-VG
 
-## Nationalrat - Verfahren der Gesetzgebung
+## 1. Das Gesetzgebungsverfahren im Nationalrat (NR)
 
-## Nationalrat  - Verhältnis zur Vollziehung
+Der Prozess gliedert sich in drei Lesungen und die Ausschussarbeit:
 
-## Bundesrat - Zusammensetzung
+- **1. Lesung:** Debatte über allgemeine Grundsätze; Zuweisung an einen Ausschuss.
+    
+- **Ausschussberatungen:** Das Herzstück der Arbeit. Expertenanhörungen und inhaltliche Änderungen finden hier (nicht öffentlich) statt. Abschluss durch einen Ausschussbericht.
+    
+- **2. Lesung:** General- und Spezialdebatte über Details des Entwurfs.
+    
+- **3. Lesung:** Korrektur von Formfehlern und abschließende Abstimmung.
+    
+- **Beschlussfassung:** In der Regel Anwesenheit von **1/3** der Abgeordneten und **absolute Mehrheit**. Stimmzwang besteht nicht (Enthaltung zulässig), aber das Stimmrecht muss persönlich ausgeübt werden.
+    
 
-## Bundesrat  - Aufgaben
+---
 
-## Bundesversammlung
+## 2. Die Rolle des Bundesrates (BR) und der Bundesversammlung
 
-## Landtage
+Nach dem Beschluss im NR geht das Gesetz an den BR:
 
-## Rechtsstellung der Mitglieder gesetzgebender Körperschaften
+- **Einspruchsrecht:** Der BR kann binnen 8 Wochen einen begründeten Einspruch erheben (**suspensives Veto**). Der NR kann diesen durch einen **Beharrungsbeschluss** (bei Anwesenheit der Hälfte der Mitglieder) überstimmen.
+    
+- **Absolutes Veto:** In Ausnahmen (z.B. Einschränkung der Länderkompetenzen) muss der BR zustimmen; hier gibt es keinen Beharrungsbeschluss.
+    
+- **Bundesversammlung:** Gemeinsame Sitzung von NR und BR. Hauptaufgabe: Angelobung des Bundespräsidenten (BPräs). Theoretisch auch Kriegserklärungen oder Absetzung des BPräs.
+    
 
+---
 
+## 3. Abschluss des Verfahrens & Vollziehung
+
+- **Beurkundung:** Der BPräs prüft das verfassungsmäßige Zustandekommen. Bei offenkundiger Verfassungswidrigkeit muss er die Unterschrift verweigern.
+    
+- **Kundmachung:** Das Gesetz wird im Bundesgesetzblatt (BGBl) veröffentlicht und existiert rechtlich erst ab diesem Zeitpunkt.
+    
+- **Kontrollrechte des NR:**
+    
+    - **Politisch:** Interpellationsrecht (Anfragen), Resolutionsrecht (Wünsche), Enquêterecht (U-Ausschüsse) und das **Misstrauensvotum** (Absetzung der Regierung).
+        
+    - **Rechtlich:** Ministeranklage beim Verfassungsgerichtshof (VfGH).
+        
+    - **Finanziell:** Budgetrecht (Genehmigung des Haushalts).
+        
+
+---
+
+## 4. Die Landtage (LT)
+
+Die Gesetzgebung der Länder folgt ähnlichen Prinzipien, jedoch im **Einkammersystem** (nur der Landtag, kein zweites Haus).
+
+- **Wahlrecht:** Darf nicht strenger sein als beim Nationalrat.
+    
+- **Kontrolle:** Landtage kontrollieren die Landesregierungen (LReg) analog zum Bund (Anfragen, U-Ausschüsse, Misstrauensvotum).
+    
+
+---
+
+## 5. Rechtsstellung der Mandatare
+
+Abgeordnete genießen einen besonderen Schutz, um ihre Unabhängigkeit zu garantieren:
+
+### Freies Mandat
+
+- Rechtlich sind Abgeordnete an keine Aufträge gebunden (**Art 56 B-VG**).
+    
+- Faktisch besteht jedoch oft **Klubzwang** (Parteidisziplin).
+    
+
+### Immunität
+
+|**Art der Immunität**|**Schutzumfang**|
+|---|---|
+|**Berufliche Immunität**|Absoluter Schutz für Abstimmungen und Äußerungen im Parlament (Ausnahme: Verleumdung).|
+|**Außerberufliche Immunität**|Schutz vor strafrechtlicher Verfolgung bei Taten mit politischem Bezug (Zustimmung des Hauses nötig).|
+
+---
+
+> **Hinweis:** Erst durch die Kundmachung im Bundesgesetzblatt erlangt ein Gesetz verbindliche Rechtskraft. Bis dahin ist es lediglich ein beschlossener Text ohne normative Wirkung.
 
 # 7 Verfassungrecht - Verwaltung
 
