@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "9acf1ec30b23b04c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DBS Aufgabenblatt 5"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,10 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9acf1ec30b23b04c",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
+    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "conflict-files-obsidian-git.md",
     "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "EP2/Daten Abstraktion.md",
