@@ -23,12 +23,24 @@
             "id": "9acf1ec30b23b04c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS-6.pdf"
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "DBS-6"
+              "icon": "lucide-file",
+              "title": "DBS Aufgabenblatt 5"
             }
           }
         ],
@@ -230,6 +242,7 @@
   },
   "active": "9acf1ec30b23b04c",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "conflict-files-obsidian-git.md",
     "EP2/Dokumente/ep2-26s-1seitig.pdf",
@@ -241,7 +254,6 @@
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "Images/Pasted image 20260417224540.png",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "Untitled.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "Images/Pasted image 20260416123743.png",
