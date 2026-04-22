@@ -20,27 +20,15 @@
             }
           },
           {
-            "id": "b9cd049950363187",
+            "id": "9acf1ec30b23b04c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "DBS/Zusammen/DBS-Folien/DBS-6.pdf"
               },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "icon": "lucide-file-text",
+              "title": "DBS-6"
             }
           }
         ],
@@ -240,8 +228,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9cd049950363187",
+  "active": "9acf1ec30b23b04c",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "conflict-files-obsidian-git.md",
     "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "EP2/Daten Abstraktion.md",
@@ -250,7 +239,6 @@
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "Images/Pasted image 20260417224540.png",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
