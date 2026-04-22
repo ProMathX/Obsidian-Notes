@@ -866,10 +866,106 @@ Abgeordnete genießen einen besonderen Schutz, um ihre Unabhängigkeit zu garant
 
 # 7 Verfassungrecht - Verwaltung
 
+## Verfassungsrechtliche Grundsätze der Verwaltung
+
+## 1. Wirtschaftlichkeitsprinzip
+
+> Auch bekannt als **allgemeines Effizienzprinzip** (Art 126b Abs 5 B-VG)
+
+Betrifft die **Gebarung** → fast jedes Verwaltungshandeln (hoheitlich & nichthoheitlich).
+
+|Prinzip|Bedeutung|
+|---|---|
+|**Maximalprinzip**|Mit festen Ressourcen → möglichst viel erreichen|
+|**Minimalprinzip**|Festes Ziel → mit möglichst wenig Ressourcen erreichen|
+
 ---
+
+## 2. Amtshilfe (Art 22 B-VG)
+
+Alle Organe von Bund, Ländern, Gemeinden, Gemeindeverbänden und sonstigen Selbstverwaltungskörpern sind **zur wechselseitigen Hilfeleistung** verpflichtet.
+
+**Wichtige Einschränkungen:**
+
+- Gilt auch zwischen Gerichtsbarkeit und Verwaltung
+- Nur innerhalb des **gesetzlichen Wirkungsbereichs**
+- Kein subjektives (= einklagbares) Recht auf Amtshilfe
+
+---
+
+## 3. Hoheitliches Verwaltungshandeln
+
+### 3a. Verwaltungsinterne Hoheitsakte
+
+#### Weisung (Art 20 Abs 1 B-VG)
+
+- Kann **generell** oder **individuell** sein
+- Betrifft hoheitliche und nichthoheitliche Agenden
+- Dienstrechtliches → **nicht** per Weisung, sondern per Bescheid (Beamte) oder Vertrag (Vertragsbedienstete)
+- Generelle Weisungen (= Erlässe, Dienstanweisungen) → **keine Normenkontrolle**
+- **Keine Drittwirkung** nach außen
+- Keine Formvorschrift (mündlich oder schriftlich möglich) → Befehlscharakter muss erkennbar sein
+
+---
+
+### 3b. Verwaltungsexterne Hoheitsakte
+
+#### Bescheid
+
+- **Individuell, hoheitlich, normativ** (rechtsgestaltend oder rechtsfeststellend)
+- Förmlich, in einem Verfahren
+- Braucht gesetzliche Grundlage (Gesetz oder VO)
+- Rechtszug zur öffentlichen Gerichtsbarkeit darf nicht ausgeschlossen werden
+- → **Beschwerde an das VwG** möglich
+
+#### Verordnung (Art 18 Abs 2 B-VG)
+
+- **Generelle Norm** (= materielles Gesetz)
+- Muss „auf Grund der Gesetze" erlassen werden → **weitgehende Determinierung** durch das Gesetz nötig (= formalgesetzliche Delegation)
+- Kundmachung im BGBl oder LGBl (je nach gesetzlicher Grundlage)
+- Nicht gehörig kundgemachte VO → von Gerichten **nicht anzuwenden**
+- **Sonderfall:** verfassungsunmittelbare Verordnungen
+    - Notverordnungsrecht des BPräs (Art 18 Abs 3–5 B-VG)
+    - Ortspolizeiliche Verordnungen der Gemeinden (Art 118 Abs 6 B-VG)
+
+#### AuvBZ (Akt unmittelbarer verwaltungsbehördlicher Befehls- und Zwangsgewalt)
+
+- Verfahrensfrei oder verfahrensreduziert
+- Nur zur **unmittelbaren Gefahrenabwehr**
+- Braucht **ausdrückliche gesetzliche Ermächtigung**
+- → **Beschwerde an das VwG** möglich
+
+#### Wiederverlautbarungen
+
+- Dienen der **Rechtsbereinigung**
+- Beispiele: Korrektur veralteter Schreibweise, Aktualisierung überholter Verweise
+
+---
+
+## 4. Bundesverwaltung – Oberste Organe
+
+- In **Art 19 Abs 1 B-VG** genannt (aber nicht vollständig korrekt!)
+    - Staatssekretäre → streng genommen **keine** obersten Organe
+    - Bundesregierung als Kollegialorgan → **schon** oberstes Organ
+- Oberste Organe sind **nicht weisungsunterworfen**, aber dem Souverän ausgeliefert (→ parlamentarische Kontrolle)
+- Unter den obersten Organen gibt es eine Behördenhierarchie (weisungsgebunden)
+    - Unterscheidung: **mittelbare** vs. **unmittelbare Bundesverwaltung**
+
+---
+
+## Tags
+
+#Verwaltungsrecht #BVerfG #Österreich #Hoheitsakt #Weisung #Bescheid #Verordnung #Amtshilfe
+
+
+
+
+
 ---
 ---
 
 # Links
 - [Justiz GV](https://www.justiz.gv.at/justiz/justizbehoerden/gerichte/instanzenzug.787.de.html)
 - [B-VG](https://www.ris.bka.gv.at/GeltendeFassungDatumsauswahl.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000138&FassungVom=2022-03-21)
+- [ris](https://ris.bka.gv.at/eli/bgbl/1930/1/A126b/NOR40045833)
+- 
