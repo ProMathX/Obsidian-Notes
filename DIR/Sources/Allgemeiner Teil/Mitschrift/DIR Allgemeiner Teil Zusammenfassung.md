@@ -866,7 +866,16 @@ Abgeordnete genießen einen besonderen Schutz, um ihre Unabhängigkeit zu garant
 
 # 7 Verfassungrecht - Verwaltung
 
----
+## Verwaltungsbegriff in der österreichischen Bundesverfassung 
+
+- Jede Tätigkeit von Organen, 
+
+
+
+
+
+
+
 ---
 ---
 
