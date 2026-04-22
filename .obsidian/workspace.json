@@ -18,6 +18,49 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "0d3670dcf2a410d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DIR Allgemeiner Teil Zusammenfassung"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "d7e95c82442c63e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b4c3404474cb2ee",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Öffentlich-rechtliche Grundlagen_202510"
+            }
           }
         ]
       }
@@ -94,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "21a0bf3b18dd7290",
@@ -215,14 +259,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "9b4c3404474cb2ee",
   "lastOpenFiles": [
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
+    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "conflict-files-obsidian-git.md",
     "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "EP2/Daten Abstraktion.md",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
