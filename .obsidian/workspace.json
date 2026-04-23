@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "0d3670dcf2a410d5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS-6.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DBS-6"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,13 +216,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d3670dcf2a410d5",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
-    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "conflict-files-obsidian-git.md",
     "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "EP2/Daten Abstraktion.md",
