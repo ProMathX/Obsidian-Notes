@@ -18,8 +18,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "02de26b2e1e50520",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Misc/TU_Wien-Analysis_UE_(diverse)_-_Spickzettel_Folgen,_Reihen_und_Funktionen.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "TU_Wien-Analysis_UE_(diverse)_-_Spickzettel_Folgen,_Reihen_und_Funktionen"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,7 +229,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "02de26b2e1e50520",
   "lastOpenFiles": [
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
