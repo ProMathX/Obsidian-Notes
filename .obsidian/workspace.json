@@ -18,8 +18,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "4438698841f7ea88",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/DBS-6.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DBS-6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,7 +228,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e35ce44363a19596",
+  "active": "4438698841f7ea88",
   "lastOpenFiles": [
     "Misc/TU_Wien-Analysis_UE_(diverse)_-_Spickzettel_Folgen,_Reihen_und_Funktionen.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
