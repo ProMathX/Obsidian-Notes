@@ -23,46 +23,16 @@
             "id": "68b0592f33c71f02",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "DBS/Zusammen/DBS-Folien/DBS-6.pdf"
               },
-              "icon": "lucide-file",
-              "title": "DIR Allgemeiner Teil Zusammenfassung"
+              "icon": "lucide-file-text",
+              "title": "DBS-6"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "e74f71b1524eb5ca",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6aacc118bc53e5e9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Öffentlich-rechtliche Grundlagen_202510"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -260,8 +230,8 @@
   },
   "active": "68b0592f33c71f02",
   "lastOpenFiles": [
-    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
+    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf",
