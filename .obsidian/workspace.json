@@ -196,8 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,7 +215,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e35ce44363a19596",
   "lastOpenFiles": [
     "Misc/TU_Wien-Analysis_UE_(diverse)_-_Spickzettel_Folgen,_Reihen_und_Funktionen.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
