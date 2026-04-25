@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "68b0592f33c71f02",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS-6.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DBS-6"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,8 +215,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68b0592f33c71f02",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
@@ -240,7 +228,6 @@
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/SQL/SQL.md",
-    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
     "Untitled.md",
     "Images/Pasted image 20260417224540.png",
     "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
