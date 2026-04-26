@@ -242,8 +242,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d291971ab12f06ec",
+  "active": "4ff2e508254eee5a",
   "lastOpenFiles": [
+    "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
+    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "EP2/README.md",
     "EP2/EP2_Test2_zsmf.pdf",
     "EP2/EP2_Test1_zsmf.pdf",
@@ -254,7 +256,6 @@
     "EP2/probetests/Vorbereitungstest_A/out/production/uebung/Node.class",
     "EP2/probetests/Vorbereitungstest_A/out/production/uebung/MCTest1.class",
     "EP2/probetests/Vorbereitungstest_A/out/production/uebung/MCTest1$Question.class",
-    "EP2/probetests/Vorbereitungstest_A/out/production/uebung/MCTest1$Choice.class",
     "EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
@@ -287,7 +288,6 @@
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
     "[[Dritte.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Schluessel.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "DBS/DBS Canvas.canvas",
