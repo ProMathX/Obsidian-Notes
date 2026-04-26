@@ -23,24 +23,12 @@
             "id": "53af5866012bfa46",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf"
               },
-              "icon": "lucide-file",
-              "title": "UE 6"
+              "icon": "lucide-file-text",
+              "title": "DBS_Test_zsmf"
             }
           }
         ],
@@ -56,7 +44,7 @@
       {
         "id": "ac54c3517604f0e8",
         "type": "tabs",
-        "dimension": 65.21739130434783,
+        "dimension": 88.20754716981132,
         "children": [
           {
             "id": "d291971ab12f06ec",
@@ -103,7 +91,7 @@
       {
         "id": "c96b09984e330787",
         "type": "tabs",
-        "dimension": 34.78260869565217,
+        "dimension": 11.79245283018868,
         "children": [
           {
             "id": "669b0f609f66fd0b",
@@ -240,24 +228,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d291971ab12f06ec",
+  "active": "53af5866012bfa46",
   "lastOpenFiles": [
+    "Zusammenfassungen/LoReCS/LoReCS_zsmf.pdf",
+    "Zusammenfassungen/Betriebssysteme/Alttests/Untitled.md",
+    "Zusammenfassungen/LoReCS",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_Probetest_2026.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2024-01-29.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2023-01-30_D.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2022-05-18.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2022-01-26.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2021-02-22.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2021-01-26.pdf",
+    "Zusammenfassungen/Statistik/Alttests",
+    "Zusammenfassungen/Untitled.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE6",
-    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
+    "Zusammenfassungen/DBS/readme.md",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
-    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "conflict-files-obsidian-git.md",
-    "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/SQL/SQL.md",
     "Images/Pasted image 20260417224540.png",
-    "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
-    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "Images/Pasted image 20260416123743.png",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "Pasted image 20260416123743.png",
@@ -267,15 +261,12 @@
     "Pasted image 20260415112740.png",
     "Pasted image 20260415110100.png",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5",
-    "DBS/Zusammen/SQL",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
-    "DIR/Sources/Besonderer Teil/DIR_WS25_Hilfsmittel_DSGVO.pdf",
     "[[Dritte.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Schluessel.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
@@ -283,12 +274,9 @@
     "DBS/Zusammen/Relationale Entwurfstheorie/Github.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "DBS/DBS Canvas.canvas",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
     "Documents/Untitled Diagram-Page-1.drawio.png",
-    "Documents/Zettlr Tutorial/citing.md",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
     "Misc/Untitled.canvas"
