@@ -25,10 +25,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf"
+                "file": "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "DBS_Test_zsmf"
+              "title": "DBS_SQL_Test_vorbereitung"
             }
           }
         ],
@@ -230,6 +230,8 @@
   },
   "active": "53af5866012bfa46",
   "lastOpenFiles": [
+    "Zusammenfassungen/Ana/ANA_Alttests.pdf",
+    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/LoReCS/LoReCS_zsmf.pdf",
     "Zusammenfassungen/Betriebssysteme/Alttests/Untitled.md",
     "Zusammenfassungen/LoReCS",
@@ -240,7 +242,6 @@
     "Zusammenfassungen/Statistik/Alttests/Statistik_2022-01-26.pdf",
     "Zusammenfassungen/Statistik/Alttests/Statistik_2021-02-22.pdf",
     "Zusammenfassungen/Statistik/Alttests/Statistik_2021-01-26.pdf",
-    "Zusammenfassungen/Statistik/Alttests",
     "Zusammenfassungen/Untitled.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "Zusammenfassungen/DBS/readme.md",
