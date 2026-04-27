@@ -18,8 +18,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "aa7b0abbf0d31a6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,22 +240,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "aa7b0abbf0d31a6d",
   "lastOpenFiles": [
-    "DBS/Zusammen/DBS-Folien/DBS-6.pdf",
-    "Misc/TU_Wien-Analysis_UE_(diverse)_-_Spickzettel_Folgen,_Reihen_und_Funktionen.pdf",
+    "conflict-files-obsidian-git.md",
+    "Zusammenfassungen/ThIf/ThInf_zsmf.pdf",
+    "Zusammenfassungen/ThIf",
+    "Zusammenfassungen/Statistik/Statistik_zsmf.pdf",
+    "Zusammenfassungen/Statistik/Cheatsheet.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_Probetest_2026.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2024-01-29.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2023-01-30_D.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2022-05-18.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2022-01-26.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2021-02-22.pdf",
+    "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
+    "EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
+    "EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
+    "EP2/README.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
-    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
-    "conflict-files-obsidian-git.md",
-    "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "EP2/Daten Abstraktion.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "Images/Pasted image 20260417224540.png",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "Untitled.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "Images/Pasted image 20260416123743.png",
@@ -240,27 +275,16 @@
     "Pasted image 20260415112740.png",
     "Pasted image 20260415110100.png",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5",
     "DBS/Zusammen/SQL/SQL.md",
-    "DBS/Zusammen/SQL",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
-    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
-    "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
-    "DIR/Sources/Besonderer Teil/DIR_WS25_Hilfsmittel_DSGVO.pdf",
     "[[Dritte.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Schluessel.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
-    "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Github.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "DBS/DBS Canvas.canvas",
     "Documents/Untitled Diagram-Page-1.drawio.png",
