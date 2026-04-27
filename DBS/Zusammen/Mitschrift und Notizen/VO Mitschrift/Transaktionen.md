@@ -133,6 +133,23 @@ einem konsistentem Zustand hinterlassen.
 konfliktäquivalent zu einem seriellen Schedule ist.
 
 
+ *Konflikte zwischen Transsaktionen*
+![[Pasted image 20260427151204.png]]
+
+- vierte Definition von Korrektheit **Conflict Serializability** 
+
+![[Pasted image 20260427151427.png]]
+
+-> erreicht eine serielle schedule (die idee) + (Überprüfung)
+
+
+### Conflict Graph (Konfliktgraph)
+
+>[!Def]
+>Erzeugen ein gerichteten Graphen (Conflict Graph oder Precedence Graph) für einen Schedule
+
+Beispiel:
+![[Pasted image 20260427152343.png]]
 
 ## Important Details
 
