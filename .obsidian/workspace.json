@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "53af5866012bfa46",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Zusammenfassungen/Ana/tut1 - Unknown_608.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "tut1 - Unknown_608"
-            }
-          },
-          {
-            "id": "4ff2e508254eee5a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ANA_Formelsammlung"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,10 +217,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ff2e508254eee5a",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
+    "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
     "EP2/README.md",
     "EP2/EP2_Test2_zsmf.pdf",
     "EP2/EP2_Test1_zsmf.pdf",
