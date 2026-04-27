@@ -149,7 +149,15 @@ konfliktäquivalent zu einem seriellen Schedule ist.
 >Erzeugen ein gerichteten Graphen (Conflict Graph oder Precedence Graph) für einen Schedule
 
 Beispiel:
-![[Pasted image 20260427152343.png]]
+![[Pasted image 20260427152343.png|555]]
+
+Wie können wir feststellen ob der Schedule conflict serializable ist
+- wenn der Conflict Graph azyklisch ist
+- zwei Transaktionen ezwingt eine bestimmte Ausführungsreihenfolge (topologische Sortierung)
+-> Verwenden conflict serializablity (und keine andere Def.)
+	-> praktikable Implementierung
+
+
 
 ## Important Details
 
