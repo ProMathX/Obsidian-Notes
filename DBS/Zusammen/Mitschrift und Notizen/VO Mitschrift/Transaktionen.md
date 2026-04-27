@@ -157,18 +157,61 @@ Wie können wir feststellen ob der Schedule conflict serializable ist
 -> Verwenden conflict serializablity (und keine andere Def.)
 	-> praktikable Implementierung
 
+![[Pasted image 20260427152755.png]]
+
+*Der Graph*
+![[Pasted image 20260427152818.png]]
+
+- Merke: Konflikt -> Befehle vertauschen anderes Ergebnis
+
+#### Beziehungen zwischen Schedules
+
+![[Pasted image 20260427153738.png]]
+
+### Recoverable Schedules
+
+**TRANSAKTIONEN KÖNNEN FEHLSCHLAGEN**
+- Falls Transaktion fehlschlägt muss sie zurückgesetzt werden um die Atomicity auftrechtzuerhalten
+- -> DBS muss sicherstellen, dass Schedules recoverable sind
+- Schedule ist nicht recoverable
+
+##### Recoverable Schedules
+>[!Defintion]
+>Ein Schedule ist recoverable, wenn für jedes Transaktionspaar Ti und Tj gilt: Wenn Tj Daten liest, die von Ti geschrieben wurden, dann muss Ti vor Tj committet werden.
+
+##### Cascading Rollbacks
+Beispiel:
+![[Pasted image 20260427154528.png]]
+
+![[Pasted image 20260427154543.png]]
+
+>[!Defintion]
+>Ein Schedule ist cascadeless, wenn für jedes Transaktionspaar Ti und Tj gilt: Wenn Tj Daten liest, die von Ti geschrieben wurden, dann muss Ti vor dem Lesezugriff von Tj bereits committed sein.
+
+Ein weiteres Beispiel 
+![[Pasted image 20260427154731.png]]
+
+>[!Important]
+>Jeder cascadeless Schedule ist auch recoverable.
+>
+>Cascading Rollbacks können schnell zeitaufwändig werden
+>
+>Es ist sinnvoll, sich auf Schedules zu beschränken, die cascadeless sind.
 
 
 ## Important Details
+
+Der Grund, in der Praxis, braucht man, weil es ansonsten sehr teuer wird. Um effizienz zu gewährleisten
 
 ## Examples
 
 
 ## Questions
 - Probleme bei Nebeläufiger Ausführung anschauen
+- Konfliktgraph? Wtf
 
 ## Summary
-
+![[Pasted image 20260427154857.png]]
 
 ## Related Topics
 - [[DBS-7_Part1.pdf]]

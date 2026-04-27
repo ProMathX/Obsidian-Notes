@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "027fffe777bf3a53",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DBS-7_Part1"
-            }
-          },
-          {
             "id": "e16833f5bc16a07b",
             "type": "leaf",
             "state": {
@@ -264,18 +252,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d291971ab12f06ec",
+  "active": "39196dc3a07f7af1",
   "lastOpenFiles": [
+    "Pasted image 20260427154857.png",
+    "Pasted image 20260427154731.png",
+    "Pasted image 20260427154543.png",
+    "Pasted image 20260427154528.png",
+    "Pasted image 20260427153738.png",
+    "Images/Pasted image 20260427152818.png",
+    "Images/Pasted image 20260427152755.png",
     "Images/Pasted image 20260427152343.png",
     "Images/Pasted image 20260427151427.png",
     "Images/Pasted image 20260427151204.png",
     "Images/Pasted image 20260427151201.png",
-    "Images/Pasted image 20260427150758.png",
-    "Images/Pasted image 20260427150412.png",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
-    "Images/Pasted image 20260427145603.png",
-    "Images/Pasted image 20260427144700.png",
-    "Images/Pasted image 20260427144425.png",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
@@ -302,9 +292,7 @@
     "EP2/Daten Abstraktion.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
-    "Images/Pasted image 20260417224540.png",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
-    "Images/Pasted image 20260416123743.png",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
