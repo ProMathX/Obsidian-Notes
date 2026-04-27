@@ -20,19 +20,67 @@
             }
           },
           {
-            "id": "153d6870a139dc30",
+            "id": "39196dc3a07f7af1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL VO Mitschrift"
+            }
+          },
+          {
+            "id": "027fffe777bf3a53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Transaktionen"
+            }
+          },
+          {
+            "id": "e16833f5bc16a07b",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf"
+                "file": "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ANA_Formelsammlung"
+              "title": "DBS-7_Part1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,20 +276,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "153d6870a139dc30",
+  "active": "027fffe777bf3a53",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
+    "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
+    "Untitled.md",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
+    "DBS/Zusammen/Transaktionen",
+    "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE7",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Untitled.md",
+    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
     "Zusammenfassungen/ThIf/ThInf_zsmf.pdf",
     "Zusammenfassungen/Betriebssysteme/OS_TheorieTest_zsmf.pdf",
-    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Zusammenfassungen/Ana/ANA_Alttests.pdf",
     "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
-    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "conflict-files-obsidian-git.md",
-    "Zusammenfassungen/ThIf",
-    "Zusammenfassungen/Statistik/Statistik_zsmf.pdf",
-    "Zusammenfassungen/Statistik/Cheatsheet.pdf",
-    "Zusammenfassungen/Statistik/Alttests/Statistik_Probetest_2026.pdf",
     "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
@@ -253,9 +305,7 @@
     "EP2/Daten Abstraktion.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "Images/Pasted image 20260417224540.png",
-    "Untitled.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "Images/Pasted image 20260416123743.png",
     "Images/Pasted image 20260416123445.png",
@@ -271,9 +321,6 @@
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
-    "[[Dritte.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Schluessel.md",
-    "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "DBS/DBS Canvas.canvas",
     "Documents/Untitled Diagram-Page-1.drawio.png",
