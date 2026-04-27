@@ -25,10 +25,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Zusammenfassungen/ThIf/ThInf_zsmf.pdf"
+                "file": "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ThInf_zsmf"
+              "title": "ANA_Formelsammlung"
             }
           }
         ],
@@ -230,18 +230,18 @@
   },
   "active": "153d6870a139dc30",
   "lastOpenFiles": [
+    "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
+    "Zusammenfassungen/ThIf/ThInf_zsmf.pdf",
     "Zusammenfassungen/Betriebssysteme/OS_TheorieTest_zsmf.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Zusammenfassungen/Ana/ANA_Alttests.pdf",
     "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "conflict-files-obsidian-git.md",
-    "Zusammenfassungen/ThIf/ThInf_zsmf.pdf",
     "Zusammenfassungen/ThIf",
     "Zusammenfassungen/Statistik/Statistik_zsmf.pdf",
     "Zusammenfassungen/Statistik/Cheatsheet.pdf",
     "Zusammenfassungen/Statistik/Alttests/Statistik_Probetest_2026.pdf",
-    "Zusammenfassungen/Statistik/Alttests/Statistik_2024-01-29.pdf",
     "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
