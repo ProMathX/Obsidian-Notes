@@ -18,8 +18,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "153d6870a139dc30",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Zusammenfassungen/ThIf/ThInf_zsmf.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ThInf_zsmf"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,8 +228,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "153d6870a139dc30",
   "lastOpenFiles": [
+    "Zusammenfassungen/Betriebssysteme/OS_TheorieTest_zsmf.pdf",
+    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
+    "Zusammenfassungen/Ana/ANA_Alttests.pdf",
+    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
+    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "conflict-files-obsidian-git.md",
     "Zusammenfassungen/ThIf/ThInf_zsmf.pdf",
     "Zusammenfassungen/ThIf",
@@ -224,10 +242,6 @@
     "Zusammenfassungen/Statistik/Cheatsheet.pdf",
     "Zusammenfassungen/Statistik/Alttests/Statistik_Probetest_2026.pdf",
     "Zusammenfassungen/Statistik/Alttests/Statistik_2024-01-29.pdf",
-    "Zusammenfassungen/Statistik/Alttests/Statistik_2023-01-30_D.pdf",
-    "Zusammenfassungen/Statistik/Alttests/Statistik_2022-05-18.pdf",
-    "Zusammenfassungen/Statistik/Alttests/Statistik_2022-01-26.pdf",
-    "Zusammenfassungen/Statistik/Alttests/Statistik_2021-02-22.pdf",
     "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
