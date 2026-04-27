@@ -193,6 +193,7 @@ create domain wineColor varchar(5)
 CHECK rank IN()
 
 
+
 ## Important Details
 Muss geübt werden
 Referentielle Integrität nochmal anschauen
