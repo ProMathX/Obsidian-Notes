@@ -25,30 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL VO Mitschrift"
-            }
-          },
-          {
-            "id": "027fffe777bf3a53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
                 "mode": "source",
                 "source": false,
@@ -68,6 +44,18 @@
             }
           },
           {
+            "id": "027fffe777bf3a53",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DBS-7_Part1"
+            }
+          },
+          {
             "id": "e16833f5bc16a07b",
             "type": "leaf",
             "state": {
@@ -80,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -276,13 +264,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "027fffe777bf3a53",
+  "active": "39196dc3a07f7af1",
   "lastOpenFiles": [
-    "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
+    "Images/Pasted image 20260427150758.png",
+    "Images/Pasted image 20260427150412.png",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
+    "Images/Pasted image 20260427145603.png",
+    "Images/Pasted image 20260427144700.png",
+    "Images/Pasted image 20260427144425.png",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
+    "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "Untitled.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "DBS/Zusammen/Transaktionen",
     "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE7",
@@ -312,7 +305,6 @@
     "Images/Pasted image 20260415112740.png",
     "Images/Pasted image 20260415110100.png",
     "Pasted image 20260415112740.png",
-    "Pasted image 20260415110100.png",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
@@ -321,10 +313,7 @@
     "DBS/Zusammen/Relationale Entwurfstheorie/Funktionale Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
-    "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "DBS/DBS Canvas.canvas",
-    "Documents/Untitled Diagram-Page-1.drawio.png",
-    "Documents/Zettlr Tutorial/zettlr.png",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
     "Misc/Untitled.canvas"
