@@ -230,6 +230,41 @@ order by caughtby asc
 8
 ```postgresql
 
+select distinct w.name, w.taxid, w.country, sum(s.quantity) as totalsales
+
+from sold s
+
+join wholesalers w
+
+on s.whname = w.name and s.whtaxid = w.taxid
+
+  
+
+group by w.name, w.taxid, w.country
+
+  
+
+having sum(s.quantity) >= all
+
+(
+
+select sum(s1.quantity)
+
+from sold s1
+
+join wholesalers w1
+
+on s1.whname = w1.name and s1.whtaxid = w1.taxid
+
+where w1.country = w.country
+
+group by w1.name, w1.taxid
+
+)
+
+  
+
+order by w.name asc;
 
 
 
