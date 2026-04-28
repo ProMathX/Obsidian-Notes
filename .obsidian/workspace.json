@@ -18,45 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "39196dc3a07f7af1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Transaktionen"
-            }
-          },
-          {
-            "id": "e16833f5bc16a07b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DBS-7_Part1"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -252,8 +215,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "39196dc3a07f7af1",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "Documents/libadwaita-theme-changer",
     "Documents",
     "Images/Pasted image 20260427154857.png",
@@ -266,7 +230,6 @@
     "Images/Pasted image 20260427152343.png",
     "Images/Pasted image 20260427151427.png",
     "Images/Pasted image 20260427151204.png",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
@@ -279,7 +242,6 @@
     "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
     "Zusammenfassungen/ThIf/ThInf_zsmf.pdf",
     "Zusammenfassungen/Betriebssysteme/OS_TheorieTest_zsmf.pdf",
-    "Zusammenfassungen/Ana/ANA_Alttests.pdf",
     "conflict-files-obsidian-git.md",
     "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
