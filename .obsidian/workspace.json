@@ -23,24 +23,12 @@
             "id": "fe7b586fd4cad8c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Transaktionen"
+              "icon": "lucide-file-text",
+              "title": "Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive"
             }
           }
         ],
@@ -77,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"course\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -280,6 +268,8 @@
   "active": "fe7b586fd4cad8c3",
   "lastOpenFiles": [
     "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
+    "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf",
+    "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
     "conflict-files-obsidian-git.md",
@@ -309,7 +299,6 @@
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
     "Zusammenfassungen/ThIf/ThInf_zsmf.pdf",
-    "Zusammenfassungen/Betriebssysteme/OS_TheorieTest_zsmf.pdf",
     "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
