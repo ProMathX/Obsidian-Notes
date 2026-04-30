@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "763fc57b180ae64a",
+            "id": "fe7b586fd4cad8c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Transaktionen"
             }
           }
         ],
@@ -240,15 +240,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "763fc57b180ae64a",
+  "floating": {
+    "id": "71662f6301ca939a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "3d3ddd7e4c860e17",
+        "type": "window",
+        "children": [
+          {
+            "id": "df4a688cfd7037f7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4a85484cadb83fd3",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DBS-7_Part1"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 10,
+        "y": 519,
+        "width": 1299,
+        "height": 700,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "4a85484cadb83fd3",
   "lastOpenFiles": [
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
+    "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
     "conflict-files-obsidian-git.md",
     "EP1/Kozepte/Konzept-Sammlung/Referenzen.md",
     "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
     "EP1/Kozepte/Java-Kompendium.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "Documents/libadwaita-theme-changer",
     "Documents",
     "Images/Pasted image 20260427154857.png",
@@ -262,11 +301,9 @@
     "Images/Pasted image 20260427151427.png",
     "Images/Pasted image 20260427151204.png",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
-    "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "Untitled.md",
     "DBS/Zusammen/Transaktionen",
-    "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE7",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Untitled.md",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
@@ -288,7 +325,6 @@
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
