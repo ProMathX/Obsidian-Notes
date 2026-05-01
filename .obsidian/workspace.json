@@ -256,7 +256,7 @@
           }
         ],
         "direction": "vertical",
-        "x": -2602,
+        "x": 10,
         "y": 519,
         "width": 1299,
         "height": 700,
@@ -265,10 +265,10 @@
       }
     ]
   },
-  "active": "fe7b586fd4cad8c3",
+  "active": "4a85484cadb83fd3",
   "lastOpenFiles": [
-    "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
     "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
     "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
