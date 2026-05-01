@@ -228,43 +228,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "71662f6301ca939a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "3d3ddd7e4c860e17",
-        "type": "window",
-        "children": [
-          {
-            "id": "df4a688cfd7037f7",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4a85484cadb83fd3",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DBS-7_Part1"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -2602,
-        "y": 519,
-        "width": 1299,
-        "height": 700,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "fe7b586fd4cad8c3",
   "lastOpenFiles": [
     "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
