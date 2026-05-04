@@ -285,6 +285,112 @@ Wenn erste Lock freigegen dann direkt in 2 phase
 ![[Pasted image 20260504150919.png]]
 
 
+Wahl für die Opfer-Transaktion
+
+- Die letzte 
+- diejenige, welche die meisten Locks hält (maximierung der freigegeben ressourcen)
+- Nicht immer das gleiche Opfer wählen
+
+um deadlocks zu vermeiden kann man ein konservatives 2PL-Protokoll nutzen
+
+---
+### Recovery
+- Grundlegende Loggin-Algorithmen verstehen
+- Wichtigkeit von Atomarität und Dauerhaftigkeit verstehen
+
+---
+
+- Atomarität
+- Dauerhaftigkeit
+
+![[Pasted image 20260504152031.png|516]]
+
+**Dauerhaftigkeit**
+
+- Dauerhaftifkiet ist relativ und abhängig von der Anzahl der Kopien und geographischen Orten
+- Garantien sind nur mäglcih, wenn 
+	- Kopein aktualsiert
+	- Commit transaktion erfolgreich
+
+WAL-(Write Ahead Logging)-Regel
+
+- WAL-Regel
+	- Log-Based Recovery
+	- Volle Redundanz: Spiegeln aller Daten auf mehreren Computern
+
+Fehlerklassifikation 
+
+- Transaktionsfehler 
+	- Rückgängingmachen der Änderungen
+
+- Systemabsturz 
+	- Änderung von Transaktionen, die committed wurden, müssen erhalten bleiben 
+	- Änderung von Transaktionen
+
+Daten werden in Seiten (Pages) und Blöcken (Blocks) organisiert 
+![[Pasted image 20260504152727.png]]
+
+
+
+![[Pasted image 20260504152851.png]]
+
+
+Weil WAL zu viel Text hier bild 
+
+![[Pasted image 20260504153112.png]]
+
+
+Der Logging Algo
+![[Pasted image 20260504153142.png]]
+
+
+```log
+[TID, DID, old, new]
+```
+TID-> ID Transaktion 
+DID-> ID Datenobjekts
+old ->Wert des Datenobjekts vor Änderung
+new -> Wert des Datenobjekts nach Änderung
+
+![[Pasted image 20260504153426.png]]
+
+Beispiel
+![[Pasted image 20260504153437.png]]
+
+
+
+#### Log-based recovery
+
+- **Redo** änderung an der Datenbank wiederholen 
+- **Undo** Datenbankzustand vor der Ausführung wiederherstellen 
+- ![[Pasted image 20260504153831.png|578]]
+
+Recovery Algo 
+- redo 
+- undo 
+
+Aber achtung 
+- In einem Multitasking-System, müssen eventuell mehr als eine Transaktion rückgängig gemacht werden 
+- Wenn ein Systemabsturz während *Recovery-Phase* auftritt muss auch ein erneuter *Recovery-Anlauf* korrekte Resultate liefern (**idempotenz**)
+
+
+Beispiel an dieser Transaktion 
+![[Pasted image 20260504154117.png]]
+
+Log-Based Recovery anwenden
+
+![[Pasted image 20260504154128.png]]
+
+
+Somit schaut es dann so aus 
+![[Pasted image 20260504154315.png]]
+![[Pasted image 20260504154334.png]]
+
+---
+
+---
+![[Pasted image 20260504154239.png]]
+
 
 
 
@@ -292,6 +398,10 @@ Wenn erste Lock freigegen dann direkt in 2 phase
 ## Important Details
 
 Der Grund, in der Praxis, braucht man, weil es ansonsten sehr teuer wird. Um effizienz zu gewährleisten
+
+**MEHRBENUTZERSYNCHRONISAITON WIEDERHOLEN**
+
+
 
 ## Examples
 
@@ -307,3 +417,5 @@ Fehler bei locks?
 
 ## Related Topics
 - [[DBS-7_Part1.pdf]]
+- [Sperrverfahren Wikipedia](https://de.wikipedia.org/wiki/Sperrverfahren?useskin=vector)
+- 
