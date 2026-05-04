@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "debbf13e5e195bf3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "IntroSec_T1_zsmf"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,12 +215,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "debbf13e5e195bf3",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
     "Zusammenfassungen/Ana/tut1 - Unknown_608.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Zusammenfassungen/Ana/ANA_Alttests.pdf",
-    "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
