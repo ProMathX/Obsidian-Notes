@@ -217,12 +217,16 @@ Ein weiteres Beispiel
 >[!Merkne]
 >Sicherstellen von (konflikt-) serialisierbaren Schedules durch Verzögern von Transaktionen, die die Serialisierbarketi verletzen würden.
 
+>[!Anmerkung]
+>Der Name Lesesperre und Schreibsperre ist nur der Name und keine Eigenschaft
+
+
 ![[Pasted image 20260504142517.png]]
 
 
 ![[Pasted image 20260504142658.png]]
 
-- lock_X darf nur **LESEN** ODER **SCHREIBEN** (?)
+- lock_X darf nur **LESEN**  UND ODER **SCHREIBEN** 
 
 Beispiel:
 
