@@ -201,6 +201,24 @@ Ein weiteres Beispiel
 
 ## 2 Vorlesung 4.5 
 
+##### Thema von heute
+- 2 Block Transaktionen
+	-  Sperrbaiserte Synchronisation 
+	- Zwei-Phasen Sperrprotokoll
+
+### Mehrbenutzersynchronisation
+
+- *Synchronisationsverfahren*
+	- pessimistisch
+		- sperrbasierte Synchro
+		- Zeitstempel basierte
+	- optimistisch
+
+>[!Merkne]
+>Sicherstellen von (konflikt-) serialisierbaren Schedules durch Verzögern von Transaktionen, die die Serialisierbarketi verletzen würden.
+
+
+
 
 
 
