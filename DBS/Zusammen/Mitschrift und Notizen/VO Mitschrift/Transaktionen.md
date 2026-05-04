@@ -199,7 +199,7 @@ Ein weiteres Beispiel
 >Es ist sinnvoll, sich auf Schedules zu beschränken, die cascadeless sind.
 
 
-## 2 Vorlesung 4.5 
+## <font color="#92d050">2 Vorlesung 4.5 </font>
 
 ##### Thema von heute
 - 2 Block Transaktionen
@@ -217,6 +217,73 @@ Ein weiteres Beispiel
 >[!Merkne]
 >Sicherstellen von (konflikt-) serialisierbaren Schedules durch Verzögern von Transaktionen, die die Serialisierbarketi verletzen würden.
 
+![[Pasted image 20260504142517.png]]
+
+
+![[Pasted image 20260504142658.png]]
+
+- lock_X darf nur **LESEN** ODER **SCHREIBEN** (?)
+
+Beispiel:
+
+![[Pasted image 20260504143842.png]]
+
+
+Um dieses Problem zu lösen eine Spätere freigabe 
+
+Bei späteren Freigabe:
+- folgende Proble e 
+	- Spätere Sperrfreigabe verhindern Non-Serializable Schedules, aber sie erhöhren die Chancen von *Deadlocks*
+
+
+
+Lock-Kombinatoien sind nicht komaptibel
+E&S E&E
+
+### Zwei Phasen Sperrprotokoll(2PL)
+
+1. Phase (Anforderungsphase, growing phase)
+	- locks anfordern
+	- keine locks freigeben
+ 2. Phase (freigabephase)
+	 - keine Locks anfordern
+	 - bisher erworbene Locks freigeben
+
+Wenn erste Lock freigegen dann direkt in 2 phase
+
+>[!Important]
+> Darf in der Sperrphase keine Entsperrphase haben!
+
+- Eigenschaften 
+	- erzeugt serializable schedules
+	- schützt nicht vor deadlocks
+	- schützt nicht vor cascading rollbacks
+		- "Dirty" Reads  sind möglich 
+
+- cascading rollbacks
+	- ein abort einer Transaktion kann z ueinem Abort anderer Transaktion führen 
+
+2 Arten von 2PL 
+![[Pasted image 20260504145055.png|642]]
+
+
+![[Pasted image 20260504145217.png|540]]
+
+
+![[Pasted image 20260504150540.png|536]]
+
+
+
+- erkennen von Deadlocks
+	- Erstellen eines Wartegraphen und Prüfungen von Zyklen 
+	- Ein Deadlock existiert, wenn der Graph ein Zyklus ist
+
+ Bsp.:
+![[Pasted image 20260504150747.png|631]]
+
+
+![[Pasted image 20260504150919.png]]
+
 
 
 
@@ -232,6 +299,8 @@ Der Grund, in der Praxis, braucht man, weil es ansonsten sehr teuer wird. Um eff
 ## Questions
 - Probleme bei Nebeläufiger Ausführung anschauen
 - Konfliktgraph? Wtf
+
+Fehler bei locks?
 
 ## Summary
 ![[Pasted image 20260427154857.png]]
