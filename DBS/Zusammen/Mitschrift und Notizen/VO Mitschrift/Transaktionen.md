@@ -217,12 +217,16 @@ Ein weiteres Beispiel
 >[!Merkne]
 >Sicherstellen von (konflikt-) serialisierbaren Schedules durch Verzögern von Transaktionen, die die Serialisierbarketi verletzen würden.
 
+>[!Anmerkung]
+>Der Name Lesesperre und Schreibsperre ist nur der Name und keine Eigenschaft
+
+
 ![[Pasted image 20260504142517.png]]
 
 
 ![[Pasted image 20260504142658.png]]
 
-- lock_X darf nur **LESEN** ODER **SCHREIBEN** (?)
+- lock_X darf nur **LESEN**  UND ODER **SCHREIBEN** 
 
 Beispiel:
 
@@ -267,6 +271,17 @@ Wenn erste Lock freigegen dann direkt in 2 phase
 ![[Pasted image 20260504145055.png|642]]
 
 
+![[Pasted image 20260504174416.png]]
+
+>[!Anmerkung]
+>Man darf innerhalb einer Transaktion die Sperrung ändern, aber außerhalb dürfen die Lock-Kombinationen E&E und E&S || S&E  NICHT vorkommen
+
+Der Grund warum man das ändern kann ist um die Datenintegrität zu gewährleisten und andererseits um einen Freiheitsgrad zu bekommen, wer die Daten lesen und verändern darf.
+
+Beisipiel (wie der Vortragende es mir erklärt hat) mit Tiss, es vereinfacht sequentielle (Nebenabläufige) Ausführung von Transaktionen effizienter zu gestalten.
+
+---
+
 ![[Pasted image 20260504145217.png|540]]
 
 
@@ -292,6 +307,10 @@ Wahl für die Opfer-Transaktion
 - Nicht immer das gleiche Opfer wählen
 
 um deadlocks zu vermeiden kann man ein konservatives 2PL-Protokoll nutzen
+
+
+
+
 
 ---
 ### Recovery
