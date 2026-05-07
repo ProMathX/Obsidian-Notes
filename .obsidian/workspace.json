@@ -23,12 +23,24 @@
             "id": "2b0828964f274bb5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf"
+                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "ANA_Formelsammlung"
+              "icon": "lucide-file",
+              "title": "Transaktionen"
             }
           }
         ],
@@ -231,6 +243,7 @@
   },
   "active": "2b0828964f274bb5",
   "lastOpenFiles": [
+    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "conflict-files-obsidian-git.md",
     "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
     "Pasted image 20260504174416.png",
@@ -249,7 +262,6 @@
     "DBS/Zusammen/DBS-Folien/DBS-7.pdf",
     "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
     "Zusammenfassungen/Ana/tut1 - Unknown_608.pdf",
-    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Zusammenfassungen/Ana/ANA_Alttests.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
