@@ -18,8 +18,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "2b0828964f274bb5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ANA_Formelsammlung"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,7 +229,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "2b0828964f274bb5",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
