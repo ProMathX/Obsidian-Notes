@@ -347,6 +347,74 @@ WHERE NOT EXISTS (
 ```
 
 
+Oder ausführlicher 
+
+
+Sql stellt keinen allquantor zur Verfügung  somit muss division mittels 
+1. logische Äquivalenz (2 not exists)
+2. Teilmengen (exists und except)
+3. mittels count
+4. division mittels except
+
+
+#### 1  Logische Umformung
+
+$\forall x F(x) \leftrightarrow \not \exists x (\not F(x))$ 
+
+
+Beispiel: Welche Studierende habe *alle* 4 Stündigen lvas gehört? 
+
+äq. Suche sie jene Studiernde für die *gilt*: haben *alle* 4 stündigen lehrveranstaltungen *gehört* 
+
+äqv. Suchen sie jene studierende für die *nicht gilt*: haben *eine* 4 stündige Lva *nicht* gehört.
+
+äqv. Suchen sie jene Studierende für die *nicht gilt* : es *gibt eine* 4 stündige lva
+
+
+
+SQL Umsetzung folgt nun direkt aus:
+Suchen sie jene Studierende für die *nicht gilt*: 
+es gibt eine 4 Stündige LVA für die *nicht gilt*:
+die/der Studiernde hat diese LVA gehört
+
+
+Beispiel 
+
+```sql 
+select s*
+from studies s 
+where not exists
+(
+	select*
+	where lva v 
+	where v.ects = 4 and 
+	not exists 
+	(
+	select * 
+	from hören h
+	where h.lvaNr = v.lvaNr
+		and s.matrnr = h.matrnr
+	)
+
+)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
