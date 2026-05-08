@@ -267,3 +267,86 @@ RELEASE SAVEPOINT sp1;
 ```
 
 
+
+
+# ACHTUNG 
+
+
+Geschachtelte Anfragen
+
+Mengenvergleich mit ANY/ALL 
+kein Allquantor, nur der Vergleich eines Wertes mit einer Menge von Werten
+
+Beispiel: Suchen Sie jene Studierende die am längsten studieren.
+
+```sql
+select name
+from studies 
+where smester >= all(select semester from studies)
+```
+
+Beispiel 2: Suchen sie jene Studiernde die nicht am längsten studieren
+
+
+``` sql
+select name
+from studis 
+where semester < any (select semester from studies)
+
+
+```
+
+
+
+## Prozenberechnung in SQL
+```sql
+(
+    SELECT ROUND(COALESCE(
+        SUM(CASE WHEN [condition] THEN 1 ELSE 0 END) * 100.0 / COUNT(*)
+    , 0), 2)
+    FROM [table]
+    WHERE [correlation]
+)
+```
+
+
+oder noch besser 
+
+
+```sql
+ROUND(COALESCE(AVG(CASE WHEN [condition] THEN 100.0 ELSE 0 END), 0), 2)
+```
+
+
+
+
+# DIVISION ACHTUNG SEHR WICHTIG
+
+```sql
+SELECT DISTINCT x.A
+
+FROM T1 AS x
+
+WHERE NOT EXISTS (
+
+                  SELECT *
+
+                  FROM  T2 A2 y
+
+                  WHERE NOT EXISTS (
+
+                                     SELECT *
+
+                                     FROM T1 AS z
+
+                                     WHERE (z.A=x.A) AND (z.B=y.B)
+
+                                   )
+
+                 );
+```
+
+
+
+
+
