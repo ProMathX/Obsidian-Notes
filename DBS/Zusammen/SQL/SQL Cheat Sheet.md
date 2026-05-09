@@ -267,3 +267,154 @@ RELEASE SAVEPOINT sp1;
 ```
 
 
+
+
+# ACHTUNG 
+
+
+Geschachtelte Anfragen
+
+Mengenvergleich mit ANY/ALL 
+kein Allquantor, nur der Vergleich eines Wertes mit einer Menge von Werten
+
+Beispiel: Suchen Sie jene Studierende die am längsten studieren.
+
+```sql
+select name
+from studies 
+where smester >= all(select semester from studies)
+```
+
+Beispiel 2: Suchen sie jene Studiernde die nicht am längsten studieren
+
+
+``` sql
+select name
+from studis 
+where semester < any (select semester from studies)
+
+
+```
+
+
+
+## Prozenberechnung in SQL
+```sql
+(
+    SELECT ROUND(COALESCE(
+        SUM(CASE WHEN [condition] THEN 1 ELSE 0 END) * 100.0 / COUNT(*)
+    , 0), 2)
+    FROM [table]
+    WHERE [correlation]
+)
+```
+
+
+oder noch besser 
+
+
+```sql
+ROUND(COALESCE(AVG(CASE WHEN [condition] THEN 100.0 ELSE 0 END), 0), 2)
+```
+
+
+
+
+# DIVISION ACHTUNG SEHR WICHTIG
+
+```sql
+SELECT DISTINCT x.A
+
+FROM T1 AS x
+
+WHERE NOT EXISTS (
+
+                  SELECT *
+
+                  FROM  T2 A2 y
+
+                  WHERE NOT EXISTS (
+
+                                     SELECT *
+
+                                     FROM T1 AS z
+
+                                     WHERE (z.A=x.A) AND (z.B=y.B)
+
+                                   )
+
+                 );
+```
+
+
+Oder ausführlicher 
+
+
+Sql stellt keinen allquantor zur Verfügung  somit muss division mittels 
+1. logische Äquivalenz (2 not exists)
+2. Teilmengen (exists und except)
+3. mittels count
+4. division mittels except
+
+
+#### 1  Logische Umformung
+
+$\forall x F(x) \leftrightarrow \not \exists x (\not F(x))$ 
+
+
+Beispiel: Welche Studierende habe *alle* 4 Stündigen lvas gehört? 
+
+äq. Suche sie jene Studiernde für die *gilt*: haben *alle* 4 stündigen lehrveranstaltungen *gehört* 
+
+äqv. Suchen sie jene studierende für die *nicht gilt*: haben *eine* 4 stündige Lva *nicht* gehört.
+
+äqv. Suchen sie jene Studierende für die *nicht gilt* : es *gibt eine* 4 stündige lva
+
+
+
+SQL Umsetzung folgt nun direkt aus:
+Suchen sie jene Studierende für die *nicht gilt*: 
+es gibt eine 4 Stündige LVA für die *nicht gilt*:
+die/der Studiernde hat diese LVA gehört
+
+
+Beispiel 
+
+```sql 
+select s*
+from studies s 
+where not exists
+(
+	select*
+	where lva v 
+	where v.ects = 4 and 
+	not exists 
+	(
+	select * 
+	from hören h
+	where h.lvaNr = v.lvaNr
+		and s.matrnr = h.matrnr
+	)
+
+)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
