@@ -23,12 +23,24 @@
             "id": "343094602b3e3b4f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf"
+                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "ANA_Formelsammlung"
+              "icon": "lucide-file",
+              "title": "SQL Cheat Sheet"
             }
           }
         ],
@@ -231,13 +243,14 @@
   },
   "active": "343094602b3e3b4f",
   "lastOpenFiles": [
+    "DBS/Zusammen/SQL/SQL.md",
+    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
-    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
     "Pasted image 20260504174416.png",
     "DBS/Zusammen/DBS-Aufgbaen/UE8/exercise8_de.pdf",
@@ -275,7 +288,6 @@
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
-    "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
