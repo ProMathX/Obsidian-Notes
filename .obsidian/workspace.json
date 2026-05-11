@@ -30,9 +30,33 @@
               "icon": "lucide-file-text",
               "title": "ep2-26s-1seitig"
             }
+          },
+          {
+            "id": "c51954f9dd08384d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,21 +253,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88449a9adeb9e64e",
+  "active": "c51954f9dd08384d",
   "lastOpenFiles": [
+    "EP2/Dokumente/ep2-26s-1seitig.pdf",
+    "conflict-files-obsidian-git.md",
+    "Zusammenfassungen/PP/PP_Test2.pdf",
+    "Zusammenfassungen/PP/PP_Test1.pdf",
+    "Zusammenfassungen/PP/Alttests_Test2/PP_T2_2024W.pdf",
+    "Zusammenfassungen/PP/Alttests_Test2/PP_T2_2023W.pdf",
+    "Zusammenfassungen/PP/Alttests_Test2",
+    "Zusammenfassungen/PP",
+    "Zusammenfassungen/OS/OS_programmingTest2_Lernzettel.pdf",
+    "Zusammenfassungen/OS/OS_programmingTest1_Lernzettel.pdf",
+    "Zusammenfassungen/OS/OS_TheorieTest_zsmf.pdf",
+    "Zusammenfassungen/OS/Lastminute AI Slop Vorbereitung.pdf",
+    "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
+    "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
+    "Zusammenfassungen/EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
+    "Images/Pasted image 20260504174416.png",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/SQL/SQL.md",
-    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
-    "conflict-files-obsidian-git.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
     "Pasted image 20260504174416.png",
-    "DBS/Zusammen/DBS-Aufgbaen/UE8/exercise8_de.pdf",
-    "DBS/Zusammen/DBS-Aufgbaen/UE8",
     "Images/Pasted image 20260504154334.png",
     "Images/Pasted image 20260504154315.png",
     "Images/Pasted image 20260504154239.png",
@@ -252,12 +286,6 @@
     "Images/Pasted image 20260504153831.png",
     "Images/Pasted image 20260504153437.png",
     "Images/Pasted image 20260504153426.png",
-    "Images/Pasted image 20260504153142.png",
-    "DBS/Zusammen/DBS-Folien/DBS-7.pdf",
-    "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
-    "Zusammenfassungen/Ana/tut1 - Unknown_608.pdf",
-    "Zusammenfassungen/Ana/ANA_Alttests.pdf",
-    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "EP1/Kozepte/Konzept-Sammlung/Referenzen.md",
     "EP1/Kozepte/Java-Kompendium.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
@@ -274,9 +302,6 @@
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "EP2/Daten Abstraktion.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
-    "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
