@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "461312d8d822e211",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS-7.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DBS-7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,8 +216,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d291971ab12f06ec",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/DBS-7.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
@@ -254,7 +242,6 @@
     "Images/Pasted image 20260504153437.png",
     "Images/Pasted image 20260504153426.png",
     "Images/Pasted image 20260504153142.png",
-    "DBS/Zusammen/DBS-Folien/DBS-7.pdf",
     "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
     "Zusammenfassungen/Ana/tut1 - Unknown_608.pdf",
     "Zusammenfassungen/Ana/ANA_Alttests.pdf",
