@@ -30,33 +30,9 @@
               "icon": "lucide-file-text",
               "title": "ep2-26s-1seitig"
             }
-          },
-          {
-            "id": "c51954f9dd08384d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,10 +229,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c51954f9dd08384d",
+  "active": "88449a9adeb9e64e",
   "lastOpenFiles": [
-    "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "conflict-files-obsidian-git.md",
+    "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "Zusammenfassungen/PP/PP_Test2.pdf",
     "Zusammenfassungen/PP/PP_Test1.pdf",
     "Zusammenfassungen/PP/Alttests_Test2/PP_T2_2024W.pdf",
@@ -266,7 +242,6 @@
     "Zusammenfassungen/OS/OS_programmingTest2_Lernzettel.pdf",
     "Zusammenfassungen/OS/OS_programmingTest1_Lernzettel.pdf",
     "Zusammenfassungen/OS/OS_TheorieTest_zsmf.pdf",
-    "Zusammenfassungen/OS/Lastminute AI Slop Vorbereitung.pdf",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
