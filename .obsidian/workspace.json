@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
+                "file": "DBS/Zusammen/SQL/SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DBS Aufgabenblatt 5"
+              "title": "SQL"
+            }
+          },
+          {
+            "id": "ea9f7aac1da43c89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/SQL/SQL Subqueries.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SQL Subqueries"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -241,8 +265,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88449a9adeb9e64e",
+  "active": "ea9f7aac1da43c89",
   "lastOpenFiles": [
+    "Images/Pasted image 20260511212559.png",
+    "DBS/Zusammen/SQL/SQL Subqueries.md",
+    "Images/Pasted image 20260511213012.png",
+    "Images/Pasted image 20260511212742.png",
+    "Images/Pasted image 20260511212600.png",
+    "DBS/Zusammen/SQL/SQL.md",
+    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "conflict-files-obsidian-git.md",
@@ -253,16 +285,12 @@
     "Zusammenfassungen/PP/Alttests_Test2",
     "Zusammenfassungen/PP",
     "Zusammenfassungen/OS/OS_programmingTest2_Lernzettel.pdf",
-    "Zusammenfassungen/OS/OS_programmingTest1_Lernzettel.pdf",
-    "Zusammenfassungen/OS/OS_TheorieTest_zsmf.pdf",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
     "Images/Pasted image 20260504174416.png",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
-    "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
     "Pasted image 20260504174416.png",
@@ -270,17 +298,12 @@
     "Images/Pasted image 20260504154315.png",
     "Images/Pasted image 20260504154239.png",
     "Images/Pasted image 20260504154128.png",
-    "Images/Pasted image 20260504154117.png",
-    "Images/Pasted image 20260504153831.png",
-    "Images/Pasted image 20260504153437.png",
-    "Images/Pasted image 20260504153426.png",
     "EP1/Kozepte/Konzept-Sammlung/Referenzen.md",
     "EP1/Kozepte/Java-Kompendium.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
-    "Untitled.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Untitled.md",
     "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
