@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQL Cheat Sheet"
+              "title": "DBS Aufgabenblatt 5"
             }
           }
         ],
@@ -243,6 +243,7 @@
   },
   "active": "9ebb1e49cc945810",
   "lastOpenFiles": [
+    "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/SQL/SQL.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
@@ -251,7 +252,6 @@
     "DBS/Zusammen/DBS-Folien/DBS-7.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-7_Part1.pdf",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
-    "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
