@@ -23,12 +23,24 @@
             "id": "88449a9adeb9e64e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "EP2/Dokumente/ep2-26s-1seitig.pdf"
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "ep2-26s-1seitig"
+              "icon": "lucide-file",
+              "title": "DBS Aufgabenblatt 5"
             }
           }
         ],
@@ -231,8 +243,9 @@
   },
   "active": "88449a9adeb9e64e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "EP2/Dokumente/ep2-26s-1seitig.pdf",
+    "conflict-files-obsidian-git.md",
     "Zusammenfassungen/PP/PP_Test2.pdf",
     "Zusammenfassungen/PP/PP_Test1.pdf",
     "Zusammenfassungen/PP/Alttests_Test2/PP_T2_2024W.pdf",
