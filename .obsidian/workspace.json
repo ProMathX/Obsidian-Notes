@@ -18,8 +18,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "88449a9adeb9e64e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "EP2/Dokumente/ep2-26s-1seitig.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ep2-26s-1seitig"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,7 +229,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "88449a9adeb9e64e",
   "lastOpenFiles": [
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
