@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "9ebb1e49cc945810",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "EP2/Dokumente/ep2-26s-1seitig.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ep2-26s-1seitig"
-            }
-          },
-          {
-            "id": "be673e1a72f277ec",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "EP2/Dokumente/ep2-26s-1seitig.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ep2-26s-1seitig"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,20 +216,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be673e1a72f277ec",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Zusammenfassungen/EP2/EP2_MC_Aufgabenpool_T1.pdf",
+    "Zusammenfassungen/EP2/EP2_Test1_zsmf.pdf",
+    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
+    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
+    "Physischen Daten im DBMS.md",
+    "EP2/Dokumente/ep2-26s-1seitig.pdf",
+    "DBS/Zusammen/physische Daten",
     "Zusammenfassungen/AlgoDat/Algorithmen_Test2.pdf",
     "Zusammenfassungen/AlgoDat/AlgoDat_Test2_zsmf.pdf",
     "Zusammenfassungen/AlgoDat/Alttests/1. Test/AlgoDat_2018_t1_A.pdf",
     "Zusammenfassungen/OS/OS_programmingTest1_Lernzettel.pdf",
     "Zusammenfassungen/OS/Lastminute AI Slop Vorbereitung.pdf",
-    "Zusammenfassungen/PP/PP_Test1.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS-8.pdf",
-    "Zusammenfassungen/EP2/EP2_Test2_zsmf.pdf",
-    "Zusammenfassungen/EP2/EP2_Test1_zsmf.pdf",
-    "Zusammenfassungen/EP2/EP2_MC_Aufgabenpool_T1.pdf",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
-    "Zusammenfassungen/ThIf/ThInf_zsmf.pdf",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "Zusammenfassungen/EP2/README.md",
@@ -285,7 +261,6 @@
     "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
-    "Untitled.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Untitled.md",
     "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
