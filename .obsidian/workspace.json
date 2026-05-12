@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "09b6c8876dbb740e",
+            "id": "a535ccc038ad0b2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,29 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Physischen Daten im DBMS"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "29556113807bd1b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c21d88ec02d6ec9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/DBS-8.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DBS-8"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,8 +259,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "09b6c8876dbb740e",
+  "active": "a535ccc038ad0b2d",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/DBS-8.pdf",
+    "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
+    "Physische Daten DBS.md",
     "conflict-files-obsidian-git.md",
     "Images/Pasted image 20260511213012.png",
     "Images/Pasted image 20260511212742.png",
@@ -253,7 +274,6 @@
     "Zusammenfassungen/EP2/EP2_Test1_zsmf.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
-    "Physischen Daten im DBMS.md",
     "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "DBS/Zusammen/physische Daten",
     "Zusammenfassungen/AlgoDat/Algorithmen_Test2.pdf",
@@ -288,7 +308,6 @@
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Untitled.md",
     "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
-    "EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
