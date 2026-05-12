@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -23,34 +24,40 @@
             "id": "a535ccc038ad0b2d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "EP2/Dokumente/ep2-26s-1seitig.pdf"
+                "file": "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "ep2-26s-1seitig"
+              "icon": "lucide-file",
+              "title": "Arrays und Rekursion"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "29556113807bd1b3",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "2c21d88ec02d6ec9",
+            "id": "40483e89060bc03e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS-8.pdf"
+                "file": "EP1/PDF/2026S-22-EP1-Arrays_Methoden.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "DBS-8"
+              "title": "2026S-22-EP1-Arrays_Methoden"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -247,10 +254,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a535ccc038ad0b2d",
+  "active": "40483e89060bc03e",
   "lastOpenFiles": [
-    "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
+    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
+    "Pasted image 20260512154456.png",
+    "EP1/PDF/2026S-22-EP1-Arrays_Methoden.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-8.pdf",
+    "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
+    "EP2/Dokumente/ep2-26s-1seitig.pdf",
+    "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
     "Physische Daten DBS.md",
     "conflict-files-obsidian-git.md",
     "Images/Pasted image 20260511213012.png",
@@ -262,11 +274,9 @@
     "Zusammenfassungen/EP2/EP2_Test1_zsmf.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
-    "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "DBS/Zusammen/physische Daten",
     "Zusammenfassungen/AlgoDat/Algorithmen_Test2.pdf",
     "Zusammenfassungen/AlgoDat/AlgoDat_Test2_zsmf.pdf",
-    "Zusammenfassungen/AlgoDat/Alttests/1. Test/AlgoDat_2018_t1_A.pdf",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
@@ -287,11 +297,8 @@
     "Images/Pasted image 20260504154315.png",
     "Images/Pasted image 20260504154239.png",
     "Images/Pasted image 20260504154128.png",
-    "Images/Pasted image 20260504154117.png",
     "EP1/Kozepte/Konzept-Sammlung/Referenzen.md",
     "EP1/Kozepte/Java-Kompendium.md",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Untitled.md",
     "EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
