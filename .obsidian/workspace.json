@@ -45,30 +45,6 @@
             }
           },
           {
-            "id": "40483e89060bc03e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SQL Cheat Sheet 1"
-            }
-          },
-          {
             "id": "fbfa764cf0321914",
             "type": "leaf",
             "state": {
@@ -105,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "5861ef5e201441b0",
@@ -136,8 +112,7 @@
               "title": "DBS_Test_zsmf"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -334,13 +309,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35452f65a02834f3",
+  "active": "5502a2b49f2806fa",
   "lastOpenFiles": [
-    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
     "DBS/Zusammen/DBS-Folien/DBS-8.pdf",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
+    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
+    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
+    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "DBS/Zusammen/SQL/SQL.md",
     "EP1/PDF/2026S-22-EP1-Arrays_Methoden.pdf",
     "Pasted image 20260512154456.png",
@@ -355,7 +331,6 @@
     "DBS/Zusammen/SQL/SQL Subqueries.md",
     "Zusammenfassungen/EP2/EP2_MC_Aufgabenpool_T1.pdf",
     "Zusammenfassungen/EP2/EP2_Test1_zsmf.pdf",
-    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
     "DBS/Zusammen/physische Daten",
     "Zusammenfassungen/AlgoDat/Algorithmen_Test2.pdf",
     "Zusammenfassungen/AlgoDat/AlgoDat_Test2_zsmf.pdf",
