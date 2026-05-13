@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
+                "file": "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Physischen Daten im DBMS"
+              "title": "SQL Cheat Sheet"
             }
           }
         ],
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "21a0bf3b18dd7290",
@@ -268,26 +267,25 @@
   },
   "active": "fbfa764cf0321914",
   "lastOpenFiles": [
-    "Pasted image 20260513134455.png",
-    "Pasted image 20260513134425.png",
-    "Pasted image 20260513134408.png",
-    "Pasted image 20260513134341.png",
-    "Pasted image 20260513134324.png",
-    "Pasted image 20260513133754.png",
-    "Pasted image 20260513133714.png",
-    "Pasted image 20260513133312.png",
-    "Pasted image 20260513132925.png",
-    "Pasted image 20260513132913.png",
-    "Pasted image 20260513132534.png",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
+    "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
+    "Images/Pasted image 20260512154456.png",
     "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
+    "Images/Pasted image 20260513134455.png",
+    "Images/Pasted image 20260513134425.png",
+    "Images/Pasted image 20260513134408.png",
+    "Images/Pasted image 20260513134341.png",
+    "Images/Pasted image 20260513134324.png",
+    "Images/Pasted image 20260513133754.png",
+    "Images/Pasted image 20260513133714.png",
+    "Images/Pasted image 20260513133312.png",
+    "Images/Pasted image 20260513132925.png",
+    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-8.pdf",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-6.pdf",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-7.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-8.pdf",
-    "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DBS/Zusammen/SQL/SQL.md",
     "EP1/PDF/2026S-22-EP1-Arrays_Methoden.pdf",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
