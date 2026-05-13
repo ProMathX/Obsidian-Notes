@@ -17,5 +17,6 @@
   "obsidian-tasks-plugin",
   "editing-toolbar",
   "obsidian-git",
-  "better-export-pdf"
+  "better-export-pdf",
+  "canvas-node-screenshot"
 ]

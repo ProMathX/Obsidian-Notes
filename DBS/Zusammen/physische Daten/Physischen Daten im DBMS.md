@@ -38,7 +38,27 @@ Wie werden aber Daten auf einer Festplatte abgespeichert?
 >[!Merke]
 >Mehrere Records werden in Seiten/Blöcken (pages/blocks) zusammengefasst
 
+Die Größe eines Records ist festgelegt
+- Fixed Size -> Alle Tupel *gleiche* Größe
+- Variable Size -> Tupen *unterschiedliche* Größe
 
+Dateien auf Massenspeichern abglegt
+
+
+>[! Markieren der Lücken]
+>Markiere die Lücke als gelöscht und fülle sie später mit neuen Tupeln auf. * 
+>>Free- List: Eine Möglichkeit, die freien Lücken zu verwalten: Markiere die erste Lücke im File-Header, um den Beginn der Liste freier Blöcke zu kennzeichnen. 
+>>>Benutze die Lücken selbst, um auf weitere Lücken zu verweisen (verkettete Liste freier Speicherbereiche).
+
+Datenstrukturen Heap, Sequenziell, Hash
+
+### Indexstrukturen
+![[Pasted image 20260513131931.png]]
+
+
+![[Pasted image 20260513131639.png]]
+
+![[Pasted image 20260513131650.png]]
 
 
 
