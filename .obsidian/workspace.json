@@ -18,8 +18,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "c79fd9df748430fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UE 6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,14 +241,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c79fd9df748430fb",
   "lastOpenFiles": [
-    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
+    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
+    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
+    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "Images/Pasted image 20260512154456.png",
     "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
@@ -248,7 +274,6 @@
     "Physische Daten DBS.md",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/SQL/SQL Subqueries.md",
-    "Zusammenfassungen/EP2/EP2_MC_Aufgabenpool_T1.pdf",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
