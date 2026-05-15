@@ -187,8 +187,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -218,13 +218,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Welcome.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
-    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
-    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "Images/Pasted image 20260512154456.png",
     "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
@@ -237,6 +235,8 @@
     "Images/Pasted image 20260513133714.png",
     "Images/Pasted image 20260513133312.png",
     "Images/Pasted image 20260513132925.png",
+    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
+    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-8.pdf",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-6.pdf",
@@ -249,6 +249,7 @@
     "Physische Daten DBS.md",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/SQL/SQL Subqueries.md",
+    "Zusammenfassungen/EP2/EP2_MC_Aufgabenpool_T1.pdf",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
