@@ -25,10 +25,20 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf"
+                "file": "Zusammenfassungen/Ana/TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_6_-_Differential-_und_Integralrechnung_in_mehreren_Variablen.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ANA_Formelsammlung"
+              "title": "TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_6_-_Differential-_und_Integralrechnung_in_mehreren_Variablen"
+            }
+          },
+          {
+            "id": "d139a4b66c16248e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -231,10 +241,10 @@
   },
   "active": "19dd16eb137d63ce",
   "lastOpenFiles": [
-    "Zusammenfassungen/Ana/tut1 - Unknown_608.pdf",
-    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Anfrageoptimierung.md",
     "Zusammenfassungen/Ana/TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_6_-_Differential-_und_Integralrechnung_in_mehreren_Variablen.pdf",
+    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
+    "Zusammenfassungen/Ana/tut1 - Unknown_608.pdf",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Anfrageoptimierung.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "DBS/DBS Canvas.canvas",
     "Untitled.md",
