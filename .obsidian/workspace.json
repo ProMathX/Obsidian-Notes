@@ -23,12 +23,24 @@
             "id": "19dd16eb137d63ce",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Zusammenfassungen/Ana/TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_6_-_Differential-_und_Integralrechnung_in_mehreren_Variablen.pdf"
+                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Anfrageoptimierung.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_6_-_Differential-_und_Integralrechnung_in_mehreren_Variablen"
+              "icon": "lucide-file",
+              "title": "Anfrageoptimierung"
             }
           },
           {
@@ -241,6 +253,7 @@
   },
   "active": "19dd16eb137d63ce",
   "lastOpenFiles": [
+    "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
     "Zusammenfassungen/Ana/TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_6_-_Differential-_und_Integralrechnung_in_mehreren_Variablen.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Zusammenfassungen/Ana/tut1 - Unknown_608.pdf",
@@ -259,7 +272,6 @@
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "Images/Pasted image 20260512154456.png",
-    "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
     "Images/Pasted image 20260513134455.png",
     "Images/Pasted image 20260513134425.png",
     "Images/Pasted image 20260513134408.png",
@@ -272,7 +284,6 @@
     "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
-    "DBS/Zusammen/DBS-Folien/stripped-DBS-8.pdf",
     "DBS/Zusammen/SQL/SQL.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "Physische Daten DBS.md",
