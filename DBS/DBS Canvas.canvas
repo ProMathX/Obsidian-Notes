@@ -49,7 +49,8 @@
 		{"id":"0cd571f56bc4b248","type":"text","text":"[Übung 4]([[exercise4_de.pdf]])\n","x":-20,"y":-940,"width":300,"height":140},
 		{"id":"d8bbb0e1e1b77311","type":"file","file":"DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf","x":330,"y":-1340,"width":400,"height":400},
 		{"id":"2880214b414f8420","type":"file","file":"DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md","x":-2880,"y":3760,"width":1310,"height":840},
-		{"id":"af89563ee7f72b3d","type":"file","file":"DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md","x":-2880,"y":1564,"width":1260,"height":756}
+		{"id":"af89563ee7f72b3d","type":"file","file":"DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md","x":-2880,"y":1564,"width":1260,"height":756},
+		{"id":"fb345b74355c7eda","x":-1640,"y":-10,"width":495,"height":223,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"e4e6d6eaf5167535","fromNode":"9ebac61ab4078897","fromSide":"right","toNode":"cdfb83caff79dd26","toSide":"left"},

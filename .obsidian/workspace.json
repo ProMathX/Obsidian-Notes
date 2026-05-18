@@ -20,27 +20,15 @@
             }
           },
           {
-            "id": "c15c9e74bdab79ae",
+            "id": "19dd16eb137d63ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf"
               },
-              "icon": "lucide-file",
-              "title": "UE 6"
+              "icon": "lucide-file-text",
+              "title": "ANA_Formelsammlung"
             }
           }
         ],
@@ -212,8 +200,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -241,16 +229,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c15c9e74bdab79ae",
+  "active": "19dd16eb137d63ce",
   "lastOpenFiles": [
+    "Zusammenfassungen/Ana/tut1 - Unknown_608.pdf",
+    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Anfrageoptimierung.md",
+    "Zusammenfassungen/Ana/TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_6_-_Differential-_und_Integralrechnung_in_mehreren_Variablen.pdf",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
+    "DBS/DBS Canvas.canvas",
+    "Untitled.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE9/exercise9_de.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE9",
+    "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS-9.pdf",
+    "Welcome.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
-    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
-    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "Images/Pasted image 20260512154456.png",
     "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
     "Images/Pasted image 20260513134455.png",
@@ -262,15 +259,12 @@
     "Images/Pasted image 20260513133714.png",
     "Images/Pasted image 20260513133312.png",
     "Images/Pasted image 20260513132925.png",
+    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
+    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-8.pdf",
-    "DBS/Zusammen/DBS-Folien/stripped-DBS-6.pdf",
-    "DBS/Zusammen/DBS-Folien/stripped-DBS-7.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS-8.pdf",
     "DBS/Zusammen/SQL/SQL.md",
-    "EP1/PDF/2026S-22-EP1-Arrays_Methoden.pdf",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
-    "EP2/Dokumente/ep2-26s-1seitig.pdf",
     "Physische Daten DBS.md",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/SQL/SQL Subqueries.md",
@@ -283,13 +277,8 @@
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
-    "EP1/Kozepte/Konzept-Sammlung/Referenzen.md",
-    "EP1/Kozepte/Java-Kompendium.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Untitled.md",
-    "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
     "Misc/Untitled.canvas"
