@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
+                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -74,7 +74,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DBS Aufgabenblatt 5"
+              "title": "Transaktionen"
             }
           }
         ],
@@ -275,12 +275,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ca23762c6f39d561",
+  "active": "d291971ab12f06ec",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Anfrageoptimierung.md",
