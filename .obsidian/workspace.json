@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -74,7 +74,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Transaktionen"
+              "title": "DBS Aufgabenblatt 5"
             }
           }
         ],
@@ -275,11 +275,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d291971ab12f06ec",
+  "active": "ca23762c6f39d561",
   "lastOpenFiles": [
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
+    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
@@ -288,7 +289,6 @@
     "Zusammenfassungen/Ana/TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_6_-_Differential-_und_Integralrechnung_in_mehreren_Variablen.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Zusammenfassungen/Ana/tut1 - Unknown_608.pdf",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "DBS/DBS Canvas.canvas",
     "Untitled.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE9/exercise9_de.pdf",
