@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "944d761fc3dab06c",
+            "id": "87b98e8e70fc6d8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Welcome"
             }
           }
         ],
@@ -241,7 +241,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "944d761fc3dab06c",
+  "active": "87b98e8e70fc6d8b",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
