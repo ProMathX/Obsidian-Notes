@@ -25,10 +25,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf"
+                "file": "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ANA_Formelsammlung"
+              "title": "DBS_Test_zsmf"
             }
           }
         ],
@@ -231,6 +231,7 @@
   },
   "active": "6ffe30759be1bc76",
   "lastOpenFiles": [
+    "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Welcome.md",
     "conflict-files-obsidian-git.md",
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
@@ -276,7 +277,6 @@
     "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
-    "EP1/Kozepte/Konzept-Sammlung/Rekursion.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
