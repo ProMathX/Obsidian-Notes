@@ -25,10 +25,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf"
+                "file": "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "DBS_Test_zsmf"
+              "title": "stripped-DBS-9"
             }
           }
         ],
@@ -231,6 +231,7 @@
   },
   "active": "6ffe30759be1bc76",
   "lastOpenFiles": [
+    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Welcome.md",
     "conflict-files-obsidian-git.md",
@@ -262,7 +263,6 @@
     "Images/Pasted image 20260513133714.png",
     "Images/Pasted image 20260513133312.png",
     "Images/Pasted image 20260513132925.png",
-    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DBS/Zusammen/SQL/SQL.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "Physische Daten DBS.md",
