@@ -66,9 +66,33 @@
               "icon": "lucide-file",
               "title": "DIR Sources"
             }
+          },
+          {
+            "id": "7c0c73aa4a319784",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,10 +289,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1cdebaa2151c4c26",
+  "active": "7c0c73aa4a319784",
   "lastOpenFiles": [
-    "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
     "DIR Sources.md",
+    "conflict-files-obsidian-git.md",
+    "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DIR/DIR Praxisbeispiel",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
@@ -303,7 +328,6 @@
     "DBS/Zusammen/SQL/SQL.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "Physische Daten DBS.md",
-    "conflict-files-obsidian-git.md",
     "DBS/Zusammen/SQL/SQL Subqueries.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
