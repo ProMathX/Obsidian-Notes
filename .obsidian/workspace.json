@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIR Sources.md",
+                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DIR Sources"
+              "title": "DIR Allgemeiner Teil Zusammenfassung"
             }
           }
         ],
@@ -267,8 +267,10 @@
   },
   "active": "1cdebaa2151c4c26",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
+    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR Sources.md",
+    "conflict-files-obsidian-git.md",
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DIR/DIR Praxisbeispiel",
@@ -300,7 +302,6 @@
     "Images/Pasted image 20260513133312.png",
     "Images/Pasted image 20260513132925.png",
     "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
-    "Zusammenfassungen/DBS/DBS_SQL_Test_vorbereitung.pdf",
     "DBS/Zusammen/SQL/SQL.md",
     "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
     "Physische Daten DBS.md",
@@ -313,7 +314,6 @@
     "EP2/Daten Abstraktion.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
