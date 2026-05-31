@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "6ffe30759be1bc76",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "stripped-DBS-9"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,8 +216,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ffe30759be1bc76",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Welcome.md",
@@ -243,7 +231,6 @@
     "Zusammenfassungen/Ana/TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_6_-_Differential-_und_Integralrechnung_in_mehreren_Variablen.pdf",
     "Untitled.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Anfrageoptimierung.md",
-    "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-9.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE9/exercise9_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE9",
