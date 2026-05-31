@@ -20,27 +20,15 @@
             }
           },
           {
-            "id": "b14840f754e74d98",
+            "id": "79cfcbb881b9edca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf"
               },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "icon": "lucide-file-text",
+              "title": "stripped-DBS-9"
             }
           }
         ],
@@ -241,7 +229,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b14840f754e74d98",
+  "active": "79cfcbb881b9edca",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "DIR Sources.md",
