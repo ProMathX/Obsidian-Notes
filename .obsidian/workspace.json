@@ -18,57 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "9d7bd7b254ec1281",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Praxisbeispiel"
-            }
-          },
-          {
-            "id": "1cdebaa2151c4c26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DIR Allgemeiner Teil Zusammenfassung"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -265,8 +216,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1cdebaa2151c4c26",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR Sources.md",
@@ -313,7 +265,6 @@
     "Zusammenfassungen/AlgoDat/readme.md",
     "EP2/Daten Abstraktion.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
