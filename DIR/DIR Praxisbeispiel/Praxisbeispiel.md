@@ -31,15 +31,17 @@ _Hinweis: Die Höchstzahl der Wörter, die Sie in das Textfeld eingeben können,
 
 
 ---
+Antwort von Lea:
 
-Deshalb die jeweiligen Rechtsgrundlagen ausgearbeitet:
+Variante 1 Gestz nicht gültig, weil es dafür die Unterschrift des Bundespräsidenten und die anschließende Gegenzeichnung des Bundeskanzlers (+kundmachung) braucht also ist es gar nicht erst in Kraft getreten.
 
+Wobei es  wahrscheinlich schon wegen der gehlenden Anwesenheit der Nationalratsmitgliedern nicht möglich wäre.
 
-## Normenkontrolle
+und bei variante 2 müsste man eine Volksabstimmung möglich um das gestz quasi wieder rückgängig zu machen, volksabstimmung wäre auch rechtlich bindend. 
 
+volksbegehren wär auch möglich, dafür benötigt man mindestens 100.000 Unterschriften oder ein sechtesl der Wahlberechtigten in mindestens 3 Bundesländern dann könnte man den nationalrat dazu bringen das gesetz nochmal zu bearbeiten 
 
-
-
+bürgerinitiative oder petition wär auch möglich aber ich denke die unmittelbarste antwort also wie man diekt als bürger am meisten auslösen kann ist das volksbegehren.
 
 
 
