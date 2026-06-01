@@ -23,12 +23,24 @@
             "id": "d1be628a15b941bd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS-4.pdf"
+                "file": "DIR/DIR Praxisbeispiel/DIR Sources.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "DBS-4"
+              "icon": "lucide-file",
+              "title": "DIR Sources"
             }
           }
         ],
@@ -231,21 +243,21 @@
   },
   "active": "d1be628a15b941bd",
   "lastOpenFiles": [
+    "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
+    "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
+    "DBS/Zusammen/DBS-Folien/DBS-4.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-9.pdf",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/DBS-Folien/Untitled.canvas",
-    "DBS/Zusammen/DBS-Folien/DBS-4.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-2.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-5.pdf",
     "conflict-files-obsidian-git.md",
-    "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
     "DIR Sources.md",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Welcome.md",
-    "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
     "DIR/DIR Praxisbeispiel",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
