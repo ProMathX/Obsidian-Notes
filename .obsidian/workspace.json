@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "79cfcbb881b9edca",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "stripped-DBS-9"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,11 +216,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79cfcbb881b9edca",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
     "conflict-files-obsidian-git.md",
     "DIR Sources.md",
-    "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Welcome.md",
@@ -276,7 +263,6 @@
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/SQL VO Mitschrift.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
