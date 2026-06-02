@@ -18,8 +18,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "5227205f9849acdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,15 +241,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "5227205f9849acdf",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "DBS/Zusammen/DBS-Folien/Untitled.canvas",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
-    "conflict-files-obsidian-git.md",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DIR/DIR Praxisbeispiel",
@@ -264,7 +290,6 @@
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "Zusammenfassungen/EP2/README.md",
     "Zusammenfassungen/AlgoDat/readme.md",
-    "EP2/Daten Abstraktion.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
