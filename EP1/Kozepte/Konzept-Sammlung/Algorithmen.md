@@ -298,10 +298,6 @@ private static void selectionSort(int[] data) {
 | **Insertionsort** | **Stabil** | [cite_start]Elemente mit gleichem Schlüssel werden nie vertauscht, nur verschoben[cite: 26]. |
 | **Selectionsort** | **Instabil** | [cite_start]Tauscht Elemente über große Distanzen, was die relative Ordnung gleicher Schlüssel zerstören kann[cite: 26]. |
 
-```
-```
-
-
 Diese Algorithmen basieren auf dem Prinzip des **Teile-und-herrsche-Verfahrens** (Divide-and-Conquer):
 
 1.  **Teilen (Divide):** Teile das Problem in Teilprobleme.
