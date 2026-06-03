@@ -1,17 +1,14 @@
 # Öffentlich-rechtliche Grundlagen – Prüfungsrelevante Zusammenfassung
-*Mag. Dr. Christoph Cede, MLitt*
-
----
 
 ## 1. NORMEN
 
 ### Philosophische Grundlagen
 
-| Begriff | Definition |
-|---|---|
-| **Empirische/Deskriptive Sätze** | Beschreiben Tatsachen; wahr oder falsch (singuläre vs. generelle Aussagen) |
+| Begriff                          | Definition                                                                     |
+| -------------------------------- | ------------------------------------------------------------------------------ |
+| **Empirische/Deskriptive Sätze** | Beschreiben Tatsachen; wahr oder falsch (singuläre vs. generelle Aussagen)     |
 | **Normative/Präskriptive Sätze** | Beschreiben ein Sollen/Nicht-Sollen/Dürfen (individuelle vs. generelle Normen) |
-| **Werturteile** | Form deskriptiver Sätze mit Wertung; nicht wahr/falsch, sondern wertabhängig |
+| **Werturteile**                  | Form deskriptiver Sätze mit Wertung; nicht wahr/falsch, sondern wertabhängig   |
 
 ### Typisierung von Rechtsnormen
 
