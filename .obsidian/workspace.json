@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
+                "file": "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Grundlagen DIR-Normen"
+              "title": "DIR Allgemeiner Teil Zusammenfassung"
+            }
+          },
+          {
+            "id": "07f02765b8e11283",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Praxisbeispiel"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -241,19 +265,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "897481fb7ac31705",
+  "active": "07f02765b8e11283",
   "lastOpenFiles": [
+    "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
-    "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
+    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "EP1/Kozepte/Konzept-Sammlung/Algorithmen.md",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Folien/Untitled.canvas",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
-    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DIR/DIR Praxisbeispiel",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/exercise5_de.pdf",
