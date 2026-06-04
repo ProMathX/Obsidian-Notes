@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "d1be628a15b941bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/DIR Praxisbeispiel/DIR Sources.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DIR Sources"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,8 +216,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d1be628a15b941bd",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
     "DBS/Zusammen/DBS-Folien/DBS-4.pdf",
@@ -252,7 +228,6 @@
     "DBS/Zusammen/DBS-Folien/DBS-2.pdf",
     "DBS/Zusammen/DBS-Folien/DBS-5.pdf",
     "conflict-files-obsidian-git.md",
-    "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
     "DIR Sources.md",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
