@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "42a383640bb6c2cd",
+            "id": "77d62136bd3dd351",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Oeff-Recht-Grundlagen_Zusammenfassung"
             }
           }
         ],
@@ -241,11 +241,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42a383640bb6c2cd",
+  "active": "77d62136bd3dd351",
   "lastOpenFiles": [
+    "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "conflict-files-obsidian-git.md",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
-    "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
     "DBS/Zusammen/DBS-Folien/DBS-4.pdf",
