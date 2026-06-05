@@ -30,9 +30,33 @@
               "icon": "lucide-file-text",
               "title": "DBS_Test_zsmf"
             }
+          },
+          {
+            "id": "570353ca5a387b2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Oeff-Recht-Grundlagen_Zusammenfassung"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,8 +253,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77d62136bd3dd351",
+  "active": "570353ca5a387b2e",
   "lastOpenFiles": [
+    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "conflict-files-obsidian-git.md",
@@ -244,7 +269,6 @@
     "DBS/Zusammen/DBS-Folien/DBS-5.pdf",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
     "DIR Sources.md",
-    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Welcome.md",
     "DIR/DIR Praxisbeispiel",
@@ -277,7 +301,6 @@
     "Zusammenfassungen/EP2/README.md",
     "Zusammenfassungen/AlgoDat/readme.md",
     "EP2/Daten Abstraktion.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
