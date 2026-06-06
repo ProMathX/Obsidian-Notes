@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EP1/Kozepte/Konzept-Sammlung/Algorithmen.md",
+                "file": "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Algorithmen"
+              "title": "Oeff-Recht-Grundlagen_Zusammenfassung"
+            }
+          },
+          {
+            "id": "b9ebba8efe491e37",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -244,9 +254,10 @@
   "active": "0d2083afd518e7e7",
   "lastOpenFiles": [
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
-    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "DIR/Sources/Besonderer Teil/DIR Datenschutz.pdf",
     "DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf",
+    "EP1/Kozepte/Konzept-Sammlung/Algorithmen.md",
+    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "conflict-files-obsidian-git.md",
@@ -288,7 +299,6 @@
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "Zusammenfassungen/EP2/README.md",
     "Zusammenfassungen/AlgoDat/readme.md",
-    "EP2/Daten Abstraktion.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
