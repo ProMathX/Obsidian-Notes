@@ -18,45 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "77d62136bd3dd351",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DBS_Test_zsmf"
-            }
-          },
-          {
-            "id": "570353ca5a387b2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Oeff-Recht-Grundlagen_Zusammenfassung"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,10 +216,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "570353ca5a387b2e",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
     "DIR/Sources/Besonderer Teil/DIR Datenschutz.pdf",
     "DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
@@ -274,7 +237,6 @@
     "DIR Sources.md",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Welcome.md",
-    "DIR/DIR Praxisbeispiel",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "Untitled.md",
