@@ -211,7 +211,7 @@ Nur bei **planwidriger** (= ungewollter) Lücke zulässig:
 - B-VG selbst
 - BVG außerhalb des B-VG (z.B. StGG, F-VG, BVG Neutralität)
 - Einzelverfassungsbestimmungen in einfachen Gesetzen (z.B. § 1 DSG)
-- EMRK samt ZP
+- EMRK(Europäische Konvention zum Schutze der Menschenrechte) samt ZP (Zusatzpatent)
 
 **Erzeugung von Verfassungsrecht (Art 44 B-VG):**
 - Art 44 Abs 1: erhöhtes Präsenzquorum (½) + Konsensquorum (2/3) im NR
@@ -845,7 +845,8 @@ Jede Tätigkeit von Organen, die nicht Gesetzgebung oder Gerichtsbarkeit sind (w
 | **VwGH**                | Verwaltungsgerichtshof                                              |
 | **WVK**                 | Wiener Vertragsrechtskonvention 1969                                |
 | **WÜD**                 | Wiener Übereinkommen über diplomatische Beziehungen 1961            |
-| V-ÜG                    |  Verfassungs-Überleitungsgesetz                                     |
+| V-ÜG                    | Verfassungs-Überleitungsgesetz                                      |
+| BR                      | Bundesrat                                                           |
 
 ---
 
