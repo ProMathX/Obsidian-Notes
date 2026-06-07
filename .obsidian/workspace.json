@@ -69,16 +69,6 @@
             }
           },
           {
-            "id": "b9ebba8efe491e37",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "cce9d2b0533e484a",
             "type": "leaf",
             "state": {
@@ -127,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "aee0c4153f917587",
@@ -404,13 +394,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d2083afd518e7e7",
+  "active": "731301de2c0ae614",
   "lastOpenFiles": [
+    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+    "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
-    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung.md",
-    "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
     "DIR/Sources/Besonderer Teil/DIR Datenschutz.pdf",
     "DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf",
     "EP1/Kozepte/Konzept-Sammlung/Algorithmen.md",
