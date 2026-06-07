@@ -846,7 +846,7 @@ Jede Tätigkeit von Organen, die nicht Gesetzgebung oder Gerichtsbarkeit sind (w
 | **WVK**                 | Wiener Vertragsrechtskonvention 1969                                |
 | **WÜD**                 | Wiener Übereinkommen über diplomatische Beziehungen 1961            |
 | V-ÜG                    | Verfassungs-Überleitungsgesetz                                      |
-| BR                      | Bundesrat                                                           |
+| BR                      | Bundesrate                                                          |
 
 ---
 
