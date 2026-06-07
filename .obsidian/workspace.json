@@ -21,6 +21,18 @@
             }
           },
           {
+            "id": "9a82fe7d90ffee54",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE1/exercise1_de.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "exercise1_de"
+            }
+          },
+          {
             "id": "0d2083afd518e7e7",
             "type": "leaf",
             "state": {
@@ -98,7 +110,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
+                "file": "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -113,11 +125,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DBS Relationelle Algebra"
+              "title": "Join"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "aee0c4153f917587",
@@ -195,9 +207,21 @@
               "icon": "lucide-file",
               "title": "DIR Sources"
             }
+          },
+          {
+            "id": "7a5907943e796ab6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE1/UE_1Simsek.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "UE_1Simsek"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -394,8 +418,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "731301de2c0ae614",
+  "active": "7a5907943e796ab6",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Aufgbaen/UE1/exercise1_de.pdf",
+    "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
+    "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
     "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
@@ -440,9 +467,6 @@
     "Physische Daten DBS.md",
     "DBS/Zusammen/SQL/SQL Subqueries.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
-    "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
-    "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
-    "Zusammenfassungen/EP2/README.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
