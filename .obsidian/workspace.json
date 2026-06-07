@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
+                "file": "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -113,7 +113,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fallbeispiel; Ausarbeitung von Cihat Simsek"
+              "title": "DBS Relationelle Algebra"
             }
           }
         ],
@@ -396,8 +396,10 @@
   },
   "active": "731301de2c0ae614",
   "lastOpenFiles": [
-    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+    "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
+    "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
+    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung.md",
@@ -441,7 +443,6 @@
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "Zusammenfassungen/EP2/README.md",
-    "Zusammenfassungen/AlgoDat/readme.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
