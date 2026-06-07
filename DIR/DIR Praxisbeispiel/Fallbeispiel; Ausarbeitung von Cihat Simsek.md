@@ -30,7 +30,7 @@ Ein einfaches Gesetz ist erst beim Zusammenschluss des NR+BR+LT mit einer Anwese
  
   Das Gesetz scheitert jedoch an den nachgelagerten Verfahrensschritten. Gemäß Art 47 Abs 1 B-VG beurkundet der Bundespräsident die verfassungsmäßige Entstehung von Bundesgesetzen. 
   
-  Nach herrschender Lehre handelt es sich dabei um einen formellen Akt ohne materielles Vetorecht: Der BPräs prüft ausschließlich die prozedurale Korrektheit, nicht den Inhalt. Da er die Unterfertigung hier verweigert, unterbleibt auch die nach Art 47 Abs 2 B-VG erforderliche Gegenzeichnung durch den Bundeskanzler.
+ Der BPräs prüft ausschließlich die prozedurale Korrektheit, nicht den Inhalt. Da er die Unterfertigung hier verweigert, unterbleibt auch die nach Art 47 Abs 2 B-VG erforderliche Gegenzeichnung durch den Bundeskanzler.
   
    Entscheidend ist  Art 49 B-VG: Bundesgesetze sind durch den Bundeskanzler im Bundesgesetzblatt kundzumachen. Die Kundmachung ist konstitutiv, das heißt, ein Gesetz existiert rechtlich erst ab diesem Zeitpunkt. Die Bestimmung des §3, wonach das Gesetz „sofort in Kraft" trete, kann daran nichts ändern, da Art 49 B-VG als Verfassungsnorm dem einfachen Gesetz vorgeht. Das Gesetz ist daher nicht in Kraft getreten. Mangels Beurkundung, Gegenzeichnung und Kundmachung ist es rechtlich nicht existent.
 
