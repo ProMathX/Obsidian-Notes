@@ -6,7 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 52.459016393442624,
+        "dimension": 76.50273224043715,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -129,12 +129,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "aee0c4153f917587",
         "type": "tabs",
-        "dimension": 47.540983606557376,
+        "dimension": 23.497267759562842,
         "children": [
           {
             "id": "bef9d84ea1d920a7",
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+                "file": "Daily Notes/2026-03-15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -157,167 +157,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Oeff-Recht-Grundlagen_Zusammenfassung"
-            }
-          },
-          {
-            "id": "2e32509c107e0d19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Praxisbeispiel"
-            }
-          },
-          {
-            "id": "0aeb7d0d5ace04d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/DIR Praxisbeispiel/DIR Sources.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DIR Sources"
-            }
-          },
-          {
-            "id": "7a5907943e796ab6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE1/UE_1Simsek.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "UE_1Simsek"
-            }
-          },
-          {
-            "id": "43afe294feb24028",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DBS ER Modelle v1"
-            }
-          },
-          {
-            "id": "e1b7428eda4e1ac9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DBS ER Modelle v2"
-            }
-          },
-          {
-            "id": "f33945e6a318d6ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/ER-Modell/ER Modell Abbildungen/Abbildung von Beziehungstypen.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Abbildung von Beziehungstypen"
-            }
-          },
-          {
-            "id": "b634f95e051d61c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/ER-Modell/ER Key Words/Verschiedene Entitätstypen und Beziehungen und Attribute.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Verschiedene Entitätstypen und Beziehungen und Attribute"
+              "title": "2026-03-15"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -514,46 +357,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b634f95e051d61c8",
+  "active": "0d2083afd518e7e7",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Aufgbaen/UE1/exercise1_de.pdf",
+    "Daily Notes/2026-03-15.md",
+    "Daily Notes/2026-03-16.md",
+    "Daily Notes/2026-03-23.md",
+    "Daily Notes/2026-03-26.md",
+    "Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
+    "Zusammenfassungen/Statistik/Alttests/Statistik_2021-01-26.pdf",
+    "Zusammenfassungen/Statistik/Statistik_zsmf.pdf",
+    "Zusammenfassungen/Statistik/Cheatsheet.pdf",
+    "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
+    "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
+    "DIR/DIR Praxisbeispiel/DIR Sources.md",
+    "DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
+    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
+    "Misc/Documents/math/978-3-662-58633-4.pdf",
+    "Misc/Documents/math/978-3-642-54274-9.pdf",
+    "Misc/Documents/math/[Springer-Lehrbuch ] Prof. Dr. Reinhard Wilhelm, Dr. Dieter Maurer (auth.) - Übersetzerbau_ Theorie, Konstruktion, Generierung (1997, Springer) [10.1007_978-3-642-59081-8] - libgen.li.pdf",
+    "Misc/Documents/math/978-3-642-37972-7.pdf",
+    "Misc/Untitled.canvas",
+    "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
+    "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
+    "EP1/Kozepte/Konzept-Sammlung/Arrays.md",
+    "EP2/probetests/Vorbereitungstest_A/angabe/angabe.md",
+    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+    "DBS/Zusammen/DBS-Folien/Untitled.canvas",
+    "DBS/Zusammen/ER-Modell/ER Key Words/Verschiedene Entitätstypen und Beziehungen und Attribute.md",
+    "DBS/Zusammen/ER-Modell/ER Key Words/Kardinalität.md",
+    "DBS/Zusammen/ER-Modell/ER Key Words/Chen Notation.md",
+    "DBS/Zusammen/ER-Modell/ER Key Words/total participation.md",
     "DBS/Zusammen/ER-Modell/ER Key Words/Participation Constraints.md",
+    "DBS/Zusammen/ER-Modell/ER Key Words/partial participation.md",
     "DBS/Zusammen/ER-Modell/ER Modell Abbildungen/Abbildung von Beziehungstypen.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Github.md",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v1.md",
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v2.md",
     "DBS/Zusammen/ER-Modell/ER Modell Skizzen/Participation.md",
     "DBS/Zusammen/ER-Modell/ER Modell Skizzen/Functional Relations.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v2.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v1.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE1/UE_1Simsek.pdf",
-    "DBS/Zusammen/DBS-Aufgbaen/UE1/exercise1_de.pdf",
     "DBS/Zusammen/relationelle-algebra/kategorien/Join.md",
     "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Gruppierung.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
-    "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
-    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
-    "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
-    "DIR/DIR Praxisbeispiel/DIR Sources.md",
-    "DIR/DIR SS2026 — Komplettzusammenfassung.md",
-    "DIR/Sources/Besonderer Teil/DIR Datenschutz.pdf",
-    "DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf",
-    "EP1/Kozepte/Konzept-Sammlung/Algorithmen.md",
-    "DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
-    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
-    "conflict-files-obsidian-git.md",
-    "DBS/Zusammen/DBS-Folien/DBS-4.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS-9.pdf",
-    "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
-    "DBS/Zusammen/DBS-Folien/Untitled.canvas",
-    "DBS/Zusammen/DBS-Folien/DBS-2.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS-5.pdf",
-    "DIR Sources.md",
-    "Welcome.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Anfrageoptimierung.md",
-    "DBS/Zusammen/SQL/SQL Cheat Sheet 1.md",
-    "EP1/Kozepte/Konzept-Sammlung/Arrays und Rekursion.md",
     "Images/Pasted image 20260512154456.png",
-    "DBS/Zusammen/physische Daten/Physischen Daten im DBMS.md",
     "Images/Pasted image 20260513134455.png",
     "Images/Pasted image 20260513134425.png",
     "Images/Pasted image 20260513134408.png",
@@ -562,11 +407,9 @@
     "Images/Pasted image 20260513133754.png",
     "Images/Pasted image 20260513133714.png",
     "Images/Pasted image 20260513133312.png",
-    "Images/Pasted image 20260513132925.png",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
-    "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
-    "Misc/Untitled.canvas"
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas"
   ]
 }
