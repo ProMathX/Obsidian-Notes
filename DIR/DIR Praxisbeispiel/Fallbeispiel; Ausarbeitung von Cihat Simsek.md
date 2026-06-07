@@ -20,10 +20,10 @@ Was man hier entnehmen kann ist; erstens, dass es vom Ministerrat einstimmen ang
 ---
 ### Variante 1:
 
+Das Gesetz ist nicht gültig, weil es erstens die Unterschrift des BP benötigt und anschließend eine Gegenzeichnung des Bundeskanzlers samt einer Kundmachung braucht. Somit es erst recht nicht in Kraft getreten.
 
-
-
-
+Bei einem Bundesgesetz dieses Ausmaßes, fällt es in die Kategorie der einfachen Gestze, weil es erstens kein Verfassungsgesetz ist oder eine Veränderung der Verfassungsprinzipien ist.
+Ein einfaches Gesetz ist erst beim Zusammenschluss des NR+BR+LT mit einer Anwesenheitsrate über 1/3 der jeweiligen Ämter, samt über einer 50% Zustimmung der Regierungsvorlage. 
 
 ---
 ### Variante 2:
