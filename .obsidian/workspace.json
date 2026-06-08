@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "bc9b758f1e220681",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,8 +216,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc9b758f1e220681",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung 1.md",
@@ -277,7 +265,6 @@
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/angabe/angabe.md",
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "Zusammenfassungen/EP2/README.md",
-    "Zusammenfassungen/AlgoDat/readme.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
