@@ -1,5 +1,5 @@
 Zusammenfassung der Folien 8
-
+#DBS 
 
 ## Datenorganisation
 - Primärspeicher (Volatile Storage)
