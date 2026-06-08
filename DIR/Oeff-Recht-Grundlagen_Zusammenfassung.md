@@ -211,7 +211,7 @@ Nur bei **planwidriger** (= ungewollter) Lücke zulässig:
 - B-VG selbst
 - BVG außerhalb des B-VG (z.B. StGG, F-VG, BVG Neutralität)
 - Einzelverfassungsbestimmungen in einfachen Gesetzen (z.B. § 1 DSG)
-- EMRK samt ZP
+- EMRK(Europäische Konvention zum Schutze der Menschenrechte) samt ZP (Zusatzpatent)
 
 **Erzeugung von Verfassungsrecht (Art 44 B-VG):**
 - Art 44 Abs 1: erhöhtes Präsenzquorum (½) + Konsensquorum (2/3) im NR
@@ -327,7 +327,7 @@ Nur bei **planwidriger** (= ungewollter) Lücke zulässig:
 
 ### Bundesrat (BR)
 
-- **Länderkammer**: Mitglieder von LT entsandt (Dauer LT-Gesetzgebungsperiode)
+- **Länderkammer**: Mitglieder von LT entsandt (Dauer LT-Gese# Verfassungs-Überleitungsgesetztzgebungsperiode)
 - Zahl richtet sich nach Bürgerzahl; größtes Land = 12; Minimum = 3
 - Beschlussfähigkeit: 1/3 Anwesenheit, Mehrheit
 - **Suspensives Veto** (Regelfall); **absolutes Veto** nur bei Änderung der Länderkompetenz (Art 44 Abs 2) oder der Zusammensetzung des BR (Art 35 Abs 4)
@@ -406,7 +406,7 @@ Jede Tätigkeit von Organen, die nicht Gesetzgebung oder Gerichtsbarkeit sind (w
 **Intern:**
 - **Weisung**: generell oder individuell; keine Drittwirkung; kein Formzwang
 
-**Extern:**
+**Extern# Verfassungs-Überleitungsgesetz:**
 - **Bescheid**: individuell, hoheitlich, normativ; förmliches Verfahren; Beschwerde an VwG
 - **Verordnung (VO)**: generelle Norm; „auf Grund der Gesetze" (Art 18 Abs 2); Kundmachung im BGBl/LGBl; **Formalgesetzliche Delegation** (wesentliche Tatbestandsmerkmale müssen im Gesetz stehen)
 - **AuvBZ** (Akt unmittelbarer verwaltungsbehördlicher Befehls- und Zwangsgewalt): verfahrensfrei; zur unmittelbaren Gefahrenabwehr; gesetzliche Ermächtigung nötig
@@ -442,7 +442,7 @@ Jede Tätigkeit von Organen, die nicht Gesetzgebung oder Gerichtsbarkeit sind (w
 | **Weisungskette** | BM direkt | BM → LH → BH |
 | **Haftung** | Bund | Bund (funktioneller Organbegriff) |
 
-### Landes- und Gemeindeverwaltung
+# Verfassungs-Überleitungsgesetz### Landes- und Gemeindeverwaltung
 
 **LReg:**
 - Vom LT gewählt; Kollegialorgan; LH + LH-Stv + Landesräte
@@ -518,7 +518,7 @@ Jede Tätigkeit von Organen, die nicht Gesetzgebung oder Gerichtsbarkeit sind (w
 - Zuständig für sonstige Missstände; formfrei; Wirkung durch Publizität
 
 ---
-
+# Verfassungs-Überleitungsgesetz
 ## 9. VERFASSUNGSRECHT – GRUNDRECHTE
 
 ### Begriff und Rechtsquellen
@@ -557,7 +557,7 @@ Jede Tätigkeit von Organen, die nicht Gesetzgebung oder Gerichtsbarkeit sind (w
 
 - Schutzbereich begrenzt Reichweite
 - **Formeller Gesetzesvorbehalt**: Einschränkung muss in Gesetzesform ergehen
-- **Materieller Gesetzesvorbehalt**: nur zu ausdrücklich genannten Zwecken + verhältnismäßig
+- **Materieller Gesetzesvorbehalt**: nur zu ausdrücklich genannten # Verfassungs-ÜberleitungsgesetzZwecken + verhältnismäßig
 
 **Verhältnismäßigkeitsprüfung des VfGH** (seit 1980er Jahre):
 1. Liegt ein öffentliches Interesse vor?
@@ -812,39 +812,41 @@ Jede Tätigkeit von Organen, die nicht Gesetzgebung oder Gerichtsbarkeit sind (w
 
 ## WICHTIGE ABKÜRZUNGEN UND BEGRIFFE
 
-| Begriff | Definition |
-|---|---|
-| **AuvBZ** | Akt unmittelbarer verwaltungsbehördlicher Befehls- und Zwangsgewalt |
-| **Bescheid** | Individueller, hoheitlicher, normativer Verwaltungsakt |
-| **BH** | Bezirkshauptmannschaft |
-| **BPräs** | Bundespräsident |
-| **BReg / BK / BM** | Bundesregierung / Bundeskanzler / Bundesminister |
-| **B-VG** | Bundes-Verfassungsgesetz 1920 |
-| **de lege ferenda** | nach zukünftigem Recht (Rechtspolitik) |
-| **de lege lata** | nach geltendem Recht (Rechtsdogmatik) |
-| **Devolution** | Gesetzliche Zuständigkeitsübertragung ohne Delegationsakt |
-| **EMRK** | Europäische Menschenrechtskonvention |
-| **F-VG** | Finanz-Verfassungsgesetz |
-| **Fiskalgeltung** | Grundrechtsbindung auch bei privatrechtlichem Staatshandeln |
-| **Immunität** | Schutz vor Gerichtsbarkeit (beruflich/außerberuflich) |
-| **Inkompatibilität** | Unvereinbarkeit von Ämtern |
-| **ius cogens** | Zwingendes Völkerrecht (kein Abweichen durch Vertrag) |
-| **Legalitätsprinzip** | Art 18 Abs 1 B-VG: Verwaltung nur auf Basis von Gesetzen |
-| **LT** | Landtag |
-| **LReg / LH** | Landesregierung / Landeshauptmann |
-| **Opinio iuris** | Rechtsüberzeugung (Element des Gewohnheitsrechts) |
-| **Pouvoir constituant** | Verfassungsgebende Gewalt |
-| **Remonstration** | Hinweis auf Rechtswidrigkeit einer Weisung |
-| **Staatshaftung** | Haftung des Staates für rechtswidrige Amtshandlungen |
-| **StGG** | Staatsgrundgesetz 1867 |
-| **Stufenbau** | Hierarchie der Rechtsordnung (Kelsen) |
-| **Subsumtion** | Zuordnung eines Sachverhalts unter einen Tatbestand |
-| **VfGH** | Verfassungsgerichtshof |
-| **VO** | Verordnung |
-| **VwG** | Verwaltungsgericht |
-| **VwGH** | Verwaltungsgerichtshof |
-| **WVK** | Wiener Vertragsrechtskonvention 1969 |
-| **WÜD** | Wiener Übereinkommen über diplomatische Beziehungen 1961 |
+| Begriff                 | Definition                                                          |
+| ----------------------- | ------------------------------------------------------------------- |
+| **AuvBZ**               | Akt unmittelbarer verwaltungsbehördlicher Befehls- und Zwangsgewalt |
+| **Bescheid**            | Individueller, hoheitlicher, normativer Verwaltungsakt              |
+| **BH**                  | Bezirkshauptmannschaft                                              |
+| **BPräs**               | Bundespräsident                                                     |
+| **BReg / BK / BM**      | Bundesregierung / Bundeskanzler / Bundesminister                    |
+| **B-VG**                | Bundes-Verfassungsgesetz 1920                                       |
+| **de lege ferenda**     | nach zukünftigem Recht (Rechtspolitik)                              |
+| **de lege lata**        | nach geltendem Recht (Rechtsdogmatik)                               |
+| **Devolution**          | Gesetzliche Zuständigkeitsübertragung ohne Delegationsakt           |
+| **EMRK**                | Europäische Menschenrechtskonvention                                |
+| **F-VG**                | Finanz-Verfassungsgesetz                                            |
+| **Fiskalgeltung**       | Grundrechtsbindung auch bei privatrechtlichem Staatshandeln         |
+| **Immunität**           | Schutz vor Gerichtsbarkeit (beruflich/außerberuflich)               |
+| **Inkompatibilität**    | Unvereinbarkeit von Ämtern                                          |
+| **ius cogens**          | Zwingendes Völkerrecht (kein Abweichen durch Vertrag)               |
+| **Legalitätsprinzip**   | Art 18 Abs 1 B-VG: Verwaltung nur auf Basis von Gesetzen            |
+| **LT**                  | Landtag                                                             |
+| **LReg / LH**           | Landesregierung / Landeshauptmann                                   |
+| **Opinio iuris**        | Rechtsüberzeugung (Element des Gewohnheitsrechts)                   |
+| **Pouvoir constituant** | Verfassungsgebende Gewalt                                           |
+| **Remonstration**       | Hinweis auf Rechtswidrigkeit einer Weisung                          |
+| **Staatshaftung**       | Haftung des Staates für rechtswidrige Amtshandlungen                |
+| **StGG**                | Staatsgrundgesetz 1867                                              |
+| **Stufenbau**           | Hierarchie der Rechtsordnung (Kelsen)                               |
+| **Subsumtion**          | Zuordnung eines Sachverhalts unter einen Tatbestand                 |
+| **VfGH**                | Verfassungsgerichtshof                                              |
+| **VO**                  | Verordnung                                                          |
+| **VwG**                 | Verwaltungsgericht                                                  |
+| **VwGH**                | Verwaltungsgerichtshof                                              |
+| **WVK**                 | Wiener Vertragsrechtskonvention 1969                                |
+| **WÜD**                 | Wiener Übereinkommen über diplomatische Beziehungen 1961            |
+| V-ÜG                    | Verfassungs-Überleitungsgesetz                                      |
+| BR                      | Bundesrate                                                          |
 
 ---
 
