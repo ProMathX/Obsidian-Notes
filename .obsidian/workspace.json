@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "0d2083afd518e7e7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "EP1/PDF/2026/2026S-27-EP1-Suchalgorithmen.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2026S-27-EP1-Suchalgorithmen"
-            }
-          },
-          {
-            "id": "6932f42ad6bcd7c9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "EP1/PDF/2026/2026S-30-EP1-OOP-Einführung.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2026S-30-EP1-OOP-Einführung"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,8 +216,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d2083afd518e7e7",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "EP1/PDF/2026/2026S-27-EP1-Suchalgorithmen.pdf",
     "EP1/PDF/2026/2026S-26-EP1-Komplexitätsfunktionen.pdf",
     "EP1/PDF/2026/2026S-30-EP1-OOP-Einführung.pdf",
     "EP1/PDF/2026/2026S-25-EP1-Komplexitätsanalyse.pdf",
@@ -252,7 +228,6 @@
     "EP1/PDF/2025/2025W-22-EP1-Mehrdimensionale_Arrays.pdf",
     "EP1/PDF/2025",
     "EP1/PDF/2026/2026S-28-EP1-Elementare_Sortieralgorithmen.pdf",
-    "EP1/PDF/2026/2026S-27-EP1-Suchalgorithmen.pdf",
     "EP1/PDF/2026",
     "EP1/Kozepte/Konzept-Sammlung/Algorithmen.md",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
