@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "77d62136bd3dd351",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DBS_Test_zsmf"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,8 +216,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77d62136bd3dd351",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "conflict-files-obsidian-git.md",
@@ -244,7 +232,6 @@
     "DBS/Zusammen/DBS-Folien/DBS-5.pdf",
     "DBS/Zusammen/DBS-Folien/stripped-DBS-9.pdf",
     "DIR Sources.md",
-    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "Zusammenfassungen/Ana/ANA_Formelsammlung.pdf",
     "Welcome.md",
     "DIR/DIR Praxisbeispiel",
@@ -277,7 +264,6 @@
     "Zusammenfassungen/EP2/README.md",
     "Zusammenfassungen/AlgoDat/readme.md",
     "EP2/Daten Abstraktion.md",
-    "DBS/Zusammen/relationelle-algebra/kategorien/Division.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
