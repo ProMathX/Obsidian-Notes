@@ -812,41 +812,42 @@ Jede Tätigkeit von Organen, die nicht Gesetzgebung oder Gerichtsbarkeit sind (w
 
 ## WICHTIGE ABKÜRZUNGEN UND BEGRIFFE
 
-| Begriff                 | Definition                                                          |
-| ----------------------- | ------------------------------------------------------------------- |
-| **AuvBZ**               | Akt unmittelbarer verwaltungsbehördlicher Befehls- und Zwangsgewalt |
-| **Bescheid**            | Individueller, hoheitlicher, normativer Verwaltungsakt              |
-| **BH**                  | Bezirkshauptmannschaft                                              |
-| **BPräs**               | Bundespräsident                                                     |
-| **BReg / BK / BM**      | Bundesregierung / Bundeskanzler / Bundesminister                    |
-| **B-VG**                | Bundes-Verfassungsgesetz 1920                                       |
-| **de lege ferenda**     | nach zukünftigem Recht (Rechtspolitik)                              |
-| **de lege lata**        | nach geltendem Recht (Rechtsdogmatik)                               |
-| **Devolution**          | Gesetzliche Zuständigkeitsübertragung ohne Delegationsakt           |
-| **EMRK**                | Europäische Menschenrechtskonvention                                |
-| **F-VG**                | Finanz-Verfassungsgesetz                                            |
-| **Fiskalgeltung**       | Grundrechtsbindung auch bei privatrechtlichem Staatshandeln         |
-| **Immunität**           | Schutz vor Gerichtsbarkeit (beruflich/außerberuflich)               |
-| **Inkompatibilität**    | Unvereinbarkeit von Ämtern                                          |
-| **ius cogens**          | Zwingendes Völkerrecht (kein Abweichen durch Vertrag)               |
-| **Legalitätsprinzip**   | Art 18 Abs 1 B-VG: Verwaltung nur auf Basis von Gesetzen            |
-| **LT**                  | Landtag                                                             |
-| **LReg / LH**           | Landesregierung / Landeshauptmann                                   |
-| **Opinio iuris**        | Rechtsüberzeugung (Element des Gewohnheitsrechts)                   |
-| **Pouvoir constituant** | Verfassungsgebende Gewalt                                           |
-| **Remonstration**       | Hinweis auf Rechtswidrigkeit einer Weisung                          |
-| **Staatshaftung**       | Haftung des Staates für rechtswidrige Amtshandlungen                |
-| **StGG**                | Staatsgrundgesetz 1867                                              |
-| **Stufenbau**           | Hierarchie der Rechtsordnung (Kelsen)                               |
-| **Subsumtion**          | Zuordnung eines Sachverhalts unter einen Tatbestand                 |
-| **VfGH**                | Verfassungsgerichtshof                                              |
-| **VO**                  | Verordnung                                                          |
-| **VwG**                 | Verwaltungsgericht                                                  |
-| **VwGH**                | Verwaltungsgerichtshof                                              |
-| **WVK**                 | Wiener Vertragsrechtskonvention 1969                                |
-| **WÜD**                 | Wiener Übereinkommen über diplomatische Beziehungen 1961            |
-| V-ÜG                    | Verfassungs-Überleitungsgesetz                                      |
-| BR                      | Bundesrate                                                          |
+| Begriff                 | Definition                                                                  |
+| ----------------------- | --------------------------------------------------------------------------- |
+| **AuvBZ**               | Akt unmittelbarer verwaltungsbehördlicher Befehls- und Zwangsgewalt         |
+| **Bescheid**            | Individueller, hoheitlicher, normativer Verwaltungsakt                      |
+| **BH**                  | Bezirkshauptmannschaft                                                      |
+| **BPräs**               | Bundespräsident                                                             |
+| **BReg / BK / BM**      | Bundesregierung / Bundeskanzler / Bundesminister                            |
+| **B-VG**                | Bundes-Verfassungsgesetz 1920                                               |
+| **de lege ferenda**     | nach zukünftigem Recht (Rechtspolitik)                                      |
+| **de lege lata**        | nach geltendem Recht (Rechtsdogmatik)                                       |
+| **Devolution**          | Gesetzliche Zuständigkeitsübertragung ohne Delegationsakt                   |
+| **EMRK**                | Europäische Menschenrechtskonvention                                        |
+| **F-VG**                | Finanz-Verfassungsgesetz                                                    |
+| **Fiskalgeltung**       | Grundrechtsbindung auch bei privatrechtlichem Staatshandeln                 |
+| **Immunität**           | Schutz vor Gerichtsbarkeit (beruflich/außerberuflich)                       |
+| **Inkompatibilität**    | Unvereinbarkeit von Ämtern                                                  |
+| **ius cogens**          | Zwingendes Völkerrecht (kein Abweichen durch Vertrag)                       |
+| **Legalitätsprinzip**   | Art 18 Abs 1 B-VG: Verwaltung nur auf Basis von Gesetzen                    |
+| **LT**                  | Landtag                                                                     |
+| **LReg / LH**           | Landesregierung / Landeshauptmann                                           |
+| **Opinio iuris**        | Rechtsüberzeugung (Element des Gewohnheitsrechts)                           |
+| **Pouvoir constituant** | Verfassungsgebende Gewalt                                                   |
+| **Remonstration**       | Hinweis auf Rechtswidrigkeit einer Weisung                                  |
+| **Staatshaftung**       | Haftung des Staates für rechtswidrige Amtshandlungen                        |
+| **StGG**                | Staatsgrundgesetz 1867                                                      |
+| **Stufenbau**           | Hierarchie der Rechtsordnung (Kelsen)                                       |
+| **Subsumtion**          | Zuordnung eines Sachverhalts unter einen Tatbestand                         |
+| **VfGH**                | Verfassungsgerichtshof                                                      |
+| **VO**                  | Verordnung                                                                  |
+| **VwG**                 | Verwaltungsgericht                                                          |
+| **VwGH**                | Verwaltungsgerichtshof                                                      |
+| **WVK**                 | Wiener Vertragsrechtskonvention 1969                                        |
+| **WÜD**                 | Wiener Übereinkommen über diplomatische Beziehungen 1961                    |
+| V-ÜG                    | Verfassungs-Überleitungsgesetz                                              |
+| BR                      | Bundesrate                                                                  |
+| AuvBZ                   | **Akt der unmittelbaren verwaltungsbehördlichen Befehls- und Zwangsgewalt** |
 
 ---
 

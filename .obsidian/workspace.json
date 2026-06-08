@@ -23,24 +23,12 @@
             "id": "bc9b758f1e220681",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Oeff-Recht-Grundlagen_Zusammenfassung"
+              "icon": "lucide-file-text",
+              "title": "TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1"
             }
           }
         ],
@@ -243,9 +231,9 @@
   },
   "active": "bc9b758f1e220681",
   "lastOpenFiles": [
+    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung 1.md",
-    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Folien/DBS 9.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 8.pdf",
