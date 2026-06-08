@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "e6cd71a96578a1c5",
+            "id": "bc9b758f1e220681",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Oeff-Recht-Grundlagen_Zusammenfassung"
             }
           }
         ],
@@ -241,10 +241,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e6cd71a96578a1c5",
+  "active": "bc9b758f1e220681",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung.md",
+    "DIR/DIR SS2026 — Komplettzusammenfassung 1.md",
+    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+    "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Folien/DBS 9.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 8.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 7.pdf",
@@ -255,7 +257,6 @@
     "DBS/Prüfungen/test2/dbs-pr2-202009a.m.pdf",
     "DBS/Prüfungen/test2/dbs-pr2-202009a.l.pdf",
     "DBS/Prüfungen/test2/dbs-pr2-202008a.m.pdf",
-    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
@@ -289,7 +290,6 @@
     "Zusammenfassungen/EP2/probetests/Vorbereitungstest_B/angabe/angabe.md",
     "Zusammenfassungen/EP2/README.md",
     "Zusammenfassungen/AlgoDat/readme.md",
-    "EP2/Daten Abstraktion.md",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
