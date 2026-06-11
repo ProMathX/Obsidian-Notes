@@ -6,6 +6,10 @@
     "emojiStyle": "native",
     "iconColor": "#bababa",
     "recentlyUsedIcons": [
+      "OcDiffAdded16",
+      "RiCoreosFill",
+      "OcCpu24",
+      "LiAreaChart",
       "LiCodesandbox",
       "LiCodepen",
       "OcLaw16",
@@ -13,8 +17,7 @@
       "LiCalendarDays",
       "LiArrowDownRightSquare",
       "LiAlertOctagon",
-      "LiBadgeInfo",
-      "LiActivity"
+      "LiBadgeInfo"
     ],
     "recentlyUsedIconsSize": 12,
     "rules": [],
@@ -57,5 +60,21 @@
   "EP2": {
     "iconName": "LiCodesandbox",
     "iconColor": "#ae00ff"
+  },
+  "Studium WS26/Theorethische Informatik": {
+    "iconName": "RiCoreosFill",
+    "iconColor": "#ff4000"
+  },
+  "Studium WS26/Betriebssysteme": {
+    "iconName": "OcCpu24",
+    "iconColor": "#00ff6e"
+  },
+  "Studium WS26/Statistik und Wahrscheinlichkeitstheorie": {
+    "iconName": "LiAreaChart",
+    "iconColor": "#00aaff"
+  },
+  "Studium WS26": {
+    "iconName": "OcDiffAdded16",
+    "iconColor": "#ff00dd"
   }
 }
