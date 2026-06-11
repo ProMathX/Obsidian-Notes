@@ -18,8 +18,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "e88fa73267d7ece3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DBS_Test_zsmf"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,7 +229,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e88fa73267d7ece3",
   "lastOpenFiles": [
     "Untitled 1.md",
     "Studium WS26",
