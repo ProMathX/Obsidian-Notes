@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "793d9eb0ff74278c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/DBS 5.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DBS 5"
+            }
+          },
+          {
+            "id": "7fabc032fa4f1e35",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "exercise4_de"
+            }
+          },
+          {
             "id": "0f9a3c6470e0b645",
             "type": "leaf",
             "state": {
@@ -30,9 +54,33 @@
               "icon": "lucide-file-text",
               "title": "DBS_Test_zsmf"
             }
+          },
+          {
+            "id": "912584471119d9f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Kanoische Ueberdeckung (minimale Ueberdeckung)"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -229,13 +277,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f9a3c6470e0b645",
+  "active": "912584471119d9f4",
   "lastOpenFiles": [
-    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
+    "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS 5.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS 4.pdf",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v2.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v1.md",
     "Untitled 1.md",
@@ -246,9 +297,6 @@
     "Studium WS26/Betriebssysteme",
     "Zusammenfassungen/OS/TU_Wien-Betriebssysteme_VU_(Puschner)_-_Angaben_UE_2023W_(myexpand,_forksort,_fb_arc_set,_http)/myexpand_td.pdf",
     "Zusammenfassungen/OS/TU_Wien-Betriebssysteme_VU_(Puschner)_-_Angaben_UE_2023W_(myexpand,_forksort,_fb_arc_set,_http)/http-2.pdf",
-    "Zusammenfassungen/OS/TU_Wien-Betriebssysteme_VU_(Puschner)_-_Angaben_UE_2023W_(myexpand,_forksort,_fb_arc_set,_http)/forksort_td.pdf",
-    "Zusammenfassungen/OS/TU_Wien-Betriebssysteme_VU_(Puschner)_-_Angaben_UE_2023W_(myexpand,_forksort,_fb_arc_set,_http)/fb_arc_set-2.pdf",
-    "Zusammenfassungen/OS/TU_Wien-Betriebssysteme_VU_(Puschner)_-_Angaben_UE_2023W_(myexpand,_forksort,_fb_arc_set,_http)",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung 1.md",

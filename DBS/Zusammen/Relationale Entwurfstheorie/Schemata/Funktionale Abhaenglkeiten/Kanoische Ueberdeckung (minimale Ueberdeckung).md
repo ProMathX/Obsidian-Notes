@@ -63,3 +63,10 @@ L={ } nur auf linker seite
 M={A,B,D,E} kommt auf L und R vor gemischt halt
 
 Schlüsselkandidat $K = (N \cup L \cup M) \implies \{A,B,D,E\}$
+
+
+
+
+
+
+https://www.youtube.com/watch?v=YiO8sO6KBIs&t=1s
