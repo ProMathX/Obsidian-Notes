@@ -17,6 +17,7 @@ Deshalb ist das Ziel eine minimal-Menge $F_{c}^{+} = F^{+}$ zu finden
 
 #### Algorithmus 
 ![[Pasted image 20260323213009.png]]
+
 #### Beispiel
 **R:={ABCDE}**
 
@@ -56,9 +57,9 @@ A->BD
 
 ##### Schlüsselkandidat
 
-N={ }
-R={ }
-L={ }
-M={A,B,D,E}
+N={ } kommt nicht vor in FD
+R={ } nur auf rechter seite
+L={ } nur auf linker seite
+M={A,B,D,E} kommt auf L und R vor gemischt halt
 
 Schlüsselkandidat $K = (N \cup L \cup M) \implies \{A,B,D,E\}$
