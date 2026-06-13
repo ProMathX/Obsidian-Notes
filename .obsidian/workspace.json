@@ -23,24 +23,12 @@
             "id": "e6582e569bcbe529",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Dritte Normalform 3NF"
+              "icon": "lucide-file-text",
+              "title": "TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1"
             }
           }
         ],
@@ -243,10 +231,10 @@
   },
   "active": "e6582e569bcbe529",
   "lastOpenFiles": [
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
