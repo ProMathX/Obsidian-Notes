@@ -10,9 +10,11 @@ Ist aufwendiger
 (k_{j} \to A) \in F^{+}
 $$
  und $k_{j}$ ist linksreduziert (voll funktional abh.)
+---
 
 Das heißt
 ---
+
 > Ein Nicht-Primattribut A darf nicht von einer **echten Teilmenge** eines Kandidatenschlüssels κ abhängen
    Du kannst von der linken Seite (κ) nichts wegstreichen, ohne dass die Abhängigkeit kaputtgeht.
 ---
