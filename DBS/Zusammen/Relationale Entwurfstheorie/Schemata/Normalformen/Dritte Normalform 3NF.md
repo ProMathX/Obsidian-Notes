@@ -45,6 +45,14 @@ Transitive Abhängigkeit:
     
 - _Urteil:_ **Durchgefallen.**
 
+
+Anmerkung am 13.6.2026
+Bringe die FD's in die Form von $\alpha \rightarrow Attribut$
+1) Trivial also $\alpha \rightarrow B \equiv B \rightarrow \alpha$
+2) Ist die Linke Seite in unserem Superschlüssel enthalten? 
+3) Ist die rechte Seite in einem Schlüssel enthalten? 
+
+
 ### Beispiel 1
 ![[Pasted image 20260327145454.png]]
 
