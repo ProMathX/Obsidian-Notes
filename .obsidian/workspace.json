@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "b8f5c120ccd4e771",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DBS Relationelle Algebra"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,8 +216,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b8f5c120ccd4e771",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS 9.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS 7.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS 5.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS 4.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS 2.pdf",
+    "DBS/Zusammen/ER-Modell/ER Key Words/Kardinalität.md",
+    "DBS/Zusammen/ER-Modell/ER Key Words/Chen Notation.md",
+    "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS 8.pdf",
+    "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
     "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
@@ -251,20 +237,13 @@
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS 5.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS 4.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v2.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v1.md",
     "Untitled 1.md",
-    "Studium WS26",
-    "Studium WS26/Statistik und Wahrscheinlichkeitstheorie",
     "Untitled.md",
-    "Studium WS26/Theorethische Informatik",
-    "Studium WS26/Betriebssysteme",
-    "Zusammenfassungen/OS/TU_Wien-Betriebssysteme_VU_(Puschner)_-_Angaben_UE_2023W_(myexpand,_forksort,_fb_arc_set,_http)/myexpand_td.pdf",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung 1.md",
@@ -276,9 +255,6 @@
     "DBS/Zusammen/DBS-Folien/Untitled.canvas",
     "DIR Sources.md",
     "Welcome.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Anfrageoptimierung.md",
     "Images/Pasted image 20260512154456.png",
     "Images/Pasted image 20260513134455.png",
     "Images/Pasted image 20260513134425.png",
