@@ -23,12 +23,24 @@
             "id": "05ec593b7dd02370",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf"
+                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1"
+              "icon": "lucide-file",
+              "title": "Transaktionen"
             }
           }
         ],
@@ -231,6 +243,7 @@
   },
   "active": "05ec593b7dd02370",
   "lastOpenFiles": [
+    "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "DBS/Zusammen/DBS-Folien/DBS 9.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
@@ -267,7 +280,6 @@
     "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/DBS-Folien/Untitled.canvas",
-    "DIR Sources.md",
     "Images/Pasted image 20260512154456.png",
     "Images/Pasted image 20260513134455.png",
     "Images/Pasted image 20260513134425.png",
