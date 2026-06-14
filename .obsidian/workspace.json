@@ -18,8 +18,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "05ec593b7dd02370",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Zusammen/DBS-Folien/DBS 9.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DBS 9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,18 +229,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "05ec593b7dd02370",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/DBS 7.pdf",
+    "DBS/Zusammen/DBS-Folien/DBS 8.pdf",
+    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
+    "DBS/Zusammen/DBS-Folien/DBS 2.pdf",
     "DBS/Zusammen/DBS-Folien/f76cf626-6863-4ac7-9397-1016ffae49a6.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 9.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS 7.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 5.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 4.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS 2.pdf",
     "DBS/Zusammen/ER-Modell/ER Key Words/Kardinalität.md",
     "DBS/Zusammen/ER-Modell/ER Key Words/Chen Notation.md",
     "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS 8.pdf",
     "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
     "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
@@ -237,7 +252,6 @@
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
-    "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v2.md",
@@ -254,7 +268,6 @@
     "DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "DBS/Zusammen/DBS-Folien/Untitled.canvas",
     "DIR Sources.md",
-    "Welcome.md",
     "Images/Pasted image 20260512154456.png",
     "Images/Pasted image 20260513134455.png",
     "Images/Pasted image 20260513134425.png",
