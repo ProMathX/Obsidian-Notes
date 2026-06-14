@@ -23,24 +23,12 @@
             "id": "05ec593b7dd02370",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Transaktionen"
+              "icon": "lucide-file-text",
+              "title": "TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1"
             }
           }
         ],
@@ -243,6 +231,7 @@
   },
   "active": "05ec593b7dd02370",
   "lastOpenFiles": [
+    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "DBS/Zusammen/DBS-Folien/DBS 9.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 7.pdf",
@@ -257,7 +246,6 @@
     "DBS/Zusammen/ER-Modell/ER Key Words/Chen Notation.md",
     "DBS/Zusammen/DBS-Folien/Database System Concepts, Seventh Edition (online chapters -- Abraham Silberschatz, Henry F_ Korth & S_ Sudarshan -- 8c1fe7e457436fd5202db7561be9c234 -- Anna’s Archive.pdf",
     "DBS/Zusammen/relationelle-algebra/DBS Relationelle Algebra.md",
-    "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
