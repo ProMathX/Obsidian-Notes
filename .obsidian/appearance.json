@@ -1,7 +1,10 @@
 {
   "cssTheme": "FastPpuccin",
   "theme": "obsidian",
-  "baseFontSize": 20,
+  "baseFontSize": 22,
   "nativeMenus": true,
-  "accentColor": "#fa7000"
+  "accentColor": "#fa7000",
+  "textFontFamily": "SF Pro Text",
+  "interfaceFontFamily": "SF Compact Text,SF Mono",
+  "monospaceFontFamily": "SF Mono"
 }
