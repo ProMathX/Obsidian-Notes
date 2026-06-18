@@ -18,26 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "235ab9faff884999",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "DBS/DBS Canvas.canvas",
-                "viewState": {
-                  "x": 1340,
-                  "y": 1370,
-                  "zoom": -2.335390354693925
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "DBS Canvas"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 385.5026626586914
   },
   "right": {
     "id": "21a0bf3b18dd7290",
@@ -234,8 +216,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "235ab9faff884999",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
+    "DBS/DBS Canvas.canvas",
     "DBS/Zusammen/DBS-Folien/DBS 8.pdf",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
@@ -283,7 +267,6 @@
     "Images/Pasted image 20260513133312.png",
     "Images/Pasted image 20260513132925.png",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
-    "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
     "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
     "Misc/Untitled.canvas"
