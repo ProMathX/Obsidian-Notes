@@ -18,8 +18,26 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "235ab9faff884999",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "DBS/DBS Canvas.canvas",
+                "viewState": {
+                  "x": 1340,
+                  "y": 1370,
+                  "zoom": -2.335390354693925
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "DBS Canvas"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,7 +234,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "235ab9faff884999",
   "lastOpenFiles": [
     "DBS/Zusammen/DBS-Folien/DBS 8.pdf",
     "conflict-files-obsidian-git.md",
