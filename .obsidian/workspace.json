@@ -49,10 +49,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität.pdf"
+                "file": "DBS/Zusammen/DBS-Aufgbaen/UE9/exercise9_de.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität"
+              "title": "exercise9_de"
             }
           }
         ],
@@ -255,6 +255,7 @@
   },
   "active": "536edcd24748cb2b",
   "lastOpenFiles": [
+    "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität.pdf",
     "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
