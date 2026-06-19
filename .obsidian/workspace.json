@@ -49,10 +49,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf"
+                "file": "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "exercise4_de"
+              "title": "TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität"
             }
           }
         ],
@@ -255,11 +255,12 @@
   },
   "active": "536edcd24748cb2b",
   "lastOpenFiles": [
+    "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE9/exercise9_de.pdf",
-    "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE8/exercise8_de.pdf",
@@ -268,7 +269,6 @@
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "DBS/Zusammen/DBS-Folien/DBS 5.pdf",
-    "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 4.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
