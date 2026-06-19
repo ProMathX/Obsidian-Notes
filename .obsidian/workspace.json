@@ -42,9 +42,33 @@
               "icon": "lucide-file",
               "title": "Boyce-Codd-Normalform"
             }
+          },
+          {
+            "id": "896b4aaaac8c4d97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -241,14 +265,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "769a7dfd863319e8",
+  "active": "896b4aaaac8c4d97",
   "lastOpenFiles": [
-    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
+    "conflict-files-obsidian-git.md",
+    "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
     "DBS/DBS Canvas.canvas",
     "DBS/Zusammen/DBS-Folien/DBS 8.pdf",
-    "conflict-files-obsidian-git.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Transaktionen.md",
     "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 9.pdf",
