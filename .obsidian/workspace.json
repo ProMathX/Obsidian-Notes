@@ -54,9 +54,33 @@
               "icon": "lucide-file-text",
               "title": "DBS 8"
             }
+          },
+          {
+            "id": "ee88d55f07691ce7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -253,8 +277,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "536edcd24748cb2b",
+  "active": "ee88d55f07691ce7",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/DBS 8.pdf",
+    "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Folien/DBS 9.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE9/exercise9_de.pdf",
     "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität.pdf",
@@ -262,7 +288,6 @@
     "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
-    "conflict-files-obsidian-git.md",
     "Zusammenfassungen/DBS/DBS_Test_zsmf.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE8/exercise8_de.pdf",
@@ -277,7 +302,6 @@
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v2.md",
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v1.md",
     "Untitled 1.md",
-    "Studium WS26",
     "Untitled.md",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung.md",
