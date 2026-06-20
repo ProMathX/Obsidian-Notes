@@ -18,45 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "0fe4c9923952c816",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Boyce-Codd-Normalform"
-            }
-          },
-          {
-            "id": "536edcd24748cb2b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,14 +216,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "536edcd24748cb2b",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 8.pdf",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Folien/DBS 9.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE9/exercise9_de.pdf",
     "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität.pdf",
-    "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
