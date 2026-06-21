@@ -1,14 +1,1 @@
-{
-<<<<<<< HEAD
-  "cssTheme": "Flexoki",
-=======
-  "cssTheme": "Prism",
->>>>>>> origin/main
-  "theme": "obsidian",
-  "baseFontSize": 22,
-  "nativeMenus": true,
-  "accentColor": "#8900fa",
-  "textFontFamily": "SF Pro Text",
-  "interfaceFontFamily": "SF Compact Text,SF Mono",
-  "monospaceFontFamily": "SF Mono"
-}
+{}
