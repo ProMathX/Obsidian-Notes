@@ -20,27 +20,15 @@
             }
           },
           {
-            "id": "e704b3265e494424",
+            "id": "167e4615dfbb1dff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "DBS/Zusammen/DBS-Folien/DBS 4.pdf"
               },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "icon": "lucide-file-text",
+              "title": "DBS 4"
             }
           }
         ],
@@ -241,7 +229,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e704b3265e494424",
+  "active": "167e4615dfbb1dff",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Folien/DBS 4.pdf",
