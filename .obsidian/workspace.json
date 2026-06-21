@@ -25,10 +25,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE3/exercise3_de.pdf"
+                "file": "DBS/Zusammen/DBS-Folien/DBS 4.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "exercise3_de"
+              "title": "DBS 4"
             }
           }
         ],
@@ -231,6 +231,7 @@
   },
   "active": "167e4615dfbb1dff",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Aufgbaen/UE3/exercise3_de.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 4.pdf",
     "conflict-files-obsidian-git.md",
     "DBS/Zusammen/DBS-Folien/DBS 5.pdf",
