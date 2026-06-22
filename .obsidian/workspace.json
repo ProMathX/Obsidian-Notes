@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "26c5d128eac05a55",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität"
+            }
+          },
+          {
             "id": "01fb1cd1bda00469",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -278,14 +290,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6becdf7968e3305",
+  "active": "26c5d128eac05a55",
   "lastOpenFiles": [
+    "DBS/Zusammen/DBS-Folien/DBS 4.pdf",
     "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität.pdf",
     "DBS/Zusammen/ER-Modell/ER Key Words/Verschiedene Entitätstypen und Beziehungen und Attribute.md",
     "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE8/exercise8_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
-    "DBS/Zusammen/DBS-Folien/DBS 4.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE1/exercise1_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE3/exercise3_de.pdf",
     "conflict-files-obsidian-git.md",
