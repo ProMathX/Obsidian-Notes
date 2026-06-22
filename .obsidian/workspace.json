@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,8 +278,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4634514aa7ce1c03",
+  "active": "a6becdf7968e3305",
   "lastOpenFiles": [
+    "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität.pdf",
     "DBS/Zusammen/ER-Modell/ER Key Words/Verschiedene Entitätstypen und Beziehungen und Attribute.md",
     "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE8/exercise8_de.pdf",
@@ -316,7 +317,6 @@
     "Welcome.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
-    "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/Anfrageoptimierung.md",
     "Images/Pasted image 20260512154456.png",
     "Images/Pasted image 20260513134455.png",
     "Images/Pasted image 20260513134425.png",
