@@ -18,81 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "a6becdf7968e3305",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Folien/DBS 4.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DBS 4"
-            }
-          },
-          {
-            "id": "26c5d128eac05a55",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "exercise7_de"
-            }
-          },
-          {
-            "id": "01fb1cd1bda00469",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Zusammen/DBS-Aufgbaen/UE8/exercise8_de.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "exercise8_de"
-            }
-          },
-          {
-            "id": "527c8a092e2733a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBS/Zusammen/ER-Modell/ER Key Words/Verschiedene Entitätstypen und Beziehungen und Attribute.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Verschiedene Entitätstypen und Beziehungen und Attribute"
-            }
-          },
-          {
-            "id": "4634514aa7ce1c03",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -290,10 +217,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4634514aa7ce1c03",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
     "DBS/Prüfungen/TU_Wien-Datenbanksysteme_VU_(Hose)_-_SS2024_Test_1besserqualtität.pdf",
+    "DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE8/exercise8_de.pdf",
     "DBS/Zusammen/DBS-Folien/DBS 4.pdf",
     "DBS/Zusammen/DBS-Aufgbaen/UE4/exercise4_de.pdf",
