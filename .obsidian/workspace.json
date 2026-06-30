@@ -18,8 +18,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "840aa716fc277c3d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Öffentlich-rechtliche Grundlagen_202510"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,8 +230,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "840aa716fc277c3d",
   "lastOpenFiles": [
+    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+    "DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "Misc/Untitled.canvas",
@@ -246,8 +261,6 @@
     "DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v1.md",
     "Untitled 1.md",
     "Untitled.md",
-    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
-    "DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung 1.md",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
     "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
@@ -266,7 +279,6 @@
     "Images/Pasted image 20260513133754.png",
     "Images/Pasted image 20260513133714.png",
     "Images/Pasted image 20260513133312.png",
-    "Images/Pasted image 20260513132925.png",
     "DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
