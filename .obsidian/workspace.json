@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "0c6831b8ce11b051",
-            "type": "leaf",
-            "state": {
-              "type": "diagram",
-              "state": {
-                "file": "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg"
-              },
-              "icon": "lucide-file",
-              "title": "Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,8 +217,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c6831b8ce11b051",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
     "Misc/Drawing 2026-04-07 14.01.01.excalidraw.md",
     "Misc/Untitled.canvas",
     "Misc/TU_Wien-Analysis_UE_(diverse)_-_Spickzettel_Folgen,_Reihen_und_Funktionen.pdf",
@@ -269,7 +257,6 @@
     "DIR Sources.md",
     "Welcome.md",
     "DBS/Zusammen/DBS-Aufgbaen/UE5/DBS Aufgabenblatt 5.md",
-    "DBS/Zusammen/DBS-Aufgbaen/UE6/UE 6.md",
     "Images/Pasted image 20260512154456.png",
     "Images/Pasted image 20260513134455.png",
     "Images/Pasted image 20260513134425.png",
