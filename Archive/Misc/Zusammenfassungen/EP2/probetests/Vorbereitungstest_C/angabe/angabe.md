@@ -35,23 +35,23 @@ Diese Gleichung lässt sich auch durch Paare ausdrücken:
 
 Die für diesen Test relevanten Dateien sind:
 
-* [IntConst](../src/IntConst.java)
-* [ConstConstTreeMap](../src/ConstConstTreeMap.java)
-* [IntConstQueue](../src/IntConstQueue.java)
-* [Polynomial](../src/Polynomial.java)
-* [ApplicationTest1](../src/ApplicationTest1.java)
-* [MCTest1](../src/MCTest1.java)
+* [IntConst](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/IntConst.java)
+* [ConstConstTreeMap](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/ConstConstTreeMap.java)
+* [IntConstQueue](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/IntConstQueue.java)
+* [Polynomial](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/Polynomial.java)
+* [ApplicationTest1](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/ApplicationTest1.java)
+* [MCTest1](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/MCTest1.java)
 
 Im Praxisteil des Tests sollen davon die hier aufgelisteten Dateien bearbeitet werden:
 
-* [ConstConstTreeMap](../src/ConstConstTreeMap.java)
-* [Polynomial](../src/Polynomial.java)
+* [ConstConstTreeMap](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/ConstConstTreeMap.java)
+* [Polynomial](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/Polynomial.java)
 
 ### Teilaufgabe 1 (maximal 25 Punkte)
 
 Absolvieren Sie den Multiple-Choice-Test. Um die MC Fragen zu beantworten, editieren Sie die
-Datei [MCTest1](../src/MCTest1.java) und befolgen Sie die Anweisungen aus den Kommentaren in der
-Datei. Wenn Sie [MCTest1](../src/MCTest1.java) ausführen, bekommen Sie eine Fehlermeldung falls
+Datei [MCTest1](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/MCTest1.java) und befolgen Sie die Anweisungen aus den Kommentaren in der
+Datei. Wenn Sie [MCTest1](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/MCTest1.java) ausführen, bekommen Sie eine Fehlermeldung falls
 inhaltlich relevante Textteile verändert wurden; ohne Fehler werden Ihre Antworten auf die Fragen
 aufgelistet.
 
@@ -59,28 +59,28 @@ aufgelistet.
 
 Erzeugen Sie einen binären Suchbaum in dem Schlüssel vom Typ `IntConst` mit
 Werten vom Typ `IntConst` assoziiert werden. Ein solcher
-binärer Suchbaum wird durch die Klasse [ConstConstTreeMap](../src/ConstConstTreeMap.java)
+binärer Suchbaum wird durch die Klasse [ConstConstTreeMap](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/ConstConstTreeMap.java)
 repräsentiert. Vervollständigen Sie diese Klasse. Erstellen Sie zu diesem Zweck auch eine eigene
 Knotenklasse und wählen Sie für diese Klasse einen geeigneten Namen. Die Ordnung der Schlüssel
 im binären Suchbaum entspricht der natürlichen Ordnung von `IntConst` und ist durch die Methoden
-`isEqual` und `lessThan` der Klasse [IntConst](../src/IntConst.java) bestimmt. Vervollständingen
-Sie neben [ConstConstTreeMap](../src/ConstConstTreeMap.java) auch die Klasse
-[Polynomial](../src/Polynomial.java).
-Alle anderen gegebenen Dateien sind bereits vollständig. Die Klassen [IntConst](../src/IntConst.java)
-und [IntConstQueue](../src/IntConstQueue.java) dürfen nicht verändert werden.
+`isEqual` und `lessThan` der Klasse [IntConst](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/IntConst.java) bestimmt. Vervollständingen
+Sie neben [ConstConstTreeMap](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/ConstConstTreeMap.java) auch die Klasse
+[Polynomial](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/Polynomial.java).
+Alle anderen gegebenen Dateien sind bereits vollständig. Die Klassen [IntConst](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/IntConst.java)
+und [IntConstQueue](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/IntConstQueue.java) dürfen nicht verändert werden.
 [English translation: Create a binary search tree in which keys of type `IntConst` are associated
 with values of type `IntConst`. Such a binary search tree is represented by the class
-[ConstConstTreeMap](../src/ConstConstTreeMap.java). Complete this class. For this purpose, also
+[ConstConstTreeMap](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/ConstConstTreeMap.java). Complete this class. For this purpose, also
 create your own node class and choose an appropriate name for this class. The ordering of the keys
 in the binary search tree corresponds to the natural ordering of `IntConst` and is determined by
-the methods `isEqual` and `lessThan` of the class [IntConst](../src/IntConst.java). Also complete
-the class [Polynomial](../src/Polynomial.java).
-All other provided files are already complete. The classes [IntConst](../src/IntConst.java)
-and [IntConstQueue](../src/IntConstQueue.java) must not be modified.]
+the methods `isEqual` and `lessThan` of the class [IntConst](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/IntConst.java). Also complete
+the class [Polynomial](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/Polynomial.java).
+All other provided files are already complete. The classes [IntConst](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/IntConst.java)
+and [IntConstQueue](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/IntConstQueue.java) must not be modified.]
 
-Die Klasse [ApplicationTest1](../src/ApplicationTest1.java) enthält Testfälle mit Sollausgaben als
+Die Klasse [ApplicationTest1](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/ApplicationTest1.java) enthält Testfälle mit Sollausgaben als
 Kommentare. Neben diesen Testfällen müssen auch alle Kommentare in den gefragten Klassen
-zutreffen. Die Klasse [ApplicationTest1](../src/ApplicationTest1.java) fließt nicht in die
+zutreffen. Die Klasse [ApplicationTest1](Archive/Misc/Zusammenfassungen/EP2/probetests/Vorbereitungstest_C/src/ApplicationTest1.java) fließt nicht in die
 Beurteilung ein, Sie können diese Datei nach belieben ändern.
 
 Bei einigen Methoden sind bei den Beschreibungen der Parameter unter `@param` Vorbedingungen

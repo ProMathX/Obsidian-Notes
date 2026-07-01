@@ -41,40 +41,32 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Daily Notes": {
-    "iconName": "LiCalendarDays",
-    "iconColor": "#ff0000"
-  },
-  "DBS": {
-    "iconName": "LiDatabaseZap",
-    "iconColor": "#ffd500"
-  },
   "DIR": {
     "iconName": "OcLaw16",
     "iconColor": "#00ff40"
-  },
-  "EP1": {
-    "iconName": "LiCodepen",
-    "iconColor": "#7370ff"
   },
   "EP2": {
     "iconName": "LiCodesandbox",
     "iconColor": "#ae00ff"
   },
-  "Studium WS26/Theorethische Informatik": {
-    "iconName": "RiCoreosFill",
-    "iconColor": "#ff4000"
-  },
-  "Studium WS26/Betriebssysteme": {
+  "Betriebssysteme": {
     "iconName": "OcCpu24",
     "iconColor": "#00ff6e"
   },
-  "Studium WS26/Statistik und Wahrscheinlichkeitstheorie": {
+  "Statistik und Wahrscheinlichkeitstheorie": {
     "iconName": "LiAreaChart",
     "iconColor": "#00aaff"
   },
-  "Studium WS26": {
-    "iconName": "OcDiffAdded16",
-    "iconColor": "#ff00dd"
+  "Theorethische Informatik": {
+    "iconName": "RiCoreosFill",
+    "iconColor": "#ff4000"
+  },
+  "Archive/SS26/DBS": {
+    "iconName": "LiDatabaseZap",
+    "iconColor": "#ffd500"
+  },
+  "Archive/SS26/EP1": {
+    "iconName": "LiCodepen",
+    "iconColor": "#7370ff"
   }
 }
