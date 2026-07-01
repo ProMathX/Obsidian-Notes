@@ -34,19 +34,6 @@
         "dimension": 80.25666337611057,
         "children": [
           {
-            "id": "d291971ab12f06ec",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
             "id": "16d41367a84f0ce3",
             "type": "leaf",
             "state": {
@@ -187,8 +174,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -196,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,10 +199,11 @@
       "obsidian-importer:Open Importer": false,
       "templater-obsidian:Templater": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "scratchpad:Open scratchpad": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "16d41367a84f0ce3",
   "lastOpenFiles": [
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
