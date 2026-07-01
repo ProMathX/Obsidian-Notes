@@ -535,11 +535,11 @@ Jede Tätigkeit von Organen, die nicht Gesetzgebung oder Gerichtsbarkeit sind (w
 
 ### Arten von Grundrechten
 
-| Art | Inhalt | Beispiele |
-|---|---|---|
-| **Freiheitsrechte** | Schutzbereich gegen staatliche Eingriffe | Eigentumsschutz, Meinungsfreiheit |
-| **Teilhaberechte** | Mitwirkung an der Staatswillensbildung | Wahlrecht, Immunität |
-| **Leistungsansprüche** | Ansprüche gegen den Staat | (hypothetisch: Recht auf Arbeit) |
+| Art                    | Inhalt                                   | Beispiele                         |
+| ---------------------- | ---------------------------------------- | --------------------------------- |
+| **Freiheitsrechte**    | Schutzbereich gegen staatliche Eingriffe | Eigentumsschutz, Meinungsfreiheit |
+| **Teilhaberechte**     | Mitwirkung an der Staatswillensbildung   | Wahlrecht, Immunität              |
+| **Leistungsansprüche** | Ansprüche gegen den Staat                | (hypothetisch: Recht auf Arbeit)  |
 
 ### Träger
 
@@ -588,6 +588,20 @@ Jede Tätigkeit von Organen, die nicht Gesetzgebung oder Gerichtsbarkeit sind (w
 **Public figures:** weiterer Schutz der Meinungsfreiheit als bei Privatpersonen (demokratischer Beitrag)
 
 ---
+
+
+
+# PRÜFUNGSSTOFF BIS HIER HER
+
+
+
+
+
+
+
+
+
+
 
 ## 10. ALLGEMEINES VERWALTUNGSRECHT
 

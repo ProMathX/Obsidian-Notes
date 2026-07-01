@@ -20,19 +20,67 @@
             }
           },
           {
-            "id": "bea81ceda9029bf0",
+            "id": "b3cf55b4e170d431",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIR/DIR SS2026 — Komplettzusammenfassung.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DIR SS2026 — Komplettzusammenfassung"
+            }
+          },
+          {
+            "id": "ab7b6e74ecd53009",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Betriebssysteme/Betriebssysteme/OS_programmingTest1_Lernzettel.pdf"
+                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "OS_programmingTest1_Lernzettel"
+              "title": "Öffentlich-rechtliche Grundlagen_202510"
+            }
+          },
+          {
+            "id": "f13122d6ba51ea5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Oeff-Recht-Grundlagen_Zusammenfassung"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -230,13 +278,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d291971ab12f06ec",
+  "active": "f13122d6ba51ea5a",
   "lastOpenFiles": [
+    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
+    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+    "DIR/DIR SS2026 — Komplettzusammenfassung.md",
+    "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
+    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
+    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO V2.md",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
+    "Betriebssysteme/Betriebssysteme/OS_programmingTest1_Lernzettel.pdf",
     "Betriebssysteme/C Programming Language - 2nd Edition (OCR).pdf",
     "Archive",
     "Betriebssysteme/Mitschrift",
     "Betriebssysteme/Betriebssysteme/OS_programmingTest2_Lernzettel.pdf",
-    "Betriebssysteme/Betriebssysteme/OS_programmingTest1_Lernzettel.pdf",
     "Betriebssysteme/Betriebssysteme/Lastminute AI Slop Vorbereitung.pdf",
     "Archive/Misc/Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
     "Excalidraw/Drawing 2026-03-15 13.47.07.excalidraw.md",
@@ -244,8 +299,6 @@
     "Excalidraw/Drawing 2026-03-11 13.28.38.excalidraw.md",
     "Archive/SS26",
     "Archive/SS26/DBS/Zusammen/DBS-Folien/DBS 4.pdf",
-    "Archive/SS26/DBS/Zusammen/DBS-Aufgbaen/UE7/exercise7_de.pdf",
-    "Archive/SS26/DBS/Zusammen/DBS-Aufgbaen/UE8/exercise8_de.pdf",
     "Archive/SS26/DBS/Zusammen/ER-Modell/ER Key Words/Verschiedene Entitätstypen und Beziehungen und Attribute.md",
     "conflict-files-obsidian-git.md",
     "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
@@ -260,15 +313,9 @@
     "Archive/SS26/DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v1.md",
     "Untitled 1.md",
     "Untitled.md",
-    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
-    "DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung 1.md",
     "DIR/DIR Praxisbeispiel/DIR Sources.md",
-    "DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
-    "DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
-    "Archive/SS26/DBS/Zusammen/SQL/SQL Cheat Sheet.md",
     "Archive/SS26/DBS/Zusammen/DBS-Folien/Untitled.canvas",
-    "DIR Sources.md",
     "Archive/Images/Pasted image 20260512154456.png",
     "Archive/Images/Pasted image 20260513134455.png",
     "Archive/Images/Pasted image 20260513134425.png",
