@@ -18,21 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "840aa716fc277c3d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Öffentlich-rechtliche Grundlagen_202510"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,7 +201,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "scratchpad:Open scratchpad": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -230,8 +216,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "840aa716fc277c3d",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "Misc/Entscheidungsbaum_zur_Konvergenz_und_Divergenz_von_Reihen.svg",
