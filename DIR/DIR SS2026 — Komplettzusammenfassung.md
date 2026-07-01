@@ -321,13 +321,13 @@ Erreichbar über Startseite · Reaktion auf Meldungen: **2 Monate** · Monitorin
 
 ## Testing-Tools
 
-|Automatisiert|Semi-automatisch|
-|---|---|
-|Lighthouse (Chrome DevTools)|Keyboard-Testing (Tab-Navigation)|
-|Accessibility Inspector (Firefox)|NVDA (NonVisual Desktop Access, Windows)|
-|WAVE (Web Accessibility Evaluation Tool)|VoiceOver (macOS/iOS)|
-|axe (Browser-Extension)|Contrast Checker / WCAG & APCA Kontrastrechner|
-|Accessibility Linters|Zoom 200 % Test|
+| Automatisiert                            | Semi-automatisch                               |
+| ---------------------------------------- | ---------------------------------------------- |
+| Lighthouse (Chrome DevTools)             | Keyboard-Testing (Tab-Navigation)              |
+| Accessibility Inspector (Firefox)        | NVDA (NonVisual Desktop Access, Windows)       |
+| WAVE (Web Accessibility Evaluation Tool) | VoiceOver (macOS/iOS)                          |
+| axe (Browser-Extension)                  | Contrast Checker / WCAG & APCA Kontrastrechner |
+| Accessibility Linters                    | Zoom 200 % Test                                |
 
 ## UX Design Praxis-Checkliste
 
