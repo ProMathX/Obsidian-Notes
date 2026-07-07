@@ -30,9 +30,33 @@
               "icon": "lucide-file-text",
               "title": "C Programming Language - 2nd Edition (OCR)"
             }
+          },
+          {
+            "id": "41a965a3de6fbc9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistik und Wahrscheinlichkeitstheorie/Aufgaben/Git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,8 +254,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d291971ab12f06ec",
+  "active": "41a965a3de6fbc9b",
   "lastOpenFiles": [
+    "Theorethische Informatik/Git.md",
+    "Statistik und Wahrscheinlichkeitstheorie/Aufgaben/Git.md",
+    "Theorethische Informatik/Sources/Git.md",
+    "Theorethische Informatik/Mitschrift/Git.md",
+    "Theorethische Informatik/Aufgaben/Git.md",
+    "Statistik und Wahrscheinlichkeitstheorie/Mitschrit/Git.md",
+    "Test.md",
     "Theorethische Informatik/Sources",
     "Theorethische Informatik/Aufgaben",
     "Statistik und Wahrscheinlichkeitstheorie/Aufgaben",
@@ -239,7 +270,6 @@
     "Statistik und Wahrscheinlichkeitstheorie/Mitschrit",
     "Betriebssysteme/C Programming Language - 2nd Edition (OCR).pdf",
     "conflict-files-obsidian-git.md",
-    "Test.md",
     "Archive/DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "Archive/DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "Archive/DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
@@ -250,7 +280,6 @@
     "Betriebssysteme/Betriebssysteme/OS_programmingTest1_Lernzettel.pdf",
     "Archive",
     "Betriebssysteme/Mitschrift",
-    "Betriebssysteme/Betriebssysteme/OS_programmingTest2_Lernzettel.pdf",
     "Excalidraw/Drawing 2026-03-15 13.47.07.excalidraw.md",
     "Excalidraw/Drawing 2026-03-11 14.26.50.excalidraw.md",
     "Excalidraw/Drawing 2026-03-11 13.28.38.excalidraw.md",
@@ -263,11 +292,6 @@
     "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
     "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
     "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
-    "Archive/SS26/DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v2.md",
-    "Archive/SS26/DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v1.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "DIR/DIR SS2026 — Komplettzusammenfassung 1.md",
     "Archive/SS26/DBS/Zusammen/DBS-Folien/Untitled.canvas",
     "Archive/Images/Pasted image 20260512154456.png",
     "Archive/Images/Pasted image 20260513134455.png",
