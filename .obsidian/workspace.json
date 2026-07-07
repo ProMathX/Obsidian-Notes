@@ -18,45 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "a00c3baed8a4c4e7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Betriebssysteme/C Programming Language - 2nd Edition (OCR).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "C Programming Language - 2nd Edition (OCR)"
-            }
-          },
-          {
-            "id": "416a9475d752d4fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,7 +201,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "scratchpad:Open scratchpad": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -251,46 +213,49 @@
       "obsidian-importer:Open Importer": false,
       "templater-obsidian:Templater": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "scratchpad:Open scratchpad": false
     }
   },
-  "active": "416a9475d752d4fd",
+  "active": "d291971ab12f06ec",
   "lastOpenFiles": [
-    "Betriebssysteme/C Programming Language - 2nd Edition (OCR).pdf",
-    "conflict-files-obsidian-git.md",
-    "Test.md",
-    "Archive/DIR/DIR SS2026 — Komplettzusammenfassung.md",
-    "Archive/DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
-    "Archive/DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
     "Archive/DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
     "Archive/DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "Archive/DIR/Sources/Besonderer Teil/Mitschrift/DSGVO V2.md",
+    "Archive/DIR/Sources/Besonderer Teil/Mitschrift/DSGVO T1.md",
+    "Archive/DIR/Sources/Besonderer Teil/Mitschrift",
+    "Archive/DIR/Sources/Besonderer Teil/Lizenzen 2026.pdf",
+    "Archive/DIR/Sources/Besonderer Teil/Ditigale Barrierefreiheit.pdf",
+    "Archive/DIR/Sources/Besonderer Teil/Datenschutz SS2026.pdf",
+    "Archive/DIR/Sources/Besonderer Teil/DIR_WS25_Hilfsmittel_DSGVO.pdf",
+    "Archive/DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
+    "Archive/DIR/Sources/Allgemeiner Teil/Mitschrift/Grundlagen DIR-Normen.md",
     "Archive/DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
-    "Betriebssysteme/Betriebssysteme/OS_programmingTest1_Lernzettel.pdf",
-    "Archive",
-    "Betriebssysteme/Mitschrift",
-    "Betriebssysteme/Betriebssysteme/OS_programmingTest2_Lernzettel.pdf",
-    "Betriebssysteme/Betriebssysteme/Lastminute AI Slop Vorbereitung.pdf",
-    "Archive/Misc/Zusammenfassungen/IntroSec/IntroSec_T1_zsmf.pdf",
+    "Archive/DIR/Sources/Besonderer Teil/DIR Datenschutz.pdf",
+    "Archive/DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
+    "Archive/DIR/Sources/Allgemeiner Teil/Mitschrift",
+    "Archive/DIR/Sources/Besonderer Teil",
+    "Archive/DIR/Sources/Allgemeiner Teil",
+    "Archive/DIR/DIR Praxisbeispiel/Praxisbeispiel.md",
+    "Archive/DIR/DIR Praxisbeispiel/Fallbeispiel; Ausarbeitung von Cihat Simsek.md",
+    "Archive/DIR/DIR Praxisbeispiel/DIR Sources.md",
+    "Archive/DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+    "Archive/DIR/DIR SS2026 — Komplettzusammenfassung.md",
+    "Test.md",
+    "conflict-files-obsidian-git.md",
+    "DIR/DIR SS2026 — Komplettzusammenfassung.md",
+    "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
+    "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
+    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
+    "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO V2.md",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "Excalidraw/Drawing 2026-03-15 13.47.07.excalidraw.md",
     "Excalidraw/Drawing 2026-03-11 14.26.50.excalidraw.md",
     "Excalidraw/Drawing 2026-03-11 13.28.38.excalidraw.md",
-    "Archive/SS26",
-    "Archive/SS26/DBS/Zusammen/DBS-Folien/DBS 4.pdf",
     "Archive/SS26/DBS/Zusammen/ER-Modell/ER Key Words/Verschiedene Entitätstypen und Beziehungen und Attribute.md",
     "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Boyce-Codd-Normalform.md",
     "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Dritte Normalform 3NF.md",
     "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Zweite Normalform 2NF.md",
-    "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Normalformen/Erste Normalform 1NF.md",
-    "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Kanoische Ueberdeckung (minimale Ueberdeckung).md",
-    "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Berechnung der Attributhülle.md",
-    "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/Ableitung funktionaler Abhaengigkeiten.md",
-    "Archive/SS26/DBS/Zusammen/Relationale Entwurfstheorie/Schemata/Funktionale Abhaenglkeiten/FD Beispiele/Normalisierung durch Zerlegung Beispiele.md",
-    "Archive/SS26/DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v2.md",
-    "Archive/SS26/DBS/Zusammen/Mitschrift und Notizen/VO Mitschrift/DBS ER Modelle v1.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "DIR/DIR SS2026 — Komplettzusammenfassung 1.md",
     "Archive/SS26/DBS/Zusammen/DBS-Folien/Untitled.canvas",
     "Archive/Images/Pasted image 20260512154456.png",
     "Archive/Images/Pasted image 20260513134455.png",
@@ -305,7 +270,7 @@
     "Archive/SS26/DBS/Zusammen/Schlüssel Hierarchie Canvas.canvas",
     "Archive/SS26/DBS/DBS Canvas.canvas",
     "DBS Canvas.sync-conflict-20260328-184325-K5HDONN.canvas",
-    "Archive/DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
+    "DIR/Sources/Allgemeiner Teil/Mitschrift/Normen Canvas.canvas",
     "Archive/Misc/Untitled.canvas"
   ]
 }
