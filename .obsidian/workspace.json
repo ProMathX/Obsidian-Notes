@@ -18,69 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "b3cf55b4e170d431",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/DIR SS2026 — Komplettzusammenfassung.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DIR SS2026 — Komplettzusammenfassung"
-            }
-          },
-          {
-            "id": "ab7b6e74ecd53009",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Öffentlich-rechtliche Grundlagen_202510"
-            }
-          },
-          {
-            "id": "f13122d6ba51ea5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Oeff-Recht-Grundlagen_Zusammenfassung"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -278,11 +217,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3cf55b4e170d431",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
-    "DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/Lizenzen DIR.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO Zusammenfassung.md",
     "DIR/Sources/Besonderer Teil/Mitschrift/DSGVO V2.md",
