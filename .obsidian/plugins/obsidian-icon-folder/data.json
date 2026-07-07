@@ -41,10 +41,6 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "DIR": {
-    "iconName": "OcLaw16",
-    "iconColor": "#00ff40"
-  },
   "EP2": {
     "iconName": "LiCodesandbox",
     "iconColor": "#ae00ff"
@@ -68,5 +64,9 @@
   "Archive/SS26/EP1": {
     "iconName": "LiCodepen",
     "iconColor": "#7370ff"
+  },
+  "Archive/DIR": {
+    "iconName": "OcLaw16",
+    "iconColor": "#00ff40"
   }
 }
