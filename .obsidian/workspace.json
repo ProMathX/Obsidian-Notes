@@ -30,9 +30,33 @@
               "icon": "lucide-file-text",
               "title": "C Programming Language - 2nd Edition (OCR)"
             }
+          },
+          {
+            "id": "416a9475d752d4fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,9 +254,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a00c3baed8a4c4e7",
+  "active": "416a9475d752d4fd",
   "lastOpenFiles": [
+    "Betriebssysteme/C Programming Language - 2nd Edition (OCR).pdf",
     "conflict-files-obsidian-git.md",
+    "Test.md",
     "Archive/DIR/DIR SS2026 — Komplettzusammenfassung.md",
     "Archive/DIR/Sources/Allgemeiner Teil/Öffentlich-rechtliche Grundlagen_202510.pdf",
     "Archive/DIR/Oeff-Recht-Grundlagen_Zusammenfassung.md",
@@ -241,7 +267,6 @@
     "Archive/DIR/Sources/Besonderer Teil/Mitschrift/DSGVO V2.md",
     "Archive/DIR/Sources/Allgemeiner Teil/Mitschrift/DIR Allgemeiner Teil Zusammenfassung.md",
     "Betriebssysteme/Betriebssysteme/OS_programmingTest1_Lernzettel.pdf",
-    "Betriebssysteme/C Programming Language - 2nd Edition (OCR).pdf",
     "Archive",
     "Betriebssysteme/Mitschrift",
     "Betriebssysteme/Betriebssysteme/OS_programmingTest2_Lernzettel.pdf",
@@ -266,7 +291,6 @@
     "Untitled 1.md",
     "Untitled.md",
     "DIR/DIR SS2026 — Komplettzusammenfassung 1.md",
-    "Archive/DIR/DIR Praxisbeispiel/DIR Sources.md",
     "Archive/SS26/DBS/Zusammen/DBS-Folien/Untitled.canvas",
     "Archive/Images/Pasted image 20260512154456.png",
     "Archive/Images/Pasted image 20260513134455.png",
