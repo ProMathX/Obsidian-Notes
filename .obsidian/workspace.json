@@ -18,8 +18,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "a00c3baed8a4c4e7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Betriebssysteme/C Programming Language - 2nd Edition (OCR).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "C Programming Language - 2nd Edition (OCR)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,7 +230,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d291971ab12f06ec",
+  "active": "a00c3baed8a4c4e7",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Archive/DIR/DIR SS2026 — Komplettzusammenfassung.md",
