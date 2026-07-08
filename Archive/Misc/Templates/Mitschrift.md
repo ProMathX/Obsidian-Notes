@@ -5,19 +5,14 @@ course:
 tags:
   - studies
 ---
-## Key Concepts
 
 
-## Important Details
 
 
-## Examples
+## Fragen
 
 
-## Questions
-- 
-
-## Summary
+## Zusammenfassung
 
 
 ## Related Topics
