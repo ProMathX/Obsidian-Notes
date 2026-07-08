@@ -6,8 +6,6 @@
     "emojiStyle": "native",
     "iconColor": "#bababa",
     "recentlyUsedIcons": [
-      "RiCompasses2Line",
-      "LiAsteriskSquare",
       "OcDiffAdded16",
       "RiCoreosFill",
       "OcCpu24",
@@ -17,7 +15,9 @@
       "OcLaw16",
       "LiDatabaseZap",
       "LiCalendarDays",
-      "LiArrowDownRightSquare"
+      "LiArrowDownRightSquare",
+      "LiAlertOctagon",
+      "LiBadgeInfo"
     ],
     "recentlyUsedIconsSize": 12,
     "rules": [],
@@ -50,12 +50,12 @@
     "iconColor": "#00ff6e"
   },
   "Statistik und Wahrscheinlichkeitstheorie": {
-    "iconName": "RiCompasses2Line",
-    "iconColor": "#ff0000"
+    "iconName": "LiAreaChart",
+    "iconColor": "#00aaff"
   },
   "Theorethische Informatik": {
-    "iconName": "LiAsteriskSquare",
-    "iconColor": "#0040ff"
+    "iconName": "RiCoreosFill",
+    "iconColor": "#ff4000"
   },
   "Archive/SS26/DBS": {
     "iconName": "LiDatabaseZap",
