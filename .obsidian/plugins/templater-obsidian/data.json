@@ -8,7 +8,7 @@
     ]
   ],
   "trigger_on_file_creation": false,
-  "auto_jump_to_cursor": false,
+  "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
@@ -29,11 +29,16 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Templates/Mitschrift.md"
+    "Archive/Misc/Templates"
   ],
   "startup_templates": [
-    "Templates/Mitschrift.md",
+    "Archive/Misc/Templates/Mitschrift.md",
     ""
   ],
-  "intellisense_render": 1
+  "intellisense_render": 1,
+  "ignore_folders_on_creation": [
+    {
+      "folder": ""
+    }
+  ]
 }
