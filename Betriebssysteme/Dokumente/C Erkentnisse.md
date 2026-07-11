@@ -74,4 +74,6 @@ Wenn ich bei dem Array dann ++ndigit[7] habe, habe ich dann, weil ich das Array 
 
 
 
+### Graphen oder Diagramme vermeiden
+Weil es kaum einheitlich ist, je nach Terminal konfiguration kann es rumspacken
 
