@@ -251,4 +251,52 @@ Das ist smart
 ```
 
 
+----
+
+Pointers
+
+generell passt, aber Achtung
+
+```C
+int main()
+{
+	int arr[] = {0,1,2,3,4}
+	int *p = &arr[0]; /* p points to 0*/
+	*p += 23 /* *p is now 23 */
+	p++; /*p shows to the next obejct in the array*/
+}
+```
+
+Wenn ein pointer eines anderen datentyps auf einen anderen pointer eines anderen datentypes zeigt 
+
+bsp
+
+```C
+
+void *pv;
+int *pin;
+int a;
+
+
+void foo()
+{
+	*pv = &a; /* ok but warning*/
+	*pin = (int *) pv; int *) /* is necessary in C ++ ,
+							   * but not mandatory in C */
+}
+
+
+```
+
+
+
+---
+
+## Datatypes
+
+
+
+
+
+
 
