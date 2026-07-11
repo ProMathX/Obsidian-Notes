@@ -147,4 +147,12 @@ jump_here:
 
 
 
+---
+
+Da alles einen Rückgabewert in C hat, um die Rückgabewerte explizit zu ignorieren 
+(void) foo();
+verwenden 
+bspw.
+`(void) prinf("Hello\n")`
+
 
