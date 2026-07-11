@@ -221,12 +221,34 @@ int main() {
 
 
 ist aber äquivalent zu
-`gcc -DDEBUG=2 `
+`gcc -DDEBUG=2 main.c -o main`
+
+```C
+#include <stdio.h>
+int main() {
+#if DEBUG == 1
+  printf("DEBUG 1 DEBUG 1\n");
+#endif
+
+#if DEBUG == 2
+  printf("DEBUG 2 DEBUG 2\n");
+#endif
+  return 0;
+}
+
+```
+
+Output 
+`DEBUG 2 DEBUG 2`
 
 
+----
+### Macros
+Das ist smart
+```C
+#define NRELEMENTS(a) (sizeof(a) / sizeof(a[0]))
 
-
-
+```
 
 
 
