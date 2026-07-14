@@ -594,8 +594,24 @@ int main(void)
 ```
 
 
+----
+# sizeof
 
 
+sizeof retourniert die die byte größe des jeweiligen datentypes.
+
+Wozu? Speicherallokierung
+
+```C
+#define ARRAY_LENGTH(a) (sizeof(a)/sizeof(a[0]))
+
+int main(void)
+{
+	int a = 3;
+	int xr[] = malloc(sizeof(int) * ARRAY_LENGTH(a)) /*schlecher Code nur als Beispiel*/
+}
+
+```
 
 
 
@@ -604,7 +620,14 @@ int main(void)
 ---
 ## Datatypes
 
-struct Dataset 
+Bisschen hervorgegriffen:
+
+lookup Table 
+
+
+
+
+
 
 
 
