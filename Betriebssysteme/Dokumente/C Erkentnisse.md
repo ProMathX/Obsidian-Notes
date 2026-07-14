@@ -456,6 +456,121 @@ int main(void)
 ```
 
 
+Damit es lesbarer wird 
+
+```C
+
+#typedef int(* my_function)(int,int)
+int foo(int x, int y)
+{
+	return x+y;
+}
+
+bool p(int x)
+{
+	return x%2 == 0;
+}
+
+void print_f(int xs[10], bool (*predicate)(int))
+{
+	for(int i = 0; i < 10;i++)
+	{
+		if(predicate(xs[i]))
+		{
+			printf("%d\n", xs[i]);
+		}
+	}
+
+}
+
+int main(void)
+{
+	int xs[]= {1,2,3,4,5,6};
+	//int (*f)(int, int) = f 
+	my_function f = foo;
+	
+	printf("%d", f(3,4)) /*returns 7*/
+
+	return 0;
+}
+
+```
+
+---
+# Bit Flags High IQ move
+
+Wenn du in C eine Funktion hast 
+
+`void foo(int x, bool a, bool b, bool c);`
+
+Dann muss man ja 3 Variablen festlegen  oder hinenschreiben.
+
+Es gibt aber einen Umweg, in dem man Binär rechnet.
+
+
+```C
+#include <stdio.h>
+#include <sys/types.h>
+
+/* Bitwise Flags: */
+/*Option 1:*/
+// typedef unsigned int t_flag;
+// #define FLAG_A (1 << 0) // 001
+// #define FLAG_B (1 << 1) // 010
+// #define FLAG_C (1 << 2) // 100
+
+/*Option 2: */
+typedef enum
+{
+    FLAG_A = (1 << 0), // 001
+
+    FLAG_B = (1 << 1), // 010
+
+    FLAG_C = (1 << 2) // 100
+
+} t_flag;
+
+int foo(int a, t_flag flag)
+{
+    if (flag & FLAG_A)
+    {
+        return a += a;
+    }
+    if (flag & FLAG_B)
+    {
+        return a *= a;
+    }
+    if (flag & FLAG_C)
+    {
+        return a = ~a;
+    }
+
+    return 0;
+}
+
+int main(void)
+{
+
+    printf("%d\n", foo(1234, 0));
+    printf("%d\n", foo(1234, FLAG_A));
+    printf("%d\n", foo(1234, (FLAG_B | FLAG_C)));
+    /*
+       Im Binären ist in diesem Fall, wenn ich
+       B v C <=> 010 v 100 => 110
+       Die Felder von B und C sind belegt
+       -> Somit FLAG_B und FLAG_C ist true
+    */
+
+    return 0;
+}
+
+```
+
+
+
+
+
+
 
 
 
