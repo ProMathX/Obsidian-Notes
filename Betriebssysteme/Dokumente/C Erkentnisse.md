@@ -613,7 +613,27 @@ int main(void)
 
 ```
 
+----
 
+## Strings
+
+String literal 
+
+`char *literal = "Hello World";` --> Nicht modifizierbar
+`char array[] = "Hello World";` --> Modifizierbar
+
+Somit:
+`array[0] = '#'` -> Funktioniert
+`literal[0] = '#'` -> segfault!
+
+Man literal aber mit strdup() modifizieren
+
+```C
+
+
+
+
+```
 
 
 
@@ -624,9 +644,101 @@ Bisschen hervorgegriffen:
 
 lookup Table 
 
+```C
+#include <stdio.h>
+
+static const char case_convert_lookup[] = {['a'] = 'A',
+
+                                           ['b'] = 'B',
+
+                                           ['c'] = 'C'
+
+};
+
+int main(void)
+{
+    printf("%c\n", case_convert_lookup['a']);
+}
+
+
+```
+
+
+*Achtung: Die Indizes sollten nicht so groß sein*
+
+### Tagged Union 
+Wozu? Dynamisches Schreiben in C
+```C
+#include <stdbool.h>
+#include <stdio.h>
+
+enum tag
+{
+    TAG_BOOL,
+    TAG_INT,
+    TAG_FLOAT
+};
+
+struct dynamic
+{
+    enum tag tag;
+
+    union {
+        bool b;
+        int i;
+        float f;
+    } value;
+};
+
+int main(void)
+{
+
+    struct dynamic d;
+
+    d.tag = TAG_FLOAT;
+
+    float p = d.value.f = 2.31;
+
+    printf("%.2f\n", p);
+}
 
 
 
+```
+
+### Bitfields
+Wannn? Wenn du Binärdaten parst, BMP, TCP/IP, ICMP
+Sehr wichtig
+Beispiel
+```C
+#include <stdbool.h>
+
+struct foo
+{
+    int first : 4; //verbraucht 4 bytes 
+    int second : 4; //verbraucht 4 bytes 
+    int alone : 1; //verbraucht 1 byte 
+    int last : 7; //verbraucht 7 bytes 
+};
+
+int main(void)
+{
+
+    struct foo f;
+
+    f.first = 2;
+    f.second = 2;
+    f.alone = 0;
+
+
+    /* parse the data into foo*/
+
+    int *fd = open(...);
+    read(fd, f, sizeof(f));
+}
+
+
+```
 
 
 
