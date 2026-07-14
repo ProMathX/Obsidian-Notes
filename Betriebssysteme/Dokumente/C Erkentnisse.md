@@ -1,5 +1,4 @@
 #C
-
 # Disclaimer
 
 Für das Erstellen meiner C Erkentniss wurde keine KI verwendet
@@ -7,10 +6,9 @@ Für das Erstellen meiner C Erkentniss wurde keine KI verwendet
 ![[Pasted image 20260714193033.png]]
 
 Für das Lernen und der Zusammenfassung
-
 - [Youtube Playlist von einem Franzosen 10/10 ](https://youtube.com/playlist?list=PL71Y0EmrppR0KyZvQWj63040UEzKQU7n8&si=MBRaZZBmamGU9Ox7)
 - K&R The C Programming Language 2nd Edition
-
+verwendet
 # Grundlage
 Erstens
 Generell input reading von einer Text-Datei 
@@ -314,10 +312,6 @@ void foo()
 	*pv = &a; /* ok but warning*/
 	*pin = (int *) pv;  /* is necessary in C ++ ,
 							   * but not mandatory in C */
-	/* Vice versa*/
-	
-	
-
 
 }
 ```
@@ -332,7 +326,7 @@ int main(void)
 
     void *p = &a;
 
-    printf("%p\n", p);
+    printf("%p\n", p);  /* 0x7fff27b7f8cc*/
     printf("%d\n", *p); /* ERROR: der Compiler weiß nicht konkret auf was der pointer eigentlich zeigt (dereferenz)*/
     printf("%d\n", *(int *)p) /* der Pointer wird in ein int pointer gecastet dann dereferenziert*/ 
 }
@@ -359,7 +353,7 @@ const char *cp = &c;
 * however , the pointer can be changed
 */
 
-char const *cp = &c; /* same as const char * cp */
+char const *cp = &c; /* same as const char *cp */
 
 const char *const cp = &c;
 /* The value to which cp points to can ’t be changed ,
@@ -390,7 +384,7 @@ int main(void)
 	char *p = first_b(s1);
 	if(p != NULL)
 	{
-		printf("found a %s at %p\n",p,&p);
+		printf("found a %s at %p\n",&p,p); //bar
 	}
 	return 0;
 }
@@ -499,7 +493,6 @@ jump_here:
 # Function Pointers
 
 Man kann eine Funktion definieren und diese dann als Pointer accessen, hat baer einer beschissene Syntax. 
-
 
 ```C
 
