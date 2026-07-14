@@ -383,6 +383,37 @@ jump_here:
 ```
 
 
+---
+
+# Function Pointers
+
+Man kann eine Funktion definieren und diese dann als Pointer accessen, hat baer einer beschissene Syntax. 
+
+
+```C
+
+
+int foo(int x, int y)
+{
+	return x+y;
+}
+
+int main(void)
+{
+	int (*f)(int, int) = f 
+	
+	printf("%d", f(3,4)) /*returns 7*/
+
+	return 0;
+}
+
+
+
+
+```
+
+
+
 
 
 
