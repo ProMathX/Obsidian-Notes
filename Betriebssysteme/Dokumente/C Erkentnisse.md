@@ -629,16 +629,30 @@ Somit:
 Man literal aber mit strdup() modifizieren
 
 ```C
+#include <stdio.h>
+#include <string.h>
 
+int main(void)
+{
+    char *literal = "Hello World!";
+    char array[] = "Hello World";
 
+    array[0] = '#';
 
+    char *s = strdup(literal);
 
+    s[0] = '#';
+
+    printf("%s\n", s);
+    printf("%s\n", array);
+    return 0;
+}
 ```
 
 
 
 ---
-## Datatypes
+## Datenstrukturen
 
 Bisschen hervorgegriffen:
 
@@ -740,13 +754,23 @@ int main(void)
 
 ```
 
+----
+# Man pages 
+Um alle möglichen EInträge zu sehen
 
+`man -f PAGE_NAME`
 
+ZB. 
+`man -f open`
+liefert 
 
+```bash
+$~ man -f open
+open (2)             - open and possibly create a file
+open (3p)            - open file
+open (3perl)         - perl pragma to set default PerlIO layers for input and output
+open (n)             - Open a file-based or command pipeline channel
+```
 
-
-
-
-
-
-
+Um es zu öffnen:
+´man 2 open´
