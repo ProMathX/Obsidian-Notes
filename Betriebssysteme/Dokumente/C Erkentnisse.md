@@ -1,7 +1,18 @@
 #C
+
+# Disclaimer
+
+Für das Erstellen meiner C Erkentniss wurde keine KI verwendet
+
+![[Pasted image 20260714193033.png]]
+
+Für das Lernen und der Zusammenfassung
+
+- [Youtube Playlist von einem Franzosen 10/10 ](https://youtube.com/playlist?list=PL71Y0EmrppR0KyZvQWj63040UEzKQU7n8&si=MBRaZZBmamGU9Ox7)
+- K&R The C Programming Language 2nd Edition
+
+# Grundlage
 Erstens
-
-
 Generell input reading von einer Text-Datei 
 
 ```c
@@ -73,14 +84,11 @@ Bruder K&R einfach Genien
 
 Wenn ich bei dem Array dann ++ndigit[7] habe, habe ich dann, weil ich das Array davor mit
 0er initalisiert habe, counte ich eine +1 auf diese Stelle und weiß, wieviele 7er es gibt.
-
-
-
 ### Graphen oder Diagramme vermeiden
-Weil es kaum einheitlich ist, je nach Terminal konfiguration kann es rumspacken
+Weil es kaum einheitlich ist, je nach Terminal konfiguration kann es rumspacken.
+Ansonten Graphics Libraries verwenden wie SDL
 
 ---
-
 # Dokumentation
 
 Dokumenation erfolgt mit Doxygen
@@ -113,19 +121,51 @@ dann
 24. Avoid side effects with && and ||, e.g., write if(b != 0) c = a/b; instead of if(b != 0 && c = a/b).
 25. Each switch block must contain a default case. If the case is not reachable, write assert(0) to this case (defensive programmin
 
-
-
 ----
+
+# Datentypen
 
 
 ![[Pasted image 20260711111646.png]]
 
-----
-In C: 0 is false, everything else is true (even -1)
+(mit typedef definierte alias)
+`uint8_t`, `int8_t`, `int32_t`,`uint32_t`, `int64_t`, `uint64_t`
+
+| Chartacter    | Type    | Output format                              |
+| ------------- | ------- | ------------------------------------------ |
+| C, c          | int     | a single-byte character                    |
+| d             | int     | Signed decimal integer.                    |
+| i             | int     | Signed decimal integer.                    |
+| o             | int     | Unsigned octal integer.                    |
+| u             | int     | Unsigned decimal integer.                  |
+| X, x          | int     | Unsigned hexadecimal integer               |
+| E, e, f, G, g | double  | Signed value; form [–]d.dddd e [-]dd[d]    |
+| p             | Pointer | Prints the address of the argument in hex. |
+| S, s          | String  | specifies a single-byte–character string.  |
+|               |         |                                            |
+
+```C
+#include <stdio.h>
+
+int main()
+{
+
+    // Use sizeof() to know size of the data types
+    printf("The size of int: %d\n", sizeof(int));
+    printf("The size of char: %d\n", sizeof(char));
+    printf("The size of float: %d\n", sizeof(float));
+    printf("The size of double: %d", sizeof(double));
+
+    return 0;
+}
+
+```
 
 ----
+### In C: 0 is false, everything else is true (even -1)
 
-#### goto 
+----
+#  goto 
 
 ```C
 #include <stdio.h>
@@ -147,8 +187,6 @@ jump_here:
 }
 ```
 
-
-
 ---
 
 Da alles einen Rückgabewert in C hat, um die Rückgabewerte explizit zu ignorieren 
@@ -158,10 +196,8 @@ bspw.
 `(void) prinf("Hello\n")`
 
 ----
-
 # Conditional Replacements
 #### Die einzelnen Direktiven
-
 
 | Direktive         | Bedeutung                                                                             |
 | ----------------- | ------------------------------------------------------------------------------------- |
@@ -196,7 +232,6 @@ Zum Nutzen:
 
 Anderes Beispiel 
 
-
 ```C
 #include<stdio.h>
 #define DEBUG 1
@@ -219,7 +254,6 @@ int main() {
 
 ```
 
-
 ist aber äquivalent zu
 `gcc -DDEBUG=2 main.c -o main`
 
@@ -241,9 +275,8 @@ int main() {
 Output 
 `DEBUG 2 DEBUG 2`
 
-
 ----
-### Macros
+#  Macros
 Das ist smart
 ```C
 #define NRELEMENTS(a) (sizeof(a) / sizeof(a[0]))
@@ -253,7 +286,7 @@ Das ist smart
 
 ----
 
-Pointers
+# Pointers
 
 generell passt, aber Achtung
 
@@ -276,12 +309,16 @@ void *pv;
 int *pin;
 int a;
 
-
 void foo()
 {
 	*pv = &a; /* ok but warning*/
-	*pin = (int *) pv; int *) /* is necessary in C ++ ,
+	*pin = (int *) pv;  /* is necessary in C ++ ,
 							   * but not mandatory in C */
+	/* Vice versa*/
+	
+	
+
+
 }
 ```
 
@@ -308,8 +345,59 @@ Wozu?
 
 Für generische Funktionen
 
+#### Pointer und Const
+
+```C
+char c;
+char *const cp = &c
+/* The value to which cp points to can be changed ,
+* however , the pointer can ’t be changed
+*/
+
+const char *cp = &c;
+/* The value to which cp points to can ’t be changed ,
+* however , the pointer can be changed
+*/
+
+char const *cp = &c; /* same as const char * cp */
+
+const char *const cp = &c;
+/* The value to which cp points to can ’t be changed ,
+* the pointer can ’t be changed either
+*/
+
+```
 
 
+#### Return Values und Pointers
+
+```C
+char *first_b (const char *a)
+{
+	for(int i = 0; i < strlen(a); i++)
+	{
+		if(a[i] == 'b') return &a[i];
+	}
+
+	return NULL;
+}
+
+
+int main(void)
+{
+	char *s1 = "foobar";
+	char *s2 = "foo";
+	char *p = first_b(s1);
+	if(p != NULL)
+	{
+		printf("found a %s at %p\n",p,&p);
+	}
+	return 0;
+}
+
+
+
+```
 
 ---
 
@@ -462,7 +550,6 @@ void print_f(int xs[10], bool (*predicate)(int))
 
 }
 
-
 int main(void)
 {
 	int xs[]= {1,2,3,4,5,6};
@@ -473,11 +560,7 @@ int main(void)
 	return 0;
 }
 
-
-
-
 ```
-
 
 Damit es lesbarer wird 
 
@@ -615,7 +698,7 @@ int main(void)
 
 ----
 
-## Strings
+# Strings
 
 String literal 
 
@@ -652,7 +735,7 @@ int main(void)
 
 
 ---
-## Datenstrukturen
+# Datenstrukturen
 
 ### Structs
 
@@ -718,7 +801,6 @@ void foo(void)
 Die Knoten sind mit Pointern referenziert
 
 ```C
-
 struct account_node
 {
 	char username[32];
@@ -831,8 +913,23 @@ struct account
 	unsigned int uid;
 
 };
+typedef struct account account_t;
 
+typedef struct account 
+{
+	char username[32];
+	char password[32];
+	unsigned int uid;
 
+} account_t;
+
+...
+
+void foo(void)
+{
+	account_t user1 = {"alice","4l1c3",41};
+
+}
 
 
 
@@ -841,7 +938,7 @@ struct account
 ---
 Bisschen hervorgegriffen:
 
-lookup Table 
+### Lookup Table 
 
 ```C
 #include <stdio.h>
@@ -865,7 +962,7 @@ int main(void)
 
 *Achtung: Die Indizes sollten nicht so groß sein*
 
-### Tagged Union 
+### Tagged Union (Nesting)
 Wozu? Dynamisches Schreiben in C
 ```C
 #include <stdbool.h>
@@ -959,3 +1056,65 @@ open (n)             - Open a file-based or command pipeline channel
 
 Um es zu öffnen:
 ´man 2 open´
+
+#### Suchen 
+`man -k keyword`
+`apropos keyword`
+
+# Source Files und Programmstruktur
+
+### Header Files
+
+- Contains prototypes and constants
+- Contaions *no* definitions of functions 
+- use `#include`
+	- `#include <account.h> searches in library path`
+	- `#include "account.h" searches in local folder`
+
+
+```C
+/* account.h */
+# ifndef ACCOUNT_H /* include guard */
+# define ACCOUNT_H
+
+typedef struct { ... } account_t ;
+
+void acc_init ( account_t *);
+void acc_set_password ( account_t * , const char *);
+# endif /* ACCOUNT_H */
+```
+
+
+
+In `account.c`
+```C
+# include " account.h "
+void acc_init ( account_t * account )
+{
+/* do stuff here to initialize
+* the account ( check dublicates .
+* constraints etc .) */
+/* assign uid if done correctly */
+}
+void acc_set_password ( account_t * account ,const char * pw )
+{
+/* set password for account */
+}
+
+int main ( void )
+{
+	account_t account ;
+	account.username = " alice " ;
+	account.password = " 4 l1c3 " ;
+	acc_init (& account );
+	acc_set_password (& account , " n3wl1c3 " );
+	return 0;
+}
+
+```
+
+```bash 
+$~ gcc -c account.c
+$~ gcc -c prog.c
+$~ gcc -o prog prog.o account.o
+```
