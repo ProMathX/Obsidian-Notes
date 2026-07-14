@@ -412,6 +412,48 @@ int main(void)
 
 ```
 
+Gleiches gilt auch wenn man eine Funktion hat und in die Funktion eine andere funktion einpackt
+
+```C
+
+
+int foo(int x, int y)
+{
+	return x+y;
+}
+
+bool p(int x)
+{
+	return x%2 == 0;
+}
+
+void print_f(int xs[10], bool (*predicate)(int))
+{
+	for(int i = 0; i < 10;i++)
+	{
+		if(predicate(xs[i]))
+		{
+			printf("%d\n", xs[i]);
+		}
+	}
+
+}
+
+
+int main(void)
+{
+	int xs[]= {1,2,3,4,5,6};
+	int (*f)(int, int) = f 
+	
+	printf("%d", f(3,4)) /*returns 7*/
+
+	return 0;
+}
+
+
+
+
+```
 
 
 
