@@ -270,7 +270,6 @@ int main()
 Wenn ein pointer eines anderen datentyps auf einen anderen pointer eines anderen datentypes zeigt 
 
 bsp
-
 ```C
 
 void *pv;
@@ -284,9 +283,33 @@ void foo()
 	*pin = (int *) pv; int *) /* is necessary in C ++ ,
 							   * but not mandatory in C */
 }
+```
+
+```C
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 3;
+
+    void *p = &a;
+
+    printf("%p\n", p);
+    printf("%d\n", *p); /* ERROR: der Compiler weiß nicht konkret auf was der pointer eigentlich zeigt (dereferenz)*/
+    printf("%d\n", *(int *)p) /* der Pointer wird in ein int pointer gecastet dann dereferenziert*/ 
+}
 
 
 ```
+
+
+Wozu? 
+
+Für generische Funktionen
+
+
+
 
 ---
 
@@ -534,18 +557,22 @@ int foo(int a, t_flag flag)
 {
     if (flag & FLAG_A)
     {
-        return a += a;
+        a += a;
+        /*Unsetting FLAG_A*/
+        flag &= ~FLAG_A; // 001 ^ 110 = 000
     }
     if (flag & FLAG_B)
     {
-        return a *= a;
+        a *= a;
+        flag &= ~FLAG_B;
     }
     if (flag & FLAG_C)
     {
-        return a = ~a;
+        a = ~a;
+        flag &= ~FLAG_C;
     }
 
-    return 0;
+    return a;
 }
 
 int main(void)
