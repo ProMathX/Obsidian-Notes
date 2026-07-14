@@ -654,6 +654,191 @@ int main(void)
 ---
 ## Datenstrukturen
 
+### Structs
+
+Jedem Wert wird im Speicher es fix allokiert, sprich die variablen haben eine fixe Speicheradresse
+
+
+```C
+/*Tagged Struct*/
+struct account {
+  char username[32];
+  char password[32];
+  unsigned int uid;
+};
+
+/*Untagged structs*/
+struct account
+{
+	...
+	
+}user1,user2;
+
+/*Mixed:*/
+struct account
+{
+	...
+}user1,user2;
+
+
+int main(void) {
+  struct account user1 = {"Alice", "4lic3", 1};
+  
+  struct account user2 = {"Bob", "b5b", user1.uid + 1};
+  
+  /*Since C99*/
+  struct account user1 = {.uid = 1, .username = "Alice", .password = "4lic3"}
+}
+
+```
+
+
+##### Pointers and structs 
+
+```C
+struct account 
+{
+	char username[32];
+	char password[32];
+	unsigned int uid;
+};
+
+void foo(void)
+{
+	struct account user1 = {"Alice", "4lic3", 1};
+	struct account *p = &user1;
+	
+	p->uid;
+}
+
+```
+
+
+##### Singly Linked List
+Die Knoten sind mit Pointern referenziert
+
+```C
+
+struct account_node
+{
+	char username[32];
+	char password[32];
+	unsigned int uid;
+	struct account_node *next;
+
+}; 
+
+struct account_node user1,user2;
+struct account_node = &user1;
+
+user1.next = &user2;
+user2.next = NULL;
+
+struct account_node *p = head;
+
+while(p != NULL)
+{
+	p = p -> next
+} 
+
+
+```
+
+-----
+### Union
+
+```C
+union number 
+{
+	char c_number; // 1byte
+	short s_number; // 2 bytes 
+};
+
+/* Zugriff auf union*/
+union number i;
+i.c_number = 0x42;
+i.s_number = 0x6548;
+
+```
+
+
+----
+
+### Enumeration
+
+```C
+/*Generelle Struktur*/
+enum [TYPENAME]
+{
+	IDENTIFIER [ = VALUE] [, IDENTIFIER] [ = VALUE]*
+};
+
+/* Zugriff*/
+enum boolean 
+{
+	FALSE = 0,
+	TRUE
+};
+
+enum account 
+{
+	PREMIUM = 1,
+	STANDARD = 2,
+	BUSINESS = 4,
+	FREE = 3
+};
+
+
+void foo(void)
+{
+	enum account account1;
+	account1 = BUSINESS;
+	
+}
+
+
+```
+
+----
+### Typedef
+
+```C
+
+/* stdint . h */
+...
+typedef signed char int8_t ;
+typedef unsigned char uint8_t ;
+typedef signed int int16_t ;
+typedef unsigned int uint16_t ;
+...
+# include < stdint .h >
+...
+uint8_t i ;
+for ( i = 0; i < 10; ++ i )
+printf ( " % u \ n " , i );
+...
+
+
+
+```
+
+
+```C
+struct account 
+{
+	char username[32];
+	char password[32];
+	unsigned int uid;
+
+};
+
+
+
+
+
+```
+
+---
 Bisschen hervorgegriffen:
 
 lookup Table 
