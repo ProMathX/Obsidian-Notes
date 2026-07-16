@@ -905,6 +905,7 @@ void PrintChars(String string)
 
 ```
 --> Vorteil String splicing!
+
 ### Structs
 
 Jedem Wert wird im Speicher es fix allokiert, sprich die variablen haben eine fixe Speicheradresse
@@ -988,6 +989,29 @@ void print_student(struct Student* s) {
 
 ```
 
+Von [wikipedia](https://en.wikipedia.org/wiki/Struct_(C_programming_language)#Pointers)
+```C
+struct Point p = { 3, 7 };
+int x = p.x;
+p.x = 10;
+struct Point* pp = &p;
+x = pp->x; /*x =  10*/
+pp->x = 8; /* p.x = 8*/
+```
+
+```C
+struct Point position = {3,7}; /*x,y*/
+
+int x_Axis_copy = position.x;
+position.x = 10;
+
+struct Point *position_pointer = &position;
+
+x_Axis_copy = position_pointer -> x;
+position_pointer -> x = 8;
+
+
+```
 
 
 ##### Singly Linked List
@@ -1004,7 +1028,7 @@ struct account_node
 }; 
 
 struct account_node user1,user2;
-struct account_node = &user1;
+struct *account_node = &user1;
 
 user1.next = &user2;
 user2.next = NULL;
@@ -1018,6 +1042,10 @@ while(p != NULL)
 
 
 ```
+
+
+
+
 
 -----
 ### Union
