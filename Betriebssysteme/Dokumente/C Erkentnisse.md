@@ -126,8 +126,11 @@ dann
 
 ![[Pasted image 20260711111646.png]]
 
-(mit typedef definierte alias)
+(mit typedef definierte alias, fixed integers)
 `uint8_t`, `int8_t`, `int32_t`,`uint32_t`, `int64_t`, `uint64_t`
+![[Pasted image 20260716194945.png]]
+
+[src](https://en.cppreference.com/cpp/types/integer)
 
 | Chartacter    | Type    | Output format                              |
 | ------------- | ------- | ------------------------------------------ |
@@ -902,11 +905,6 @@ void PrintChars(String string)
 
 ```
 --> Vorteil String splicing!
-
-
-
-
-
 ### Structs
 
 Jedem Wert wird im Speicher es fix allokiert, sprich die variablen haben eine fixe Speicheradresse
