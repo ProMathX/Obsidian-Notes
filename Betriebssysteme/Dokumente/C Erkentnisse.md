@@ -992,27 +992,12 @@ void print_student(struct Student* s) {
 Von [wikipedia](https://en.wikipedia.org/wiki/Struct_(C_programming_language)#Pointers)
 ```C
 struct Point p = { 3, 7 };
-int x = p.x;
+int x = p.x /* x = 3 */;
 p.x = 10;
 struct Point* pp = &p;
 x = pp->x; /*x =  10*/
 pp->x = 8; /* p.x = 8*/
 ```
-
-```C
-struct Point position = {3,7}; /*x,y*/
-
-int x_Axis_copy = position.x;
-position.x = 10;
-
-struct Point *position_pointer = &position;
-
-x_Axis_copy = position_pointer -> x;
-position_pointer -> x = 8;
-
-
-```
-
 
 ##### Singly Linked List
 Die Knoten sind mit Pointern referenziert
