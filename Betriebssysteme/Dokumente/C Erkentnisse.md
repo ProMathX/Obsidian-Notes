@@ -393,8 +393,112 @@ int main(void)
 
 ```
 
----
 
+### Index & Pointers
+Wenn man eine referenz zwischen zwei Objekten haben will, benötigt man einen Pointer.
+Macht nur Sinn, wenn alle User in einem zentralen Array liegen.
+
+```C
+User john = (User)
+{
+	.name = John,
+	.friend = &sarah;
+};
+```
+
+```C
+User sarah = (User)
+{
+	.name = Sarah,
+	.friend = NULL;
+};
+
+
+```
+
+Was wenn der Speicher sich bei sarah ändert? 
+--> Dangling Pointer bei john 
+
+Fix:
+
+Wenn unser User struct so definiert ist:
+
+```C
+typedef struct
+{
+	String name;
+	User *friend;
+} User; 
+```
+--> Dann speichern wir statt den Pointer zum einem anderen Struct, den Index
+
+```C
+
+typedef struct
+{
+	String name;
+	int32_t friendIndex;
+} User;
+
+
+```
+
+Dann wird
+
+```C
+User john = (User)
+{
+	.name = John,
+	.friend = &sarah;
+};
+```
+
+zu 
+```C
+User john = (User)
+{
+	.name = John,
+	.friend = 27;
+};
+```
+
+konkretes Beispiel 
+
+```C
+#define MAX_USERS 100
+
+typedef struct {
+    char name[32];
+    int32_t friendIndex;  // -1 = kein Freund
+} User;
+
+User users[MAX_USERS];
+int32_t userCount = 0;
+
+int32_t addUser(const char *name, int32_t friendIndex) {
+    User *u = &users[userCount];
+    strncpy(u->name, name, sizeof(u->name) - 1);
+    u->friendIndex = friendIndex;
+    return userCount++;   // gibt den Index des neuen Users zurück
+}
+
+int main(void) {
+    int32_t sarahIdx = addUser("Sarah", -1);
+    int32_t johnIdx  = addUser("John", sarahIdx); // John zeigt per Index auf Sarah
+
+    // Zugriff: statt john.friend->name schreibst du:
+    User *john = &users[johnIdx];
+    User *johnsFriend = &users[john->friendIndex];
+    printf("Johns Freund heißt %s\n", johnsFriend->name);
+
+    return 0;
+}
+
+```
+
+
+
+---
 # Keywords
 
 `static` -> allows a variable to keep its value after a function ends
@@ -729,6 +833,79 @@ int main(void)
 
 ---
 # Datenstrukturen
+### Arrays & Strings Bound Checkings
+An sich klar, aber es gibt kniffe 
+
+```C
+
+#define ARRAY_LENGTH(a) (sizeof(a)/sizeof(a[0]))
+
+typedef struct Int32Array
+{
+	int32_t *items;
+	int32_t  length;
+	int32_t  capacity 
+};
+
+int Int32Array_Get(Int32Array array[], int32_t index)
+{
+	if(index >= 0 && index < array.length)
+	{
+		return array.items[index];
+		
+	}
+	fprintf(stderr, "Array OutOfBounds\n")
+	return 0;
+
+	
+}
+
+void foo(Int32Array array)
+{
+	for(int i = 0; i <= array.length; i++) // <= ! Bound Chechking nötig
+	{
+		int item = Int32Aray_Get(array,i);
+		
+	}
+
+}
+
+
+int main(void)
+{
+	Int32Array array = {};
+	
+
+}
+
+
+
+```
+
+
+```C
+typedef struct
+{
+	char *chars;
+	int32_t length;
+}String;
+
+void PrintChars(String string)
+{
+	for(int i = 0; i < string.length; i++)
+	{
+		printf("%c", string.chars[i]);
+	}
+
+}
+
+
+```
+--> Vorteil String splicing!
+
+
+
+
 
 ### Structs
 
@@ -788,6 +965,31 @@ void foo(void)
 }
 
 ```
+
+```C
+#include <stdio.h>
+
+// a larger struct which may carry a lot of data
+struct Student {
+    char name[50];
+    unsigned int id;
+    unsigned int semester;
+    float gpa;
+};
+
+// passing by value
+void print_student(struct Student s) {
+    printf("Name: %s, ID: %d, in semester %d, with GPA: %.2f\n", s.name, s.id, s.semester, s.gpa);
+}
+
+// passing by pointer
+void print_student(struct Student* s) {
+    printf("Name: %s, ID: %d, in semester %d, with GPA: %.2f\n", s->name, s->id, s->semester, s->gpa);
+}
+
+
+```
+
 
 
 ##### Singly Linked List
@@ -1111,3 +1313,12 @@ $~ gcc -c account.c
 $~ gcc -c prog.c
 $~ gcc -o prog prog.o account.o
 ```
+
+
+### ASan
+Address Sanitazation 
+`clang -fsanitize=address`
+
+--> Nur im Test-branch o.Ä nutzen
+
+
