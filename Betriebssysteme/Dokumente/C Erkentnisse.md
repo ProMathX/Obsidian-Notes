@@ -162,9 +162,18 @@ int main()
 
 ```
 
+<br>
 ----
 ### In C: 0 is false, everything else is true (even -1)
 
+
+Fun Fact 
+
+
+`int foo$bar$ = 3;` ist gültig!
+
+
+<br>
 ----
 #  goto 
 
@@ -195,6 +204,8 @@ Da alles einen Rückgabewert in C hat, um die Rückgabewerte explizit zu ignorie
 verwenden 
 bspw.
 `(void) prinf("Hello\n")`
+
+<br>
 
 ----
 # Conditional Replacements
@@ -278,15 +289,78 @@ Output
 
 ----
 #  Macros
-Das ist smart
+Das ist smart aber man sollte es bedacht nutzen
 ```C
 #define NRELEMENTS(a) (sizeof(a) / sizeof(a[0]))
 
 ```
 
 
-----
+Multi-Line Macros
+```C
+#define SUM_BETWEEN(start, end){         \
+	int sum = 0;                         \
+	for(int i = (start); i < (end); i++) \
+		sum += i;                        \
+	printf("%d\n",sum);                  \
+}
 
+int  main(void)
+{
+	int sum = 20; /*Deshalb die klammern!, ansonsten compiler error*/
+	SUM_BETWEEN(2,8) /* Weil printf in der Macro scho ein ; hat wird hier nicht benötigt*/
+	
+	return 0;
+
+}
+
+
+```
+
+Es gehen auch Präfixe mit Macros.
+Vorteil: Zum Generieren von Macros
+```C
+#define PREFIX(var_name) new_##var_name
+
+#define GENERIC_ADD(type)  \
+	type add_##type(type x, type y) \
+	{ \
+	   return ((x)+(y))\
+	}\ 								
+
+GENERIC_ADD(int)
+
+GENERIC_ADD(float)
+
+GENERIC_ADD(long)
+
+int main(void)
+{
+	int PREFIX(foo) = 123;
+	printf("%d\n",new_foo); /*123*/
+	printf("%d\n",add_int(1,1)); /*2*/
+	printf("%.2f\n",add_float(1.0,1.0)); /*2.0*/
+	printf("%ld\n",add_long(1L,1L)); /*2L*/
+	return 0;
+}
+
+```
+
+```C
+#define PRINT_LOOP(iterations, ...){\
+	for(int i = 0; i < (iterations); i++) \
+		printf(__VA_ARGS__); \
+} \
+
+
+int main(void)
+{
+	PRINT_LOOP(3,"hello %d %s\n",32,"bar");
+}
+
+```
+
+----
 # Pointers
 
 generell passt, aber Achtung
@@ -426,6 +500,19 @@ Fix:
 
 Wenn unser User struct so definiert ist:
 
+Natürlich unter der vorbedingung 
+
+```C
+typedef struct string
+{
+	char *s1;
+	int length;
+
+}String;
+
+
+```
+
 ```C
 typedef struct
 {
@@ -500,7 +587,61 @@ int main(void) {
 ```
 
 
+#### Double pointer
 
+Von geeksforgeeks:
+>[!Quote]
+>A double pointer in C is a pointer that stores the address of another pointer
+
+
+```C
+int main(void)
+{
+	int var = 10;
+	int *p = &var;
+	int **pp = &p;
+
+	printf("var: %d\n", var);     
+	printf("*ptr1: %d\n", *ptr1);     
+	printf("**ptr2: %d", **ptr2);     
+	return 0;
+
+}
+```
+
+
+
+Für was? Dynamic 2d array.
+
+Beispiel.:
+
+```C
+int main(void)
+{
+    int m, n;
+    m = 4;
+    n = 3;
+
+    int **arr = malloc((m) * sizeof(int *));
+
+    for (int i = 0; i < m; i++)
+    {
+        arr[i] = (int *)malloc((n) * sizeof(int));
+    }
+
+    for (int i = 0; i < m; i++)
+    {
+        free(arr[i]);
+    }
+    free(arr);
+
+}
+```
+
+
+
+
+<br>
 ---
 # Keywords
 
@@ -595,6 +736,7 @@ jump_here:
 ```
 
 
+<br>
 ---
 
 # Function Pointers
@@ -611,7 +753,7 @@ int foo(int x, int y)
 
 int main(void)
 {
-	int (*f)(int, int) = f 
+	int (*f)(int, int) = foo
 	
 	printf("%d", f(3,4)) /*returns 7*/
 
@@ -796,6 +938,29 @@ int main(void)
 
 ```
 
+#### size_t & ssize_t
+`size_t = variable_name;` (fixed size)
+`ssize_t = variable_name` (variable size)
+
+Gibt die größe der Varibale in bytes an(`sizeof`). 
+
+[src](https://www.geeksforgeeks.org/c/size_t-data-type-c-language/)
+```C
+// Here argument of 'n' refers to maximum
+//blocks that can be allocated which
+//is guaranteed to be non-negative.
+void* malloc(size_t n);
+
+// While copying 'n' bytes from 's2' to 's1'
+// n must be non-negative integer.
+void* memcpy(void* s1, void const* s2, size_t n);
+
+// strlen() uses size_t because the length
+//of any string will always be at least 0.
+size_t strlen(char const* s);
+
+```
+
 ----
 
 # Strings
@@ -831,6 +996,16 @@ int main(void)
     return 0;
 }
 ```
+
+#### Split String
+
+https://www.youtube.com/watch?v=Uv0-vitgez0&list=PL71Y0EmrppR0KyZvQWj63040UEzKQU7n8&index=19
+
+https://gist.github.com/cacharle/fe5c88acc539ed9347186f69f05ead83
+
+oder verwende strtok (kann nicht bei ,,, kein \b setzen),strsep (kann dann ein \b setzen)
+
+siehe manpages dementsprechend
 
 
 
@@ -905,6 +1080,36 @@ void PrintChars(String string)
 
 ```
 --> Vorteil String splicing!
+
+
+#### VLA (Variable Length Array)
+
+via malloc
+ *DONT USE THEM* :LiFileExclamationPoint:  You can corrupt it!
+ 
+```C
+
+int main(void)
+{
+	int *xs = malloc(sizeof(int)*128);
+
+	for(int i = 0; i < 128, i++)
+	{
+		xs[i] = i*i;
+	}
+
+	for(int i = 0; i < 128, i++)
+	{
+		printf("%d\N",x[i]);
+	}
+
+	free(xs);
+	xs = NULL;
+	return 0;
+
+}
+```
+
 
 ### Structs
 
@@ -998,6 +1203,71 @@ struct Point* pp = &p;
 x = pp->x; /*x =  10*/
 pp->x = 8; /* p.x = 8*/
 ```
+
+##### Anonyme structs und arrays 
+
+```C
+#include <stdio.h>
+struct Vector
+{
+    int x;
+    int y;
+};
+
+int scalar(int s, struct Vector v)
+{
+
+    return s * v.x + s * v.y;
+}
+
+int array_sum(int length, int array[])
+{
+    int sum = 0;
+
+    for (int i = 0; i < length; i++)
+    {
+        sum += i;
+    }
+    return sum;
+}
+
+int main(void)
+{
+    /*Wie in Java*/
+    printf("%d\n", scalar(4, (struct Vector){5, 3}));
+    printf("%d\n", array_sum(5, (int[]){1, 2, 3, 4, 5}));
+}
+```
+
+```java
+public class Test  
+{  
+    public static void main(String[] args)  
+    {  
+        System.out.println(scalar(3,(new Vector(2,3))));  
+    }  
+  
+      
+    private static class Vector  
+    {  
+        int x,y;  
+          
+        Vector(int x, int y)  
+        {  
+            this.x = x;  
+            this.y =y;  
+        }  
+  
+    }  
+  
+  
+    private static int scalar(int s, Vector v)  
+    {  
+        return s*v.x+s*v.y;   
+    }  
+}
+```
+
 
 ##### Singly Linked List
 Die Knoten sind mit Pointern referenziert
@@ -1326,10 +1596,124 @@ $~ gcc -o prog prog.o account.o
 ```
 
 
+[BeeJee](https://beej.us/guide/bgc/html/index-wide.html#multifile-projects)
+
+
 ### ASan
 Address Sanitazation 
 `clang -fsanitize=address`
 
 --> Nur im Test-branch o.Ä nutzen
+
+
+
+# Funktionen
+
+relativ trivial, aber funktionen können auch n variablen annehmen
+`void foo(int a, ...)`
+
+
+# Error Handling
+
+
+Angenommen test.c gibt es nicht wir bekommen dann ein SIGABRT durch den assert
+```C
+int main(void)
+{
+	FILE *f = fopen("test.c","r");
+	assert(f != NULL);
+	int c;
+	while ((c = fgetc(f)) != EOF)
+	{
+		fputc(c,f);
+	}
+
+	return 0;
+}
+```
+
+
+die Standardbibliothek errno.h fixt es:
+```C
+#include <errno.h>
+int main(void)
+{
+	FILE *f = fopen("test.c","r");
+
+	if(f == NULL)
+	{
+		printf("%d\n",errno);
+		perror(NULL); // perror("ERROR:\t")
+		return 1;
+	}
+
+	int c;
+	while ((c = fgetc(f)) != EOF)
+	{
+		fputc(c,f);
+	}
+
+	return 0;
+}
+```
+
+um die Standarderrorliste zu sehen:
+`errno --list`
+
+Mit `perror` wird der System error mitgeprintet siehe man page.
+
+Anhand des Integer Wertes von errno.
+
+
+Ohne perror
+```C
+#include <errno.h>
+int main(void)
+{
+	FILE *f = fopen("test.c","r");
+
+	if(f == NULL)
+	{
+		printf("%d: %s\n",errno,sterror(errno));
+		return 1;
+	}
+
+	int c;
+	while ((c = fgetc(f)) != EOF)
+	{
+		fputc(c,f);
+	}
+
+	return 0;
+}
+```
+
+
+
+# Regex
+
+Die Bibliothek <regex.h> hinzufügen und dann manpages lesen
+
+
+```C
+int main(void)
+{
+	regex_t preg;
+	assert(regcomp(&preg,"ab*", REG_EXTENDED) == 0); // for amore detailed error see Error Handling, keyword perror
+		
+	int result = regexec(&preg, "cbbbb",0,NULL,0);
+	if(result == 0)
+		printf("match")
+	else if(result == REG_NOMATCH)
+		printf("no match");
+	
+	regfree(&preg);
+	return 0;
+}
+```
+
+
+
+
 
 
