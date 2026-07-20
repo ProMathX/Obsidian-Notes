@@ -8,6 +8,7 @@ Für das Erstellen meiner C Erkentniss wurde keine KI verwendet
 Für das Lernen und der Zusammenfassung
 - [Youtube Playlist von einem Franzosen 10/10 ](https://youtube.com/playlist?list=PL71Y0EmrppR0KyZvQWj63040UEzKQU7n8&si=MBRaZZBmamGU9Ox7)
 - K&R The C Programming Language 2nd Edition
+- https://beej.us/guide/bgc/html/index-wide.html
 verwendet
 # Grundlage
 Erstens
@@ -1700,6 +1701,8 @@ int main(void)
 {
 	regex_t preg;
 	assert(regcomp(&preg,"ab*", REG_EXTENDED) == 0); // for amore detailed error see Error Handling, keyword perror
+	
+	assert(regcomp(&preg,"(ab*)(ac+)", REG_EXTENDED) == 0);	
 		
 	int result = regexec(&preg, "cbbbb",0,NULL,0);
 	if(result == 0)
@@ -1714,6 +1717,27 @@ int main(void)
 
 
 
+### 
 
 
 
+### Regex Error Handling
+```C
+int main(void)
+{
+	regex_t preg;
+	int errorcode = regcomp(&preg, "ab***", 0);
+	
+	if(errorcode != 0)
+	{
+		const size_t buff_size = 129;
+		char errbuf[buff_size+1];		
+		regerror(errorcode,&preg,errbuf,buff_size);
+		printf("regex error: '%s': '%s'\n","ab***",errbuf);
+		
+	}
+	
+	regfree(&preg);
+	return 0;
+}
+```
