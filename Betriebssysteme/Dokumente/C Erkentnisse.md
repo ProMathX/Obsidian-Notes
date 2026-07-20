@@ -87,6 +87,22 @@ Wenn ich bei dem Array dann ++ndigit[7] habe, habe ich dann, weil ich das Array 
 Weil es kaum einheitlich ist, je nach Terminal konfiguration kann es rumspacken.
 Ansonten Graphics Libraries verwenden wie SDL
 
+
+### User Input 
+
+Beispiel 
+```C
+FILE *input_file = NULL;
+    if (argc == 2)
+        input_file = fopen(argv[1], "r");
+    else
+        input_file = stdin;
+
+    /* FILE* output_file = fopen(asm_filename, "w"); */
+    FILE *output_file = stdout;
+```
+
+
 ---
 # Dokumentation
 
