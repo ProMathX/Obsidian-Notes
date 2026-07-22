@@ -956,7 +956,8 @@ int main(void)
 ```
 
 #### size_t & ssize_t
-`size_t = variable_name;` (fixed size)
+`size_t = variable_name;` (fixed size) 
+	ist seit C99 ein unsigned int mit (mind.) 4 bytes 
 `ssize_t = variable_name` (variable size)
 
 Gibt die größe der Varibale in bytes an(`sizeof`). 
@@ -977,6 +978,11 @@ void* memcpy(void* s1, void const* s2, size_t n);
 size_t strlen(char const* s);
 
 ```
+
+
+>[!Merke]
+>size_t oder ssize_t ist für die Speicherallokierung da, um zugriff auf diesen Dateientyp zu haben, muss der jeweilige Zugriff vom gleichen Datentyp sein, siehe dynamische Arrays
+
 
 ----
 
@@ -1028,6 +1034,223 @@ siehe manpages dementsprechend
 
 ---
 # Datenstrukturen
+### Arrays
+
+Es gibt Gott weiß viele möglichkeiten ein beschissenes Array in C aufzusetzen.
+
+#### Variante 1
+```C
+int array[your_length] ={....}
+```
+
+#### Variante 2
+```C
+int *array = (int*) malloc(sizeof(int)*your_length);
+
+free(array);
+```
+
+### 2D-Arrays
+#### Variante 1
+```C
+int array[m][n] = {{..},...,{...}}
+```
+
+#### Variante 2
+```C
+int **matrix = (int**) malloc(sizeof(int)*m*n)
+
+free(matrix);
+```
+
+
+Falls man es in eine Funktion passen will zB.:
+
+```C 
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int **matrixTranspose(int **matrix, int m, int n) {
+
+  if (matrix == NULL) {
+    fprintf(stderr, "Error: given array is empty!");
+    return NULL;
+  }
+
+  int **data = (int **)malloc(sizeof(int *) * n);
+  for (int i = 0; i < n; i++) {
+    data[i] = (int *)malloc(sizeof(int) * m);
+  }
+
+  for (int i = 0; i < m; i++) {
+    for (int j = 0; j < n; j++) {
+      data[j][i] = matrix[i][j];
+    }
+  }
+
+  return data;
+}
+
+int main(int argc, char **argv) {
+
+  int m, n;
+  m = 2;
+  n = 4;
+  int **matrix = (int **)malloc(sizeof(int *) * m);
+  for (int i = 0; i < m; i++) {
+    matrix[i] = (int *)malloc(sizeof(int) * n);
+  }
+
+  int values[2][4] = {{1, 1, 1, 1}, {2, 2, 2, 2}};
+
+  for (int i = 0; i < m; i++) {
+    for (int j = 0; j < n; j++) {
+      matrix[i][j] = values[i][j];
+    }
+  }
+
+  int **output = matrixTranspose(matrix, m, n);
+
+  for (int i = 0; i < n; i++) {
+    for (int j = 0; j < m; j++) {
+      printf("%d ", output[i][j]);
+    }
+    printf("\n");
+  }
+
+  for (int i = 0; i < m; i++) {
+
+    free(matrix[i]);
+  }
+
+  for (int i = 0; i < n; i++) {
+
+    free(output[i]);
+  }
+
+  free(matrix);
+  free(output);
+}
+
+```
+
+### Dynamic Arrays
+
+#### Approach 1 
+```C
+typedef struct 
+{
+	size_t length;
+	size_t capacity;
+	size_t item_size;
+	void *item
+
+}Array;
+
+//Returns a struct1
+Array array_init(size_t item_size,size_t initial_capacity)
+{
+	return(Array){
+		.capacity = initial_capacity,
+		.item_size=item_size,
+		.items = malloc(initial_capacity * item_size),
+	};
+
+}
+
+```
+
+#### Approach Tsoding
+
+![[Pasted image 20260721163341.png]]
+
+```C
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct
+{
+    int *item;
+    size_t index; //wegen Memory
+    size_t capacity; // wegen Memory
+} Array;
+
+int main(void)
+{
+    Array xs = {0}; /* Initialize the Array*/
+
+    for (int i = 0; i < 10; i++)
+    {
+        if (xs.capacity <= xs.index) // bound check
+        {
+            if (xs.capacity == 0) //per default:initialised with 0
+            {
+                xs.capacity = 256;
+            }
+            else
+            {
+                xs.capacity *= 2;
+            }
+            xs.item = realloc(xs.item, xs.capacity * sizeof(*xs.item)); //sizeof(int)
+        }
+        xs.item[xs.index++] = i;
+    }
+
+    for (size_t i = 0; i < xs.index; i++)
+    {
+        printf("%d\n", xs.item[i]);
+    }
+
+    return 0;
+}
+```
+
+```C
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct
+{
+    int *item;
+    size_t index;
+    size_t capacity;
+} Array;
+
+#define add_array(xs,s) \
+do{\
+        if (xs.capacity <= xs.index)\
+        {\
+            if (xs.capacity == 0)\
+                xs.capacity = 256;\
+            else\
+                xs.capacity *= 2;\
+            xs.item = realloc(xs.item, xs.capacity * sizeof(*xs.item));\
+        }\
+        xs.item[xs.index++] = i;\
+}while(0)\
+
+
+int main(void)
+{
+    Array xs = {0};
+
+    for (int i = 0; i < 10; i++)
+    {
+	    add_array(xs,i);
+    }
+
+    for (size_t i = 0; i < xs.index; i++)
+    {
+        printf("%d\n", xs.item[i]);
+    }
+
+    return 0;
+}
+```
+
+I love Tsodings big and meaty brain.
+
 ### Arrays & Strings Bound Checkings
 An sich klar, aber es gibt kniffe 
 
@@ -1336,9 +1559,45 @@ i.s_number = 0x6548;
 
 ```
 
+### Struct vs Union
+
+[reddit](https://old.reddit.com/r/learnprogramming/comments/gly5wr/c_is_it_better_to_use_struct_or_union_when_should/)
+
+Within a union all the members share the same memory, so setting one member affects all the members. This _can_ be used to save memory, but it means you can only use one of the members at a time, and using one invalidates the others. Generally, this isn’t very desirable and can lead to all sorts of bugs.
+
+```C
+union {
+
+int a;
+
+int b; }
+```
+
+If I change a, the b also changes.
+
+We’re way past the days of counting memory, so unions nowadays are often reserved for dealing with some very specific low-level data packing problems. General rule of thumb is, don’t use them unless you really know you need to use them.
+
+#### Union und Pointer
+```C
+union val
+{
+	int *a;
+	int *b;
+};
+
+int a = 3;
+int *p = &a;
+
+t.a = p;
+printf("%d\n",*t.a);
+
+```
+
+Es gibt Millionenmöglichkeiten, es zu machen,
+
+man kann auch sagen union hat kein pointer sondern nromale int, dementesprechen dann t.a = \*p;
 
 ----
-
 ### Enumeration
 
 ```C
@@ -1629,9 +1888,10 @@ Address Sanitazation
 relativ trivial, aber funktionen können auch n variablen annehmen
 `void foo(int a, ...)`
 
+Es kann alles mögliche retourniewrt werden,
+es geht auch ein Struct
 
 # Error Handling
-
 
 Angenommen test.c gibt es nicht wir bekommen dann ein SIGABRT durch den assert
 ```C
@@ -1785,3 +2045,130 @@ int main(void)
 	return 0;
 }
 ```
+
+# Compound Literals
+
+Ich bin dem zufällig gestoßen, ich habe mich mit structs und pointers und anderem Zeiug herumgespielt
+
+Und dann bin ich diesem Prinzip in C zugestoßen, [Compound literals](https://en.cppreference.com/c/language/compound_literal), ich hätte nie
+gedacht, dass es sowas geben würde. (Es geht bei structs, unions und arrays sogar wtf)
+
+Es hängt auch etwas mit anonymen structs ab.
+
+Also zum Beispiel:
+```C
+
+typedef struct
+{
+    char *s1;
+    size_t length;
+} String;
+
+typedef struct
+{
+    uint16_t pid;
+    String pName;
+} Person;
+
+void personNameSetter(Person *p)
+{
+    p->pName = (String){"Cihat"};
+}
+
+int main(void)
+{
+    Person *pP = (Person *)malloc(sizeof(Person));
+}
+
+```
+
+Der Grund warum man das "Casten" muss in ein String struct, was ja von der Idee ja insane ist, weil ein struct ja eine Struktur ist und nicht ein Datentyp.
+
+
+ohne compound literals
+```C
+typedef struct
+{
+    char *s1;
+    size_t length;
+} String;
+
+typedef struct
+{
+    uint16_t pid;
+    String pName;
+} Person;
+
+void personNameSetter(Person *p)
+{
+    p->pName.s1 = "Cihat";
+    p->pName.length = strlen("Cihat");
+}
+
+int main(void)
+{
+    Person *pP = (Person *)malloc(sizeof(Person));
+}
+```
+
+oder 
+```C
+
+typedef struct
+{
+    char *s1;
+    size_t length;
+} String;
+
+typedef struct
+{
+    uint16_t pid;
+    String pName;
+} Person;
+
+void personNameSetter(Person *p,String name)
+{
+    p->pName = name;
+}
+
+int main(void)
+{
+    Person *pP = (Person *)malloc(sizeof(Person));
+}
+
+```
+
+
+
+
+
+# Structs und Funktionen 
+
+Ich bin, wtf junge
+```C
+
+Person callPerson(uint16_t pid, String name)
+{
+	/* gültiger C code btw*/
+    //return (Person){.pid = 1, .pName = (String){"Cihat"}};
+
+    Person p;
+    p.pid = 1;
+    p.pName.s1 = "Cihat";
+    p.pName.length = strlen(p.pName.s1);
+    return p;
+}
+
+int main(void)
+{
+    Person (*f)(uint16_t,String) = callPerson;
+	
+	Person p = f(2,(String){"Cihat"});
+	
+	printf("%d\n%s\n",p.pid,p.pName.s1);
+	
+}
+```
+
+
+
