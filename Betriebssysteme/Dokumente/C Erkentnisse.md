@@ -1891,6 +1891,23 @@ relativ trivial, aber funktionen können auch n variablen annehmen
 Es kann alles mögliche retourniewrt werden,
 es geht auch ein Struct
 
+### Pointerfunctions 
+```C
+int *arrayInitializer(int n);
+
+int main(void)
+{
+	int size = 10;
+    int *myarray = arrayInitializer(size);
+}
+
+int *arrayInitializer(int n)
+{
+    return malloc(sizeof(int) * n);
+}
+```
+
+
 # Error Handling
 
 Angenommen test.c gibt es nicht wir bekommen dann ein SIGABRT durch den assert
