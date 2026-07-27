@@ -1918,6 +1918,40 @@ Address Sanitazation
 
 --> Nur im Test-branch o.Ä nutzen
 
+----
+
+
+Endlich wieder vom C Buch:
+
+Wenn man meherere C Dateien hat kann man miteinander glecihzeitig kompilieren.
+
+
+Im Buch steht (veralllgemeinert) `cc main.c foo.c`, aber es kommt irgendwie zu einem
+kompilierungsfehler. Deshlab ist es in C ja auch möglich `foo.c`als local header in `main.c`zu inkludieren.
+
+
+Beispiel:
+```C
+/*main.c*/
+#icluude "foo.c"
+
+int main(void){
+	foob();
+	return 0;
+}
+
+
+```
+
+und dann foo.c
+```C
+#include <stdio.h>
+void foob(void)
+{
+	printf("Hello World"\n);
+}
+```
+
 
 
 # Funktionen
