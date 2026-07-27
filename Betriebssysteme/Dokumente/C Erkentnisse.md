@@ -2548,3 +2548,16 @@ George the monkey has tail 10
   
 Steve the programmer has weight 150  
 Steve the programmer has thumb 2
+
+
+
+# Bitwise Hacks
+
+https://graphics.stanford.edu/~seander/bithacks.html
+
+
+
+
+
+
+
