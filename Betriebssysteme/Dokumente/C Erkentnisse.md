@@ -2022,6 +2022,18 @@ int *arrayInitializer(int n)
 ```
 
 
+### Funktionen und return value
+Angenommen wir haben eine funktion `double atof(char s[])`, wir können die funktion in main.c so aufraufen
+(Entnommen aus dem C Buch)
+
+```C
+double sum, atof(char []);
+```
+
+somit ist char [] ein placeholder wodurch wir mit getline einen String rein parsen können
+
+
+
 # Error Handling
 
 Angenommen test.c gibt es nicht wir bekommen dann ein SIGABRT durch den assert
