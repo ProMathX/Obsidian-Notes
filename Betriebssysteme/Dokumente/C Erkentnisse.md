@@ -1918,6 +1918,13 @@ Address Sanitazation
 
 --> Nur im Test-branch o.Ä nutzen
 
+### Valgrind
+
+`valgrind --leak-check=full --show-leak-kinds=all -s ./myProgram`
+
+
+
+
 ----
 
 
