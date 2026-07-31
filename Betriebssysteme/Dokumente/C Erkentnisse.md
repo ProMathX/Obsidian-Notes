@@ -2578,5 +2578,12 @@ https://graphics.stanford.edu/~seander/bithacks.html
 
 
 
+----
+# OMG
+
+man ascii
+Insnae
+
+
 
 
