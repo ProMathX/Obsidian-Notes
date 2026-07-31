@@ -2569,21 +2569,19 @@ Steve the programmer has weight 150
 Steve the programmer has thumb 2
 
 
-
+---
 # Bitwise Hacks
 
 https://graphics.stanford.edu/~seander/bithacks.html
 
-
-
-
-
 ----
 # OMG
-
 man ascii
 Insnae
 
+----
 
+
+# Strings (again :-(   )
 
 
