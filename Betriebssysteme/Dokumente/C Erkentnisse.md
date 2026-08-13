@@ -2585,3 +2585,8 @@ Insnae
 # Strings (again :-(   )
 
 
+# Debugging
+https://beej.us/guide/bggdb/#stepping
+
+
+
