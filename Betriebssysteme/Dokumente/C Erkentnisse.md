@@ -2579,12 +2579,11 @@ https://graphics.stanford.edu/~seander/bithacks.html
 man ascii
 Insnae
 
+## C Übungen 
+
+https://www.cprogramming.com/tutorial/c-tutorial.html?inl=nv
+
 ----
-
-
-# Strings (again :-(   )
-
-
 # Debugging
 https://beej.us/guide/bggdb/#stepping
 
