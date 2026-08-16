@@ -49,10 +49,6 @@
     "iconName": "OcCpu24",
     "iconColor": "#00ff6e"
   },
-  "Statistik und Wahrscheinlichkeitstheorie": {
-    "iconName": "RiCompasses2Line",
-    "iconColor": "#ff0000"
-  },
   "Theorethische Informatik": {
     "iconName": "LiAsteriskSquare",
     "iconColor": "#0040ff"
@@ -66,5 +62,9 @@
     "iconColor": "#7370ff"
   },
   "Cryptography": "🔐",
-  "doc": "CoFolderDocument"
+  "doc": "CoFolderDocument",
+  "Statistik und Wahrscheinlichkeitstheorie": {
+    "iconName": "RiCompasses2Line",
+    "iconColor": "#ff0000"
+  }
 }
