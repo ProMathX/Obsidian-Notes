@@ -1858,7 +1858,6 @@ void push(node_t ** head, int val) {
 
 Der Grund warum man hier einen Double Pointer verwendet ist, soweit ich das verstanden
 habe, dass man die Referenz des Pointer ändert und nicht auf das was der Pointer zeigt.
-Also eher sowas wie ein call by reference.
 
 
 
