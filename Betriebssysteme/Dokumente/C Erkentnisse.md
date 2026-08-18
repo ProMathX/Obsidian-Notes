@@ -1860,7 +1860,121 @@ Der Grund warum man hier einen Double Pointer verwendet ist, soweit ich das vers
 habe, dass man die Referenz des Pointer ändert und nicht auf das was der Pointer zeigt.
 
 
+mit meiner eigenen Implemention
+[] muss noch Daten abspeichern/ändern
+```C
+#include <assert.h>
+#include <errno.h>
+#include <iso646.h>
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <strings.h>
+typedef struct node {
+  int val;
+  struct node *next;
+} node_t;
 
+node_t *createNode(int data) {
+  node_t *rv = (node_t *)malloc(sizeof(node_t));
+
+  if (rv == NULL)
+    fprintf(stderr, "Error allocating memory");
+
+  rv->val = data;
+  rv->next = NULL;
+  return rv;
+}
+void inserAtLast(node_t *head, int data) {
+  node_t *current = head;
+  while (current->next != NULL) {
+    current = current->next;
+  }
+
+  current->next = createNode(data);
+}
+
+void inserAtFirst(node_t **head, int data) {
+  node_t *newNode = createNode(data);
+
+  newNode->next = *head;
+
+  *head = newNode;
+}
+
+void popAtFirst(node_t **head) {
+  if (*head == NULL) {
+    fprintf(stderr, "Error");
+  }
+
+  node_t *tmp = (*head)->next;
+  free(*head);
+  *head = tmp;
+}
+
+void popAtLast(node_t *head) {
+  node_t *current = head;
+  while (current->next->next != NULL) {
+    current = current->next;
+  }
+  free(current->next);
+  current->next = NULL;
+}
+
+void popAtIndex(node_t *head, int data, int pos) {
+  node_t *current = head;
+
+  for (int i = 0; i < pos - 1; i++) {
+    current = current->next;
+  }
+
+  node_t *tmp = current->next;
+  current->next = tmp->next;
+  free(tmp);
+}
+
+void pushAtIndex(node_t **head, int data, int pos) {
+  node_t *current = *head;
+  node_t *toBeInserted = createNode(data);
+
+  for (int i = 0; i < pos - 1; i++) {
+    current = current->next;
+  }
+
+  current->next = toBeInserted;
+  toBeInserted->next = *head;
+}
+
+void print_list(node_t *head) {
+  node_t *current = head;
+
+  while (current != NULL) {
+    printf("%d\n", current->val);
+    current = current->next;
+  }
+}
+
+int main(void) {
+  node_t head;
+  node_t *test_list = (node_t *)malloc(sizeof(node_t));
+  test_list->val = 1;
+  test_list->next = (node_t *)malloc(sizeof(node_t));
+  test_list->next->val = 2;
+  test_list->next->next = (node_t *)malloc(sizeof(node_t));
+  test_list->next->next->val = 3;
+  test_list->next->next->next = (node_t *)malloc(sizeof(node_t));
+  test_list->next->next->next->val = 4;
+  test_list->next->next->next->next = NULL;
+  popAtIndex(test_list, 9, 2);
+
+  print_list(test_list);
+
+  return 0;
+}
+
+
+
+```
 
 # Man pages 
 Um alle möglichen EInträge zu sehen
