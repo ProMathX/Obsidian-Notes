@@ -1828,6 +1828,41 @@ int main(void)
 
 ```
 
+#### Anmerkung zum Double Pointer
+
+Von C-learn.org
+
+> [!cite]
+> To add to the beginning of the list, we will need to do the following:
+> 
+>     Create a new item and set its value
+>     Link the new item to point to the head of the list
+>     Set the head of the list to be our new item
+> 
+> This will effectively create a new head to the list with a new value, and keep the rest of the list linked to it.
+> 
+> Since we use a function to do this operation, we want to be able to modify the head variable. To do this, we must pass a pointer to the pointer variable (a double pointer) so we will be able to modify the pointer itself.
+
+
+```C
+void push(node_t ** head, int val) {
+    node_t * new_node;
+    new_node = (node_t *) malloc(sizeof(node_t));
+
+    new_node->val = val;
+    new_node->next = *head;
+    *head = new_node;
+}
+
+```
+
+Der Grund warum man hier einen Double Pointer verwendet ist, soweit ich das verstanden
+habe, dass man die Referenz des Pointer ändert und nicht auf das was der Pointer zeigt.
+Also eher sowas wie ein call by reference.
+
+
+
+
 # Man pages 
 Um alle möglichen EInträge zu sehen
 
