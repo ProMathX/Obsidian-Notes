@@ -1792,9 +1792,10 @@ int main(void)
 ----
 
 
-### Linked Lists
+### Singly Linked Lists
 https://www.learn-c.org/en/Linked_lists
-
+https://en.wikipedia.org/wiki/Linked_list
+https://www.youtube.com/watch?v=_jQhALI4ujg
 ```C
 
 typedef struct Node
