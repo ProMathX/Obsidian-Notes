@@ -2027,6 +2027,16 @@ _socket_
 - `man 3 getaddrinfo` - fallback, if no ipv4 given
 [src](https://github.com/sueszli/osue/tree/master)
 
+
+paar wichtige manpages:
+
+    man shm_overview -> ablauf was du wann machen musst für shm
+    man sem_overview -> was du wann machen musst für semaphore
+    man shm_open (ganz unten die examples sind basically ganzer ablauf den wir wissen müssenvorgegeben)
+(Aus dem TU INF discord)
+
+
+
 # Source Files und Programmstruktur
 
 ### Header Files
