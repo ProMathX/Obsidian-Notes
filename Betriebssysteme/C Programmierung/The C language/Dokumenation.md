@@ -33,3 +33,19 @@ dann
 25. Each switch block must contain a default case. If the case is not reachable, write assert(0) to this case (defensive programmin
 
 ----
+
+
+
+So wie es ausschaut wird nach Javadoc Dokumentiert
+
+also es gilt :
+https://docs.rosettacommons.org/docs/latest/development_documentation/tutorials/doxygen-tips
+
+https://www.doxygen.nl/manual/docblocks.html
+
+https://www.doxygen.nl/manual/commands.html
+
+
+
+
+

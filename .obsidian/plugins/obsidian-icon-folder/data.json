@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": "#bababa",
     "recentlyUsedIcons": [
+      "RiSkull2Line",
       "CoFolderDocument",
       "🔐",
       "RiCompasses2Line",
@@ -16,8 +17,7 @@
       "LiAreaChart",
       "LiCodesandbox",
       "LiCodepen",
-      "OcLaw16",
-      "LiDatabaseZap"
+      "OcLaw16"
     ],
     "recentlyUsedIconsSize": 12,
     "rules": [],
@@ -41,10 +41,7 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "EP2": {
-    "iconName": "LiCodesandbox",
-    "iconColor": "#ae00ff"
-  },
+  "EP2": "RiSkull2Line",
   "Betriebssysteme": {
     "iconName": "OcCpu24",
     "iconColor": "#00ff6e"
