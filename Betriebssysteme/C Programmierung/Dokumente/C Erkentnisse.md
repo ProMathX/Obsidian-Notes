@@ -1,5 +1,6 @@
 #C
-
+#studies 
+#Betriebssysteme
 # Disclaimer
 
 Für das Erstellen meiner C Erkentniss wurde keine KI verwendet
@@ -2793,6 +2794,26 @@ Wird Hello mit einem Spacing von 15 Character haben
 
 # Debugging
 https://beej.us/guide/bggdb/#stepping
+
+
+
+
+
+
+# Dokumente 
+![[Bit Twiddling Hacks.pdf]]
+
+![[C Programming Language.pdf]]
+
+
+![[William Stallings - Operating Systems_ Internals and Design Principles, 9th Edition (2018, Pearson) - libgen.li.pdf]]
+[[C Erkentnisse]]
+![[C Programming Language.pdf]]
+![[cgk-14-oster-debugging-ausarbeitung.pdf]]
+![[Kenneth Reek - Pointers on C (1997, Pearson_Addison Wesley) - libgen.li.pdf]]
+![[OVO ZSMF.pdf]]
+![[TU_Wien-Betriebssysteme_VO_(Puschner)_-_glossar_zu_begriffen_2018.pdf]]
+![[William Stallings - Operating Systems (1).pdf]]
 
 
 
