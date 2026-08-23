@@ -663,6 +663,11 @@ int main(void)
 ---
 # Keywords
 
+`const` -> you're not changing the value after it has been initialised
+
+
+
+
 `static` -> allows a variable to keep its value after a function ends
 Bsp 
 ```C
