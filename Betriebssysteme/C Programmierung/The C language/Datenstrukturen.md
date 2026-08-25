@@ -1117,6 +1117,10 @@ int circ_bbuf_push(circ_bbuf_t *c, uint8_t data)
 
 Pop data
 
+the two jobs of `pop()`
+1. **Retrieve the data** — the caller actually wants the byte that was sitting at the front of the queue. That's the whole point of calling `pop()`.
+2. **Advance the index** — mark that slot as "consumed" so future pushes are allowed to reuse it, and so the next `pop()` reads the _next_ byte instead of the same one again.
+
 ```C
 int circ_bbuf_pop(circ_bbuf_t *c, uint8_t *data)
 {
