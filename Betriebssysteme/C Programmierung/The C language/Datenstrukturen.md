@@ -1073,6 +1073,162 @@ int main(void) {
 
 Source:https://embedjournal.com/implementing-circular-buffer-embedded-c/
 
+if head is equal to tail -> the buffer is empty
+if (head + 1) is equal to tail -> the buffer is full
+Thats why only use n-1 in an n elemented buffer
+
+Overwrite or discard when full? Depends 
+
+Approach 1, discard new data when the buffer is full
+
+```C
+typedef struct {
+    uint8_t * const buffer;
+    int head;
+    int tail;
+    const int maxlen;
+} circ_bbuf_t;
+```
+
+>Notice that buffer is uint8_t * const buffer. const uint8_t * is a pointer to a byte array of constant elements, that is the value being pointed to can’t be changed but the pointer itself can. On the other hand uint8_t * const is a constant pointer to an array of bytes in which the value being pointed to can changed but not the pointer.
+
+
+head == tail -> buff empty
+
+push data
+```C
+int circ_bbuf_push(circ_bbuf_t *c, uint8_t data)
+{
+    int next;
+
+    next = c->head + 1;  // next is where head will point to after this write.
+    if (next >= c->maxlen)
+        next = 0;
+
+    if (next == c->tail)  // if the head + 1 == tail, circular buffer is full
+        return -1;
+
+    c->buffer[c->head] = data;  // Load data and then move
+    c->head = next;             // head to next data offset.
+    return 0;  // return success to indicate successful push.
+}
+```
+
+
+Pop data
+
+```C
+int circ_bbuf_pop(circ_bbuf_t *c, uint8_t *data)
+{
+    int next;
+
+    if (c->head == c->tail)  // if the head == tail, we don't have any data
+        return -1;
+
+    next = c->tail + 1;  // next is where tail will point to after this read.
+    if(next >= c->maxlen)
+        next = 0;
+
+    *data = c->buffer[c->tail];  // Read data and then move
+    c->tail = next;              // tail to next offset.
+    return 0;  // return success to indicate successful push.
+}
+```
+
+```
+#define CIRC_BBUF_DEF(x,y)                \
+    uint8_t x##_data_space[y];            \
+    circ_bbuf_t x = {                     \
+        .buffer = x##_data_space,         \
+        .head = 0,                        \
+        .tail = 0,                        \
+        .maxlen = y                       \
+    }
+```
+
+```C
+CIRC_BBUF_DEF(my_circ_buf, 32);
+
+int your_application()
+{
+    uint8_t out_data=0, in_data = 0x55;
+
+    if (circ_bbuf_push(&my_circ_buf, in_data)) {
+        printf("Out of space in CB\n");
+        return -1;
+    }
+
+    if (circ_bbuf_pop(&my_circ_buf, &out_data)) {
+        printf("CB is empty\n");
+        return -1;
+    }
+
+    // here in_data = in_data = 0x55;
+    printf("Push: 0x%x\n", in_data);
+    printf("Pop:  0x%x\n", out_data);
+    return 0;
+}
+```
+
+
+
+
+
+
+Approach 2 overwrite the data 
+```C
+typedef struct {
+    uint8_t * const buffer;
+    int head;
+    int tail;
+    const int maxlen;
+} circ_bbuf_t;
+```
+
+
+Push data
+```C
+int circ_bbuf_push_overwrite(circ_bbuf_t *c, uint8_t data)
+{
+    int next;
+
+//next is where head will point to after this write.
+    next = c->head + 1;
+    
+    if (next >= c->maxlen)
+        next = 0;
+        
+	c->buffer[c->head] = data;  // Load data and then move
+    c->head = next;             // head to next data offset.
+    
+    if (c->head == c->tail)  // if the head + 1 == tail, circular buffer is full
+    {
+	    c->tiail = c->tail+1;
+	    if(c->tal >= c->maxlen) c->tail = 0;
+    }
+    
+    return 0;  // return success to indicate successful push.
+}
+```
+
+```C
+int circ_bbuf_pop(circ_bbuf_t *c, uint8_t *data)
+{
+    int next;
+
+    if (c->head == c->tail)  // if the head == tail, we don't have any data
+        return -1;
+
+    next = c->tail + 1;  // next is where tail will point to after this read.
+    if(next >= c->maxlen)
+        next = 0;
+
+    *data = c->buffer[c->tail];  // Read data and then move
+    c->tail = next;              // tail to next offset.
+    return 0;  // return success to indicate successful push.
+}
+```
+
 
 
 
