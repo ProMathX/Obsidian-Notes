@@ -1067,10 +1067,71 @@ int main(void) {
 
 
 ### Circular Buffer
+![Circular Buffer](https://upload.wikimedia.org/wikipedia/commons/f/fd/Circular_Buffer_Animation.gif)
+
+
+
+Source:https://embedjournal.com/implementing-circular-buffer-embedded-c/
+
+
+
 
 
 ### Array of Structs (AoS) 
+Relativ Banal? 
+
+```C
+typedef struct A{ int val; }A;
+
+int main(void)
+{
+	A test[3];
+	
+	for(int i = 0; i < 3; ++i)
+	{
+		test[i].val = ++i;
+	}
+
+	return 0;
+}
 
 
+
+```
 
 ### Struct of Arrays (SoA)
+```C
+struct Vector3List {
+    float x[N];
+    float y[N];
+    float z[N];
+};
+
+struct Vector3List points;
+
+float get_point_x(size_t i) {
+    return points.x[i];
+}
+
+
+
+```
+
+
+### **Array of structures of arrays** (**AoSoA**)
+
+```C
+struct Vector3x8 {
+    float x[8];
+    float y[8];
+    float z[8];
+};
+
+struct Vector3x8 points[(N + 7) / 8];
+
+float get_point_x(size_t i) {
+    return points[i / 8].x[i % 8];
+}
+
+
+```
