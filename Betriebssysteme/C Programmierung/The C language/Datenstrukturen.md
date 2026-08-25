@@ -1064,3 +1064,13 @@ int main(void) {
 ```
 
 
+
+
+### Circular Buffer
+
+
+### Array of Structs (AoS) 
+
+
+
+### Struct of Arrays (SoA)
