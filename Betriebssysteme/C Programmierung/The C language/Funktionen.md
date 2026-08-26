@@ -76,16 +76,19 @@ Wann braucht man das?
 Beispiel man hat eine Funtkion und man benötigt einen Wert innerhlab der Funktion.
 [bsp](https://github.com/cacharle/globule/blob/master/src/glob.c)
 ```C
-int
-glbl_glob(const char *pattern,
-          int         flags,
-          int (*errfunc)(const char *epath, int eerrrno),
-          glbl_glob_t *pglob)
-{
+int glbl_glob( const char *pattern,
+		       int flags, 
+			   int (*errfunc)(const char *epath, int eerrrno),
+               glbl_glob_t *pglob
+              )
+{...}
 
 
 
 ```
+Wobei hier Charles nichts gemacht hat bei errfunc
+
+
 
 ### Funktionen und return value
 Angenommen wir haben eine funktion `double atof(char s[])`, wir können die funktion in main.c so aufraufen
