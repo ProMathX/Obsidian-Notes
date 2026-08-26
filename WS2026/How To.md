@@ -14,4 +14,5 @@ Wenn Lab-Hours :mind 2h 2 mal pro Woche (Falls nicht geht, dann einmal pro woche
 Uni beginn an sich 10 Uhr (8 Uhr aufstehen) außer am Montag (kann man tanken)
 
 Samstag zuhause lernen oder wiederholen 
+Sonntag Sport 
 

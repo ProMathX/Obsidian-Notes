@@ -30,7 +30,7 @@ int main(int argc, char **argv) {
 
   for (int i = 0; i < 3; ++i) 
   {
-    initialize(loop, i * 2);
+    initialize(&read[i], i * 2);
   }  
   
 
