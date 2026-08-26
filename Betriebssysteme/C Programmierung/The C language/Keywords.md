@@ -7,7 +7,7 @@
 
 
 `const` -> you're not changing the value after it has been initialised
-
+(https://www.youtube.com/watch?v=PC8-Y62Qnws&list=PL71Y0EmrppR0KyZvQWj63040UEzKQU7n8&index=39)
 
 
 
