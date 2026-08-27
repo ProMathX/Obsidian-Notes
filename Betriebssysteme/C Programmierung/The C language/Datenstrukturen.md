@@ -223,6 +223,18 @@ int main(int argc, char **argv) {
 
 ```
 
+
+ODER
+
+```C
+// Source - https://stackoverflow.com/a/2128754
+// Posted by jason, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-08-27, License - CC BY-SA 2.5
+
+int *mat = (int *)malloc(rows * cols * sizeof(int));
+
+```
+
 ### Dynamic Arrays
 
 #### Approach 1 
