@@ -73,7 +73,7 @@ int main(void)
 
 	if(f == NULL)
 	{
-		printf("%d: %s\n",errno,sterror(errno));
+		printf("%d: %s\n",errno,strerror(errno));
 		return 1;
 	}
 

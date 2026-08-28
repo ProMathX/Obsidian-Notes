@@ -9,7 +9,7 @@ int main(int argc, char **argv)
 {
 	int option;
 	//: takes an argument
-	while((option = getopt(argc,argc,":a:b")) != -1)
+	while((option = getopt(argc,argv,":a:b")) != -1)
 	{
 		switch(option)
 		{
