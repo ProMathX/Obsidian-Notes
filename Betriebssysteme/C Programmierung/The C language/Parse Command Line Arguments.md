@@ -75,7 +75,7 @@ do{
 				
 			}
 		}
-	fprintf(OUTPUTFILE,'\n');
+	fprintf(OUTPUTFILE,"\n");
 	fclose(INPUTFILE)	
 
 }while(++optind < argc)
