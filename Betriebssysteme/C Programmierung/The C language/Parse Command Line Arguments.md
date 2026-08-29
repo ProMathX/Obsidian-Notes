@@ -9,7 +9,7 @@ int main(int argc, char **argv)
 {
 	int option;
 	//: takes an argument
-	while((option = getopt(argc,argc,":a:b")) != -1)
+	while((option = getopt(argc,argv,":a:b")) != -1)
 	{
 		switch(option)
 		{
@@ -44,6 +44,47 @@ int main(int argc, char **argv)
 getopt_long nix posix standard nur gnu standard
 
 
+
+
+Das hat mich etwas offsetet, vor allem mit dem Multime File handling
+
+Der Trick ist 
+Wenn:
+
+```C
+FILE *INPUTFILE;
+FILE *OUTPUTFILE = stdout
+do{
+	if((argc - optind) == 0)
+	{
+		INPUTFILE = stdin;
+	}
+	else
+	{
+		INPUTFILE = fopen(argv[optind], "r");
+	}
+		int c;
+		
+		while((c = fgetc(INPUTFILE)) != EOF)
+		{
+			fputc(foo(c),OUTPUTFILE);
+			if(otherOption)
+			{
+				fflush(OUTPUTFILE);
+				wait();
+				
+			}
+		}
+	fprintf(OUTPUTFILE,"\n");
+	fclose(INPUTFILE)	
+
+}while(++optind < argc)
+
+fclose(OUTPUTSTREAM);
+exit(EXIT_SUCCESS);
+
+
+```
 
 
 
