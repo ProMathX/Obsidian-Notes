@@ -191,3 +191,69 @@ int main(int argc, char **argv)
 
 
 
+
+ein guter Habit ist, sahen aufzuspalenten 
+
+
+bsp.:
+
+```C
+do
+
+{
+
+  
+
+if ((argc - optind) == 0)
+
+INPUTFILE = stdin;
+
+  
+
+else
+
+INPUTFILE = fopen(argv[optind], "r+");
+
+  
+
+if (INPUTFILE == NULL)
+
+error("failed to allocate the INPUTFILE", "main()");
+
+  
+
+int c;
+
+while ((c = fgetc(INPUTFILE)) != EOF)
+
+{
+
+char *binary = AsciiToBinary(c);
+
+fputs(binary, OUTPUTFILE);
+
+free(binary);
+
+  
+
+if (optionDelay)
+
+{
+
+fflush(OUTPUTFILE);
+
+wait_nanosleep(seconds);
+
+}
+
+}
+
+fprintf(OUTPUTFILE, "\n");
+
+fclose(INPUTFILE);
+
+} while (++optind < argc);
+
+
+```
+
