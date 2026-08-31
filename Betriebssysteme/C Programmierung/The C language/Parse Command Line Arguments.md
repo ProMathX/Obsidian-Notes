@@ -86,5 +86,79 @@ exit(EXIT_SUCCESS);
 
 ```
 
+Als allgemeines Rezept kann ich nur das sagen:
+
+
+Angenommen ein Programm soll, n viele dateien einlesen können, mindestens zwei flags haben und falls kein Output spezifiziert wurde dann stdout
+
+
+
+Angenommen es gibt 2 Optionen optionA und optionB
+
+```C
+int main(int argc, char **argv)
+{
+	FILE *input = stdin;
+	//Error hadnling
+	FILE *output = stdout;
+	//Error handling
+	
+	bool optionA= false;
+	bool optionB = false;
+	bool optionOut = false;
+	
+	
+	int option;
+	
+	// Command Line parsing
+	while((option = getop(argc, argv, "a:b:o:")) != -1)
+	{
+		switch(option)
+		{
+			case 'a' ... break;
+			case 'b' ... break;
+			case 'o' ... break;
+			
+			case ':' error() break;
+			case '?' error() break;
+		}	
+	}
+	
+	
+	// um bound checking von optind (von getopt bereitgestellt gibt an wie viele paramtere gecountet worden sind)
+	
+	if(optind >= argc){error();}
+	
+	// File Handling
+	do
+	{
+		// Falls keine dateien eingeommen worden sind, dann stdin
+		if((optind-argc) == 0)
+		{
+			input = stdin;
+		}
+		else
+		{
+			input = fopen(argv[optind], "r");
+		}
+		
+		// jetzt datei einlesen
+		int c
+		
+		while((c = fgetc(input)) != EOF)
+		{
+			if()
+		
+		}
+	
+	
+	}while(++optind < argc);
+	
+	
+
+}
+
+```
+
 
 
