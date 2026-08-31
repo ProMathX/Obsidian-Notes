@@ -115,9 +115,9 @@ int main(int argc, char **argv)
 	{
 		switch(option)
 		{
-			case 'a' ... break;
-			case 'b' ... break;
-			case 'o' ... break;
+			case 'a' optionA = true;/*Error Handling*/ break;
+			case 'b' optionB = true;/*Error Handling*/ break;
+			case 'o' optionO = true;/*Error Handling*/ break;
 			
 			case ':' error() break;
 			case '?' error() break;
@@ -147,15 +147,44 @@ int main(int argc, char **argv)
 		
 		while((c = fgetc(input)) != EOF)
 		{
-			if()
-		
+			if(optionOut) // -> 
+			{
+				// write to file 
+			}
+			else
+			{
+				// write to stdout
+			}
+			
+			
+			if(optionA)
+			{
+				fflush(output);
+				// Let Option A do 
+			}
+			
+			if(option B)
+			{
+				fflush(output);
+				// Let option B do
+			}
+			
+			// Print the file 
+			fprintf(output, "\n");
+			fclose(input); // behandelt eine Datei nach der anderen
 		}
 	
 	
 	}while(++optind < argc);
 	
+	// Niemals eine FILE auf NULL setzen!!!
 	
-
+	fclose(input);
+	free(input);
+	fclose(output);
+	free(output);
+	
+	exit(EXIT_SUCCESS);
 }
 
 ```
