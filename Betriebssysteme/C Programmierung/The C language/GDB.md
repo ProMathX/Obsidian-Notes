@@ -61,9 +61,135 @@ No breakpoints or watchpoints.
 
 ## Stepping
 
-- next für den nächsten schritt, iterativ 
+- `next`(n) für den nächsten schritt und nächsten schritt
+- `continue` (c)für ein step over "größerer next"
+- `step`(s) um in eine funktion von deiner funktion hineinzusteppen
+
+## Printing
+- `display` $variable
+- `info display` um die gesetzte Variable zu sehen
+- `print` um eine Varaible zu printen
+	- Es geht auch printf() bspw printf "%d\n",i
+- `list` listet den C code
+
+## Stack Manipulation
+
+- backtrace (bt) zeigt an in welcher funktion man sich gerade befinden und welche andere funktion die Funktion in der man sich befindet aufgerufen hat
+
+```gdb
+(gdb) **backtrace**
+#0  subsubfunction () at hello.c:5
+#1  0x080483a7 in subfunction () at hello.c:10
+#2  0x080483cf in main () at hello.c:16
+(gdb)
+```
+
+`help stack` für mehr info
+
+## finish, stepi, advance
+
+- `finish` um von der jetzigen funktion herauszukommen und zur caller funktion zu retourinieren
+
+- `stepi` um eine einzige assembly instruction zu gehen
+
+- `advance` ist ein `continue` an einem bestimmten punkt
+
+- `jump ` äquivalent zu continue
+
+## set varibales
+```gdb
+Breakpoint 1, main () at hello.c:15
+15		int i = 10;
+(gdb) **print i**
+$1 = -1208234304
+(gdb) **set (i = 20)**
+(gdb) **print i**
+$2 = 20
+(gdb) **set variable i = 40**
+(gdb) **print i**
+$3 = 40
+(gdb)
+```
 
 
+## Watch
+
+wie in linux, beobachet / monitoring, einer variable die man festsetzt
+
+
+```gdb
+Breakpoint 1, main () at hello.c:5
+5		int i = 1;
+(gdb) **watch i**
+Hardware watchpoint 2: i
+(gdb) **continue**
+Continuing.
+Hardware watchpoint 2: i
+
+Old value = -1208361280
+New value = 2
+main () at hello.c:7
+7		while (i < 100) {
+(gdb) **continue**
+Continuing.
+Hardware watchpoint 2: i
+
+Old value = 2
+New value = 3
+main () at hello.c:7
+7		while (i < 100) {
+(gdb)
+```
+
+
+## attach a running process
+
+mit `ps aux | less` 
+(a für terminal)
+(u für user)
+(x für system)
+
+dann kriegt man es BSD format, weil BSD Linux überlegener ist
+
+mit der jeweiligen PID kann man den laufenden Prozess mit `attach` $(PID) attachen
+
+
+
+## Window
+im tui modus `gdb -tui foo`
+
+- `focus`(fs) mit prev/next
+- SRC source
+- CMD
+- REGS
+- ASM
+
+
+```gdb
+(gdb) **info win**
+        SRC     (36 lines)  <has focus>
+        CMD     (18 lines)
+(gdb) **fs next**
+Focus set to CMD window.
+(gdb) **info win**
+        SRC     (36 lines)
+        CMD     (18 lines)  <has focus>
+(gdb) **fs SRC**
+Focus set to SRC window.
+(gdb)
+```
+
+
+## assembly
+
+![[Pasted image 20260901132607.png]]
+
+
+
+
+## TLDR
+
+![[Pasted image 20260901132256.png]]
 
 
 
