@@ -710,16 +710,16 @@ enum [TYPENAME]
 /* Zugriff*/
 enum boolean 
 {
-	FALSE = 0,
-	TRUE
+	FALSE = 0, // 0
+	TRUE //1
 };
 
 enum account 
 {
-	PREMIUM = 1,
-	STANDARD = 2,
-	BUSINESS = 4,
-	FREE = 3
+	PREMIUM = 1, // 0
+	STANDARD = 2, //1
+	BUSINESS = 4, //2
+	FREE = 3 //3
 };
 
 
@@ -732,6 +732,10 @@ void foo(void)
 
 
 ```
+
+Anmerukung, jeder eintrag in einem Enum kann auch als Zahl interpretiert werden.
+
+
 
 ----
 ### Typedef
