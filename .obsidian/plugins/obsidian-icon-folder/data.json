@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": "#bababa",
     "recentlyUsedIcons": [
+      "🐫",
       "RiSkull2Line",
       "CoFolderDocument",
       "🔐",
@@ -16,8 +17,7 @@
       "OcCpu24",
       "LiAreaChart",
       "LiCodesandbox",
-      "LiCodepen",
-      "OcLaw16"
+      "LiCodepen"
     ],
     "recentlyUsedIconsSize": 12,
     "rules": [],
@@ -63,5 +63,6 @@
   "Statistik und Wahrscheinlichkeitstheorie": {
     "iconName": "RiCompasses2Line",
     "iconColor": "#ff0000"
-  }
+  },
+  "OCAML": "🐫"
 }
