@@ -6,17 +6,32 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#Algorithmen  ",
+      "color": {
+        "a": 1,
+        "rgb": 5396192
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
   "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.24832067582307538,
+  "showArrow": true,
+  "textFadeMultiplier": -2.2,
+  "nodeSizeMultiplier": 0.89968,
+  "lineSizeMultiplier": 0.547664,
+  "collapse-forces": false,
+  "centerStrength": 0.37824,
+  "repelStrength": 9.6128,
+  "linkStrength": 0.48064,
+  "linkDistance": 362,
+  "scale": 0.5359796434857643,
   "close": true
 }

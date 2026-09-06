@@ -1,7 +1,5 @@
 [
   "obsidian-latex-suite",
-  "dataview",
-  "homepage",
   "obsidian-icon-folder",
   "obsidian-excalidraw-plugin",
   "obsidian-importer",
@@ -10,15 +8,12 @@
   "nldates-obsidian",
   "omnisearch",
   "highlightr-plugin",
-  "drawio-obsidian",
-  "obsidian-banners",
   "obsidian-linter",
-  "obsidian-style-settings",
   "obsidian-tasks-plugin",
   "editing-toolbar",
   "obsidian-git",
-  "better-export-pdf",
   "canvas-node-screenshot",
-  "obsidian-annotator",
-  "scratchpad"
+  "scratchpad",
+  "better-export-pdf",
+  "drawio-obsidian"
 ]
