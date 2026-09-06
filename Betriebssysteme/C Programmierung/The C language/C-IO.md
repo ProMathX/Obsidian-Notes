@@ -14,5 +14,5 @@ Ist mmap wirklich schneller?
 https://yarchive.net/comp/mmap.html
 
 
-`splice` splice data to/from a pipe
+`splice` splice data to/from a pipep
 
