@@ -4,8 +4,8 @@
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#Algorithmen  ",
@@ -15,23 +15,37 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:#C  ",
       "color": {
         "a": 1,
         "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#Betriebssysteme  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -2.2,
-  "nodeSizeMultiplier": 0.89968,
-  "lineSizeMultiplier": 0.547664,
+  "textFadeMultiplier": -1.9,
+  "nodeSizeMultiplier": 0.771774193548387,
+  "lineSizeMultiplier": 0.379082661290323,
   "collapse-forces": false,
-  "centerStrength": 0.37824,
-  "repelStrength": 9.6128,
-  "linkStrength": 0.48064,
-  "linkDistance": 362,
-  "scale": 0.2627647058096777,
+  "centerStrength": 0,
+  "repelStrength": 17.273185483871,
+  "linkStrength": 0,
+  "linkDistance": 500,
+  "scale": 0.027315789865717904,
   "close": true
 }
