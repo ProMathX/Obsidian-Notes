@@ -1,3 +1,5 @@
+ 
+#studies 
 #DBS 
 Eine Relation $R$ ist in 1NF wenn:
 - wenn alle Attribute atomar sind

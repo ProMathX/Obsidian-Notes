@@ -1,3 +1,6 @@
+ 
+#studies 
+
 #DBS
 Die Attributhülle $\alpha^{+}$ bezüglich einer Menge von FDs $F$ und einer 
 Menge von Attributen $\alpha$ ist 

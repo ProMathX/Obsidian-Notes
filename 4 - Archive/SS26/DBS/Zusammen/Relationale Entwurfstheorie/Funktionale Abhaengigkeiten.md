@@ -1,4 +1,6 @@
 #DBS
+ 
+#studies 
 #### Definition
 $R = {A,B,C,D}$
 Attributmengen: $\alpha \subseteq R \wedge \beta \subseteq R$

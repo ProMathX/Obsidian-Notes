@@ -6,6 +6,8 @@ tags:
   - studies
   - "#DBS"
 ---
+ 
+#studies 
 ## Key Concepts
 - ) Entities can also be called substantives, and relation can be substituted via verbs, to make it more readable etc
 - ) Every Entitytype -> Relation **See important details**

@@ -1,4 +1,6 @@
 #DBS 
+ 
+#studies 
 Was ist eine Relation?
 
 $R \subseteq D_{} \times D_{2} \times D_{3} \dots$

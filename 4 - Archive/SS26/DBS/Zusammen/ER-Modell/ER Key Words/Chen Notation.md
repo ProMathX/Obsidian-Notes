@@ -1,5 +1,6 @@
 *Die Chen-Notation gibt die Funktionalität an*
 #DBS 
+#studies 
 #### Sie besitzt 3 Ausgansszenarien:
 - 1:1 beziehung
 - 1:N 

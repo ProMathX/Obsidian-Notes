@@ -1,4 +1,6 @@
 # ACHTUNG!
+ 
+#studies 
 >[!important]
 >Dieses Cheat Sheet wurde von Gemini-Pro erstellt:
 >Prompt 1

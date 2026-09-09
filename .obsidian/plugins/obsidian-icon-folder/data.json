@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": "#bababa",
     "recentlyUsedIcons": [
+      "LiMathFunction",
       "RiSkull2Line",
       "CoFolderDocument",
       "🔐",
@@ -16,8 +17,7 @@
       "OcCpu24",
       "LiAreaChart",
       "LiCodesandbox",
-      "LiCodepen",
-      "OcLaw16"
+      "LiCodepen"
     ],
     "recentlyUsedIconsSize": 12,
     "rules": [],

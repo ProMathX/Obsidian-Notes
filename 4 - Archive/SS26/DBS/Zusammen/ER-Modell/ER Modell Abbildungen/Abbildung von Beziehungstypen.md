@@ -1,4 +1,6 @@
 Sprich die Notation von Relationsschemata #DBS 
+ 
+#studies 
 
 ## Abbildungen von N:M Beziehungen
 ![[Pasted image 20260318202935.png]]

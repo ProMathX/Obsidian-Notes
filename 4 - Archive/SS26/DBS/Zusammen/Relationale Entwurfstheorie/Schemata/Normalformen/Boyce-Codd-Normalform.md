@@ -1,3 +1,5 @@
+ 
+#studies 
 #DBS 
 **ACHTUNG:** mindestens eine Bedingung muss erfüllt sein!
 ![[Pasted image 20260324120649.png]]

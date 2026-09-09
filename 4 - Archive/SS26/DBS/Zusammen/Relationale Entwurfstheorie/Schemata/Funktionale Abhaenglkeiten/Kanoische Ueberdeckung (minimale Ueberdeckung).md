@@ -1,3 +1,5 @@
+ 
+#studies 
 #DBS
 #### Äquivalente FD-Mengen
 FDs F und G sind äquivalent wenn deren Hüllen also $F^{+} = G^{+}$  gilt

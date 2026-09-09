@@ -1,4 +1,6 @@
 #DBS 
+ 
+#studies 
 Die Umbenennung $\rho$
 
 ![[Pasted image 20260309171005.png]]

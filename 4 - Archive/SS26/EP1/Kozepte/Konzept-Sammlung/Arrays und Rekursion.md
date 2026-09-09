@@ -1,3 +1,4 @@
+#studies #java #Algorithmen 
 ## 1. Mehrdimensionale Arrays & Jagged Arrays
 
 In Java können Zeilen unterschiedliche Längen haben, da ein 2D-Array ein "Array von Arrays" ist.

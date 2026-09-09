@@ -1,3 +1,5 @@
+ 
+#studies #DBS 
 ### Abhängigkeitstreue
 Menge der FDs ist äquivalent zur Menge der Schlüsselabhängigkeiten. (i.e. wir
 verlieren keine FD)

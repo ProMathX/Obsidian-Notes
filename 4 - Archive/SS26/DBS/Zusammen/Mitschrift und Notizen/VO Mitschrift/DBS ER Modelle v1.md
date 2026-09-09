@@ -1,4 +1,6 @@
 #DBS 
+ 
+#studies 
 ### Steps of Database drafts
 Requirement-analysis
 		What do we want?

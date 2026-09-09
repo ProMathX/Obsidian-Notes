@@ -1,4 +1,6 @@
 #DBS 
+ 
+#studies 
 Die Selektion $\sigma$ "filtert" die jeweilige Zeile, sie ist Binaer
 
 
