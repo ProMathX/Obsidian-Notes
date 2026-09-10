@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>STYLE(9) — Kernel Developer's Manual, extended</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/eighties.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/c.min.js"></script>
+<style>
+:root {
+  --bg: #1b1e23;
+  --bg-panel: #21252b;
+  --fg: #d4d7dd;
+  --muted: #8b93a1;
+  --accent: #7fb0e8;
+  --accent2: #e0a55c;
+  --rule: #33383f;
+  --code-bg: #16181c;
+  --border-radius: 6px;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 14.5px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 0 4rem 0;
+}
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+.manheader {
+  color: var(--muted);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.9rem;
+  margin-bottom: 1.6rem;
+  white-space: pre;
+  overflow-x: auto;
+}
+h2 {
+  color: var(--accent2);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  margin-top: 2.6rem;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--rule);
+  font-weight: 600;
+}
+p {
+  color: var(--fg);
+  margin: 0.9rem 0;
+  white-space: pre-line;
+}
+pre {
+  background: var(--code-bg);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 0.9rem 1.1rem;
+  margin: 0.9rem 0 1.3rem 0;
+  overflow-x: auto;
+}
+pre code {
+  background: transparent !important;
+  font-size: 13px;
+  line-height: 1.55;
+  padding: 0 !important;
+  white-space: pre;
+}
+::selection { background: #3a4a63; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="manheader">STYLE(9)                Kernel Developer&#x27;s Manual                STYLE(9)</div>
+<h2>NAME</h2>
+<p>style — Kernel source file style guide (KNF), extended with examples</p>
+<h2>DESCRIPTION</h2>
+<p>This file specifies the preferred style for kernel source files in the<br>OpenBSD source tree. It is also a guide for preferred userspace code<br>style. These guidelines should be followed for all new code. In<br>general, code can be considered &quot;new code&quot; when it makes up about 50%<br>or more of the file(s) involved. This is enough to break precedents in<br>the existing code and use the current style guidelines.</p>
+<p>This version keeps every rule from the original text in the same<br>order, and adds a worked example directly under each rule so the<br>convention is not just stated but shown.</p>
+<pre><code class="language-c">/*
+ * Style guide for the OpenBSD KNF (Kernel Normal Form).
+ */</code></pre>
+<pre><code class="language-c">/*
+ * VERY important single-line comments look like this.
+ */</code></pre>
+<pre><code class="language-c">/* Most single-line comments look like this. */</code></pre>
+<pre><code class="language-c">/*
+ * Multi-line comments look like this.  Make them real sentences.
+ * Fill them so they look like real paragraphs.
+ */</code></pre>
+<p>Example, correct vs incorrect comment weight:</p>
+<pre><code class="language-c">/*
+ * VERY important: this lock must be held before touching
+ * the free list, or the kernel will panic under load.
+ */
+mtx_enter(&amp;freelist_mtx);</code></pre>
+<pre><code class="language-c">/* Skip the fast path if the cache is cold. */
+if (cache_cold)
+    goto slow;</code></pre>
+<pre><code class="language-c">/* wrong: this is dressed up as a paragraph but says nothing */
+/*
+ * increment i
+ */
+i++;</code></pre>
+<p>Kernel include files (i.e., &lt;sys/*.h&gt;) come first; normally, you&#x27;ll<br>need &lt;sys/types.h&gt; OR &lt;sys/param.h&gt;, but not both! &lt;sys/types.h&gt;<br>includes &lt;sys/cdefs.h&gt;, and it&#x27;s okay to depend on that.</p>
+<pre><code class="language-c">#include &lt;sys/types.h&gt;	/* Non-local includes in brackets. */</code></pre>
+<p>If it&#x27;s a network program, put the network include files next.</p>
+<pre><code class="language-c">#include &lt;net/if.h&gt;
+#include &lt;net/if_dl.h&gt;
+#include &lt;net/route.h&gt;
+#include &lt;netinet/in.h&gt;</code></pre>
+<p>Then there&#x27;s a blank line, followed by the /usr/include files. The<br>/usr/include files, for the most part, should be sorted.</p>
+<p>Example of a complete, correctly ordered include block for a small<br>network utility:</p>
+<pre><code class="language-c">#include &lt;sys/types.h&gt;
+#include &lt;sys/socket.h&gt;</code></pre>
+<pre><code class="language-c">#include &lt;net/if.h&gt;
+#include &lt;netinet/in.h&gt;
+#include &lt;arpa/inet.h&gt;</code></pre>
+<pre><code class="language-c">#include &lt;err.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+#include &lt;unistd.h&gt;</code></pre>
+<pre><code class="language-c">#include &lt;paths.h&gt;</code></pre>
+<pre><code class="language-c">#include &quot;pathnames.h&quot;</code></pre>
+<p>Global pathnames are defined in /usr/include/paths.h. Pathnames local<br>to the program go in pathnames.h in the local directory.</p>
+<pre><code class="language-c">#include &lt;paths.h&gt;</code></pre>
+<p>Example of a local pathnames.h:</p>
+<pre><code class="language-c">/* $OpenBSD$ */</code></pre>
+<pre><code class="language-c">#define	_PATH_CONFIG	&quot;/etc/myprog.conf&quot;
+#define	_PATH_LOCKFILE	&quot;/var/run/myprog.lock&quot;</code></pre>
+<p>Then there&#x27;s a blank line, and the user include files.</p>
+<pre><code class="language-c">#include &quot;pathnames.h&quot;	/* Local includes in double quotes. */</code></pre>
+<p>All non-static functions are prototyped somewhere.</p>
+<p>Function prototypes for private functions (i.e., functions not used<br>elsewhere) go at the top of the first source module. In the kernel,<br>private functions do not require a prototype as long as they are<br>defined before they are used. In userspace, functions local to one<br>source module should be declared &#x27;static&#x27;. This should not be done<br>in the kernel since it makes it impossible to use the kernel<br>debugger.</p>
+<p>Example of local prototypes at the top of a userspace module:</p>
+<pre><code class="language-c">static void	usage(void);
+static int	parse_line(char *, struct entry *);
+static char	*trim(char *);</code></pre>
+<pre><code class="language-c">int
+main(int argc, char *argv[])
+{
+	...
+}</code></pre>
+<p>Functions used from other files are prototyped in the relevant<br>include file.</p>
+<p>Functions that are used locally in more than one module go into a<br>separate header file, e.g., extern.h.</p>
+<p>Example, extern.h shared by two source files in the same program:</p>
+<pre><code class="language-c">/* extern.h */
+void	 log_init(const char *);
+void	 log_warn(const char *, ...);
+int	 db_open(const char *);</code></pre>
+<p>Prototypes should not have variable names associated with the types;<br>i.e.,</p>
+<pre><code class="language-c">void	function(int);</code></pre>
+<p>not:</p>
+<pre><code class="language-c">void	function(int a);</code></pre>
+<p>Prototypes may have an extra space after a tab to enable function<br>names to line up:</p>
+<pre><code class="language-c">static char	*function(int, const char *);
+static void	 usage(void);</code></pre>
+<p>Example of a longer aligned block:</p>
+<pre><code class="language-c">static int	 open_db(const char *);
+static void	 close_db(int);
+static char	*read_record(int, size_t);
+static void	 write_record(int, const char *, size_t);</code></pre>
+<p>There should be no space between the function name and the argument<br>list.</p>
+<pre><code class="language-c">function(a1, a2);	/* correct */
+function (a1, a2);	/* wrong */</code></pre>
+<p>Use __dead from &lt;sys/cdefs.h&gt; for functions that don&#x27;t return, i.e.,</p>
+<pre><code class="language-c">__dead void	abort(void);</code></pre>
+<p>Example:</p>
+<pre><code class="language-c">__dead static void
+usage(void)
+{
+	fprintf(stderr, &quot;usage: %s [-v] file\n&quot;, getprogname());
+	exit(1);
+}</code></pre>
+<p>In header files, put function prototypes within __BEGIN_DECLS /<br>__END_DECLS matching pairs. This makes the header file usable from<br>C++.</p>
+<p>Example:</p>
+<pre><code class="language-c">#ifndef _MYLIB_H_
+#define _MYLIB_H_</code></pre>
+<pre><code class="language-c">#include &lt;sys/cdefs.h&gt;</code></pre>
+<pre><code class="language-c">__BEGIN_DECLS
+int	 mylib_init(void);
+void	 mylib_free(void);
+__END_DECLS</code></pre>
+<pre><code class="language-c">#endif /* !_MYLIB_H_ */</code></pre>
+<p>Macros are capitalized and parenthesized, and should avoid<br>side-effects. If they are an inline expansion of a function, the<br>function is defined all in lowercase; the macro has the same name all<br>in uppercase. If the macro needs more than a single line, use braces.<br>Right-justify the backslashes, as the resulting definition is easier<br>to read. If the macro encapsulates a compound statement, enclose it<br>in a &quot;do&quot; loop, so that it can safely be used in &quot;if&quot; statements. Any<br>final statement-terminating semicolon should be supplied by the macro<br>invocation rather than the macro, to make parsing easier for<br>pretty-printers and editors.</p>
+<pre><code class="language-c">#define	MACRO(x, y) do {					\
+	variable = (x) + (y);					\
+	(y) += 2;						\
+} while (0)</code></pre>
+<p>Example, a multi-line macro and its lowercase function counterpart:</p>
+<pre><code class="language-c">static inline int
+max(int a, int b)
+{
+	return (a &gt; b ? a : b);
+}</code></pre>
+<pre><code class="language-c">#define	SWAP(a, b) do {						\
+	__typeof(a) __tmp = (a);				\
+	(a) = (b);						\
+	(b) = __tmp;						\
+} while (0)</code></pre>
+<p>Example of why the &quot;do { } while (0)&quot; wrapper matters, showing the<br>macro used safely inside an if statement without braces:</p>
+<pre><code class="language-c">if (needs_swap)
+	SWAP(left, right);
+else
+	SWAP(right, left);</code></pre>
+<p>If a macro with arguments declares local variables, those variables<br>should use identifiers beginning with two underscores. This is<br>required for macros implementing C and POSIX interfaces and<br>recommended for all macros for consistency.</p>
+<p>Example, shown above as __tmp in SWAP().</p>
+<p>Enumeration values are all uppercase.</p>
+<pre><code class="language-c">enum enumtype { ONE, TWO } et;</code></pre>
+<p>Example, a state machine enum used later in a switch:</p>
+<pre><code class="language-c">enum connstate { CONN_CLOSED, CONN_LISTEN, CONN_ESTABLISHED };</code></pre>
+<p>When defining unsigned integers, use &quot;unsigned int&quot; rather than just<br>&quot;unsigned&quot;; the latter has been a source of confusion in the past.</p>
+<pre><code class="language-c">unsigned int	count;	/* correct */
+unsigned	count;	/* wrong */</code></pre>
+<p>When declaring variables in structures, declare them sorted by use,<br>then by size (largest to smallest), then by alphabetical order. The<br>first category normally doesn&#x27;t apply, but there are exceptions. Each<br>one gets its own line. Put a tab after the first word, i.e., use<br>&#x27;int^Ix;&#x27; and &#x27;struct^Ifoo *x;&#x27;.</p>
+<p>Major structures should be declared at the top of the file in which<br>they are used, or in separate header files if they are used in<br>multiple source files. Use of the structures should be by separate<br>declarations and should be &quot;extern&quot; if they are declared in a header<br>file.</p>
+<pre><code class="language-c">struct foo {
+	struct	foo *next;	/* List of active foo */
+	struct	mumble amumble;	/* Comment for mumble */
+	int	bar;
+};
+struct foo *foohead;		/* Head of global foo list */</code></pre>
+<p>Example, a larger structure following the same ordering rule (use,<br>then size largest to smallest, then alphabetical):</p>
+<pre><code class="language-c">struct session {
+	struct	session *next;		/* linkage, used first */
+	struct	sockaddr_storage peer;	/* largest field */
+	uint64_t	bytes_in;
+	uint64_t	bytes_out;
+	time_t	last_active;
+	int	fd;
+	int	state;
+};</code></pre>
+<p>Use queue(3) macros rather than rolling your own lists, whenever<br>possible. Thus, the previous example would be better written:</p>
+<pre><code class="language-c">#include &lt;sys/queue.h&gt;
+struct	foo {
+	LIST_ENTRY(foo)	link;	/* Queue macro glue for foo lists */
+	struct	mumble amumble;	/* Comment for mumble */
+	int	bar;
+};
+LIST_HEAD(, foo) foohead;	/* Head of global foo list */</code></pre>
+<p>Example, the same session structure rewritten with TAILQ instead of a<br>hand-rolled next pointer, plus the insert/remove calls that go with<br>it:</p>
+<pre><code class="language-c">#include &lt;sys/queue.h&gt;</code></pre>
+<pre><code class="language-c">struct session {
+	TAILQ_ENTRY(session)	entries;
+	struct	sockaddr_storage peer;
+	uint64_t	bytes_in;
+	uint64_t	bytes_out;
+	time_t	last_active;
+	int	fd;
+	int	state;
+};
+TAILQ_HEAD(, session) sessions = TAILQ_HEAD_INITIALIZER(sessions);</code></pre>
+<pre><code class="language-c">TAILQ_INSERT_TAIL(&amp;sessions, sp, entries);
+TAILQ_REMOVE(&amp;sessions, sp, entries);</code></pre>
+<p>Avoid using typedefs for structure types. This makes it impossible<br>for applications to use pointers to such a structure opaquely, which<br>is both possible and beneficial when using an ordinary struct tag.<br>When convention requires a typedef, make its name match the struct<br>tag. Avoid typedefs ending in &quot;_t&quot;, except as specified in Standard C<br>or by POSIX.</p>
+<p>Example:</p>
+<pre><code class="language-c">struct opaque_handle;			/* correct: plain struct tag */
+struct opaque_handle *open_handle(void);</code></pre>
+<pre><code class="language-c">typedef struct opaque_handle opaque_handle_t;	/* discouraged */</code></pre>
+<pre><code class="language-c">/*
+ * All major routines should have a comment briefly describing what
+ * they do.  The comment before the &quot;main&quot; routine should describe
+ * what the program does.
+ */
+int
+main(int argc, char *argv[])
+{
+	int aflag, bflag, ch, num;
+	const char *errstr;</code></pre>
+<p>For consistency, getopt(3) should be used to parse options. Options<br>should be sorted in the getopt(3) call and the switch statement,<br>unless parts of the switch cascade. Elements in a switch statement<br>that cascade should have a FALLTHROUGH comment. Numerical arguments<br>should be checked for accuracy.</p>
+<pre><code class="language-c">while ((ch = getopt(argc, argv, &quot;abn:&quot;)) != -1) {
+	switch (ch) {		/* Indent the switch. */
+	case &#x27;a&#x27;:		/* Don&#x27;t indent the case. */
+		aflag = 1;
+		/* FALLTHROUGH */
+	case &#x27;b&#x27;:
+		bflag = 1;
+		break;
+	case &#x27;n&#x27;:
+		num = strtonum(optarg, 0, INT_MAX, &amp;errstr);
+		if (errstr) {
+			warnx(&quot;number is %s: %s&quot;, errstr, optarg);
+			usage();
+		}
+		break;
+	default:
+		usage();
+	}
+}
+argc -= optind;
+argv += optind;</code></pre>
+<p>Example, a getopt loop with more option letters, still sorted &quot;abcdv&quot;<br>in both the optstring and the switch:</p>
+<pre><code class="language-c">int aflag = 0, bflag = 0, cflag = 0, vflag = 0;
+const char *dvalue = NULL;</code></pre>
+<pre><code class="language-c">while ((ch = getopt(argc, argv, &quot;abcd:v&quot;)) != -1) {
+	switch (ch) {
+	case &#x27;a&#x27;:
+		aflag = 1;
+		break;
+	case &#x27;b&#x27;:
+		bflag = 1;
+		break;
+	case &#x27;c&#x27;:
+		cflag = 1;
+		break;
+	case &#x27;d&#x27;:
+		dvalue = optarg;
+		break;
+	case &#x27;v&#x27;:
+		vflag++;
+		break;
+	default:
+		usage();
+	}
+}</code></pre>
+<p>Use a space after keywords (if, while, for, return, switch). No<br>braces are used for control statements with zero or only a single<br>statement unless that statement is more than a single line, in which<br>case they are permitted.</p>
+<pre><code class="language-c">for (p = buf; *p != &#x27;\0&#x27;; ++p)
+	continue;
+for (;;)
+	stmt;
+for (;;) {
+	z = a + really + long + statement + that + needs +
+	    two + lines + gets + indented + four + spaces +
+	    on + the + second + and + subsequent + lines;
+}
+for (;;) {
+	if (cond)
+		stmt;
+}</code></pre>
+<p>Example, an if/while pair showing the &quot;space after keyword&quot; rule and<br>brace omission for single statements:</p>
+<pre><code class="language-c">if (fd &lt; 0)
+	err(1, &quot;open&quot;);</code></pre>
+<pre><code class="language-c">while (n-- &gt; 0)
+	buf[n] = 0;</code></pre>
+<pre><code class="language-c">if (fd &lt; 0) {
+	warn(&quot;open %s&quot;, path);
+	return (-1);
+}</code></pre>
+<p>Parts of a for loop may be left empty.</p>
+<pre><code class="language-c">for (; cnt &lt; 15; cnt++) {
+	stmt1;
+	stmt2;
+}</code></pre>
+<p>Example, all three clauses used for their intended purpose versus one<br>left empty because the initialization already happened above it:</p>
+<pre><code class="language-c">for (i = 0; i &lt; nitems; i++)
+	total += items[i];</code></pre>
+<pre><code class="language-c">i = 0;
+for (; i &lt; nitems &amp;&amp; !found; i++)
+	found = matches(items[i]);</code></pre>
+<p>Indentation is an 8 character tab. Second level indents are four<br>spaces. All code should fit in 80 columns.</p>
+<pre><code class="language-c">while (cnt &lt; 20)
+	z = a + really + long + statement + that + needs +
+	    two + lines + gets + indented + four + spaces +
+	    on + the + second + and + subsequent + lines;</code></pre>
+<p>Example, a wrapped function call using the same four-space<br>continuation rule:</p>
+<pre><code class="language-c">error = copyin(uaddr, kaddr, len);
+if (error != 0)
+	printf(&quot;copyin failed: uaddr=%p kaddr=%p &quot;
+	    &quot;len=%zu error=%d\n&quot;, uaddr, kaddr, len, error);</code></pre>
+<p>Do not add whitespace at the end of a line, and only use tabs<br>followed by spaces to form the indentation. Do not use more spaces<br>than a tab will produce and do not use spaces in front of tabs.</p>
+<p>Closing and opening braces go on the same line as the else. Braces<br>that aren&#x27;t necessary may be left out, unless they cause a compiler<br>warning.</p>
+<pre><code class="language-c">if (test)
+	stmt;
+else if (bar) {
+	stmt;
+	stmt;
+} else
+	stmt;</code></pre>
+<p>Example, a longer if/else if/else chain following the same brace<br>placement:</p>
+<pre><code class="language-c">if (state == CONN_CLOSED) {
+	open_conn();
+} else if (state == CONN_LISTEN) {
+	accept_conn();
+} else if (state == CONN_ESTABLISHED) {
+	service_conn();
+} else
+	warnx(&quot;unknown state %d&quot;, state);</code></pre>
+<p>Do not use spaces after function names. Commas have a space after<br>them. Do not use spaces after &#x27;(&#x27; or &#x27;[&#x27; or preceding &#x27;]&#x27; or &#x27;)&#x27;<br>characters.</p>
+<pre><code class="language-c">if ((error = function(a1, a2)))
+	exit(error);</code></pre>
+<p>Example, a similar call with an array index, again with no space<br>after &#x27;[&#x27; or before &#x27;]&#x27;:</p>
+<pre><code class="language-c">if ((error = process(argv[i], flags)))
+	err(error, &quot;process&quot;);</code></pre>
+<p>Unary operators don&#x27;t require spaces; binary operators do. Don&#x27;t use<br>parentheses unless they&#x27;re required for precedence, the statement is<br>confusing without them, or the compiler generates a warning without<br>them. Remember that other people may be confused more easily than<br>you. Do YOU understand the following?</p>
+<pre><code class="language-c">a = b-&gt;c[0] + ~d == (e || f) || g &amp;&amp; h ? i : j &gt;&gt; 1;
+k = !(l &amp; FLAGS);</code></pre>
+<p>Example, an expression that needs no extra parentheses because normal<br>precedence already reads correctly, versus one that needs them<br>because the reader cannot be expected to remember bitwise-vs-logical<br>precedence:</p>
+<pre><code class="language-c">total = a + b * c;		/* fine, standard precedence */
+ready = (flags &amp; READY) != 0;	/* parens needed for clarity */</code></pre>
+<p>Exits should be 0 on success, or non-zero for errors.</p>
+<pre><code class="language-c">/*
+ * Avoid obvious comments such as
+ * &quot;Exit 0 on success.&quot;
+ */
+exit(0);</code></pre>
+<p>Example, an error path with a non-zero exit code and a matching<br>comment that explains why, not what:</p>
+<pre><code class="language-c">if (nfiles == 0) {
+	/* Nothing to process; treat as a caller error. */
+	exit(1);
+}</code></pre>
+<p>The function type should be on a line by itself preceding the<br>function.</p>
+<pre><code class="language-c">static char *
+function(int a1, int a2, float fl, int a4)
+{</code></pre>
+<p>Example:</p>
+<pre><code class="language-c">static int
+parse_line(char *line, struct entry *ep)
+{
+	...
+}</code></pre>
+<p>When declaring variables in functions, declare them sorted by size<br>(largest to smallest), then in alphabetical order; multiple ones per<br>line are okay. If a line overflows, reuse the type keyword.</p>
+<p>Be careful not to obfuscate the code by initializing variables in the<br>declarations. Use this feature only thoughtfully. DO NOT use function<br>calls in initializers!</p>
+<pre><code class="language-c">struct foo one, *two;
+double three;
+int *four, five;
+char *six, seven, eight, nine, ten, eleven, twelve;</code></pre>
+<pre><code class="language-c">four = myfunction();</code></pre>
+<p>Example, a function-local declaration block sorted by size then<br>alphabetically, with the disallowed initializer shown for contrast:</p>
+<pre><code class="language-c">struct timeval tv;
+double average;
+long total, *countp;
+int fd, i, n;
+char *path, buf[BUFSIZ];</code></pre>
+<pre><code class="language-c">fd = open(path, O_RDONLY);	/* correct: assignment after declaration */</code></pre>
+<pre><code class="language-c">int fd = open(path, O_RDONLY);	/* wrong: function call in initializer */</code></pre>
+<p>Do not declare functions inside other functions.</p>
+<p>Example of the wrong way:</p>
+<pre><code class="language-c">int
+outer(void)
+{
+	int				/* wrong */
+	inner(void)
+	{
+		return (1);
+	}
+	return inner();
+}</code></pre>
+<p>Casts and sizeof() calls are not followed by a space. Note that<br>indent(1) does not understand this rule.</p>
+<pre><code class="language-c">p = (struct foo *)buf;
+n = sizeof(struct foo);</code></pre>
+<p>Use of the &quot;register&quot; specifier is discouraged in new code. Optimizing<br>compilers such as gcc can generally do a better job of choosing which<br>variables to place in registers to improve code performance. The<br>exception to this is in functions containing assembly code where the<br>&quot;register&quot; specifier is required for proper code generation in the<br>absence of compiler optimization.</p>
+<p>Example, the exception case, a variable pinned to a register for use<br>inside inline assembly:</p>
+<pre><code class="language-c">register int result asm(&quot;eax&quot;);</code></pre>
+<pre><code class="language-c">__asm volatile(&quot;syscall&quot; : &quot;=a&quot; (result) : &quot;0&quot; (nr) : &quot;cc&quot;);</code></pre>
+<p>When using longjmp() or vfork() in a program, the -W or -Wall flag<br>should be used to verify that the compiler does not generate warnings<br>such as</p>
+<pre><code class="language-c">warning: variable `foo&#x27; might be clobbered by `longjmp&#x27; or `vfork&#x27;.</code></pre>
+<p>If any warnings of this type occur, you must apply the &quot;volatile&quot;<br>type-qualifier to the variable in question. Failure to do so may<br>result in improper code generation when optimization is enabled. Note<br>that for pointers, the location of &quot;volatile&quot; specifies if the<br>type-qualifier applies to the pointer, or the thing being pointed to.<br>A volatile pointer is declared with &quot;volatile&quot; to the right of the<br>&quot;*&quot;. Example:</p>
+<pre><code class="language-c">char *volatile foo;</code></pre>
+<p>says that &quot;foo&quot; is volatile, but &quot;*foo&quot; is not. To make &quot;*foo&quot;<br>volatile use the syntax</p>
+<pre><code class="language-c">volatile char *foo;</code></pre>
+<p>If both the pointer and the thing pointed to are volatile, use</p>
+<pre><code class="language-c">volatile char *volatile foo;</code></pre>
+<p>&quot;const&quot; is also a type-qualifier and the same rules apply. The<br>description of a read-only hardware register might look something<br>like:</p>
+<pre><code class="language-c">const volatile char *reg;</code></pre>
+<p>Example tying the three variants together, as they would appear<br>declared side by side:</p>
+<pre><code class="language-c">char *volatile p1;			/* p1 itself is volatile */
+volatile char *p2;			/* *p2 is volatile */
+volatile char *volatile p3;	/* both are volatile */
+const volatile char *devreg;	/* read-only hardware register */</code></pre>
+<p>Global flags set inside signal handlers should be of type &quot;volatile<br>sig_atomic_t&quot; if possible. This guarantees that the variable may be<br>accessed as an atomic entity, even when a signal has been delivered.<br>Global variables of other types (such as structures) are not<br>guaranteed to have consistent values when accessed via a signal<br>handler.</p>
+<p>Example:</p>
+<pre><code class="language-c">volatile sig_atomic_t got_sigint;</code></pre>
+<pre><code class="language-c">static void
+sigint_handler(int signo)
+{
+	got_sigint = 1;
+}</code></pre>
+<pre><code class="language-c">...
+while (!got_sigint)
+	do_work();</code></pre>
+<p>NULL is the preferred null pointer constant. Use NULL instead of<br>(type *)0 or (type *)NULL in all cases except for arguments to<br>variadic functions where the compiler does not know the type.</p>
+<p>Example, the variadic exception:</p>
+<pre><code class="language-c">p = NULL;			/* correct */
+p = (struct foo *)0;	/* wrong */</code></pre>
+<pre><code class="language-c">execl(&quot;/bin/sh&quot;, &quot;sh&quot;, &quot;-c&quot;, cmd, (char *)NULL);	/* cast needed here */</code></pre>
+<p>Don&#x27;t use &#x27;!&#x27; for tests unless it&#x27;s a boolean, i.e., use</p>
+<pre><code class="language-c">if (*p == &#x27;\0&#x27;)</code></pre>
+<p>not</p>
+<pre><code class="language-c">if (!*p)</code></pre>
+<p>Example, contrasting a genuine boolean test with a pointer/character<br>test:</p>
+<pre><code class="language-c">if (!done)		/* fine: done is a boolean flag */
+	continue;</code></pre>
+<pre><code class="language-c">if (*cp == &#x27;\0&#x27;)	/* correct */
+	break;
+if (!*cp)		/* wrong */
+	break;</code></pre>
+<p>Routines returning void * should not have their return values cast to<br>any pointer type.</p>
+<p>Example:</p>
+<pre><code class="language-c">char *cp;</code></pre>
+<pre><code class="language-c">cp = malloc(len);	/* correct: no cast on the void * return */
+cp = (char *)malloc(len);	/* wrong */</code></pre>
+<p>Use the err(3) and warn(3) family of functions. Don&#x27;t roll your own!</p>
+<pre><code class="language-c">if ((four = malloc(sizeof(struct foo))) == NULL)
+	err(1, NULL);
+if ((six = (int *)overflow()) == NULL)
+	errx(1, &quot;Number overflowed.&quot;);
+return eight;</code></pre>
+<p>Example, warn() used for a non-fatal condition versus err() for a<br>fatal one, matching the errno-reporting and no-errno-reporting split<br>between the two families:</p>
+<pre><code class="language-c">if (unlink(path) == -1)
+	warn(&quot;unlink %s&quot;, path);	/* non-fatal, reports errno */</code></pre>
+<pre><code class="language-c">if ((fd = open(path, O_RDONLY)) == -1)
+	err(1, &quot;open %s&quot;, path);	/* fatal, reports errno, exits */</code></pre>
+<p>Always use ANSI function definitions. Long parameter lists are<br>wrapped with a normal four space indent.</p>
+<p>Example, a long parameter list wrapped with a four-space<br>continuation indent:</p>
+<pre><code class="language-c">int
+session_open(const char *host, unsigned short port, int timeout,
+    int flags, const struct options *opts)
+{
+	...
+}</code></pre>
+<p>Variable numbers of arguments should look like this:</p>
+<pre><code class="language-c">#include &lt;stdarg.h&gt;</code></pre>
+<pre><code class="language-c">void
+vaf(const char *fmt, ...)
+{
+	va_list ap;
+	va_start(ap, fmt);</code></pre>
+<pre><code class="language-c">	STUFF;</code></pre>
+<pre><code class="language-c">	va_end(ap);</code></pre>
+<pre><code class="language-c">	/* No return needed for void functions. */
+}</code></pre>
+<p>Example, a small logging wrapper built on the same pattern:</p>
+<pre><code class="language-c">#include &lt;stdarg.h&gt;
+#include &lt;stdio.h&gt;</code></pre>
+<pre><code class="language-c">void
+log_warnf(const char *fmt, ...)
+{
+	va_list ap;</code></pre>
+<pre><code class="language-c">	va_start(ap, fmt);
+	vfprintf(stderr, fmt, ap);
+	va_end(ap);
+}</code></pre>
+<pre><code class="language-c">static void
+usage(void)
+{</code></pre>
+<p>Usage statements should take the same form as the synopsis in manual<br>pages. Options without operands come first, in alphabetical order<br>inside a single set of braces, followed by options with operands, in<br>alphabetical order, each in braces, followed by required arguments in<br>the order they are specified, followed by optional arguments in the<br>order they are specified.</p>
+<p>A bar (&#x27;|&#x27;) separates either-or options/arguments, and multiple<br>options/arguments which are specified together are placed in a single<br>set of braces.</p>
+<p>If numbers are used as options, they should be placed first, as shown<br>in the example below. Uppercase letters take precedence over<br>lowercase.</p>
+<pre><code class="language-c">&quot;usage: f [-12aDde] [-b b_arg] [-m m_arg] req1 req2 [opt1 [opt2]]\n&quot;
+&quot;usage: f [-a | -b] [-c [-de] [-n number]]\n&quot;</code></pre>
+<p>Example, a usage() for a hypothetical tool with two no-operand flags,<br>one flag taking an operand, a required argument, and an optional<br>argument:</p>
+<pre><code class="language-c">static void
+usage(void)
+{
+	fprintf(stderr,
+	    &quot;usage: %s [-qv] [-o outfile] infile [count]\n&quot;,
+	    getprogname());
+	exit(1);
+}</code></pre>
+<p>The getprogname(3) function may be used instead of hard-coding the<br>program name.</p>
+<pre><code class="language-c">fprintf(stderr, &quot;usage: %s [-ab]\n&quot;, getprogname());
+exit(1);</code></pre>
+<p>New core kernel code should be reasonably compliant with the style<br>guides. The guidelines for third-party maintained modules and device<br>drivers are more relaxed but at a minimum should be internally<br>consistent with their style.</p>
+<p>Whenever possible, code should be run through a code checker (e.g.,<br>&quot;gcc -Wall -W -Wpointer-arith -Wbad-function-cast ...&quot; or splint from<br>the ports tree) and produce minimal warnings. Since lint has been<br>removed, the only lint-style comment that should be used is<br>FALLTHROUGH, as it&#x27;s useful to humans. Other lint-style comments such<br>as ARGSUSED, LINTED, and NOTREACHED may be deleted.</p>
+<p>Example build invocation matching the checker flags mentioned above:</p>
+<pre><code class="language-c">cc -Wall -W -Wpointer-arith -Wbad-function-cast -o prog prog.c</code></pre>
+<p>Note that documentation follows its own style guide, as documented in<br>mdoc(7).</p>
+<h2>FILES</h2>
+<pre><code class="language-c">/usr/share/misc/license.template
+    Example license for new code.</code></pre>
+<h2>SEE ALSO</h2>
+<pre><code class="language-c">indent(1), err(3), queue(3), warn(3), mdoc(7)</code></pre>
+<h2>HISTORY</h2>
+<p>This man page is largely based on the src/admin/style/style file from<br>the 4.4BSD-Lite2 release, with updates to reflect the current practice<br>and desire of the OpenBSD project. This extended version keeps the<br>original text intact and adds a worked example under each rule.</p>
+<div class="manheader">OpenBSD-current                September 11, 2022                STYLE(9)</div>
+</div>
+<script>hljs.highlightAll();</script>
+</body>
+</html>
