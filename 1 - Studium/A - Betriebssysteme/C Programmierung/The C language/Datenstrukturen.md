@@ -298,6 +298,43 @@ ODER
 int *mat = (int *)malloc(rows * cols * sizeof(int));
 
 ```
+### Approach 3
+Mit Structs arbeiten
+```C
+#include <stddef.h>
+`#include <stdio.h>
+#include <stdlib.h>
+struct A {
+  int *value;
+} A;
+
+int main(void) {
+  struct A *data = {0};
+  int n = 3;
+  data = (struct A *)malloc(n * sizeof(struct A *) + 1);
+
+  for (size_t i = 0; i < 3; ++i) {
+    data[i].value = (int *)malloc(6 * sizeof(int));
+    for (size_t j = 0; j < 6; ++j) {
+      data[i].value[j] = j + 1;
+    }
+  }
+
+  for (int i = 0; i < 3; i++) {
+    printf("[");
+    for (int j = 0; j < 6; j++) {
+      printf("%d ", data[i].value[j]);
+    }
+
+    printf("]");
+    printf("\n");
+  }
+
+  return 0;
+}
+```
+
+
 
 ### Dynamic Arrays
 
