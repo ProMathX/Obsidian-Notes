@@ -333,7 +333,49 @@ int main(void) {
   return 0;
 }
 ```
+ Fuer Strings zb
+ 
+ ```C
+ #include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+struct A {
+  char **value;
+} A;
 
+int main(void) {
+  struct A *data = {0};
+  int n = 3;
+  data = (struct A *)malloc(n * sizeof(struct A *) + 1);
+
+  for (size_t i = 0; i < 3; ++i) {
+    data[i].value = (char **)malloc(6 * sizeof(char *));
+    for (size_t j = 0; j < 6; ++j) {
+      data[i].value[j] = "A";
+    }
+  }
+
+  for (int i = 0; i < 3; i++) {
+    printf("[");
+    for (int j = 0; j < 6; j++) {
+
+      if (j < 5)
+        printf("%s, ", data[i].value[j]);
+      else
+        printf("%s", data[i].value[j]);
+    }
+
+    printf("]");
+    printf("\n");
+  }
+
+  return 0;
+}
+ 
+ 
+ ```
+ 
+ 
 
 
 ### Dynamic Arrays
