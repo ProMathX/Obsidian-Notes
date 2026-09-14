@@ -272,3 +272,4 @@ fclose(INPUTFILE);
 -> Für strtok alle argv in einem String abspeichern  `char *str = strdup(argv[i]);`
 
 
+
