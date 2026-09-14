@@ -257,3 +257,18 @@ fclose(INPUTFILE);
 
 ```
 
+---
+
+## Tipps für Edge Cases 
+
+-  too few arguments ((argc-1)<1)
+- too many arguents (argc-1)> MAX (macro)
+- duplicate arguments (compare the the argv with two seperate indices)
+- Je nachdem was das programm soll:
+	- index() um einen bestimmten character finden
+	- und rindex() um last occurance zu finden (falls zu viele command line argumente verwendet wurden)
+
+-> Für den Input zu tokenizen strtok() verwenden (manpage)  und dann den string parsen und schauen dass es die requierements erfüllt (isdigit, ischar ...)
+-> Für strtok alle argv in einem String abspeichern  `char *str = strdup(argv[i]);`
+
+
