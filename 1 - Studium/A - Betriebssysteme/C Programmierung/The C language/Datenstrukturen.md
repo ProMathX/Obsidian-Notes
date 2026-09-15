@@ -1392,6 +1392,11 @@ int circ_bbuf_pop(circ_bbuf_t *c, uint8_t *data)
 }
 ```
 
+---
+## Mit Shared memory und Semaphoren
+
+
+
 
 
 
