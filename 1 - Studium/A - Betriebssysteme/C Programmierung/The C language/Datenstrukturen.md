@@ -1392,16 +1392,101 @@ int circ_bbuf_pop(circ_bbuf_t *c, uint8_t *data)
 }
 ```
 
----
-## Mit Shared memory und Semaphoren
+#### Mit Shared memory und Semaphoren
+
+```c
+#include <fcntl.h>
+#include <sys/mman.h>
+
+#define SHM_NAME "/myshm"
+#define MAX_DATA (50)
+#define BUF_LEN 8
+
+struct myshm {
+    unsigned int buf[BUF_LEN];
+    int wr_pos;
+    int rd_pos;
+};
+
+// Erstellen/Öffnen
+int shmfd = shm_open(SHM_NAME, O_RDWR | O_CREAT, 0600);
+if (shmfd == -1) perror("shm_open");
+
+// Größe setzen
+if (ftruncate(shmfd, sizeof(struct myshm)) < 0) 
+    perror("ftruncate");
+
+// Mappen
+struct myshm *shm = mmap(NULL, sizeof(*shm), 
+                         PROT_READ | PROT_WRITE,
+                         MAP_SHARED, shmfd, 0);
+if (shm == MAP_FAILED) perror("mmap");
+
+close(shmfd);  // fd kann geschlossen werden
+
+// Cleanup: munmap() und shm_unlink()
+```
+
+#### 2. Semaphoren initialisieren (Folie 32–35)
+
+```c
+#include <semaphore.h>
+#include <fcntl.h>
+
+// Semaphor anlegen
+sem_t *free_sem = sem_open("/free", O_CREAT, 0600, BUF_LEN);
+sem_t *used_sem = sem_open("/used", O_CREAT, 0600, 0);
+
+if (free_sem == SEM_FAILED || used_sem == SEM_FAILED)
+    perror("sem_open");
+
+// Cleanup: sem_close() und sem_unlink()
+```
+
+|Semaphor|Initial|Bedeutung|
+|---|---|---|
+|`free`|BUF_LEN|freie Plätze|
+|`used`|0|belegte Plätze|
+
+#### 3. FIFO-Operationen (Folie 39)
+
+##### Writer
+
+```c
+void write_to_buffer(unsigned int val) {
+    sem_wait(free_sem);          // auf freien Platz warten
+    shm->buf[shm->wr_pos] = val;
+    shm->wr_pos = (shm->wr_pos + 1) % BUF_LEN;
+    sem_post(used_sem);          // einen Platz belegt melden
+}
+```
+
+##### Reader
+
+```c
+unsigned int read_from_buffer(void) {
+    sem_wait(used_sem);          // auf belegten Platz warten
+    unsigned int val = shm->buf[shm->rd_pos];
+    shm->rd_pos = (shm->rd_pos + 1) % BUF_LEN;
+    sem_post(free_sem);          // einen Platz freigeben
+    return val;
+}
+```
+
+#### Wichtige Details
+
+- **Positionszeiger im Shared Memory**: `wr_pos` und `rd_pos` müssen im `struct myshm` liegen, damit beide Prozesse denselben Zustand sehen
+- **Ringpuffer-Modulo**: Beide Seiten nutzen `% BUF_LEN` (nicht `sizeof`)
+- **Blockieren**: Writer blockiert bei vollem Buffer, Reader bei leerem
+- **Signal-Handling** (Folie 34): `sem_wait()` kann durch Signale unterbrochen werden → `errno == EINTR` abfangen
+- **Cleanup-Reihenfolge**: `munmap()` vor `shm_unlink()`, `sem_close()` vor `sem_unlink()`
+
+#### Prinzip (Folie 29)
+
+Zwei Semaphoren sind nötig, um korrekte gegenseitige Synchronisation zu erreichen — analog zum Alternating-Execution-Beispiel.
 
 
-
-
-
-
-
-### Array of Structs (AoS) 
+## Array of Structs (AoS) 
 Relativ Banal? 
 
 ```C
@@ -1423,7 +1508,7 @@ int main(void)
 
 ```
 
-### Struct of Arrays (SoA)
+## Struct of Arrays (SoA)
 ```C
 struct Vector3List {
     float x[N];
@@ -1442,7 +1527,7 @@ float get_point_x(size_t i) {
 ```
 
 
-### **Array of structures of arrays** (**AoSoA**)
+## **Array of structures of arrays** (**AoSoA**)
 
 ```C
 struct Vector3x8 {
