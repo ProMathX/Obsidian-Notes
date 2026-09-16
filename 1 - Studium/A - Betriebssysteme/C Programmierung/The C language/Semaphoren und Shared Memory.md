@@ -145,7 +145,6 @@ if (shm_unlink(SHM_NAME) == -1)
 
 
 ---
-
 ## Shared Memory Flags 
 `int shm_open(const char *name, int oflag, mode_t mode);`
 
@@ -156,9 +155,17 @@ if (shm_unlink(SHM_NAME) == -1)
 #### Server 
 oflag -> `O_RDWR | O_CREAT`
 mode -> `0`
+diffrent modes:
+- `S_IRWXG` <-> `(S_IRGRP | S_IWGRP | S_IXGRP)'
+
+#### Client
+oflag -> `O_RDWR`
+mode -> 0
+diffrent modes:
+- `S_IRWXG` <-> `(S_IRGRP | S_IWGRP | S_IXGRP)'
 
 
-
+[mode flags](https://ftp.gnu.org/old-gnu/Manuals/glibc-2.2.3/html_node/libc_278.html)
 
 
 
