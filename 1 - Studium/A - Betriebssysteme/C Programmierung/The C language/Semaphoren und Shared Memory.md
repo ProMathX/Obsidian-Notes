@@ -194,11 +194,8 @@ int main(void)
 
 ```
 
-
 ##### `mmap`
-
 Nahchdem man ein filedescriptor angelefgt hat und dann die größe festgelegt hat kann man virtuellen speicher zuweisen.
-
 
 ```C
 #define MMP_PROT_FLAG "PROT_READ | PROT_WRITE"
@@ -220,7 +217,6 @@ mmap flags:
 **PROT_NONE** Pages may not be accessed.
 
 MAP_SHARED  Share this mapping under /dev/shm 
-
 
 ---
 #### Semaphoren
