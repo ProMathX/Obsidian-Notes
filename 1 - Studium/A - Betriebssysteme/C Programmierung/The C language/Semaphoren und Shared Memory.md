@@ -144,8 +144,91 @@ if (shm_unlink(SHM_NAME) == -1)
 ```
 
 
+<<<<<<< HEAD
 - [[Advanced.Programming.in.the.UNIX.Environment.3rd.Edition.pdf#page=599&annotation=44780R|Advanced.Programming.in.the.UNIX.Environment.3rd.Edition, page 599]]
 
 
 
+=======
+---
+## Shared Memory
+`int shm_open(const char *name, int oflag, mode_t mode);`
+
+- name ist der Name unter dem es geöffnet wird
+	-  `#define SHM_NAME "/e12519647_shm"`
+	-> Öffnet eine shm objekt in /dev/shm
+
+#### Server 
+oflag -> `O_RDWR | O_CREAT | O_EXCL`
+mode -> `0`
+diffrent modes:
+- `S_IRWXG` <-> `(S_IRGRP | S_IWGRP | S_IXGRP)'
+
+#### Client
+oflag -> `O_RDWR`
+mode -> 0
+diffrent modes:
+- `S_IRWXG` <-> `(S_IRGRP | S_IWGRP | S_IXGRP)'
+
+
+[mode flags](https://ftp.gnu.org/old-gnu/Manuals/glibc-2.2.3/html_node/libc_278.html)
+
+---
+##### `ftruncate`
+`int truncate(const char *path, off_t length);`
+
+-> Path ist ein fd zu einem `shm_open()`
+
+
+```C
+struct shm
+{
+	size_t data[MAX_LEN];
+	bool alive;
+}
+
+
+int main(void)
+{
+
+	int *shmfd = sem_open(SHM_NAME, SERVER_OFLAG, S_IRWXG);
+	
+	assert(ftruncate(shmfd,sizeof(struct shm)) != -1);
+	
+}
+
+
+```
+
+##### `mmap`
+Nahchdem man ein filedescriptor angelefgt hat und dann die größe festgelegt hat kann man virtuellen speicher zuweisen.
+
+```C
+#define MMP_PROT_FLAG "PROT_READ | PROT_WRITE"
+#define MMP_FLAGS "MAP_SHARED"
+#define MMP_OFFSET 0
+struct shm *shm;
+
+shm = mmap(NULL, sizeof(struct shm), MMP_PROT_FLAG, MMP_FLAGS, shmfd,MMP_OFFSET);
+
+```
+
+mmap flags:
+**PROT_EXEC** Pages may be executed.
+
+**PROT_READ** Pages may be read.
+
+**PROT_WRITE** Pages may be written.
+
+**PROT_NONE** Pages may not be accessed.
+
+MAP_SHARED  Share this mapping under /dev/shm 
+
+---
+#### Semaphoren
+
+
+`sem_open`
+
+>>>>>>> origin/main
 
