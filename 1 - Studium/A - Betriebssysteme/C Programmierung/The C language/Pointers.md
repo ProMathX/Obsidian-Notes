@@ -307,5 +307,15 @@ Wenn man free() verwendet muss es die ursprünglich eAdresse vom Pointer einlese
 
 
 
+----
 
 
+```C
+
+  const int *pa; //declare p as pointer to const int
+  int const *pb; //declare pb as pointer to const int
+  int* const pc; //declare pb as const pointer to int
+
+
+```
+https://cdecl.org/
