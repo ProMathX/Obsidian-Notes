@@ -298,16 +298,16 @@ ODER
 int *mat = (int *)malloc(rows * cols * sizeof(int));
 
 ```
-### Approach 3
+#### Approach 3
 Mit Structs arbeiten
 ```C
 #include <stddef.h>
-`#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 struct A {
   int *value;
 } A;
-
+	
 int main(void) {
   struct A *data = {0};
   int n = 3;
@@ -336,7 +336,7 @@ int main(void) {
  Fuer Strings zb
  
  ```C
- #include <stddef.h>
+#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 struct A {

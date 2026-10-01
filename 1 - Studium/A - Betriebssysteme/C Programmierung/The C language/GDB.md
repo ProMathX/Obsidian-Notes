@@ -164,7 +164,6 @@ im tui modus `gdb -tui foo`
 - REGS
 - ASM
 
-
 ```gdb
 (gdb) **info win**
         SRC     (36 lines)  <has focus>
@@ -179,14 +178,9 @@ Focus set to SRC window.
 (gdb)
 ```
 
-
 ## assembly
 
 ![[Pasted image 20260901132607.png]]
-
-
-
-
 ## TLDR
 
 ![[Pasted image 20260901132256.png]]
