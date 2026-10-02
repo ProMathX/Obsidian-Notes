@@ -203,4 +203,20 @@ Die Verallgemeinerung von Queue und Stack, ist eine DEQueue (Double Ended Queue)
 
 Beim Einfügen und Entfernen an unterschiedlichen Enden ergibt sich das Verhalten einer Queue, bei gleichen Enden das eines Stacks. Man kann es auch mischen, man kann die Daten an einem anderen Ende hinzufügen  oder entfernen.
 
+Ich schreibe jetzt hier nicht auf wie der Typ eine DEQueue von 0 selber implemeniert hat, wenn dann selber nachschaeun  [[ep2-26s-1seitig.pdf#page=53&selection=8,0,9,1|ep2-26s-1seitig, page 53]]
+
+![[Pasted image 20261002142230.png]]
+ist es eigentlich ein Circular Buffer, besser wäre es mit head = (head+1) % es.length
+Denn mit Bitflags oder Bitmasks, ist unleserlich aber schneller. Aber ein Java dev sollte sich was das angeht keine Gedanken machen.
+
+Die Java Standardbibliothek (java.util) hat
+- `ArrayDeque<...>` (Diamond Operator nimmt nur Boxed Values)
+- `LinkedList<...>` implementiert die Methoden von `DEQueue` in form einer linearen Liste
+
+
+##### 2.2.3 Assoziative Datenstrukturen (56-72)
+Killer 
+[[ep2-26s-1seitig.pdf#page=56&selection=11,0,11,5|ep2-26s-1seitig, page 56]]
+
+
 
