@@ -180,9 +180,27 @@ Um so viel Programmänderung zu vermeiden, werden sog. *anwendungsspezifische* O
 
 ![[Pasted image 20261002131022.png]]
 
-
-
 ##### 2.2.2 Lineare Zugriffe
+Auf die linearen Datenstrukturen *Queue* und *Stack* können nur linear auf die Daten zugegriffen werden. Das heißt, mann nicht wie bei einem Array beliebige Einträge einlesen und verändern. 
+Einerseits schränkt diese Eigenschaft den *usecase* und anderersetits kann man ohne komplexer Indexberechnung nicht weiter vorankommen und brauchen somit beim Anlegen keine Größe anzugeben.
 
+*Queue*
+Kann man sich als Perlenschnurvorstellen, am Ende auf die Schnur kommen die Perlen (Daten) und am anderen Ende wird eine Perle entfernt -> FIFO. Also die erste eingefähdelte Perle wird wieder runtergenommen.
+
+*Stack*
+Kann man sich als ein Stapel von Tellern (Daten) vorstellen, jede neuer Teller wird ganz oben abgelegt und der benötigte Teller wieder von ganz oben genommen -> LIFO
+
+![[Pasted image 20261002133434.png]]
+
+
+![[Pasted image 20261002133520.png]]
+
+
+*Wrapper* sind Methoden in einer Klasse die andere Klassen implementieren!
+
+Die Verallgemeinerung von Queue und Stack, ist eine DEQueue (Double Ended Queue)
+![[Pasted image 20261002134824.png]]
+
+Beim Einfügen und Entfernen an unterschiedlichen Enden ergibt sich das Verhalten einer Queue, bei gleichen Enden das eines Stacks. Man kann es auch mischen, man kann die Daten an einem anderen Ende hinzufügen  oder entfernen.
 
 
