@@ -38,14 +38,14 @@
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -1.9,
-  "nodeSizeMultiplier": 0.771774193548387,
-  "lineSizeMultiplier": 0.379082661290323,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 0.861920362903226,
+  "lineSizeMultiplier": 0.866859879032258,
   "collapse-forces": false,
   "centerStrength": 0,
-  "repelStrength": 17.273185483871,
-  "linkStrength": 0,
-  "linkDistance": 500,
-  "scale": 0.040973684798576854,
-  "close": true
+  "repelStrength": 7.05645161290323,
+  "linkStrength": 0.209929435483871,
+  "linkDistance": 30,
+  "scale": 0.13348388671875,
+  "close": false
 }
