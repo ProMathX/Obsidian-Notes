@@ -11,7 +11,6 @@ Kapitel 2 ist mit Abstand das wichtigste Kapitel und Kapitel 3.1 und 3.2 und 3.3
 
 Das Zusammenfügen von Variablen und Methoden zu Objekten nennt man *Datenkapselung* - Objecte und Methoden kapseln Daten.
 
-
 Methoden mit `static` sind *statische Methoden* oder *Klassenmethoden* und darf nicht auf Objektvariablen zugreifen.
 
 Aufruf von Objektmethoden:
@@ -83,4 +82,90 @@ Das ist möglich, weil der deklarierte Typ von p gleich der Klasse ist, in der d
 
 ###### Public Klassen
 Klassen die `public` sind eigen. Jede `public` Klasse muss in der Date desselben Namens sein, bspw `Hello.java` muss `public class Hello{}` haben. 
-Klassen die kein `public` haben sind **Hilfklassen**, die von einer *public* Klasse 
+Klassen die kein `public` haben sind **Hilfklassen**, die von einer *public* Klasse kontrolliert werden, bspw Hilfsmethoden in Klassen, also private Klassenmethoden.
+
+
+![[Pasted image 20261002114427.png]]
+
+2.5: 
+- Datenkapselung:  Zusammenfügen von Variablen und Methoden
+- Data-Hiding: Abschotten der Klasse, Sichtbarkeit verändern
+
+2.6:
+- Um die Daten zu schützen vor dem Anwender (Altern kann nicht negativ gesetzt werden)
+- Änderbarkeit, interner Code kann einfacher geändert werden
+- Öffentliche Schnittstelle bleibt klein und überschaubar
+
+2.7:
+- Außenansicht: Alles was der Anwender sieht und nutzden kann `public`
+- Innenansicht: Alles was der Entwickler sehen und implementieren kann `private`, Anwender kein Zugriff auf Innenansicht
+
+2.8: 
+-  Siehe Public Klassen
+
+
+
+##### 2.1.4 Objekterzeugung 
+Ein neues Objekt wird mit den `new` Keyword aufgerufen.
+Jedes erzeugte Objekt, besitzt seine eigene Identität. Das heißt für jede neue Instanz, also Objekt, wird neuer Speicher initialisiert. 
+Bei jeder objekterzeugung, wird ein Konstruktor für die Klasse aufgerufen. Ein Konstruktur setzt die Objektvariablen. Jede Klasse hat einen Default-Konstruktor. Konstruktor dienen nur der Initialisierung von Objekten.
+
+###### Constructor overloading
+Ist wie Methoden overlaoding. Der Java compiler entscheidet darüber, anhand der Anzahl an deklarierten Typen der Argumente, welche Konstruktor auszuführen ist.
+
+```Java
+public class Point
+{
+	private int x,y;
+	
+	public Point
+	{
+		this(0,0);
+	}
+	
+	public Point(x,y)
+	{
+		this.x = x;
+		this.y = y;
+	}
+	
+	public Point(Point p)
+	{
+		this(p.x,p.y);
+	}
+	
+	public Point copy()
+	{
+		return new Point(this);
+	}
+
+}
+```
+
+Erster Konstruktor führt den 2 Konstruktor aus, der 3 Konstruktor führt wieder den 2 Konstruktor aus. 
+
+Einschränkung: Anweisungen der Form this(...) dürfen nur gan am Anfang eines Konstruktors stehen, sonst nirgends. Wenn Programmtexte wie Methoden aufgerufen werden sollen, müssen wir auch Methoden verwenden, nicht Konstruktoren. Mehtoden sind in Konstruktoren uneingeschränkt abrufbar.
+
+Selbstreferenz mit `this`. `this ` ist eine *Pseudovariable*, das bedeutet folgendes, es wird gelesen, aber kann nicht festgelegt werden was für einen Wert es annehmen soll.
+Der Wert `this` ist immer eine Referenz auf das Objekt, in dem wir uns gerade befinden. 
+Innerhalb des Konstruktors ist es das Objekt, das gerade initialisiert wird. 
+Ist x eine Objektvariable, können wir statt `x` auch `this.x` schreiben um deutlich zu machen, dass das `x` aus dem aktuellen Objekt gemeint ist - im gegensatz von `p.x` eines anderen Objekts `p`. 
+
+Falls die Parameter eines Konstruktors gleich heißen wie die Objektvariablen, siehe oben, verdeckt man die variablen mit `this.param`. Also mit dem `this.(param)` greifen wir auf die Objektvariablen zu. `this` greift man auf das Objekt zu.
+Zur Errinerung, in Klassenmethoden ist `this` nicht anwendbar, da dort kein aktuelles Objekt zugreifbar ist und keine Objektvariablen sichtbar sind.
+
+![[Pasted image 20261002122528.png]]
+
+2.9
+	Default Konstruktor
+2.10 
+	Zum Initialisieren eines Objekts, wenn eine neue Instanz aufgerufen wird, wodurch man Objektmethoden festlegen kann. 
+2.11
+	`this` referenziert auf das Objekt in dem man sich befindet, this(...) auf die Objektvariablen innerhalb eines Objekts. Eine Klassenmethode hat keinen Zugriff auf die Pseudovaribale `this`
+##### 2.2 Datenstrukturen und abstrakte Datentypen
+
+
+
+
+
+
