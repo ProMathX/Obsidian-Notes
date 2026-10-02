@@ -163,9 +163,26 @@ Zur Errinerung, in Klassenmethoden ist `this` nicht anwendbar, da dort kein aktu
 2.11
 	`this` referenziert auf das Objekt in dem man sich befindet, this(...) auf die Objektvariablen innerhalb eines Objekts. Eine Klassenmethode hat keinen Zugriff auf die Pseudovaribale `this`
 ##### 2.2 Datenstrukturen und abstrakte Datentypen
+Was ist der Unterschied zwischen Datenstruktur und Datenabstraktion? 
+- Ist eine Art und Weise, wie Daten dargestellt werden und wie sie zusammenhängen, wird meist als abstrakter Datentyp implementiert 
+- Datenabstraktion wenn es um die Implementierung und oder deren Außenansicht geht
+
+##### 2.2.1 Datensätze
+Ist die einfachste Datenstruktur.  Besteht aus einer vorgegebenen Menge zusammengehöriger Variablen, auf die lesend und bei Bedarf schreibend zugegriffen wird.
+
+![[Pasted image 20261002130529.png]]
+
+Noch wichtiger ist, dass andere Datenstrukturen, Datensätze enthalten und Methoden Datensätze als Ergebnisse zurückgeben können.
+
+![[Pasted image 20261002130722.png]]
+
+Um so viel Programmänderung zu vermeiden, werden sog. *anwendungsspezifische* Operationen verwendet.
+
+![[Pasted image 20261002131022.png]]
 
 
 
+##### 2.2.2 Lineare Zugriffe
 
 
 
