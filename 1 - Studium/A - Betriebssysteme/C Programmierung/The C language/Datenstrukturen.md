@@ -298,37 +298,47 @@ ODER
 int *mat = (int *)malloc(rows * cols * sizeof(int));
 
 ```
-#### Approach 3
+#### Variante 3
 Mit Structs arbeiten
 ```C
-#include <stddef.h>
+#include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
-struct A {
-  int *value;
-} A;
-	
+typedef struct Array2D {
+  int *data;
+} Array2D;
+
 int main(void) {
-  struct A *data = {0};
+
+  Array2D *arr = {0};
   int n = 3;
-  data = (struct A *)malloc(n * sizeof(struct A *) + 1);
+  arr = (Array2D *)malloc(n * (sizeof(Array2D *) + 1));
+  assert(arr != NULL);
+  for (int i = 0; i < n; ++i) {
+    arr[i].data = (int *)malloc(6 * sizeof(int));
+  }
 
-  for (size_t i = 0; i < 3; ++i) {
-    data[i].value = (int *)malloc(6 * sizeof(int));
-    for (size_t j = 0; j < 6; ++j) {
-      data[i].value[j] = j + 1;
+  int count = 0;
+  for (int i = 0; i < n; ++i) {
+    for (int j = 0; j < 6; ++j) {
+      arr[i].data[j] = count + 1;
+      count++;
     }
   }
 
-  for (int i = 0; i < 3; i++) {
+  for (int i = 0; i < n; ++i) {
     printf("[");
-    for (int j = 0; j < 6; j++) {
-      printf("%d ", data[i].value[j]);
+    for (int j = 0; j < 6; ++j) {
+      printf("%d ", arr[i].data[j]);
     }
-
-    printf("]");
-    printf("\n");
+    printf("]\n");
   }
+
+  for (int i = 0; i < n; ++i) {
+    free(arr[i].data);
+  }
+
+  free(arr);
 
   return 0;
 }
