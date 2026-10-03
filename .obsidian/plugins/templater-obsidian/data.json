@@ -1,7 +1,7 @@
 {
   "data_version": 2,
   "command_timeout": 5,
-  "templates_folder": "Templates",
+  "templates_folder": "4 - Archive/Misc/Templates",
   "templates_pairs": [],
   "trigger_on_file_creation_mode": "folder",
   "auto_jump_to_cursor": true,
@@ -13,7 +13,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Archive/Misc/Templates"
+    "4 - Archive/Misc/Templates/Mitschrift.md"
   ],
   "startup_templates": [
     "Archive/Misc/Templates/Mitschrift.md"

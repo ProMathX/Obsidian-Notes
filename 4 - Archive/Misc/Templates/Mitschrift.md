@@ -5,15 +5,17 @@ course:
 tags:
   - studies
 ---
+## VO
+
+
+## Offene Fragen 
+
+
+
+## Keywords
 
 
 
 
-## Fragen
-
-
-## Zusammenfassung
-
-
-## Related Topics
-- [[]]
+#### Links
+- [[Learn Lean]]

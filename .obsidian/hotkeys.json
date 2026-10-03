@@ -84,5 +84,14 @@
       ],
       "key": "H"
     }
+  ],
+  "templater-obsidian:create-4 - Archive/Misc/Templates/Mitschrift.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "M"
+    }
   ]
 }
