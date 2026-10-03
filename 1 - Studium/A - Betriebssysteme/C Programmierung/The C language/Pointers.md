@@ -279,16 +279,10 @@ int main(void)
 }
 ```
 
-
-
-
 <br>
 
-
 ---
-
 ## Pitfalls
-
 ```C
 
 char *p = malloc(sizeof(*p) * 6);
@@ -305,10 +299,7 @@ free(p); // OK!!!
 Wenn man free() verwendet muss es die ursprünglich eAdresse vom Pointer einlesen. 
 
 
-
-
 ----
-
 
 ```C
 

@@ -2,10 +2,10 @@
   "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": false,
-  "collapse-color-groups": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#Algorithmen  ",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:#java",
       "color": {
         "a": 1,
         "rgb": 5431378
@@ -46,6 +46,6 @@
   "repelStrength": 7.05645161290323,
   "linkStrength": 0.209929435483871,
   "linkDistance": 30,
-  "scale": 0.17689454214728662,
+  "scale": 0.09521078202593303,
   "close": false
 }

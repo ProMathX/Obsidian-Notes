@@ -2,10 +2,7 @@
 https://www.geeksforgeeks.org/c/c-array-of-structure/
 https://en.wikipedia.org/wiki/AoS_and_SoA
 
-
-
 Teilweise sind array of structures geistig behindert.
-
 
 Hier 
 ```C
@@ -42,9 +39,6 @@ int main(int argc, char **argv) {
 
   return 0;
 }
-
-
-
 ```
 
 Also das geistig behinderte an der Sache ist die, `read`, was ein pointer ist, derefenziert automatisch bei `read[i]` 
@@ -225,9 +219,6 @@ int main(void)
 
 
 ```
-
-
-
 ### Security
 
 ```C
@@ -244,4 +235,3 @@ free(secret_key);
 ```
 
 -> OPENSSL_cleanse(3) is better suited 
-
