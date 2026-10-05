@@ -71,16 +71,36 @@ Wann ist ein Entscheidungsproblem entscheidbar?
 ![[Pasted image 20261005131233.png]]
 
 ##### Partielle vs. Totale Funktionen
+![[Pasted image 20261005131432.png]]
 
 
+Wenn man ein Lösungsverfahren ein Algo suchen, dann eine 
+
+totale Funktion es gibt immer lösung, bei partieller funktion bei bestimmten input lösung, sonst keine Lösung 
+
+##### Existenz von unenstscheibaren Problemen
+Entscheidungprobleme entsprechen $\Sigma^* \to \{0,1\}$
+
+![[Pasted image 20261005132317.png]]
 
 
+![[Pasted image 20261005132542.png]]
 
+Beweis der Abzählbarkeit:
+- [[ThInf-Teil1.pdf#page=18&selection=0,0,2,1|ThInf-Teil1, page 18]]
+Wichtig ist injektivität, surjektivit ist zweitrangig
+Und für die Überabzählbarkeit Cantors drittes Diagonalargument
+Man kann es durch eine rekursive Funktion definieren
+
+die problemstellung ist halt so (Ergänzung 13:39)
+
+
+#### Probleme über Programme
 
 
 ## Offene Fragen 
-
-
+- Totale Partielle Funktion anschauen
+- Beweisführung Tuwel
 
 ## Keywords
 
