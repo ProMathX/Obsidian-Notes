@@ -79,9 +79,15 @@ Wenn man ein Lösungsverfahren ein Algo suchen, dann eine
 totale Funktion es gibt immer lösung, bei partieller funktion bei bestimmten input lösung, sonst keine Lösung 
 
 ##### Existenz von unenstscheibaren Problemen
+![[Pasted image 20261006120958.png]]
+
 Entscheidungprobleme entsprechen $\Sigma^* \to \{0,1\}$
 
 ![[Pasted image 20261005132317.png]]
+
+-  Es gibt nur abzählbar unendlich viele Strings über unserem Alphabet, es gibt abzähöbar viele Programme die wir schreiben können
+- Es gibt überabzählbar viele Funktionen für die wir Programme schreiben wollen -> es gibt funktionen für die es keine Programme gibt
+
 
 
 ![[Pasted image 20261005132542.png]]
@@ -93,8 +99,13 @@ Und für die Überabzählbarkeit Cantors drittes Diagonalargument
 Man kann es durch eine rekursive Funktion definieren
 
 die problemstellung ist halt so (Ergänzung 13:39)
+Ergänzung
 
 
+
+![[Pasted image 20261006120153.png]]
+
+![[Pasted image 20261006120159.png]]
 #### Probleme über Programme
 
 
