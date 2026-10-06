@@ -15,6 +15,8 @@ Teil 4: 13.12
 Teil 5 6.1
 	Abgabe für die Übungen
 
+<br>
+
 ### Probleme, Programme,Algorithmen
 
 #### Probleme
@@ -94,7 +96,7 @@ Ab hier beweist man die Existenz von unentscheidbaren Problemen
 
 Das heißt es gilt zu zeigen:
  - $g: \Sigma^* \to \mathbb{N}$  Also $\Sigma^*$ ist abzählbar unendlich, somit kann ich jedem aus unserem Alphabet unendlich viele Wörter schreiben
- - $\mathbb{N} \to \{0,1\}$ wir haben unabzählbar viele funktionen für die wir ein Programm schreiben wollen 
+ - $\mathbb{N} \to \{0,1\}$ wir haben unabzählbar viele funktionen für die wir ein Programm schreiben wollen
 
 ![[Pasted image 20261005132542.png]]
 
@@ -107,19 +109,42 @@ Man kann es durch eine rekursive Funktion definieren
 die problemstellung ist halt so (Ergänzung 13:39)
 Ergänzung
 
-
-
 ![[Pasted image 20261006120153.png]]
 
 ![[Pasted image 20261006120159.png]]
 #### Probleme über Programme
 
+##### Goldbachsche Vermutung 
+
+>[!Vermutung]
+>Jede gerade Zahl größer als 2 ist die Summe von 2 Primzahlen
+
+```SIMPLE
+Boolean test(Integer n)
+	for all i <= n, j <= n do
+	{
+		if(isPrime(i) and isPrime(j) and i + j = n)
+			then return true;
+	}
+	return false;
+	
+	Void testConjecture()
+		n:= 4;
+		while test(n) = true 
+			do 
+			{
+				n := n+2;
+			}
+```
+
+>[!Theorem]
+>Die Goldbache Vermutung ist wahr <=> testConjecture() terminiert nicht.
+
 
 ## Offene Fragen 
-- Totale Partielle Funktion anschauen
-- Beweisführung Tuwel
+- [x] Totale Partielle Funktion anschauen
+ - [ ] ⏫ ➕ 2026-10-06 Beweisführung Tuwel
 
-## Keywords
 
 
 
