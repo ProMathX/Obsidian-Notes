@@ -91,6 +91,12 @@ Entscheidungprobleme entsprechen $\Sigma^* \to \{0,1\}$
 - ==Es gibt überabzählbar viele Funktionen für die wir Programme schreiben wollen -> es gibt funktionen für die es keine Programme gibt==
 
 
+>[!AI]
+>Σ* ist abzählbar (Bijektion g : Σ* → ℕ) ⇒ es gibt nur abzählbar viele Programme (Programme sind Wörter über einem endlichen Alphabet).  
+Funktionen ℕ → {0,1} sind überabzählbar. Via g lassen sich Funktionen Σ* → {0,1} und ℕ → {0,1} 1:1 umbenennen (h <-> h ∘ g⁻¹), also sind auch Funktionen Σ* → {0,1} (= Entscheidungsprobleme) überabzählbar.  
+⇒ Es gibt mehr Probleme als Programme, also sind nicht alle Probleme lösbar.
+
+Also bringe ich jedes Wort über g($g:\Sigma^* \to \mathbb{N}$) in eine natürliche Zahl, und ein Entscheidungsproblem bildet dann jede dieser Zahlen auf 0 oder 1 ab. Davon gibt es überabzählbar viele, aber Programme (also Wörter aus Σ*) gibt es nur abzählbar viele. Also gibt es Probleme, für die kein Programm existiert, das für alle Eingaben die richtige 0/1-Antwort liefert.
 
 Ab hier beweist man die Existenz von unentscheidbaren Problemen
 
