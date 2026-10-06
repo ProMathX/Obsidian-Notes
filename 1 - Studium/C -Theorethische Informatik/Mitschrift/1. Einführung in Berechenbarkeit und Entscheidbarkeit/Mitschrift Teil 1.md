@@ -85,10 +85,16 @@ Entscheidungprobleme entsprechen $\Sigma^* \to \{0,1\}$
 
 ![[Pasted image 20261005132317.png]]
 
--  Es gibt nur abzählbar unendlich viele Strings über unserem Alphabet, es gibt abzähöbar viele Programme die wir schreiben können
-- Es gibt überabzählbar viele Funktionen für die wir Programme schreiben wollen -> es gibt funktionen für die es keine Programme gibt
+-  ==Es gibt nur abzählbar unendlich viele Strings über unserem Alphabet, es gibt abzählbar viele Programme die wir schreiben können==
+- ==Es gibt überabzählbar viele Funktionen für die wir Programme schreiben wollen -> es gibt funktionen für die es keine Programme gibt==
 
 
+
+Ab hier beweist man die Existenz von unentscheidbaren Problemen
+
+Das heißt es gilt zu zeigen:
+ - $g: \Sigma^* \to \mathbb{N}$  Also $\Sigma^*$ ist abzählbar unendlich, somit kann ich jedem aus unserem Alphabet unendlich viele Wörter schreiben
+ - $\mathbb{N} \to \{0,1\}$ wir haben unabzählbar viele funktionen für die wir ein Programm schreiben wollen 
 
 ![[Pasted image 20261005132542.png]]
 
