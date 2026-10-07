@@ -169,6 +169,12 @@ Entscheidungsprozedur bindet stärker!
 ![[Pasted image 20261007135853.png]]
 
 
+![[Pasted image 20261007141042.png]]
+Label L ist die Programmzeile die wir erreichen wollen
+
+14:13 wichtiger Part, VO Nochmal anschauen
+
+
 
 
 
