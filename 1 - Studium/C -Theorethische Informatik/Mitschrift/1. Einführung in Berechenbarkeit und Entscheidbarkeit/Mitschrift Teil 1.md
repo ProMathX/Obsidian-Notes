@@ -121,9 +121,7 @@ Eine einfache imperative Programmiersprache SIMPLE
 
 ---
 ### Probleme über Programme
-
 ##### Goldbachsche Vermutung 
-
 >[!Vermutung]
 >Jede gerade Zahl größer als 2 ist die Summe von 2 Primzahlen
 
@@ -147,6 +145,31 @@ Boolean test(Integer n)
 
 >[!Theorem]
 >Die Goldbache Vermutung ist wahr <=> testConjecture() terminiert nicht.
+
+
+Unentscheidbarkeit des Halteproblems
+
+Prinzip für den Beweis, Quine
+
+Folien anschauen, sind gut!
+
+
+
+### Semi-Entscheidbarkeit
+Jedes Etnscheidungsprozedur erfüllt die Semi-entscheidbar prozedur
+
+Entscheidungsprozedur bindet stärker!
+
+>[!Theorem]
+>Das Halteproblem ist semi-entscheidbar
+
+>[!Theorem]
+>Das Korrektheit-Problem ist semi-entscheidbar
+
+![[Pasted image 20261007135853.png]]
+
+
+
 
 
 ## Offene Fragen 
