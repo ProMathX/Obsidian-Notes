@@ -15,8 +15,6 @@ Teil 4: 13.12
 Teil 5 6.1
 	Abgabe für die Übungen
 
-<br>
-
 ### Probleme, Programme,Algorithmen
 
 #### Probleme
@@ -107,7 +105,22 @@ Ergänzung
 ![[Pasted image 20261006120153.png]]
 
 ![[Pasted image 20261006120159.png]]
-#### Probleme über Programme
+
+---
+7.10 
+kurze WH
+Was ist ein Problem? 
+Ein Problem ist eine abzählbar unendliche INstanzen und eine Frage
+
+Mathematik lässt sich nie im echten Leben anwenden! 
+
+Modell für Algorithmen:
+Eine einfache imperative Programmiersprache SIMPLE
+
+13:19 das mit dem Entscheidungsproblem die Defintionition hinschreiben
+
+---
+### Probleme über Programme
 
 ##### Goldbachsche Vermutung 
 
