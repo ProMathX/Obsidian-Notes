@@ -59,6 +59,7 @@ Zweiter Teil: Beweis mit Turin-Maschinen
 ![[Pasted image 20261005130050.png]]
 
 ### Berechenbarkeit, Entscheidbarkeit
+
 ![[Pasted image 20261005130447.png]]
 $\Sigma^*$ endliche Strings über diesem Alphabet
 ##### Entscheidbarkeit
@@ -226,19 +227,90 @@ Somit ist das Halteproblem unentscheidbar!
 ##### Weitere Beispiele für unentscheidbaren Problemen
 
 >[!Korrektheit]
->In
+>Instanz: (Quellecode) $\Pi$ und 2 Strings $I_{1} , I_{2}$
+>
+>Frage: Terminiert $\Pi$ auf dem Input $I_{1}$ und liefert $I_{2}$?
 
+Die *Korrektheit* ist unentscheidbar, weil die Beantwortung dieser Frage implizit die Fragen beantworten müsse, ob $\Pi$ auf $I_{1}$ hält. 
+
+###### Code erreichbarkeit
+
+>[! Erreichbarer-Code]
+>Instanz: (Quellcode) von $\Pi$ ein Label (= String) $L$
+>
+>Frage: Gibt es einen Input $I$, sodass $\Pi$ bei Ausführung mit Input $I$ den Code auf der Programmzele mit dem Label $L$ ausführt? 
+
+Das ist im Folgenden wichtig, Optimierungspotenzial, nie erreichbarer Code, kann gelöscht werden
+
+Intuition: *Erreichbarer Code* ist unentscheidbar, weil es zu einem ähnlichen Problem wie das Halteproblem wird, wenn die letzte Zeile in $\Pi$ das Label $L$ bekommt
+
+Beweis mittels **Reduktion**
 
 ---
 ### Semi-Entscheidbarkeit
 
+Was ist ein Semi-Entscheibares Problem? Ein Semi-Entscheidbares Problem ist quasi die lockerung der Definition der Entscheidbarkeit
+
+Also aus [[#Entscheidbarkeit]] wird 
+![[Pasted image 20261008120556.png]]
+
+- $\Pi$ arbeitet für alle Instanzen von $P$ korrekt 
+- $\Pi$ darf auf negativen Instanzen von $P$ endlos laufen
+- wenn $\Pi$ auf einer Instanz terminiert, dann muss $\Pi$ das korretkte Ergebnis (*false*) liefern
+---
+Anhand dieser neuen Defintion kann man Schlussfolgern, dass das Halteproblem 
+*semi-entscheidbar* ist
+
+Wie kann es aber bewiesen werden? 
+
+Wir bauen einen Interpreter Programm $\Pi_{i}$ 
+- $\Pi_{i}$  nimmt beliebige Instanzen des *Halteproblems*
+- $\Pi_{i}$  analysiert $\Pi$ und simuliert $\Pi$ mit der Instanz $I$ 
+- Wenn die Simulation von $\Pi$ *terminiert*, liefert $\Pi_{i}$ *true* und terminiert
+- Wenn die Simulation von $\Pi$ auf $I$ *nicht terminert*, ist $\Pi_{i}$ in einer Endlosschleife
+
+![[Pasted image 20261008121246.png]]
+
+
+###### Weitere Semi entscheidbare Probleme 
+
+Anhand dieser Erkenntniss, ist:
+
+>[!Theorem]
+>Das *Korrektheit*-Problem ist semi-entscheidbar!
+
+Die Beweisidee ist ident zu dem mit dem Halteproblem.
+
+Wir bauen erneut einen Interpreter $\Pi_{i}$ 
+- $\Pi_{i}$  nimmt als Input $I$ eine beliebige Instanz (Quellcode von $\Pi$ und $I_{1} ,I_{2}$)
+- $\Pi_{i}$ analysiert $\Pi$  und simuliert die Ausführung von $\Pi$ mit $I_1$ als Input
+	- Falls es mit *Output O* terminiert, dann überprüft $\Pi_{i}$ ob $I_2$ = *O* gilt
+		- Falls es gilt *true*
+		- Sonst *false*
+- Wenn $\Pi$  auf $I_1$ nicht terminiert , dann läuft logischerweise $\Pi_{i}$  auf dem Input $(\Pi,I)$ endlos 
+
+Das gleiche gilt auch für *Erreichbarkeit von Code*
+![[Pasted image 20261008122333.png]]
+
+---
+###### Aufzählung, Abzählbarkeit
+Wenn man gemerkt haben, dass beim Interpreter $\Pi_{i}$, dass man alle Paare $(I,i)$ aufzählen können? 
+
+Geschachtelte funktionen gehen nicht
+![[Pasted image 20261008123101.png]]
+Man kommt aus der 2ten schleife nie raus
+
+Wie kann man aber das Problem verallgemeinern? 
+
+- Wie kann man zwei Mengen $M_{1} \times M_{2}$ aufzählen? 
+- Äquivalente Frage: Ist $M_{1} \times M_{2}$  abzähöbar, 
+
+
+
+---
+
 ## Offene Fragen 
 - [x] Totale Partielle Funktion anschauen
  - [ ] ⏫ ➕ 2026-10-06 Beweisführung Tuwel
-
-
-
-
-
 #### Links
 - [[Learn Lean]]
