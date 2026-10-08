@@ -193,10 +193,40 @@ Der Beweis ist indirekt, dh:
 
 - Return value von $\Pi_{h}$
 	- *true* falls das Programm $\Pi$ auf Input $I$ _terminiert_
-	- *false* falss das PRogramm $\Pi$ auf Input I 
+	- *false* falss das PRogramm $\Pi$ auf Input I _nicht terminiert_
 
 ![[Pasted image 20261008110058.png]]
 
+###### Schritt 2
+Mit Hilfe von $\Pi_{h}$ erzeugen wir nun ein Programm $\Pi_h'$
+- $\Pi_h'$ nimmt als Input einen String und dupliziert diesen und ruft damit $\Pi_h$ auf
+
+$\Pi_h'$ überprüft, ob ein Progframm $\Pi$ terminiert, wenn es seinen eigenen Quellcode als Input nimmt!
+![[Pasted image 20261008111009.png]]
+
+###### Schritt 3
+$\Pi_h'$  erzeugen wir $\Pi_h''$ 
+$\Pi_h''$  geht in in eine Endlosschleife, wenn das Programm $\Pi$ auf sich selber hält $\Pi_h'$liefert *true* 
+
+![[Pasted image 20261008111415.png]]
+
+###### Schritt 4
+Daraus folgt folgende Beobachtung:
+1. Falls $\Pi$ auf seinen eigenen Input $\Pi$ hält, dann hält $\Pi_{h}''$ auf dem Input $\Pi$ nicht
+2. Falls $\Pi$ auf seinen eigenen Input $\Pi$ nicht hält, dann hält $\Pi_{h}''$ auf dem Input $\Pi$
+
+Was passiert wenn $\Pi_{h}''$ als input $\Pi_{h}''$ nimmt? 
+Daraus folgen nun 2 Widersprüche!
+1. $\Pi_{h}''$ hält, dann folgt aus der ersten beobachtung, $\Pi_{h}''$ nicht auf $\Pi_{h}''$ hält (*Widerspruch*)
+2. $\Pi_{h}''$ hält nicht, dann folgt aus der zweiten beobachtung, $\Pi_{h}''$ hält auf dem Input $\Pi_{h}''$
+
+Somit ist das Halteproblem unentscheidbar!
+
+
+##### Weitere Beispiele für unentscheidbaren Problemen
+
+>[!Korrektheit]
+>In
 
 
 ---
