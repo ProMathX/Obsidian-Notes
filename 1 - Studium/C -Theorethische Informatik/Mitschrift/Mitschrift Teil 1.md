@@ -140,6 +140,11 @@ Einwurf:
 Weil $\{0,1\}^{\mathbb{N}} \equiv f: \mathbb{N} \to \{0,1\}$ die Menge unserer Entscheidungen, somit Probleme, somit Algorithmen sind. Wenn diese Menge überabzähöbar ist, somit überabzählbar viele Probleme und somit überabzähöbar viele Algorithmen!
 
 
+Einem Studierenden ist aufgefallen, dass was einem bringt eine Funktion aus den natürlichen Zahlen nach {0,1} die ich nicht beschreiben kann
+Wenn ich aber eine funktion beschreiben muss, dann brauche ich ja ein alphabet, welches ja endlich ist
+
+Entscheidungsproblem ist eine Funktion $\Sigma^* \to \{0,1\}$ dann gibt es überabzählbar viele dasvon, wenn man es  komunizieren kann , dann überabzählbar viele
+
 
 <br>
 
