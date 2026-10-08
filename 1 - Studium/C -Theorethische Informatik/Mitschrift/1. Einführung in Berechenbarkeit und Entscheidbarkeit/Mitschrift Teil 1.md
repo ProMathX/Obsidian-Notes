@@ -301,9 +301,65 @@ Geschachtelte funktionen gehen nicht
 Man kommt aus der 2ten schleife nie raus
 
 Wie kann man aber das Problem verallgemeinern? 
-
 - Wie kann man zwei Mengen $M_{1} \times M_{2}$ aufzählen? 
-- Äquivalente Frage: Ist $M_{1} \times M_{2}$  abzähöbar, 
+- Äquivalente Frage: Ist $M_{1} \times M_{2}$  abzähöbar, wenn die zwei Mengen $M_{1} M_{2}$  abzählbar unendlich sind? 
+
+###### Abzählbarkeit
+Eine Menge M heißt abzählbar falls es eine bijektive abbildung auf $\mathbb{N}$ gibt
+
+But....how? 
+- definiere bijektive Abbildung $g: \mathbb{N} \to M$ als Aufzählung
+- Alternative, injektive Abbildung, $f: M \to \mathbb{N}$ 
+- Aber warum geht das? 
+	- Wenn es eine injektive Abbildung f gibt, dann gilt dass die Mächtigkeit von M kleiner der Natürlichen Zahlen ist ($|M| \leq |\mathbb{N}$)
+
+Das heißt, wenn man eine Funktion f injektiv ist, definieren wir eine Abbildung
+von $M \to \mathbb{N}$  names $g$
+
+> $g: M \to \mathbb{N} mit g(a)=|\{m \in M | f(m)< f(a)\}| \forall a \in M$
+
+---
+
+Kurze Erinnerung was injektiv, surjektiv und bijektiv ist
+_Injektiv_: Jedes Element der Zielmenge wird höchstens  einmal getroffen
+- $f(a)=f(b )\implies a=b$
+Man beweist es mittels Kontraposition, also indirekt:
+wenn $f(b)< f(a)$ dann gilt $f(a)\not=f(b )\implies a \not= b$ 
+Denn wenn eine Funktion streng monoton fallend oder steigend ist:
+- $a<b \implies f(a) > f(b)$ str monoton fallend
+- $a<b \implies f(a) < f(b)$ str monotn steigend
+
+_Surjektiv_: Jedes Elemt der Zielmenge wird mindestens einmal getroffen
+Seien X und Y mengen
+$f: X \to Y$ eine Abbildung, dann ist f surjektiv wenn es zu jedem $y \in Y$ ein $x\in X$ gibt, mit $f(x) =y$ 
+also formaler:
+$$
+\forall y \in Y \exists x\in X: f(x) =y
+$$
+
+Man kann es einfach mit einer $f^{-1}:Y\to X$ zeigen und die surjektivität gewährleisten 
+
+
+(Wikipedia)
+Für eine [endliche Menge](https://de.wikipedia.org/wiki/Endliche_Menge) $A$ ist die Mächtigkeit $|A|$ einfach die Anzahl der Elemente von $A$. Ist nun $f : A \to B$ eine surjektive Funktion zwischen endlichen Mengen, dann kann $B$ höchstens so viele Elemente wie $A$ haben, es gilt also $|B| \leq |A|$.
+
+Für [unendliche Mengen](https://de.wikipedia.org/wiki/Unendliche_Menge) wird der Größenvergleich von Mächtigkeiten zwar mit Hilfe des Begriffs Injektion definiert, aber auch hier gilt: Ist $f : A \to B$ surjektiv, dann ist die Mächtigkeit von $B$ nicht größer als die Mächtigkeit von $A$, auch hier schreibt man dafür $|B| \leq |A|$.
+
+---
+###### Einige abzählbar unendliche Mengen
+![[Pasted image 20261008130823.png]]
+
+###### Cantor'sches Abzählprinzip  
+Aufzählung von $M_{1} \times M_{2}$ mit $M_{1} = \{a_{1},a_{2},\dots\}$ und $M_{2} = \{b_{1},b_{2},\dots\}$
+Durch dieses Kreuzprodukt entstehen neue Relationen
+[[cantor_diagonal.gif]]
+
+
+Daraus folgt![[Pasted image 20261008131142.png]]
+
+###### Weitere semi-entscheidbare Probleme
+
+
 
 
 
