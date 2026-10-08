@@ -145,7 +145,6 @@ Wenn ich aber eine funktion beschreiben muss, dann brauche ich ja ein alphabet, 
 
 Entscheidungsproblem ist eine Funktion $\Sigma^* \to \{0,1\}$ dann gibt es überabzählbar viele dasvon, wenn man es  komunizieren kann , dann überabzählbar viele
 
-
 <br>
 
 ---
@@ -212,13 +211,20 @@ Der Beweis ist indirekt, dh:
 - Annahme dass es ein Programm $\Pi_{h}$ gibt, welches Entscheidbar ist und man muss zeigen, dass es zu einem Widerspruch führt
 - Die Annahme ist, dass das Programm $\Pi$ als String gegeben ist und somit als Input gelesen werden kann
 - Der Beweis ist erneut ein *Diagnoalargument*:
-	  Also es ist ein "rekursiver" Ansatz, d.h $\Pi(\Pi)$
+	  Also es ist ein "rekursiver" Ansatz, d.h $\Pi(\Pi)$, Compiler machen das bspw, siehe Quine
+
+
+Anmerkung bedeutet in diesem Fall, unentscheidbar = kein Algo dafür also kein SIMPLE Programm dafür
+
+---
 
 ###### Schritt 1
 
 - $\Pi_{h}$ nimmt 2 Strings als Input:
 	- $\Pi$  Quellcode eines Simple Programms
 	- $I$ (Input  für Programm $\Pi$)
+	
+$\Pi_{h}$ ist sowas wie der Überwacher für unser programm $\Pi$
 
 - Return value von $\Pi_{h}$
 	- *true* falls das Programm $\Pi$ auf Input $I$ _terminiert_
@@ -260,6 +266,8 @@ Somit ist das Halteproblem unentscheidbar!
 >Frage: Terminiert $\Pi$ auf dem Input $I_{1}$ und liefert $I_{2}$?
 
 Die *Korrektheit* ist unentscheidbar, weil die Beantwortung dieser Frage implizit die Fragen beantworten müsse, ob $\Pi$ auf $I_{1}$ hält. 
+
+
 
 ###### Code erreichbarkeit
 
@@ -344,11 +352,19 @@ But....how?
 Das heißt, wenn man eine Funktion f injektiv ist, definieren wir eine Abbildung
 von $M \to \mathbb{N}$  names $g$
 
-> $g: M \to \mathbb{N} mit g(a)=|\{m \in M | f(m)< f(a)\}| \forall a \in M$
+> $$g: M \to \mathbb{N} mit g(a)=|\{m \in M | f(m)< f(a)\}| \forall a \in M$$
+
+
+Mann hat ein unendliches Hotel, man hat alle Zimmer voll, wie kann man das Problem lösen wenn neue Gäste kommen? Man sagt, dass alle Gäste 1 Zimmer weiter gehen sollen.
+
+Was wenn ein Autobus kommt mit unendlich vielen Gästen? 
+
+Man sagt allen Gästen, verdoppelts eure Zimmernummer!
+
 
 ---
 
-Kurze Erinnerung was injektiv, surjektiv und bijektiv ist
+==Kurze Erinnerung was injektiv, surjektiv und bijektiv ist==
 _Injektiv_: Jedes Element der Zielmenge wird höchstens  einmal getroffen
 - $f(a)=f(b )\implies a=b$
 Man beweist es mittels Kontraposition, also indirekt:
@@ -382,7 +398,12 @@ Aufzählung von $M_{1} \times M_{2}$ mit $M_{1} = \{a_{1},a_{2},\dots\}$ und $M_
 Durch dieses Kreuzprodukt entstehen neue Relationen
 [[cantor_diagonal.gif]]
 
-Daraus folgt![[Pasted image 20261008131142.png]]
+was ja auch Cantors erstes Diagonalargument ist
+
+==Daraus folgt![[Pasted image 20261008131142.png]]==
+
+Warum, denn beim Erreichba
+
 
 ###### Weitere semi-entscheidbare Probleme
 >[!Das "Entscheidunsproblem"]
