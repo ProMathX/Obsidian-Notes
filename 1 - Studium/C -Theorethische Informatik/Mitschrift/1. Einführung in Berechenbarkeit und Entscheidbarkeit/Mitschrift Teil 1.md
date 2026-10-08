@@ -134,7 +134,7 @@ Boolean test(Integer n)
 	}
 	return false;
 	
-	Void testConjecture()
+Void testConjecture()
 		n:= 4;
 		while test(n) = true 
 			do 
@@ -146,16 +146,61 @@ Boolean test(Integer n)
 >[!Theorem]
 >Die Goldbache Vermutung ist wahr <=> testConjecture() terminiert nicht.
 
+Das hier ist eine Aufarbeitung der Folien von 19-40
+
+----
+Es gibt viele natürliche Probleme, für die ein Algorithmus nicht offensichtlich ist
+
+Um dies zu veranschaulichen sagen wir ein Programm $\Pi$ und ein Input $I$, die konkrete Frage ist:
+- tritt das Programm $\Pi$ in eine Endlosschleife? 
+- Und terminiert es auf allen Inputs? 
+
+Würde nman es verallgemeinern können, können wir damit die Korrektheit von Programmen sicherstellen
+
+Man könnte auch die Mathematische Probleme Algorithmisch beweisen, siehe oben, die [[#Goldbachsche Vermutung]]
+
+---
+##### Versuch eines computergestützten Beweises
+- Angenommen wir haben ein Programm $\Pi_{h}$ was über die Termination entscheidet, welches als Signatur, $\Pi_{h}(\Pi,String I)$ hat.
+- Dann kann man auf $\Pi_{h}$ das Programm testConjecture also $\Pi$ überprüfen lassen.
+- Falls $\Pi_h$ 
+	- Ja ausgibt, Vermutung bewiesen
+	- Nein, Vermutung widerlegt
+
+---
+##### Unentscheidbarkeit des Halteproblems
+
+Das Halteproblem ist das Problem der Informatik, die Fragestellung ist recht banal
+
+>[!Halteproblem]
+>Instanz: (Quellcode) Program $\Pi$, Input Stirng $I$
+>
+>Frage: Terminiert das Programm $\Pi$ auf Input String $I$?
+
+Wie kann man aber beweisen, dass keinen Algorithmus $\Pi_{h}$ gibt? ($\Pi_{h}$ entscheidet ja über das Halteproblem)
+
+Der Beweis ist indirekt, dh:
+- Annahme dass es ein Programm $\Pi_{h}$ gibt, welches Entscheidbar ist und man muss zeigen, dass es zu einem Widerspruch führt
+- Die Annahme ist, dass das Programm $\Pi$ als String gegeben ist und somit als Input gelesen werden kann
+- Der Beweis ist erneut ein *Diagnoalargument*:
+	  Also es ist ein "rekursiver" Ansatz, d.h $\Pi(\Pi)$
+
+###### Schritt 1
+
+- $\Pi_{h}$ nimmt 2 Strings als Input:
+	- $\Pi$  Quellcode eines Simple Programms
+	- $I$ (Input  für Programm $\Pi$)
+
+- Return value von $\Pi_{h}$
+	- *true* falls das Programm $\Pi$ auf Input $I$ _terminiert_
+	- *false* falss das PRogramm $\Pi$ auf Input I 
+
+![[Pasted image 20261008110058.png]]
 
 
 
-
-
-
-
+---
 ### Semi-Entscheidbarkeit
-
-
 
 ## Offene Fragen 
 - [x] Totale Partielle Funktion anschauen
