@@ -402,8 +402,11 @@ was ja auch Cantors erstes Diagonalargument ist
 
 ==Daraus folgt![[Pasted image 20261008131142.png]]==
 
-Warum, denn beim Erreichba
+Warum, denn beim Erreichbaren Coden, wollen wir wissen, die ganzen Paare von klein i und groß I auflisten.
 
+Durch das Cantorsche Abzähöverfahren, wissen wir, es ist abzählbar, das heißt für uns bei bestimmten INstanzen haben wird der Code erreicht. 
+
+Alle Paare $(I,i)$ aufzähölen und überprüfen, ob $\Pi$ bei Input $I$ Programmzeile mit Label $L$  innerhalb von i Schritten erreicht
 
 ###### Weitere semi-entscheidbare Probleme
 >[!Das "Entscheidunsproblem"]
