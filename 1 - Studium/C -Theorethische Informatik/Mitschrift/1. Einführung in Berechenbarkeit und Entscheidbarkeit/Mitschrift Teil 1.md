@@ -108,6 +108,8 @@ Ergänzung
 ![[Pasted image 20261006120159.png]]
 
 ---
+<br>
+
 7.10 
 kurze WH
 Was ist ein Problem? 
@@ -119,6 +121,27 @@ Modell für Algorithmen:
 Eine einfache imperative Programmiersprache SIMPLE
 
 13:19 das mit dem Entscheidungsproblem die Defintionition hinschreiben
+
+- Was ist ein Problem
+	- Für eine abzählbar unendliche Menge an Instanzen und eine Frage 
+		- Wenn eine Frage ein ja nein als Antwort erwartet *Entscheidungsproblem*
+
+Warum unendliche Menge von Instanzen? 
+- Wenn man ein Lösungsverfahren sucht, sollte dieses Lösungsverfahren gründstzlich für beliebige Instnazen anwendbar sein
+
+Wann ist ein Entscheidungsproblem entscheidbar? 
+
+Ein Problem ist entscheidbar wenn es einen Algorithmus gibt, mit bestimmten Eigenschaften gibt
+Dieser Algo kann beliebige Instanzen nehmen, terminiert garantiert und liefert ein Ergebnis.
+
+Abstraktes Argument war, das man nur abzähöbar viele Programme schrieben, aber dafür gibt es überabzähöbar viele Probleme
+
+Einwurf:
+Weil $\{0,1\}^{\mathbb{N}} \equiv f: \mathbb{N} \to \{0,1\}$ die Menge unserer Entscheidungen, somit Probleme, somit Algorithmen sind. Wenn diese Menge überabzähöbar ist, somit überabzählbar viele Probleme und somit überabzähöbar viele Algorithmen!
+
+
+
+<br>
 
 ---
 ### Probleme über Programme
@@ -354,11 +377,24 @@ Aufzählung von $M_{1} \times M_{2}$ mit $M_{1} = \{a_{1},a_{2},\dots\}$ und $M_
 Durch dieses Kreuzprodukt entstehen neue Relationen
 [[cantor_diagonal.gif]]
 
-
 Daraus folgt![[Pasted image 20261008131142.png]]
 
 ###### Weitere semi-entscheidbare Probleme
+>[!Das "Entscheidunsproblem"]
+>Instanz: eine formel $\phi$ Prädikatenlogik erster Stufe
+>
+>Frage: Ist $\phi$ gültig? 
 
+Prädikatenlogische Formeln erster Stude sind so definiert, dass man zuerst induktiv Terme definiert und damit dann ebenfalls induktiv Formeln: 
+
+Terme können sein: 
+- Konstantensymbole (üblicherweise a,b,c,...)
+- Variablen (üblicherweise x,y,z)
+- zusammengesetzte Terme $f(t_{1},\dots,t_{\alpha})$ 
+
+![[Pasted image 20261008132732.png]]
+
+![[Pasted image 20261008132927.png]]
 
 
 
