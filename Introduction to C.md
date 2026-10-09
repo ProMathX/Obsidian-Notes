@@ -82,16 +82,20 @@ implicit conversion. smallest numbers gets converted to the biggest number type 
 ### Functions
 trivial 
 
-
-
 ### Global vs Local
 - local variables mask global variables
 - lcoal variables have a random value at defintion, unless intialized
 - global variable are initialize dwith 0 by default
 
+### Control Structures
+trivial
+
+https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf
 
 
+### Keywords
 
+again static [[Keywords]], defeiniert den Speicherbereich für den definierten integer i, und speichert diesen
 
 ## Offene Fragen 
 
