@@ -99,13 +99,6 @@ again static [[Keywords]], defeiniert den Speicherbereich für den definierten i
 
 ## Offene Fragen 
 
-This return value is used to indicated for the unix sstem, which state the program is,
-- 0 success 
-- 1 stdout 
-- 2 stderr 
-
-
-
 
 ## Keywords
 
