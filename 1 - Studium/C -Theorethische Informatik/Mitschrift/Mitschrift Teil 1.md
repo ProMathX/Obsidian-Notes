@@ -456,7 +456,118 @@ Bsp.:
 ![[Pasted image 20261012124620.png]]
 
 >[!Theorem]
->Sei P ein Entschiedung
+>Sei P ein Entscheidungsproblem mit Komplement co-P. Wenn sowohl P und co-P semi-entscheidbar ist, dann ist P entscheidbar
+
+![[Pasted image 20261012124815.png]]
+
+### Jenseits der Semi-Entscheidbarkeit
+
+- Wir haben Probleme gesehn, die unentscheidbar aber semi-entscheidbar sind
+- Frage: Gibt es Probleme, die nicht einmal semi-entscheidbar sind? 
+
+
+>[!Theorem]
+>Sein P ein Entscheidungsproblem, sodass 
+>(1) P unentscheidbar ist und 
+>
+>(2) P Semi-entscheidbar ist. Dann ist co-P nicht semi-entscheidbar
+
+Beweis
+![[Pasted image 20261012125245.png]]
+
+---
+
+Beispiele für Nciht-Semi-Entscheidbarkeit (1)
+![[Pasted image 20261012125509.png]]
+
+![[Pasted image 20261012125912.png]]
+
+
+![[Pasted image 20261012125924.png]]
+
+<br>
+
+---
+
+<br>
+### Reduktionen
+
+Wichtigster Teil!
+
+#### Erste Idee von Reduktionen
+
+Idee:
+- Man will ein Problem A auf Problem B  reduzieren
+- Ich habe ein Lösungsverfahren für B, und dann kommt ein neues Problem A und ich will dann A Lösen indem ich es auf B reduziere, weil man will das Rad nicht neu erfinden
+
+
+Somit schreibt man:
+$$
+A \le B
+$$
+$\to$ Problem A ist mindestens so leich lösbar wie Problem B
+
+---
+
+#### Zweite Idee
+
+Typisch für Berechenbarkeit und Komplexität 
+
+- Wir reduzieren Problem A auf B
+
+Wir wissen A ist schwer  und bekannt
+
+Wir wollen zeigen, dass B genauso schwer ist wie A.
+
+Durch die Reduktion geben wir die härte von A nach B weiter und zeigen somit, dass B genauso schwer wie A ist
+
+$\to$ Problem B ist mindestens so schwer lösbar wie Problem A
+
+
+#### Beschränkung der Ressourcen
+
+>[!Motivation]
+> Eine Problemreduktion von A nach B sollte einfacher sein als di ebeiden betrachteten Probleme
+> 
+> Wenn das nicht der Fall wäre, könnten die Reduktion einen Teil der Komplexität von A beseitigen und ein Vergleich zwischen A und B wäre nicht mehr möglich
+
+==Reduktionen müssen berechenbar sein==
+
+
+#### Erste Art der Reduktion "Turing" Reduktionen 
+
+![[Pasted image 20261012130839.png]]
+
+#### Zweite art von Reduktionen "Many-One" Reduktionen
+![[Pasted image 20261012130959.png]]
+
+
+#### SAT (Satisfiability)
+
+![[Pasted image 20261012131509.png]]
+
+Aussenlogische Variablen vs Prädikatenlogik
+- atomare aussagenlogischen Variabeln 
+- Induktive kann ich logische Funktionen bilden und somit habe ich die Prädikatenlogik 
+
+- Ein  Spezialfall, kann nie schwerer sein als die allgemeine Frage, exakt 3 ist ein Spezialfall vom 3 SAT
+
+- 2 SAT ist ein Spezialfall von 3 SAT
+
+Die Frage ist immer, ist diese Aussagenlogische Formel erfüllbar oder nicht?
+
+#### 2-SAT auf Graph-Erreichbarkeit
+
+>[!Theorem]
+>Das 2-SAT Problem lässt sich mittels Turing Reduktionen auf das Graph-Erreichbarkeit Problem reduzieren
+
+2-SAT O(2^n) natürliche Ansatz mit einer Wahrheitstafel
+
+
+#### Reduktion von 2-SAT auf Graph-Erreichbarkeit
+
+[[implikationsgraph_2sat.gif]]
+
 
 
 
@@ -464,6 +575,9 @@ Bsp.:
 
 ## Offene Fragen 
 - [x] Totale Partielle Funktion anschauen
- - [ ] ⏫ ➕ 2026-10-06 Beweisführung Tuwel
+ - [x] ⏫ ➕ 2026-10-06 Beweisführung Tuwel ✅ 2026-10-12
+ - [ ] Was meint man mit nicht semi-entscheidbar?
+ - [ ] Podcast anhören von Montag 12.10
+ - [ ] Definiere ein co-Halteproblem etc
 #### Links
 - [[Learn Lean]]
