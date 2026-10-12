@@ -474,13 +474,19 @@ Bsp.:
 Beweis
 ![[Pasted image 20261012125245.png]]
 
+Der Beweis folgt [[#Komplement]], denn ein Probelm P und dessen co-P, wenn P semi-entscheidbar ist, dann ist co-P auch semi-entscheidbar
+
+
 ---
 
 Beispiele für Nciht-Semi-Entscheidbarkeit (1)
 ![[Pasted image 20261012125509.png]]
 
+Das `co-Halteproblem` ist ja per Definition, *nicht* semi-entscheidbar
+
 ![[Pasted image 20261012125912.png]]
 
+Das ist schon wieder ein Co-Halteproblem, deshlab nicht semi-entscheidbar 
 
 ![[Pasted image 20261012125924.png]]
 
@@ -574,6 +580,7 @@ Die Frage ist immer, ist diese Aussagenlogische Formel erfüllbar oder nicht?
 
 
 ---
+
 
 ## Offene Fragen 
 - [x] Totale Partielle Funktion anschauen
