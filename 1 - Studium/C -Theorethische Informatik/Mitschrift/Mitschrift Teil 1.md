@@ -568,7 +568,50 @@ Die Frage ist immer, ist diese Aussagenlogische Formel erfüllbar oder nicht?
 
 2-SAT O(2^n) natürliche Ansatz mit einer Wahrheitstafel
 
+Wie wird der Graph konstruiert? 
 
+**<u>Notation</u>**
+
+Für ein Literal $\alpha$, dh. eine aussagenlosgische Variable $x_{i}$ oder ihre negation $\neg x_{i}$  
+Wird das duale Literal $\alpha$  $\overline\alpha$ 
+- $\overline\alpha =x_{i} \to \alpha = \neg x_{i}$
+- $\overline\alpha$  = $\neg x_{i} \to \alpha$ = $x_{i}$
+
+
+Wie komme ich aber von der Formel zum Graphen? 
+
+Sei $\phi$  eine beliebige Instanz von 2-SAT mit Variablen $X = \{x_{1},x_{2} \dots ,x_{n}\}$
+
+Dann ist die Knotenmenge V
+$$
+V = \{x_{1},x_{2} \dots ,x_{n},\neg x_{1},\neg x_{2} \dots ,\neg x_{n}\}
+$$
+
+Für die Kantenmenge: Für jede Klausel $(\alpha \wedge \beta)$ in $\phi$ fügen wir die Kanten 
+$$
+(\overline\alpha, \beta) (\overline\beta, \alpha)
+$$
+
+$G_{\phi}$ repräsentiert Implikation zwischen den Literalen
+
+
+Warum aber? 
+
+Die Klausel der Form $\alpha \vee \beta$ ist äquivalent zu $\overline\alpha \to \beta$  $\overline\beta \to \alpha$
+
+Damit kann man logische Abhängigkeiten im Graphen Ausdrücken
+
+- Die Erfüllbarkeit der Formel wird durch Erreichbarkeit gezeigt
+- Außerdem muss der Graph azyklisch sein!
+
+##### Warum mache ich mir diese Tortur? 
+Besser gesagt wozu dieser Aufwand? 
+
+In diesem Graphenmodell $G_{\phi}$ 
+
+
+
+---
 #### Reduktion von 2-SAT auf Graph-Erreichbarkeit
 [[implikationsgraph_2sat.gif]]
 
