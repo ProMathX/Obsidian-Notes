@@ -427,6 +427,37 @@ Terme können sein:
 
 ### Komplement 
 
+kurze WH. 12.10
+Entscheidbarkeit = Entschiedungsprozedur
+Unentscheidbare Probleme sind wichtig, siehe `Erreichbarkeit von Code`
+
+Semi-Entscheidbar -> Aussclaggeben, es gibt einen Interpreter für SIMPLE 
+
+Die bijektion von N auf unser Ziel, ist $\mathbb{N} \to Position$ und nicht dem Index,
+obwohl es equivalent ist
+
+Den 15 Minütigen Podcast von der Vorlesung anschauen oder eher anhören
+
+---
+Das Komplement ist ein co-Problem von unserem Mengen. Gleiche Menge der Instanzen aber mit einer *negierten* Frage.
+
+Zur Erinnerung ein Entscheidungsproblem ist ja so definiert
+$$
+\Sigma^*\to\{0,1\}
+$$
+
+Bsp.:
+![[Pasted image 20261012124430.png]]
+
+
+>[!Theorem]
+>Wenn ein Problem P entscheidbar ist, dann ist auch sein Komplement co-P entscheidbar
+
+![[Pasted image 20261012124620.png]]
+
+>[!Theorem]
+>Sei P ein Entschiedung
+
 
 
 ---
