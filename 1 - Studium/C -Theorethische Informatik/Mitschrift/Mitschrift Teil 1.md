@@ -465,7 +465,6 @@ Bsp.:
 - Wir haben Probleme gesehn, die unentscheidbar aber semi-entscheidbar sind
 - Frage: Gibt es Probleme, die nicht einmal semi-entscheidbar sind? 
 
-
 >[!Theorem]
 >Sein P ein Entscheidungsproblem, sodass 
 >(1) P unentscheidbar ist und 
