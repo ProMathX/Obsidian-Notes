@@ -565,8 +565,11 @@ Die Frage ist immer, ist diese Aussagenlogische Formel erfüllbar oder nicht?
 
 
 #### Reduktion von 2-SAT auf Graph-Erreichbarkeit
-
 [[implikationsgraph_2sat.gif]]
+
+
+#### Zusammenhang zwischen $\phi$ und $G_{\phi}$
+![[Pasted image 20261012133924.png]]
 
 
 
