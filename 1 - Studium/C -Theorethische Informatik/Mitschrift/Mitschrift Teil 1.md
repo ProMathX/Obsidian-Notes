@@ -607,9 +607,30 @@ Damit kann man logische Abhängigkeiten im Graphen Ausdrücken
 ##### Warum mache ich mir diese Tortur? 
 Besser gesagt wozu dieser Aufwand? 
 
+Wenn ich erhlich bin, sehe ich keinen wirklichen Sinn dahinter 
+
+
+---
+
 In diesem Graphenmodell $G_{\phi}$ 
+Dann sind diese folgenden Behauptungen äquivalent
 
+1. In jedem Modell I von $\phi$ ist $\alpha\to\beta$  true geschrieben ($\phi \models (\alpha \to \beta)$)
+2. In jedem Graph $G_{\phi}$ gibt es einen Pfad von $\alpha \to \beta$
 
+Anmerkung $\models$ ist die Semantische Folgerung
+
+###### Problematische Pfade in $G_{\phi}$
+
+*Frage*: Kann ein $\phi$ ein Modell haben, wenn es in $G_{\phi}$ einen Pfad von $x_{i}$ nach $\neg x_{i}$ gibt? 
+**Antwort:** Ja aber in kedem Modell von $\phi$ muss $I(x_{i})= false$ gelten
+
+*Frage*: Kann ein $\phi$ ein Modell haben, wenn es in $G_{\phi}$ einen Pfad von $\neg x_{i}$ nach $x_{i}$ gibt? 
+**Antwort:** Ja aber in kedem Modell von $\phi$ muss $I(x_{i})= true$ gelten
+
+*Frage:* Und wenn es sowohl einen Pfad nach $x_{i}$ nach $\neg x_{i}$ als auch $\neg x_{i}$ nach $x_{i}$ in $G_{{\phi}}$ gibt?
+
+Die Antwort steht nicht auf den Folien, aber dann ist der Graph nicht gültig als logische Konsiquenz. Der Graph muss azyklisch sein!
 
 ---
 #### Reduktion von 2-SAT auf Graph-Erreichbarkeit
@@ -617,7 +638,62 @@ In diesem Graphenmodell $G_{\phi}$
 
 
 #### Zusammenhang zwischen $\phi$ und $G_{\phi}$
-![[Pasted image 20261012133924.png]]
+>[!Beobachtung]
+>In diesem Graphenmodell $G_{\phi}$ 
+Dann sind diese folgenden Behauptungen äquivalent
+>
+>1. In jedem Modell I von $\phi$ ist $\alpha\to\beta$  true geschrieben ($\phi \models (\alpha \to \beta)$)
+>2. In jedem Graph $G_{\phi}$ gibt es einen Pfad von $\alpha \to \beta$
+>
+>Anmerkung $\models$ ist die Semantische Folgerung
+
+Wie kann ich aber unsere Beobachtung beweisen? 
+
+**Beweisidee:**
+Die Richtung von (1) $\Rightarrow$ (2) ist klar
+Die Richtung von (2) $\Rightarrow$ (1) nicht. Man kann letzlich ein Modell I von $\phi$ in mehreren Studen konstruieren:
+- Wir belegen aus $X$ alle $x_{i}$ mit einem Wahrheitsgehalt *true* oder *false* für die einen Pfad von $x_{i}\to \neg x_{i}$ vice versa in $G_{\phi}$ gibt
+- Dann werden Wahrheitswerte entlag von allen Pfaden propagiert
+	- Wenn $I(\alpha) = true$ gilt und es einen Pfad von $\alpha \to \beta$ gibt dann muss auch $I(\beta)=true$ gelten
+
+- Wenn dann noch Variablen in I unbestimmt sind, kann man für eine dieser Variablen einen beliebigen Wahrheitswert festlegen und diesen dann wieder entlang von Pfaden propagieren 
+
+Anhand dieser Beweisidee, können wir ein Programm in `SIMPLE` schreiben
+
+```SIMPLE
+procedure test2SAT:
+Input: propositional formula $\phi$ in 2-CNF
+Output: true if $\phi$ is satisfiable and false otherwise
+
+from phi construct G_{phi};
+for all variables x in $\phi$ do
+{
+	if G_{phi} 
+		contains a path from x to neg x and
+		a pth from x neg x to x
+	then return false;
+}
+return true;
+
+```
+
+
+Wenn man dieses Programm testet dann hat die Signatur oder es sollte mit folgenden Instanzen aufgerufen werden
+$$
+(G_{\phi},x,\neg x) (G_{\phi},\neg x,x)  
+$$
+
+*Korrektheit der Reduktion* = Korrektheit der Prozedur test2SAT.
+(diese folgt aus den vorigen Beobachtungen und Überlegungen)
+
+
+----
+
+##### Exkurs Prädikatenlogik (again)
+Es sollte eine kleine Zusammenfassung sein, vor allem von Wikipedia, falls dieses Thema neu ist, dann sollte man GDS machen
+
+https://mathepedia.de/Rechenregeln_fuer_Quantoren.html
+https://de.wikipedia.org/wiki/Pr%C3%A4dikatenlogik?useskin=vector
 
 
 
