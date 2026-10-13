@@ -76,7 +76,28 @@ Lösung: Filesystem am Rechner
 #### Was ist ein Betriebssystem? 
 
 - Interface
-- 
+- Virtuelle Machine
+- Dienstleister
+- Ressourcenmanager
+
+.... Passt sich den anforderungen des Benutzers an
+
+![[Pasted image 20261013135354.png]]
+
+
+
+#### Abstraktionen
+
+- "ungestörte" Programmabarbeitung
+	- Prozess
+	
+- "unendlich" große Speicher, files
+	- Speicherverwaltung
+	
+- "Private" Maschine
+	- Zugriffsschutz, Datensicherheit
+
+
 
 ## Offene Fragen 
 
