@@ -27,6 +27,8 @@ Unser Ziel:
 
 ![[Pasted image 20261013141906.png]]
 
+Befehlszähler, die anzahl der Instruktionen die man hier durchgeht
+
 
 ### Trace
 - Charakterisiert das Verhalten eines Prozesses
@@ -36,6 +38,10 @@ Unser Ziel:
 ![[Pasted image 20261013141920.png]]
 
 ![[Pasted image 20261013142029.png]]
+
+
+Kurze Begriffserklärung [Dispatcher](https://de.wikipedia.org/wiki/Dispatcher_(Informatik)?useskin=vector)
+Kurz: Ein Dispatcher gibt der CPU die Anweisung zu welchem Prozess zu wechseln
 
 ### BS und Prozesse
 - BS kontrolliert die Ausführung der Prozesse
@@ -59,35 +65,26 @@ Prozess zeigt Beedniugn an
 - Service request an das BS
 - Auftreten eines Fehler bei der Abarbeitung eines Prozesses 
 - Halt-Instruktion eines JObs
-- 
-
-### Prozesszustände
-![[Pasted image 20261013143507.png]]
-
 
 ### Wesentliche Prozesszustände
 ![[Pasted image 20261013143529.png]]
-
-
-
 
 ### 5 Zustands Prozessmodell
 
 ![[Pasted image 20261013143553.png]]
 
-
 #### Queueing modell 
 ![[Pasted image 20261013143611.png]]
 
-- New zustand
+- **New zustand**
 	- BS hat den Prozess kreiert:
-		- Prozessnummer (PID)
+		- Prozessnummer (PID oder process identifier)
 		- tabellen und Tabelleneinträge zur Prozessverwaltung
 	- der Prozess ist jedoch noch nicht bereit zur Ausführung
 		- Ressourcenschonung
 
 
-- Exit
+- **Exit**
 	- Zustand wird durch Terminierung erreicht
 	- Prozess wird nicht mher weiter ausgeführt 
 	- Prozessinformationen werden  von Hilfsprogrammen verwendet 
@@ -95,10 +92,9 @@ Prozess zeigt Beedniugn an
 
 
 ### Process Switch
-
 ![[Pasted image 20261013143914.png]]
 
-- supervisor eher systemcall 
+- supervisor macht eher systemcall 
 ### Swapping
 ![[Pasted image 20261013144226.png]]
 
@@ -107,7 +103,11 @@ Prozess zeigt Beedniugn an
 ![[Pasted image 20261013144252.png]]
 
 ### Ursachen für Suspend
-
+- swapping
+-  BS lagert Hintergrundporzess, Utility oder problembehafteten Prozess aus
+- INterkativer Request (zB für Debugging)
+- Timing: periodischer Prozess kann zwischen Aktivierung ausgelagert werden
+- Parent Request: Untersuchung, Modifikation, koordinatoin von Kindprozessen
 
 ## Kontrollstrukturen für die Prozessverwaltung
 

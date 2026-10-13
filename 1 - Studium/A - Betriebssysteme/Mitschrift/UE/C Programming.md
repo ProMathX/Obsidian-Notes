@@ -30,25 +30,26 @@ char *y = (char*) &x;
 printf("%#x\n",*y); //15 or 0xf
 ```
 
-### struct 
+### Struct 
 ![[Pasted image 20261013152526.png]]
 Align the data accordign to the data size from big to lowest 
 
-### pointers to struct 
+### Pointers to struct 
 ![[Pasted image 20261013152848.png]]
 
-
+Recht trivial
 ### void pointers
 trivial
-### Singly Linked List
-![[Pasted image 20261013152913.png]]
-
 ### Call by value
 ![[Pasted image 20261013153346.png]]
 
 ### Call by reference 
 ![[Pasted image 20261013153404.png]]
 
+
+
+### Singly Linked List
+![[Pasted image 20261013152913.png]]
 
 ### Singly linked list: add to front (push)
 
