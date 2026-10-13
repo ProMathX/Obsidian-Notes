@@ -14,6 +14,8 @@ Teil 2/3: 22.11
 Teil 4: 13.12
 Teil 5 6.1
 	Abgabe für die Übungen
+	<br>
+	
 
 ### Probleme, Programme,Algorithmen
 
@@ -57,6 +59,8 @@ Unsere Aufgaben: Mathematisch beweisen,dass ich nicht blöd dafür bin ein Algo 
 Zweiter Teil: Beweis mit Turin-Maschinen
 
 ![[Pasted image 20261005130050.png]]
+
+<br>
 
 ### Berechenbarkeit, Entscheidbarkeit
 
@@ -146,8 +150,8 @@ Wenn ich aber eine funktion beschreiben muss, dann brauche ich ja ein alphabet, 
 Entscheidungsproblem ist eine Funktion $\Sigma^* \to \{0,1\}$ dann gibt es überabzählbar viele dasvon, wenn man es  komunizieren kann , dann überabzählbar viele
 
 <br>
+<br>
 
----
 ### Probleme über Programme
 ##### Goldbachsche Vermutung 
 >[!Vermutung]
@@ -282,7 +286,8 @@ Intuition: *Erreichbarer Code* ist unentscheidbar, weil es zu einem ähnlichen P
 
 Beweis mittels **Reduktion**
 
----
+<br>
+
 ### Semi-Entscheidbarkeit
 
 Was ist ein Semi-Entscheibares Problem? Ein Semi-Entscheidbares Problem ist quasi die lockerung der Definition der Entscheidbarkeit
@@ -460,6 +465,8 @@ Bsp.:
 
 ![[Pasted image 20261012124815.png]]
 
+<br>
+
 ### Jenseits der Semi-Entscheidbarkeit
 
 - Wir haben Probleme gesehn, die unentscheidbar aber semi-entscheidbar sind
@@ -475,9 +482,6 @@ Beweis
 ![[Pasted image 20261012125245.png]]
 
 Der Beweis folgt [[#Komplement]], denn ein Probelm P und dessen co-P, wenn P semi-entscheidbar ist, dann ist co-P auch semi-entscheidbar
-
-
----
 
 Beispiele für Nciht-Semi-Entscheidbarkeit (1)
 ![[Pasted image 20261012125509.png]]
@@ -495,6 +499,7 @@ Das ist schon wieder ein Co-Halteproblem, deshlab nicht semi-entscheidbar
 ---
 
 <br>
+
 ### Reduktionen
 
 Wichtigster Teil!
@@ -685,10 +690,15 @@ $$
 
 *Korrektheit der Reduktion* = Korrektheit der Prozedur test2SAT.
 (diese folgt aus den vorigen Beobachtungen und Überlegungen)
+Also siehe `Korrektheit` von Programmen
+<br>
+#### Ein klassisches Entscheidungsproblem der Graphentheorie
 
+
+
+<br>
 
 ----
-
 ##### Exkurs Prädikatenlogik (again)
 Es sollte eine kleine Zusammenfassung sein, vor allem von Wikipedia, falls dieses Thema neu ist, dann sollte man GDS machen
 
@@ -696,16 +706,15 @@ https://mathepedia.de/Rechenregeln_fuer_Quantoren.html
 https://de.wikipedia.org/wiki/Pr%C3%A4dikatenlogik?useskin=vector
 
 
-
+Dann hier für die Aussagenlogik bzgl KKNF, KNF, DNF, KDNF
+- [KNF](https://de.wikipedia.org/wiki/Konjunktive_Normalform?useskin=vector)
+- [DNF](https://de.wikipedia.org/wiki/Disjunktive_Normalform?useskin=vector)
+- [KDNF](https://de.wikipedia.org/wiki/Disjunktive_Normalform?useskin=vector#Kanonische_disjunktive_Normalform)
+- [KKNF](https://de.wikipedia.org/wiki/Konjunktive_Normalform?useskin=vector#Kanonische_konjunktive_Normalform)
 
 ---
 
 
-## Offene Fragen 
-- [x] Totale Partielle Funktion anschauen
- - [x] ⏫ ➕ 2026-10-06 Beweisführung Tuwel ✅ 2026-10-12
- - [ ] Was meint man mit nicht semi-entscheidbar?
- - [ ] Podcast anhören von Montag 12.10
- - [ ] Definiere ein co-Halteproblem etc
-#### Links
-- [[Learn Lean]]
+
+
+
