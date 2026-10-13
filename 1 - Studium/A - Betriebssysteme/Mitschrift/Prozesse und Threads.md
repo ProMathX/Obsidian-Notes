@@ -8,7 +8,7 @@ tags:
   - Prozesse
   - Threads
 ---
-## VO
+# VO
 Wir gehen davon aus, wir haben nur eine CPU und einen Core
 
 
@@ -18,7 +18,7 @@ Unser Ziel:
 - welche mechanismen sind nötig
 - welche Datenstrukturen brauchen wir? 
 
-### Prozess
+## Prozess
 - Ausführbares Progrmam 
 - zugehörige Daten (Variable, Stack, Puffer, etc)
 - Kontex
@@ -90,7 +90,26 @@ Prozess zeigt Beedniugn an
 - Exit
 	- Zustand wird durch Terminierung erreicht
 	- Prozess wird nicht mher weiter ausgeführt 
-	- Prozessinf
+	- Prozessinformationen werden  von Hilfsprogrammen verwendet 
+	- Prozessinformationen, -tablenne werden gelöscht wenn sie nicht mehr benötigt werden
+
+
+### Process Switch
+
+![[Pasted image 20261013143914.png]]
+
+- supervisor eher systemcall 
+### Swapping
+![[Pasted image 20261013144226.png]]
+
+### Prozesszustände mit Suspend
+
+![[Pasted image 20261013144252.png]]
+
+### Ursachen für Suspend
+
+
+## Kontrollstrukturen für die Prozessverwaltung
 
 
 
