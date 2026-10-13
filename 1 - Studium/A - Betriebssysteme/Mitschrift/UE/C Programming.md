@@ -98,6 +98,13 @@ void push(struct node *(*const head), int value)
 ### Singly  linked ist: pop
 ![[Pasted image 20261013160924.png]]
 `node_t **head` weil head ein pointer zu einem node_t pointer ist also referenziert head immer auf ein node_t
+
+Also wenn man es einmal programmiert, dann macht es Sinn.
+
+head ist ein Pointer zu einem node_t Pointer
+
+Wenn head ein konstanter Pointer `*const head` zu einem `node_t *` Pointer ist, dann referenziert head immer einen node_t pointer. 
+
 ### tagged unions
 ![[Pasted image 20261013161710.png]]
 
