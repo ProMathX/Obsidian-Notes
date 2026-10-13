@@ -91,11 +91,21 @@ void push(struct node *(*const head), int value)
 }
 ```
 
-![[Pasted image 20261013160346.png]]
+![[Pasted image 20261013160906.png]]
 
 
+### Singly  linked ist: pop
+![[Pasted image 20261013160924.png]]
+`node_t **head` weil head ein pointer zu einem node_t pointer ist also referenziert head immer auf ein node_t
+### tagged unions
+![[Pasted image 20261013161710.png]]
 
+![[Pasted image 20261013163407.png]]
 
 
 #### Links
 - [[Learn Lean]]
+https://ptgmedia.pearsoncmg.com/images/9780131774292/samplepages/0131774298.pdf
+
+#### Tasks 
+-[ ] singly linked list reimplemntieren (anschauen )
