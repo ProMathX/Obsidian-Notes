@@ -18,8 +18,8 @@ tags:
 - The integer value can be changed via p 
 - p cannot be cahnged to point another address
 
-`int *const *p`
-(Mutable pointer to a constant pointer to an integer)
+`int *const *p` `(int *const)(*p)`
+(Mutable pointer to a constant pointer to an integer) declare p as pointer to const pointer to int
 ![[Pasted image 20261013151438.png]]
 
 ### Casting pointers
@@ -27,8 +27,75 @@ tags:
 ```C
 int x = 2048 + 15;
 char *y = (char*) &x;
-printf("%#x\n",*y); //
+printf("%#x\n",*y); //15 or 0xf
 ```
+
+### struct 
+![[Pasted image 20261013152526.png]]
+Align the data accordign to the data size from big to lowest 
+
+### pointers to struct 
+![[Pasted image 20261013152848.png]]
+
+
+### void pointers
+trivial
+### Singly Linked List
+![[Pasted image 20261013152913.png]]
+
+### Call by value
+![[Pasted image 20261013153346.png]]
+
+### Call by reference 
+![[Pasted image 20261013153404.png]]
+
+
+### Singly linked list: add to front (push)
+
+```C 
+#include <stdlib.h>
+
+typedef struct node
+{
+	int data;
+	struct node *next_node;
+}node_t;
+
+
+void push(node_ t **const head, const int value)
+{
+	node_t *rv = (node_t *)(malloc(sizeof(node_t)));
+	rv->data = value;
+	rv->next = *head;
+}
+
+```
+
+
+Wobei diese variabte gelcih wäre
+```C
+#include <stdlib.h>
+struct node 
+{
+    int data;
+    struct node *next_node;
+};
+
+
+void push(struct node *(*const head), int value)
+{
+    struct node *new_node = (struct node*)(malloc(sizeof(struct node)));
+    new_node->data = value;
+    new_node->next_node = *head;
+	*head = new_node;
+}
+```
+
+![[Pasted image 20261013160346.png]]
+
+
+
+
 
 #### Links
 - [[Learn Lean]]
