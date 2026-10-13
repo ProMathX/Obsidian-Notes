@@ -692,6 +692,7 @@ $$
 (diese folgt aus den vorigen Beobachtungen und Überlegungen)
 Also siehe `Korrektheit` von Programmen
 <br>
+
 #### Ein klassisches Entscheidungsproblem der Graphentheorie
 
 
