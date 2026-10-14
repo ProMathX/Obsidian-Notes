@@ -738,28 +738,67 @@ TODO, von den Folien abtippen
 ---
 
 #### Unentscheidbarkeitsbeweise mittels Reduktion
+![[Pasted image 20261014141013.png]]
+
+<br>
+
+#### Beispiele von unentscheidbaren Problemen (Korrektheit)
+
+Beweis der Unentscheidbarkeit mittels reduktion auf das Halteproblem
+
+![[Pasted image 20261014141050.png]]
+
+![[Pasted image 20261014141111.png]]
+
+<br>
+
+#### Beispiele von Unentscheidbarkeit (Selber-Output)
+
+![[Pasted image 20261014141203.png]]
+
+![[Pasted image 20261014141218.png]]
+
+<br>
+
+#### Beweise der Nicht-Semi-Entscheidbarkeit
+
+**Idee:**
+- Wir wissen, dass das co-Halteproblem nicht semi-entscheidbat ist
+- Wir können daher die Nicht-Semi-Entscheidbarkeit eines (neuen) Problems mittels Reduktion vom co-Halteproblem beweisen
+
+**Beobachtung:**
+- Angenommen wir können für 2 Probleme zeigen:
+	- P1 <= P2
+	- daraus folgt co-P1 <= co-P2
+- Daher gilt: P1 <= P2 <=> co-P1 <= co-P2
+- Schlussfolgerung: Probleme co-Korrektit und co-Selber-Ouput sind *nicht semi-entscheidbar*
+
+---
+
+##### Beispiel
+![[Pasted image 20261014142115.png]]
+
+
+Warum steckt in Selber-Output das co-halteprobelm? 14:29
+-> TODO aufschreiben
+
+unentscheidbar -> Halteproblem
+nicht smei-etnscheidbare Probleme -> co-Halteproblem
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![[Pasted image 20261014142124.png]]
 
 
 <br>
+
+### Zusammenfassung 
+
+TODO 1:1 von der VO abtippen 14:33
+
+
+
 
 ----
 ##### Exkurs Prädikatenlogik (again)
