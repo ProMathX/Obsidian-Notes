@@ -698,18 +698,32 @@ Also siehe `Korrektheit` von Programmen
 K-Färbarkeit
 ![[Pasted image 20261014133623.png]]
 
-
 Das Theorem:
 >[!Theorem]
 >Das 2 Färbarkeit lässt sich mittels many one reduktion auf das 2SAT Problem reduzieren
 
+
+Man reduziert das Problem auf 2-SAT 
+
+
 ![[Pasted image 20261014133730.png]]
 
-Man sollte den Graph erklären, und die das theorem an sich
 
-Daraus definieren wir eine Probleminstanz dnan 
+Man sollte den Graph erklären, und die das theorem an sich, welches in den Übungsaufgaben ja so gemacht werden sollt
 
-2*|E| viele Kanten somit 2*|E| viele Formeln 
+Daraus definieren wir eine Probleminstanz dann  
+
+2*|E| viele Kanten somit 2*|E| viele Formeln
+Eine Formel in KNF ist:
+$$
+(x_{i}\vee x_{j})\wedge (\neg x_{i} \vee \neg x_{j})
+$$
+und dessen Konjuktur
+
+
+
+
+
 
 #### Korrektheit der Reduktion
 
