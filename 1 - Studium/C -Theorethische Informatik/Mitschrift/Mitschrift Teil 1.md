@@ -481,6 +481,8 @@ Bsp.:
 Beweis
 ![[Pasted image 20261012125245.png]]
 
+Der wichtigste Schritt hier,ist die Folgerung von dem Theorem, dass die co-Probleme von Halteproblem, Korrektheit, Erreichbarer-Code und Entscheidungsproblem *nicht semi-entscheidbar*
+
 Der Beweis folgt [[#Komplement]], denn ein Probelm P und dessen co-P, wenn P semi-entscheidbar ist, dann ist co-P auch semi-entscheidbar
 
 Beispiele für Nciht-Semi-Entscheidbarkeit (1)
@@ -757,6 +759,10 @@ TODO, von den Folien abtippen
 
 #### Unentscheidbarkeitsbeweise mittels Reduktion
 ![[Pasted image 20261014141013.png]]
+
+Der Grund warum man sowas macht, ist anstatt die ganze Zeit anstatt dem Diagonalargument zu beweisen, dass Problem auf das Halteproblem reduziert
+
+
 
 <br>
 
