@@ -720,20 +720,24 @@ $$
 $$
 und dessen Konjuktur
 
+Wir wissen [2 SAT effizient lösbar ist]([[#2-SAT auf Graph-Erreichbarkeit]]), anhand der Reduktion von 2-SAT <= Graph Erreichbarkeit
 
-
-
+Reduzierbarkeiten sind transitiv, was ja in sich logisch ist, weil wenn ein Problem A auf B reduzierbar ist, und B auf C, dann ist A auf C reduzierbar
 
 
 #### Korrektheit der Reduktion
 
 ![[Pasted image 20261014134354.png]]
 
+Das ist die allgemeiner Schritt um eine $\Longleftrightarrow$ zu zeigen
+
+
+<br>
 
 #### Beweis in "$\Rightarrow$"Richtung
 ![[Pasted image 20261014134653.png]]
 
-- Wir müssen für jede Disjunktion die subformel wahr zeigne 
+- Wir müssen für jede Disjunktion die subformel wahr zeigen 
 
 ![[Pasted image 20261014134708.png]]
 
