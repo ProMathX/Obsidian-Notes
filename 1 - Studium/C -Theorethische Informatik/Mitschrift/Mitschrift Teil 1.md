@@ -715,7 +715,8 @@ Dann hier für die Aussagenlogik bzgl KKNF, KNF, DNF, KDNF
 
 ---
 
-
+# Fragen
+Wie kann ein Problem P unentscheidbar und zeitgleich semi-entscheidbar sein? 
 
 
 
