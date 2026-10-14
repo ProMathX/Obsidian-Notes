@@ -695,6 +695,68 @@ Also siehe `Korrektheit` von Programmen
 
 #### Ein klassisches Entscheidungsproblem der Graphentheorie
 
+K-Färbarkeit
+![[Pasted image 20261014133623.png]]
+
+
+Das Theorem:
+>[!Theorem]
+>Das 2 Färbarkeit lässt sich mittels many one reduktion auf das 2SAT Problem reduzieren
+
+![[Pasted image 20261014133730.png]]
+
+Man sollte den Graph erklären, und die das theorem an sich
+
+Daraus definieren wir eine Probleminstanz dnan 
+
+2*|E| viele Kanten somit 2*|E| viele Formeln 
+
+#### Korrektheit der Reduktion
+
+![[Pasted image 20261014134354.png]]
+
+
+#### Beweis in "$\Rightarrow$"Richtung
+![[Pasted image 20261014134653.png]]
+
+- Wir müssen für jede Disjunktion die subformel wahr zeigne 
+
+![[Pasted image 20261014134708.png]]
+
+---
+#### "$\Leftarrow$" Richtung
+
+![[Pasted image 20261014134717.png]]
+
+![[Pasted image 20261014134725.png]]
+
+**Typische Vorgangsweise bei Korrektheitsbeweisen**
+TODO, von den Folien abtippen
+
+
+
+---
+
+#### Unentscheidbarkeitsbeweise mittels Reduktion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br>
