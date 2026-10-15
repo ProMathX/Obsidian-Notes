@@ -310,3 +310,88 @@ Wenn man free() verwendet muss es die ursprünglich eAdresse vom Pointer einlese
 
 ```
 https://cdecl.org/
+
+
+---
+
+## Pointer Schrizophenia 
+
+
+Wir können pointer funktionen cranken 
+
+```C
+static void func(void){}
+
+int main(void)
+{
+	void(*ptrToFunc)(void) = func;`
+}
+```
+
+was wäre  wenn WIR DAS WIEDER AUF ARRAYS MACHEN? 
+Es gibt 129309324809283470 möglichkeiten ein Array zu definieren und zu nutzen 
+
+
+```C
+int main(void)
+{
+	int arr[3] = {1,2,3};
+	int(*ptrToArr)[3] = &arr[0],
+}
+```
+
+
+was wäre wenn  wir mehrere Arrays auf den Pointer zuweisen, also bspw 2 Aarrays mit 3 elementen?
+
+```C
+int main(void)
+{
+	int arr1[3] = {1,2,3}, arr2[3] = {4,5,6};
+	int (*arrayOfPtrs[2])[3] = {&arr1,&arr2};
+}
+```
+
+
+No na das geht auch für Funktionen
+
+```C
+static void funcA(void){}
+
+static void funcB(void){}
+
+static void funcC(void){}
+
+int main(void)
+{
+	void(*ptrToFuncs[])(void) = {funcA,funcB,funcC};
+
+}
+
+
+```
+
+
+Wenn man geistig behindert ist kann man die funktionen ja verschachteln
+
+```C
+static int Add(int a, int b)
+{
+	return a + b;
+}
+
+static int(*GetAdd(void))(int,int)
+{
+	return Add;
+}
+
+int main(void)
+{
+	int (*AddFunc)(int,int) = GetAdd();
+}
+
+
+```
+
+
+
+
