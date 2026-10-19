@@ -68,6 +68,7 @@ $$M = (Q,\Sigma,\Gamma,\delta,q_{0},B,F)$$
 ![[Pasted image 20261019132802.png]]
 
 
+YA MENYEK WAS WAR DAS FÜR EINE VORLESUNG AMK ehrlich bruder was war das.
 
 ### $\lambda \text{-Kalkül}$
 
