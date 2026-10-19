@@ -55,14 +55,34 @@ $$M = (Q,\Sigma,\Gamma,\delta,q_{0},B,F)$$
 ![[Pasted image 20261019131359.png]]
 
 #### Übergänge
-![[Pasted image 20261019131554.png]]
+Sei M hier definiert als
+$$
+(q,X,p,Y,D)\in \delta
+$$
+M liest im Zustand q auf dem Band Sybmbol X
+- wechselt nun davon abhängig in den Zustand p
+- überschriebt Symbol X durch Symbol Y
+- bewegt den Lese/Schreibkopf nach Links(L) oder Rechts (R), je nachdem was in D steht oder S gar nicht
+
+Beispiel für eine determinitsitsche TM
+>[!Deterministische Turinmaschine]
+>Eine Turingmaschien M heißt deterministisch, wenn für alle $(q,X) \in Q \times \Gamma$  höchstens ein Element $(q,X,p,Y,D)\in \delta$ exisitiert,sodass gilt $D \in {L,R,S};$ schreibt man auch $\delta(q,X) = (p,Y,D)$
+
+Man hält/terminiert im Zustand q wenn $q \in F$, $\delta(q,X)$ bleibt undefiniert
 
 
 Übetragung und Berechnung:
-
 ![[Pasted image 20261019132230.png]]
 
+Somit, macht die obrige Erklärung, weitaus mehr Sinn als zuvor
+
+
+#### Akzeptierte Sprache
 ![[Pasted image 20261019132421.png]]
+
+
+
+
 
 
 ![[Pasted image 20261019132802.png]]
