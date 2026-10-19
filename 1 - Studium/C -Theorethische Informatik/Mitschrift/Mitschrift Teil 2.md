@@ -57,7 +57,7 @@ $$M = (Q,\Sigma,\Gamma,\delta,q_{0},B,F)$$
 #### Übergänge
 Sei M hier definiert als
 $$
-(q,X,p,Y,D)\in \delta
+(q,X;p,Y,D)\in \delta
 $$
 M liest im Zustand q auf dem Band Sybmbol X
 - wechselt nun davon abhängig in den Zustand p
@@ -66,7 +66,7 @@ M liest im Zustand q auf dem Band Sybmbol X
 
 Beispiel für eine determinitsitsche TM
 >[!Deterministische Turinmaschine]
->Eine Turingmaschien M heißt deterministisch, wenn für alle $(q,X) \in Q \times \Gamma$  höchstens ein Element $(q,X,p,Y,D)\in \delta$ exisitiert,sodass gilt $D \in {L,R,S};$ schreibt man auch $\delta(q,X) = (p,Y,D)$
+>Eine Turingmaschien M heißt deterministisch, wenn für alle $(q,X) \in Q \times \Gamma$  höchstens ein Element $(q,X;p,Y,D)\in \delta$ exisitiert,sodass gilt $D \in {L,R,S};$ schreibt man auch $\delta(q,X) = (p,Y,D)$
 
 Man hält/terminiert im Zustand q wenn $q \in F$, $\delta(q,X)$ bleibt undefiniert
 
@@ -88,7 +88,23 @@ Somit, macht die obrige Erklärung, weitaus mehr Sinn als zuvor
 ![[Pasted image 20261019132802.png]]
 
 
-YA MENYEK WAS WAR DAS FÜR EINE VORLESUNG AMK ehrlich bruder was war das.
+Folgendes beispiel erklärt es recht gut
+
+![[Pasted image 20261019153432.png]]
+
+
+#### Universelle Turingmaschinen
+Eine TM enspricht *nicht* einem Computer, sondern einem Programm.
+Um ein Modell eines Rechners/Computers zu erhaltne, benötigen wir eine Maschine, die beliebige Programme (TM) simulieren kann.
+
+TM als Input: $<M>$ bezeichnet den Zahlencode einer Turingmaschine M
+
+![[Pasted image 20261019153823.png]]
+
+Darauf folgt:
+>[!Achtung]
+>Jede Universelle TM entspricht einem *Interpreter*
+
 
 ### $\lambda \text{-Kalkül}$
 
