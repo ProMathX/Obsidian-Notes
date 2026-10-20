@@ -212,20 +212,44 @@ Prozessbasierte Architektur
 ## Threads
 
 ### Prozesse und Threads
+Was ist der Unterschied? 
+- Process
+	- Virtueller Adressraum mit Process Image
+	- Speicherschutz, Files, I/O Ressourcen
+
+- Thread
+	- Ausführungszustand  (Running, Read, ...)
+	- Kontext
+	- Stack 
+	- thread-lokale statistische und lokale Varibale
+	- Zugriff auf Prozessspeicher und Ressourcen
 
 ### Singlethreaded Process Model
 
+![[Pasted image 20261020170452.png]]
+
 ### Multithreaded Process Model
+![[Pasted image 20261020170503.png]]
 
 ### Vorteile von Threads vs Prozess
+- Thread Erzeugung benötigt weniger Zeit
+- Umschaltung zwischen Threads geht schneller als ein Process Switch
+- Terminierung eines Threads benötigt weniger Zeit als Prozessterminierung
+- Kommunikation zwsichen Threads eines Prozesses ohne Einschaltung des Kernels, aber Synchronisation notwendig (Semaphore for IPC)
 
-### Einsatzbereich von Threads
 
+### Threadzustände
+- Wichtige Zustände: *Running, Ready, Blocked*
+- Zustand  *Suspend* existiert nicht für einzelne Threads alle Threads eines Prozesses haben Zugriff auf den selben Adressraum
+- Bei der Terminierung eines Prozesses terminieren alle zugehörigen Threads (also wenn der Main Thread gekillt wird, dann wird die Sub-Threads auch gekillt)
 ### User Level Threads (ULT)
 
+![[Pasted image 20261020170952.png]]
+![[Pasted image 20261020171026.png]]
+
 ### Kernel Level Threads (KLT)
-
-
+![[Pasted image 20261020171010.png]]
+![[Pasted image 20261020171038.png]]
 
 
 # TODO
