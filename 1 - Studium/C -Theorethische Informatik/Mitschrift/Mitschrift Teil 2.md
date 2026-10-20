@@ -34,6 +34,7 @@ Ab hier ist es historie, nice fun facts und side-notes stehen dann hier
 
 ### Imperative Paradigma: Turingmaschinen und mehr
 
+#### Die Turing Maschine
 *Turing Frage:* Welche reele Zahlen sind berechenbar? 
 
 ![[Pasted image 20261019130221.png]]
@@ -76,13 +77,8 @@ Man hält/terminiert im Zustand q wenn $q \in F$, $\delta(q,X)$ bleibt undefinie
 
 Somit, macht die obrige Erklärung, weitaus mehr Sinn als zuvor
 
-
 #### Akzeptierte Sprache
 ![[Pasted image 20261019132421.png]]
-
-
-
-
 
 
 ![[Pasted image 20261019132802.png]]
@@ -91,6 +87,17 @@ Somit, macht die obrige Erklärung, weitaus mehr Sinn als zuvor
 Folgendes beispiel erklärt es recht gut
 
 ![[Pasted image 20261019153432.png]]
+
+Wenn man sich an das vorherige Bild errinert, q0 ist der lese schreibkopf, er hovert über der 110B 
+- (q0,1) = (q0,1,R)
+- (q0,1) = (q0,1,R)
+- (q0,0) = (q0,0,R)
+- (q0,B) = (q1,0,S) an der Stelle B kommt eine 0, dann wechselt man zu q1
+- (q1,0) = (q1,0,L)
+- (q1,0) = (q1,0,L)
+- (q1,1) = (q1,1,L)
+- (q1,1) = (q1,1,L)
+- (q1,B) = (q2,B,L)
 
 
 #### Universelle Turingmaschinen
