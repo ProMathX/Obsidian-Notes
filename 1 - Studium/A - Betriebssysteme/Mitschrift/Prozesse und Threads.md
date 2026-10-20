@@ -204,12 +204,28 @@ Ich bleibe im aktuellen Prozesskontext, kaum, ich verlasse den Kontextwechsel be
 ![[Pasted image 20261020135857.png]]
 
 
-
-
-
-
+### Microkernel Architektur
+Prozessbasierte Architektur
+![[Pasted image 20261020140351.png]]
+![[Pasted image 20261020140448.png]]
 
 ## Threads
+
+### Prozesse und Threads
+
+### Singlethreaded Process Model
+
+### Multithreaded Process Model
+
+### Vorteile von Threads vs Prozess
+
+### Einsatzbereich von Threads
+
+### User Level Threads (ULT)
+
+### Kernel Level Threads (KLT)
+
+
 
 
 # TODO
