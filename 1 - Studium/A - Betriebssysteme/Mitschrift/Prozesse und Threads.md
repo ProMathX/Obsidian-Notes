@@ -111,7 +111,109 @@ Prozess zeigt Beedniugn an
 
 ## Kontrollstrukturen für die Prozessverwaltung
 
+### Kontrollstrukturen des BS
 
+- Memory Tables 
+- I/O Tables (Geräte und Kanäle)
+- File Tables 
+- Process Tables
+
+
+### Process Image
+
+- User Program
+- User Data 
+- System Stack 
+- Process Control Block 
+![[Pasted image 20261020132545.png]]
+
+
+### PCB Process Identification
+- PID (Process identifier) index  im Primary Process Table
+- UID (User identfier) (besitmmt die Rechte des Prozesses)
+- PPI (Parent Process Identifier)
+
+
+### PCB Processor (CPU) State Information
+- Registerinhalte
+-  Kontroll und Statsusregister
+- Stack Pointers
+
+### Process Control Information
+- Scheduling und Zustandsinformation
+- Querverweise auf andere Prozesse
+- Interprozesskommunikation (IPC)
+- Privileges
+- Memory Management
+- Ressourcen
+
+
+### Prozesslisten
+![[Pasted image 20261020133510.png]]
+
+
+### Execiton Modes
+- Um die Datenstrukture (zb PCB) des BS zu schützen gibt es mindestes zwei execution mode
+	- Privileged Mode (root)
+	- User Mode
+- Mode Switch in BS-Routinen
+- Exection Modes werden durch Mode-Bits der CPU unterstützt
+Also die Hardware muss das auch unterstützten!
+
+### Mode Switch vs Process Switch
+![[Pasted image 20261020133945.png]]
+
+
+Process switch -> CPU kommt zu dem Prozess eines anderen Prozesses
+
+Nicht jeder Process Switch .. 13:42 vervollständigen!!!
+
+
+### Example Interrupt Handling
+![[Pasted image 20261020134625.png]]
+
+## Prozesse im Betriebssystem
+
+### Nonprocess Kernel
+
+![[Pasted image 20261020135237.png]]
+- Prozessbegriff nur für Benutzerprogramme (in dem Moment ein Service des BS aufrufe, verlasse ich den Prozesskontext, kehrt dann wieder in ein Prozesskontext ein (Mode Switch nach Vollendung))
+- Verlassen des Prozesskontexts bei BS-Aktivität
+- BS arbeitet von Prozessen getrennt im Privilged Mode (eigener Speicherbereich , eigener Stack für BS)
+### BS-Ausführung in User-Prozessen
+![[Pasted image 20261020135346.png]]
+
+Prozess kontext, so wenig wie mlöglich aufrufen.
+Ich bleibe im aktuellen Prozesskontext, kaum, ich verlasse den Kontextwechsel bei Prozess Switch oder einen neuen Prozess aktivieren will. 
+
+- BS ist eine Sammlung 
+
+
+### BS Ausführung in User-Processes
+
+![[Pasted image 20261020135700.png]]
+
+
+### Prozessbasiertes BS
+![[Pasted image 20261020135731.png]]
+
+- BS sit eine Sammlung von Systemprozessne
+- Nur Basisservices sind nicht als Prozesse realisiert
+
+### Kernel Architekturen
+![[Pasted image 20261020135857.png]]
+
+
+
+
+
+
+
+## Threads
+
+
+# TODO
+Im Buch weiter lesen, weil das erklärt es ziemlich besser
 
 #### Links
 - [[Learn Lean]]
