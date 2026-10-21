@@ -112,9 +112,62 @@ Darauf folgt:
 >[!Achtung]
 >Jede Universelle TM entspricht einem *Interpreter*
 
+### Varianten von Turingmaschinen
+![[Pasted image 20261021131041.png]]
+
+
+### Registermaschinen
+Ist näher an heutigen Computern. Fokus auf arithmetische Funktionen ($\mathbb{N}^k \to \mathbb{N}$)
+- [Arithmetische Funktionen](https://de.wikipedia.org/wiki/Zahlentheoretische_Funktion?useskin=vector)
+
+![[Pasted image 20261021131855.png]]
+
+_Wichtig:_ Anders als bei TMs werden bei RM Maschine und Programme getrennt. Erst mit einem RM-Programm kann man rechnen!
+
+
+
+#### Programme für Registermaschinen
+![[Pasted image 20261021132036.png]]
+
+^ If else strukturen
+
+R(i)... Inhalt des i-ten registers ($R(i) \in \mathbb{N}$)
+Semantik der Befehle
+![[Pasted image 20261021132312.png]]
+A  eines rauf
+S eins runter, aber bleibt bei Null 
+t ist entsprechended eine Testanweisung, test ist positiv wenn R(i) = 0
+
+Wir betrachten nur deterministsiche Programme: Jede Kennamrke kommt nur ienmal als solche vor.
+
+
+#### Berechnen mit RM-Programmen
+![[Pasted image 20261021132601.png]]
+13:26 prüfungsfehler leak
+TODO AUFSCHREIBEN
+
+Konfigurationen:
+![[Pasted image 20261021132810.png]]
+
+
+Ein Additions-Programm:
+![[Pasted image 20261021132827.png]]
+TODO Algorithmus durchgehen
+
+
+
+Substraktions-Programm
+![[Pasted image 20261021132853.png]]
+
+#### Partielle Funktionen / Codierung
+![[Pasted image 20261021133822.png]]
+
+
 
 ### $\lambda \text{-Kalkül}$
 
+# TODO
 
+- [ ] Registermaschinen durchgehen und 
 #### Links
 - [[Learn Lean]]
