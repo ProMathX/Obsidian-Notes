@@ -163,11 +163,63 @@ Substraktions-Programm
 ![[Pasted image 20261021133822.png]]
 
 
+#### Wichitge Fakten zu Registermaschinen
+![[Pasted image 20261021134258.png]]
 
-### $\lambda \text{-Kalkül}$
+F ist eine berechenbare Funktion, ein Programm für alle berechenbaren Funktionen -> universellen Registermaschine
+
+[Wikipedia zu Registermaschinen](https://de.wikipedia.org/wiki/Registermaschine?useskin=vector)
+### $\lambda \text{-Kalk\"ul}$
+
+
+![[Pasted image 20261021135925.png]]
+
+Sexy gleich gecheckt
+
+Wie rechne ich mit $\lambda - \text{Termen}$
+![[Pasted image 20261021140124.png]]
+![[Pasted image 20261021140135.png]]
+
+### Currying 
+![[Pasted image 20261021141815.png]]
+
+
+### Auswerten durch Einsetzen: $\beta - \text{Reduktionen}$
+![[Pasted image 20261021142054.png]]
+![[Pasted image 20261021142110.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # TODO
 
-- [ ] Registermaschinen durchgehen und 
+- [ ] Registermaschinen durchgehen und checken, grunpirnzip sitzt, aber die Rechnung mit der Hand durchgehen wie bei den Turingmaschinen
+- [ ] 
 #### Links
 - [[Learn Lean]]
