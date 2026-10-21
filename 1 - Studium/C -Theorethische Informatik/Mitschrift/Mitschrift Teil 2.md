@@ -187,7 +187,7 @@ Wie rechne ich mit $\lambda - \text{Termen}$
 ### Auswerten durch Einsetzen: $\beta - \text{Reduktionen}$
 ![[Pasted image 20261021142054.png]]
 ![[Pasted image 20261021142110.png]]
-
+![[Pasted image 20261021143959.png]]
 
 
 
@@ -220,6 +220,6 @@ Wie rechne ich mit $\lambda - \text{Termen}$
 # TODO
 
 - [ ] Registermaschinen durchgehen und checken, grunpirnzip sitzt, aber die Rechnung mit der Hand durchgehen wie bei den Turingmaschinen
-- [ ] 
+- [ ] Redex machen lamda kalkulation
 #### Links
 - [[Learn Lean]]
