@@ -144,7 +144,11 @@ Wir betrachten nur deterministsiche Programme: Jede Kennamrke kommt nur ienmal a
 #### Berechnen mit RM-Programmen
 ![[Pasted image 20261021132601.png]]
 13:26 prüfungsfehler leak
-TODO AUFSCHREIBEN
+Sie muessen nicht unbedingt k viele genau k viele register haben wenn sie eine K stellige funktion berechnen. Im allegemeinen werden sie auch Hilfsregister brauchen oder vorsehen wollen. Sie muessen bei diesem Anfangszustand natuerlich fuer jede Zahl, die sie eingeben wollen, im Doppel, also fuer jede der K Zahlen auch ein entsprechendes Register vorsehen. Das sind eben die ersten K register, die reihenfolge ist wichtig R1 bis Rk. Das M fuer die Registermaschine, die ist so eine Funktion, kann natuerlich groesser sein. Es weiterhin fesgeleegt,dass die weiteren Register auf 0 gestzt sind, dementsprechend muss man weitere register nicht auf 0 setzen, da die Definition einer RM dies schon handhabt.
+
+
+
+
 
 Konfigurationen:
 ![[Pasted image 20261021132810.png]]
