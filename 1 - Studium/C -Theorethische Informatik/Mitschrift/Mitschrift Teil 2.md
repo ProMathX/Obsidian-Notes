@@ -219,11 +219,13 @@ Wie rechne ich mit $\lambda - \text{Termen}$
 
 
 
+# Links und Tools
+- https://lambdacalc.dev/
 
 
 # TODO
 
-- [ ] Registermaschinen durchgehen und checken, grunpirnzip sitzt, aber die Rechnung mit der Hand durchgehen wie bei den Turingmaschinen
-- [ ] Redex machen lamda kalkulation
+- [x] Registermaschinen durchgehen und checken, grunpirnzip sitzt, aber die Rechnung mit der Hand durchgehen wie bei den Turingmaschinen  [completion:: 2026-10-25]
+- [x] Redex machen lamda kalkulation  [completion:: 2026-10-25]
 #### Links
 - [[Learn Lean]]
