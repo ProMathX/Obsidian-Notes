@@ -42,3 +42,36 @@ This acts like `include` in every way except that there is no error (not even a 
 
 For compatibility with some other `make` implementations, `sinclude` is another name for `-include`.
 
+---
+These are make's **automatic variables**. Inside a recipe, make fills them in for the specific rule being run.
+
+|Variable|Meaning|Example (for `build/generator.o: src/generator.c`)|
+|---|---|---|
+|`$@`|the **target**|`build/generator.o`|
+|`$<`|the **first prerequisite**|`src/generator.c`|
+|`$^`|**all prerequisites**, de-duplicated|e.g. `a.o b.o c.o`|
+|`$?`|prerequisites newer than the target|only the changed ones|
+|`$*`|the **stem** matched by `%`|`generator`|
+|`$(@D)`|directory part of `$@`|`build`|
+|`$(@F)`|file part of `$@`|`generator.o`|
+
+**In your Makefile:**
+
+```make
+$(BIN_DIR)/%.o: $(SRC_DIR)/%.c
+	@mkdir -p $(@D)                        # mkdir -p build
+	$(CC) $(CPPFLAGS) $(CFLAGS) -c $< -o $@   # gcc ... -c src/generator.c -o build/generator.o
+```
+
+```make
+$(LIB_SEM_INTF): $(LIB_OBJS)
+	$(CC) $(CFLAGS) -shared -o $@ $^ ...   # -o build/libsemaphore_interface.so build/lib/semaphore.o
+```
+
+Use `$<` when you want just the source file (compiling one `.c`), and `$^` when you want every prerequisite (linking all the `.o` files).
+
+**Why your bug happened:** `$` alone is not a variable reference to make. A single-character variable is written without parentheses (`$@`), so `-o $` followed by a newline expanded to something empty or literal, and gcc created a file named `$`.
+
+**Two related gotchas:**
+- A literal `$` in a recipe must be written `$$`. That's why you have `'$$ORIGIN'`: make turns it into `$ORIGIN` for the shell/linker.
+- The `@` at the start of a recipe line (`@mkdir -p ...`) is unrelated. It just suppresses echoing the command. It's easy to confuse with `$@`.
