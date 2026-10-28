@@ -194,6 +194,22 @@ Wie rechne ich mit $\lambda - \text{Termen}$
 ![[Pasted image 20261021143959.png]]
 
 
+Kleiner Hinweis, es gibt verschiedne arten ein und oder ode rnegation als lambda term, gibt es verschiedene Formen. Wie man es dementsprechend findet etc
+
+Für das Programmieren siehe Folien.
+> Programmieren im $\lambda - \text{{Kalkül}}$
+[[Teil_2_WS2026.pdf#page=36&selection=0,0,0,13|Teil_2_WS2026, page 36]]
+
+
+### Y-Kombinator
+
+![[Pasted image 20261028134536.png]]
+
+
+
+
+
+
 
 
 
