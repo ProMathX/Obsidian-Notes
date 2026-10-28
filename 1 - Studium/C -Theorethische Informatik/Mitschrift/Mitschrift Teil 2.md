@@ -201,15 +201,39 @@ Für das Programmieren siehe Folien.
 [[Teil_2_WS2026.pdf#page=36&selection=0,0,0,13|Teil_2_WS2026, page 36]]
 
 
-### Y-Kombinator
+#### Y-Kombinator
 
 ![[Pasted image 20261028134536.png]]
 
+![[Pasted image 20261028135123.png]]
 
 
+### Rekursive Funktionen
+
+![[Pasted image 20261028135838.png]]
 
 
+Die Funkitonen können auch zusammengestzt werden, k und m können unterschiedlich voneinander sein 
 
+Eine einfache zusammensetzung der Funktionen h und g 
+![[Pasted image 20261028140744.png]]
+
+![[Pasted image 20261028141805.png]]
+
+![[Pasted image 20261028141815.png]]
+
+---
+
+![[Pasted image 20261028142428.png]]
+
+Das genauer anschauen, dass muss man genauer schauen, vor allem die Vertauschungsoperation. Somit kann man die Defintion dementsprechend ändern. Wichtig für Prüfungen und Übungsbeispiele.
+
+![[Pasted image 20261028142745.png]]
+
+![[Pasted image 20261028142813.png]]
+
+
+Bruder was ist das
 
 
 
@@ -243,5 +267,6 @@ Für das Programmieren siehe Folien.
 
 - [x] Registermaschinen durchgehen und checken, grunpirnzip sitzt, aber die Rechnung mit der Hand durchgehen wie bei den Turingmaschinen  [completion:: 2026-10-25]
 - [x] Redex machen lamda kalkulation  [completion:: 2026-10-25]
+- [ ] Das Rechnen mit dem lambda kalkül abschließen 
 #### Links
 - [[Learn Lean]]
