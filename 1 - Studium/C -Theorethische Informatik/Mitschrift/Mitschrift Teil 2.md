@@ -233,7 +233,7 @@ Das genauer anschauen, dass muss man genauer schauen, vor allem die Vertauschung
 ![[Pasted image 20261028142813.png]]
 
 
-Bruder was ist das
+Bruder was ist das, bro hat mich verloren
 
 
 
