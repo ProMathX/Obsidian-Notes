@@ -490,7 +490,6 @@ $$
 
 ![[Pasted image 20261029125511.png]]
 
-
 ---
 
 ### Bayes Theorem
@@ -519,7 +518,6 @@ This is very powerful and allows to "turn around" the conditioning.
 An entire branch of statistics called <u>Bayes Statistics</u> is (basically) built on this formula (and the Bayesian interpretation of it).
 
 ---
-
 
 *Updating Beliefs*
 
