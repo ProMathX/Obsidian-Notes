@@ -189,13 +189,102 @@ Which is the number of combinations of k elements out of n with replacement
 ![[Pasted image 20261029114836.png]]
 
 
-
-
 ## Probability spaces
 
-
 ![[Pasted image 20261029114851.png]]
+
+
 ![[Pasted image 20261029114858.png]]
+
+
 ![[Pasted image 20261029114914.png]]
 
 ## Discrete Probability Spaces
+
+A discrete probability space is determined by the sample space being countable.
+$$
+\Omega = \{\omega_{1},\omega_{2},\omega_{3},\dots \}
+$$
+The probability mass function $P:\mathfrak{S} \to [0,1]$ is uniquely defined by the pribability of hte elementary events 
+
+$$
+p_{i} = P({\omega_{i}})
+$$
+![[Pasted image 20261029115739.png]]
+
+#### Example 1
+![[Pasted image 20261029120040.png]]
+
+#### Example 2
+
+Version 1
+![[Pasted image 20261029121951.png]]
+
+Version 2
+![[Pasted image 20261029121958.png]]
+
+#### Example 3 
+![[Pasted image 20261029122521.png]]
+
+#### Example 4
+![[Pasted image 20261029122542.png]]
+
+## Continuous Probability spaces
+
+How long does a light bulb last?
+
+Random experiment : take a lite bulb (all of the same making) and let it burn till it dies
+Sample Sapce = $\Omega = [0, \infty\} \subset \mathbb{R}$, any non-negative real value
+
+Probability: We now a continuum of possible outcomes!
+
+Therefore we need the concept of probability density function and replace summation with integration.
+
+
+
+## Rules of Probability
+
+### Kolmogorov Axioms
+
+From now on we assume $(\Omega, \mathfrak{S}, P)$ to be an arbitrary probability space.
+
+1. Non-Negativity $$ P(A) \geq 0 \\ \forall A \in \mathfrak{S}$$
+2. Unit-Measure $$P(\Omega) = 1$$
+3. $\sigma$- Additivity: For any sequence of disjoint events $A_{i}$ holds $$P\left( \bigcup_{i=1}^{\infty} A_i \right) = \sum_{i=1}^{\infty} P(A_i)$$
+
+### Rules
+
+Given two events $A, B$ then $A^c$, $A \cap B$ and $A \cup B$ are also events and the following holds:
+
+**(Finite) Additivity:** $A \cap B = \emptyset$ implies $P(A \cup B) = P(A) + P(B)$.
+
+First set $A_1 = \Omega$ and $A_i = \emptyset$ for all $i \geq 2$, then
+
+$$
+P(\Omega) = P\left( \bigcup_{i=1}^{\infty} A_i \right) = P(\Omega) + \sum_{i=2}^{\infty} P(\emptyset)
+$$
+
+which implies $P(\emptyset) = 0$.
+
+Now set $A_1 = A$, $A_2 = B$ and $A_i = \emptyset$ for all $i \geq 3$, then the $\sigma$-Additivity reduces to
+
+$$
+P(A \cup B) = P\left( \bigcup_{i=1}^{\infty} A_i \right) = \sum_{i=1}^{\infty} P(A_i) = P(A_1) + P(A_2) + \sum_{i=3}^{\infty} P(\emptyset) = P(A) + P(B).
+$$
+
+**Mutual Exclusivity:** $A \cap B = \emptyset$ implies $P(A \cap B) = 0$.
+
+We already know that $P(\emptyset) = 0$, therefore $P(A \cap B) = P(\emptyset) = 0$.
+
+### Conditional Probability
+
+
+### Independence
+
+
+### Law of total probablity
+
+
+### Bayes Theorem 
+
+
