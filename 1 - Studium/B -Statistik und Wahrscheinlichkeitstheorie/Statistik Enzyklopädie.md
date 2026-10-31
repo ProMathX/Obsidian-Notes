@@ -650,6 +650,21 @@ $$
 > $$
 
 
+
+Discrete & Continuous Distributions * **Relationship between Cumulative Distribution Function (c.d.f.) & Probability Density Function (p.d.f.):**  Cumulative Distribution Function: $F_X(x) = P(X \le x)$ 
+Density Function as Derivative of c.d.f.: $$f_X(x) = \frac{d}{dx} F_X(x)$$ * **Discrete Distributions:** Described by the Probability Mass Function (p.m.f.) $f_X(x) = P(X = x)$. Probabilities are obtained via summation. * **Continuous Distributions:** Described by a Probability Density Function (p.d.f.) $f_X(x) \ge 0$ where total area $\int_{-\infty}^{\infty} f_X(x) \, dx = 1$. $$P(a \le X \le b) = \int_a^b f_X(x) \, dx$$
+
+
+ Standard Normal Distribution $\mathcal{N}(0, 1)$ * **Density Function (p.d.f.):** $$f_X(x) = \frac{1}{\sqrt{2\pi}} \exp\left(-\frac{x^2}{2}\right)$$ * **Gaussian Integral Identity:** $\int_{-\infty}^{\infty} e^{-x^2/2} \, dx = \sqrt{2\pi}$ ### Gamma Distribution $\Gamma(\alpha, \beta)$ * **Definition via Gamma Function:** $$\Gamma(p) = \int_0^\infty t^{p-1} e^{-t} \, dt \quad \left(\text{with } \Gamma\left(\frac{3}{2}\right) = \frac{\sqrt{\pi}}{2}\right)$$ Frequently used to model waiting times and sums of exponentially distributed variables. 
+ 
+ Chi-Squared Distribution $\chi^2(k)$ * A special case of the Gamma distribution. It describes the distribution of the sum of $k$ squared independent standard normal random variables.
+ 
+  Absolute Value of a Normal Variable ($Y = |X|$ / Folded Normal Distribution) * Due to the symmetry of the normal distribution, density doubles for non-negative values: $$f_{|X|}(x) = \begin{cases} 2 f_X(x) = \sqrt{\frac{2}{\pi}} \, e^{-\frac{x^2}{2}}, & \text{for } x \ge 0 \\ 0, & \text{for } x < 0 \end{cases}$$
+Extreme Values: Maximum of Random Variables ($Y = \max(X_1, X_2)$) * For independent and identically distributed ($i.i.d.$) random variables, the c.d.f. of the maximum is: $$F_Y(y) = P(\max(X_1, X_2) \le y) = P(X_1 \le y \land X_2 \le y) = P(X_1 \le y) \cdot P(X_2 \le y) = (F_X(y))^2$$
+
+
+
+
 ---
 
 
