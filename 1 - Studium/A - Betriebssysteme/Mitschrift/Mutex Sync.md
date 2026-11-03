@@ -34,6 +34,11 @@ außerhalb der Kontrolle eines Prozesses
 Fehler: ein oder mehrere der möglichen Ergebnisse sind falsch, bzw führen zu falschem Verhalten. 
 
 
+### Interaktion von Prozessen
+
+
+
+
 
 
 
