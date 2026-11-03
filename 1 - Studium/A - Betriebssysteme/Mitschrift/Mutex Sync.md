@@ -36,6 +36,11 @@ Fehler: ein oder mehrere der möglichen Ergebnisse sind falsch, bzw führen zu f
 
 ### Interaktion von Prozessen
 
+Mutual Exclusion
+
+Konsistente Datne bleiben, Bedingungsyncronisation
+
+
 
 
 
