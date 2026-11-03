@@ -12,6 +12,12 @@ tags:
 Beispiele siehe die Folien:
 - [[bs03_mutex-sync.pdf#page=2&selection=58,0,59,1|bs03_mutex-sync, page 2]]
 
+Kurzer Recap, was ist ein Prozess und was ist ein thread?
+
+- Prozess: 
+
+
+
 ### Gemeinsame Ressourcen
 BS und Prozesse sind parallel laufende Prozesse
 - verwenden dieselben Daten bzw. Ressourcen (Puffer, Shared Memory, Files, Geräte)
