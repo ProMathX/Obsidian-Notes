@@ -296,7 +296,16 @@ Nicht nur Spracheigenschaften sind relevant, sondern auch die Eigenschaften bere
 #### Weiteres zur Anwendbarkeit des Satzes von Rice
 
 *Beobachtung:*
-Die Unentscheidbarkeit des Korrektheitprobles aus Teil
+Die Unentscheidbarkeit des Korrektheitprobles aus Teil 1, angewendet auf arithmetische Funktionen, folgt unmittelbar aus dem Satz von Rice. Das gilt auch für die meisten verwandten Probleme: zB das universelle Halteproblem oder das Äquivalenzproblem.
+
+*Anmerkung*
+Die Beschränkung auf Turinmaschinen als Darstellungsmittel für Spracen bzw Funktionen ist unwesentlich. Analoge Sätze gelten auch für übliche Programmiersprachen, Typ-0-Grammatiken, $\lambda$- Terme ...
+
+
+>[!Achtung]
+>Es ist nicht immer einfach festzustellen, ob eine Funktions- oder Sprach-Eigenschaft trivial ist. ZB ist es trivial entscheidbar, ob eine von einer TM berechnete Funktion, vom Typ $\mathbb{N}^k \to \mathbb{N}$ $\lambda$ definierbar ist. 
+
+Die Antwort darauf ist immer ja: Jede Turing-berechenbare Funktion ist $\lambda$ definierbar. 
 
 
 
@@ -304,9 +313,12 @@ Die Unentscheidbarkeit des Korrektheitprobles aus Teil
 
 ### Weitere unentscheidbare Probleme
 
-
+Ist mehr Trivia als Stoff 
+[[Teil_2_WS2026.pdf#page=71&selection=0,0,0,24|Teil_2_WS2026, page 71]]
 ### Unkonventionelle Berechenbarkeitmodelle
 
+Ist mehr trivia als Stoff 
+[[Teil_2_WS2026.pdf#page=76&selection=0,0,0,18|Teil_2_WS2026, page 76]]
 
 
 
