@@ -251,6 +251,55 @@ Nah es ist nicht so schlimm, mit der Hand mal rechnen und es geht
 ![[Pasted image 20261104152724.png]]
 
 
+#### Der Satz von Rice
+
+>[!Theorem]
+>Jede nicht-triviale Sprach-Eigenschaft ist unentscheidbar
+
+Achtung, Sprachen können (un)entscheidbar sein. Eigenschaften sind aber Mengen von Sprachen. Diese können indirekt, über ihre jeweilige Darstellung als Turingmaschine, als Sprachen repräsentiert werden. 
+
+
+>[!Definition]
+>Für jede Eigenschaft $\varepsilon$ rekursiv aufzählbarer Sprachen sei $L_{\varepsilon} = \{\langle M\rangle| \mathfrak{L}(M) \in \varepsilon \}$, also die Menge aller Codes von jenen TMs, die eine Sprache $L \in \varepsilon akzeptieren$
+
+Somit folgt, die (Un-)Entscheidbarkeit von $\varepsilon$ mien (Un- )Entscheidbarkeit von $L_{\varepsilon}$
+
+![[Pasted image 20261104155233.png]]
+
+
+#### Anwendung vom Satz
+
+![[Pasted image 20261104155342.png]]
+
+#### Intensional versus Extensional
+![[Pasted image 20261104160213.png]]
+
+
+#### Für Funktionen
+
+Nicht nur Spracheigenschaften sind relevant, sondern auch die Eigenschaften berechenbarer Funktionen sind relevant.
+
+>[!Extensionale]
+>Eine (extensionale) Funktionseigenschaft ist iene Teilmenge $\mathfrak{F}$ der Turing-berechenbaren Funktionen (eines bestimmten Types). $\mathfrak{F}$ heißt trivial, wenn sie entweder leer ist oder aus allen Turing-berechenbaren Funktionen (des entsprechenden Types) besteht 
+
+>[!Definition]
+>Für jede Funktions-Eigenschaft  $\mathfrak{F}$ sei  $L_{\mathfrak{F}} = \{\langle M\rangle| \mathfrak{F}(M) \in \mathfrak{F} \}$, also die Menge aller Codes von Turing Maschinen, die iene Funktion $f  \in \mathfrak{F}$ berechnen.
+
+>[!Theorem]
+>Für jede nicht-triviale Eigenschaft $\mathfrak{F}$ von Turing-berechenbaren Funktionen ist die Sprache $L_{\mathfrak{F}}$ unentscheidbar (kurz $\mathfrak{F}$ ist unentscheidbar)
+
+
+#### Anwendung auf Funktionen
+![[Pasted image 20261104161620.png]]
+
+
+#### Weiteres zur Anwendbarkeit des Satzes von Rice
+
+*Beobachtung:*
+Die Unentscheidbarkeit des Korrektheitprobles aus Teil
+
+
+
 
 
 ### Weitere unentscheidbare Probleme
