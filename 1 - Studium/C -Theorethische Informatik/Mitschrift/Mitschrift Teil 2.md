@@ -232,8 +232,21 @@ Das genauer anschauen, dass muss man genauer schauen, vor allem die Vertauschung
 
 ![[Pasted image 20261028142813.png]]
 
+Nah es ist nicht so schlimm, mit der Hand mal rechnen und es geht
 
-Bruder was ist das, bro hat mich verloren
+
+---
+
+<br>
+### Der Satz von Rice und seine Anwendung
+
+
+
+### Weitere unentscheidbare Probleme
+
+
+### Unkonventionelle Berechenbarkeitmodelle
+
 
 
 
