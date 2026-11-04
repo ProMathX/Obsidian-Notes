@@ -240,6 +240,17 @@ Nah es ist nicht so schlimm, mit der Hand mal rechnen und es geht
 <br>
 ### Der Satz von Rice und seine Anwendung
 
+#### Sprachen
+
+![[Pasted image 20261104152622.png]]
+
+##### Eigenschaften von Sprachen 
+![[Pasted image 20261104152659.png]]
+
+##### Beispiele von Sprach-Eigenschaften
+![[Pasted image 20261104152724.png]]
+
+
 
 
 ### Weitere unentscheidbare Probleme
@@ -280,6 +291,6 @@ Nah es ist nicht so schlimm, mit der Hand mal rechnen und es geht
 
 - [x] Registermaschinen durchgehen und checken, grunpirnzip sitzt, aber die Rechnung mit der Hand durchgehen wie bei den Turingmaschinen  [completion:: 2026-10-25]
 - [x] Redex machen lamda kalkulation  [completion:: 2026-10-25]
-- [ ] Das Rechnen mit dem lambda kalkül abschließen 
+- [x] Das Rechnen mit dem lambda kalkül abschließen ✅ 2026-11-04
 #### Links
 - [[Learn Lean]]
