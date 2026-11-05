@@ -232,8 +232,93 @@ Das genauer anschauen, dass muss man genauer schauen, vor allem die Vertauschung
 
 ![[Pasted image 20261028142813.png]]
 
+Nah es ist nicht so schlimm, mit der Hand mal rechnen und es geht
 
-Bruder was ist das, bro hat mich verloren
+
+---
+
+<br>
+### Der Satz von Rice und seine Anwendung
+
+#### Sprachen
+
+![[Pasted image 20261104152622.png]]
+
+##### Eigenschaften von Sprachen 
+![[Pasted image 20261104152659.png]]
+
+##### Beispiele von Sprach-Eigenschaften
+![[Pasted image 20261104152724.png]]
+
+
+#### Der Satz von Rice
+
+>[!Theorem]
+>Jede nicht-triviale Sprach-Eigenschaft ist unentscheidbar
+
+Achtung, Sprachen können (un)entscheidbar sein. Eigenschaften sind aber Mengen von Sprachen. Diese können indirekt, über ihre jeweilige Darstellung als Turingmaschine, als Sprachen repräsentiert werden. 
+
+
+>[!Definition]
+>Für jede Eigenschaft $\varepsilon$ rekursiv aufzählbarer Sprachen sei $L_{\varepsilon} = \{\langle M\rangle| \mathfrak{L}(M) \in \varepsilon \}$, also die Menge aller Codes von jenen TMs, die eine Sprache $L \in \varepsilon akzeptieren$
+
+Somit folgt, die (Un-)Entscheidbarkeit von $\varepsilon$ mien (Un- )Entscheidbarkeit von $L_{\varepsilon}$
+
+![[Pasted image 20261104155233.png]]
+
+
+#### Anwendung vom Satz
+
+![[Pasted image 20261104155342.png]]
+
+#### Intensional versus Extensional
+![[Pasted image 20261104160213.png]]
+
+
+#### Für Funktionen
+
+Nicht nur Spracheigenschaften sind relevant, sondern auch die Eigenschaften berechenbarer Funktionen sind relevant.
+
+>[!Extensionale]
+>Eine (extensionale) Funktionseigenschaft ist iene Teilmenge $\mathfrak{F}$ der Turing-berechenbaren Funktionen (eines bestimmten Types). $\mathfrak{F}$ heißt trivial, wenn sie entweder leer ist oder aus allen Turing-berechenbaren Funktionen (des entsprechenden Types) besteht 
+
+>[!Definition]
+>Für jede Funktions-Eigenschaft  $\mathfrak{F}$ sei  $L_{\mathfrak{F}} = \{\langle M\rangle| \mathfrak{F}(M) \in \mathfrak{F} \}$, also die Menge aller Codes von Turing Maschinen, die iene Funktion $f  \in \mathfrak{F}$ berechnen.
+
+>[!Theorem]
+>Für jede nicht-triviale Eigenschaft $\mathfrak{F}$ von Turing-berechenbaren Funktionen ist die Sprache $L_{\mathfrak{F}}$ unentscheidbar (kurz $\mathfrak{F}$ ist unentscheidbar)
+
+
+#### Anwendung auf Funktionen
+![[Pasted image 20261104161620.png]]
+
+
+#### Weiteres zur Anwendbarkeit des Satzes von Rice
+
+*Beobachtung:*
+Die Unentscheidbarkeit des Korrektheitprobles aus Teil 1, angewendet auf arithmetische Funktionen, folgt unmittelbar aus dem Satz von Rice. Das gilt auch für die meisten verwandten Probleme: zB das universelle Halteproblem oder das Äquivalenzproblem.
+
+*Anmerkung*
+Die Beschränkung auf Turinmaschinen als Darstellungsmittel für Spracen bzw Funktionen ist unwesentlich. Analoge Sätze gelten auch für übliche Programmiersprachen, Typ-0-Grammatiken, $\lambda$- Terme ...
+
+
+>[!Achtung]
+>Es ist nicht immer einfach festzustellen, ob eine Funktions- oder Sprach-Eigenschaft trivial ist. ZB ist es trivial entscheidbar, ob eine von einer TM berechnete Funktion, vom Typ $\mathbb{N}^k \to \mathbb{N}$ $\lambda$ definierbar ist. 
+
+Die Antwort darauf ist immer ja: Jede Turing-berechenbare Funktion ist $\lambda$ definierbar. 
+
+
+
+
+
+### Weitere unentscheidbare Probleme
+
+Ist mehr Trivia als Stoff 
+[[Teil_2_WS2026.pdf#page=71&selection=0,0,0,24|Teil_2_WS2026, page 71]]
+### Unkonventionelle Berechenbarkeitmodelle
+
+Ist mehr trivia als Stoff 
+[[Teil_2_WS2026.pdf#page=76&selection=0,0,0,18|Teil_2_WS2026, page 76]]
 
 
 
@@ -267,6 +352,6 @@ Bruder was ist das, bro hat mich verloren
 
 - [x] Registermaschinen durchgehen und checken, grunpirnzip sitzt, aber die Rechnung mit der Hand durchgehen wie bei den Turingmaschinen  [completion:: 2026-10-25]
 - [x] Redex machen lamda kalkulation  [completion:: 2026-10-25]
-- [ ] Das Rechnen mit dem lambda kalkül abschließen 
+- [x] Das Rechnen mit dem lambda kalkül abschließen ✅ 2026-11-04
 #### Links
 - [[Learn Lean]]
