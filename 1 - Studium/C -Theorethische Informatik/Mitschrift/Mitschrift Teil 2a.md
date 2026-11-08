@@ -529,7 +529,7 @@ Hat ein Term eine Normalform, ist sie **eindeutig** (bis auf α-Umbenennung): Je
 
 Zahl $n$ = $n$-fache Anwendung von $f$: $$0 = \lambda fx.x, \quad 1 = \lambda fx.fx, \quad 2 = \lambda fx.f(fx), \quad 3 = \lambda fx.f(f(fx)), \dots$$ $$\mathbf{succ} = \lambda nfx.f(nfx), \quad \mathbf{add} = \lambda mnfx.mf(nfx), \quad \mathbf{mult} = \lambda mnf.m(nf)$$ Grundlage von $\mathbf{add}$: $f^{(m)} \circ f^{(n)} = f^{(m+n)}$.
 
-Booleans: $\mathbf{T} = \lambda xy.x$, $\mathbf{F} = \lambda xy.y$, $\mathbf{if_then_else} = \lambda pxy.pxy$.
+Booleans: $\mathbf{T} = \lambda xy.x$, $\mathbf{F} = \lambda xy.y$, $\mathbf{if\_then\_else} = \lambda pxy.pxy$.
 
 ### β-Äquivalenz
 
@@ -587,7 +587,7 @@ Alle Funktionen, die man aus Grundfunktionen mit $\circ$ und $\mathbf{Pr}$ defin
 
 Für eine **totale** Funktion $g : \mathbb{N}^{k+1} \to \mathbb{N}$: $$(\mu_0 g)(x_1,\dots,x_k) = \min_{y \ge 0},[, g(y,x_1,\dots,x_k) = 0,]$$ $$(\bar\mu g)(x_1,\dots,x_{k+1}) = \min_{y \ge 0},[, g(y,x_2,\dots,x_{k+1}) = x_1,]$$ Das ist die **unbeschränkte Suche** (wie eine `while`-Schleife). Existiert kein solches $y$, ist das Ergebnis **undefiniert** (die Suche terminiert nicht).
 
-Beispiele: $\mu\mathrm{Add} = $ echte Subtraktion (undefiniert für $m<n$), $\mu\mathrm{Mult} = $ echte Division (undefiniert, wenn nicht teilbar).
+Beispiele: $\mu \mathrm{Add} =$ echte Subtraktion (undefiniert für $m<n$), $\mu\mathrm{Mult} =$ echte Division (undefiniert, wenn nicht teilbar).
 
 ### μ-rekursiv = partiell rekursiv
 
