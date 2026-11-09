@@ -117,6 +117,84 @@ Dabei passiert Folgendes:
 5. für jedes eingelesene Symbol c wird nun ein C auf dem Arbeitsband gelöscht (durch das Blanksymbol B ersetzt)
 6. wird mit dem Ende der Eingabe (dh dem Erreichen von $Z_{2}$) gleichzeitig das Ende der Symbole C auf dem Arbeitsband erreicht, so hält die Turingmaschine M im Endzustand s und hat damit die Eingabe akzeptiert
 
+| Folie | Regel                         | Aussage                                                                                                                                                                          |
+| ----- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | $\delta(p,a,B)=(p,A,R,R)$     | Für jedes $a$ wird ein $A$ aufs Arbeitsband geschrieben.                                                                                                                         |
+| 2     | $\delta(p,b,B)=(q,B,S,L)$     | Beim ersten $b$ bleibt der Eingabekopf stehen ($S$), der Arbeitskopf geht einen Schritt nach links ($L$), auf das letzte $A$. Das $b$ wird deshalb bei Regel 3 nochmals gelesen. |
+| 3     | $\delta(q,b,A)=(q,C,R,L)$     | Für jedes $b$ wird ein $A$ mit $C$ überschrieben.                                                                                                                                |
+| 4     | $\delta(q,c,Z_0)=(r,Z_0,S,R)$ | Beim ersten $c$ muss der Arbeitskopf genau auf $Z_0$ stehen, also gleich viele $a$ und $b$.                                                                                      |
+| 5     | $\delta(r,c,C)=(r,B,R,R)$     | Für jedes $c$ wird ein $C$ durch das Blank $B$ gelöscht.                                                                                                                         |
+| 6     | $\delta(r,Z_2,B)=(s,B,S,L)$   | Ende der Eingabe ($Z_2$) und Ende der $C$'s fallen zusammen, also Endzustand $s$.                                                                                                |
+
+Kompletter Durchgang mit `aaabbbccc` ($n=3$)
+Startkonfiguration
+- Zustand: $p$
+- Eingabekopf: auf dem ersten $a$
+- Arbeitsband: $Z_0\ B\ B\ B\ B\ B$, Kopf auf dem ersten Blank rechts von $Z_0$
+
+Der Kopf steht in eckigen Klammern. Jede Zeile zeigt die Konfiguration **nach** Anwendung der angegebenen Regel. Die Markierung $Z_2$ rechts hinter der Eingabe ist nur dort eingezeichnet, wo sie relevant wird.
+
+| Schritt | Regel | Zustand | Eingabeband | Arbeitsband |
+|---|---|---|---|---|
+| 0 | Start | $p$ | `[a]aabbbccc` | `Z₀ [B] B B B B` |
+| 1 | 1 | $p$ | `a[a]abbbccc` | `Z₀ A [B] B B B` |
+| 2 | 1 | $p$ | `aa[a]bbbccc` | `Z₀ A A [B] B B` |
+| 3 | 1 | $p$ | `aaa[b]bbccc` | `Z₀ A A A [B] B` |
+| 4 | 2 | $q$ | `aaa[b]bbccc` | `Z₀ A A [A] B B` |
+| 5 | 3 | $q$ | `aaab[b]bccc` | `Z₀ A [A] C B B` |
+| 6 | 3 | $q$ | `aaabb[b]ccc` | `Z₀ [A] C C B B` |
+| 7 | 3 | $q$ | `aaabbb[c]cc` | `[Z₀] C C C B B` |
+| 8 | 4 | $r$ | `aaabbb[c]cc` | `Z₀ [C] C C B B` |
+| 9 | 5 | $r$ | `aaabbbc[c]c` | `Z₀ B [C] C B B` |
+| 10 | 5 | $r$ | `aaabbbcc[c]` | `Z₀ B B [C] B B` |
+| 11 | 5 | $r$ | `aaabbbccc[Z₂]` | `Z₀ B B B [B] B` |
+| 12 | 6 | $s$ | `aaabbbccc[Z₂]` | `Z₀ B B [B] B B` |
+
+Insgesamt sind es $3n+3 = 12$ Schritte, also linear in $n$.
+
+
+#### Normalform
+Eine DTM ist in Normalform, wenn 
+- sie nur einen Endzustnad bestitzt
+- das Arbeitsband am Ende eines akzeptierenden Laufes der Turingmaschine leer ist
+- der letzte Übergang von Gestalt $\delta(s,Z_{2},Z_{0}) = f(f,Z_{0},S,R)$ ist, wobei f dieser einzige Endzustnad und s ein beliebiger anderer Zustand ist
+
+![[Pasted image 20261109153856.png]]
+
+
+| Schritt | Regel | Zustand | Eingabeband     | Arbeitsband      |
+| ------- | ----- | ------- | --------------- | ---------------- |
+| 0       | Start | $p$     | `[a]aabbbccc`   | `Z₀ [B] B B B B` |
+| 1       | 1     | $p$     | `a[a]abbbccc`   | `Z₀ A [B] B B B` |
+| 2       | 1     | $p$     | `aa[a]bbbccc`   | `Z₀ A A [B] B B` |
+| 3       | 1     | $p$     | `aaa[b]bbccc`   | `Z₀ A A A [B] B` |
+| 4       | 2     | $q$     | `aaa[b]bbccc`   | `Z₀ A A [A] B B` |
+| 5       | 3     | $q$     | `aaab[b]bccc`   | `Z₀ A [A] C B B` |
+| 6       | 3     | $q$     | `aaabb[b]ccc`   | `Z₀ [A] C C B B` |
+| 7       | 3     | $q$     | `aaabbb[c]cc`   | `[Z₀] C C C B B` |
+| 8       | 4     | $r$     | `aaabbb[c]cc`   | `Z₀ [C] C C B B` |
+| 9       | 5     | $r$     | `aaabbbc[c]c`   | `Z₀ B [C] C B B` |
+| 10      | 5     | $r$     | `aaabbbcc[c]`   | `Z₀ B B [C] B B` |
+| 11      | 5     | $r$     | `aaabbbccc[Z₂]` | `Z₀ B B B [B] B` |
+| 12      | 6     | $s$     | `aaabbbccc[Z₂]` | `Z₀ B B [B] B B` |
+| 13      | 7     | $s$     | `aaabbbccc[Z₂]` | `Z₀ B [B] B B B` |
+| 14      | 7     | $s$     | `aaabbbccc[Z₂]` | `Z₀ [B] B B B B` |
+| 15      | 7     | $s$     | `aaabbbccc[Z₂]` | `[Z₀] B B B B B` |
+| 16      | 8     | $f$     | `aaabbbccc[Z₂]` | `Z₀ [B] B B B B` |
+
+Insgesamt sind es $4n+4 = 16$ Schritte, also immer noch linear in $n$. Der Rücklauf kostet $n+1$ Schritte mehr als bei $M$.
+
+#### TM: eingeschränkte Variante - LBA
+
+Ein linear bschränkter Automat (LBA) ist eine Turingmaschine, die auf dem Arbeitsband nur höchstens soviel Platz verwendet wie das Eingabewort lang ist (der darf sogar eine lineare Funktion der Länge des Eingabewortes sein)
+
+>[!LBA]
+>Eine TM M heißt linear beschränkter Automat, wenn es eine lineare Funktion cn+d so gibt, dass die Turingmaschine M für jedes Eingabewort w der Länge n während der Analyse höchstens cn+d Felder auf dem Arbeitsband benötigt
+
+#### TM: Eingeschränkte Variante - Kellerautomaten 
+
+Turingmaschine erfüllt Kellerautomatenbedingung, wenn:
+- auf dem eingabeband nie 
 
 
 
