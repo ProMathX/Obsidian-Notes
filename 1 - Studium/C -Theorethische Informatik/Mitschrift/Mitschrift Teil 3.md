@@ -20,8 +20,6 @@ tags:
 
 Marion Oswald die Goat
 <br>
-
----
 ### Grundlagen
 
 #### Wörter
@@ -55,11 +53,10 @@ genau wie {0} etc pp
 ![[Pasted image 20261109124818.png]]
 
 
-
-
-
-
 ### Reguläre Sprachen
+
+{}^* = {e} durch vereinigen, habe ich nur  jede endlich emenge ist regulär, (siehe vereinigung) 13:23 aufschreiben
+aber nicht jede reguläre menge ist endlich, siehe kleene stern. Weil der Kleenestern, nach definition quasi, bis ins unendliche geht. Es gibt unendliche Mengen die keine 
 
 ### Grammatiken
 
@@ -68,6 +65,12 @@ genau wie {0} etc pp
 ### Jenseits der Kontextfreiheit 
 
 ### Chomsky Hierarchie
+
+
+# TODO 
+- [ ] Turingmaschinen hier machen und verstehen
+- [ ] 📅 2026-11-09 VO schöner nacharbeiten, statt stumpf abzuschreiben
+
 
 
 
