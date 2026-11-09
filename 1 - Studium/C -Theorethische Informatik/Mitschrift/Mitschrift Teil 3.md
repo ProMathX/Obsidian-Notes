@@ -50,6 +50,7 @@ genau wie {0} etc pp
 ![[Pasted image 20261109124421.png]]
 
 ### Turingmaschinen
+
 ![[Pasted image 20261109124818.png]]
 
 
@@ -152,7 +153,6 @@ Der Kopf steht in eckigen Klammern. Jede Zeile zeigt die Konfiguration **nach** 
 
 Insgesamt sind es $3n+3 = 12$ Schritte, also linear in $n$.
 
-
 #### Normalform
 Eine DTM ist in Normalform, wenn 
 - sie nur einen Endzustnad bestitzt
@@ -194,7 +194,53 @@ Ein linear bschränkter Automat (LBA) ist eine Turingmaschine, die auf dem Arbei
 #### TM: Eingeschränkte Variante - Kellerautomaten 
 
 Turingmaschine erfüllt Kellerautomatenbedingung, wenn:
-- auf dem eingabeband nie 
+- auf dem Eingabeband nie nach links gehen kann
+- für den Lese-/Schreibkopf auf dem Arbeitsband in jeder Konfiguration gilt, dass
+	- links davon nur Nicht-Blanksymbole
+	- recht davon nur Blanksymbole stehen können
+
+Im Wesentlichen ist also ein Kellerautomat eine Turingmaschine, die das Arbeitsband als sogenanneten Keller vewendet. 
+
+Der Kellerautomat, darf per Definition nur das oberste Symbol lesen und diese dann löschen
+
+Ein Kellerautomat ähnelt einem Stack - nach dem LIFO Prinzip 
+
+#### Akzeptierte Sprache eines Kellerautomaten
+
+1. Kellerautomat befindet sich im Sinne einer Turingmaschine nach dem Einlesen des gesamte Eingabewortes in einem akzeptierenden Zustand
+2. Kellerautomaten akzeptiert durch leeren Keller (Arbeitsband)
+
+**Normalform:** Eingabewort wird durch Endzustand und leeren Keller (Arbeitsband) akzeptiert, beim Übergang in den (einzigen) Endzustand wird das rechte Begrenzungssymbol $Z_{2}$ des Eingabebandes und im Keller (Arbeitsband) gleichzeitig das Kellergrundsymbol($Z_{0}$) gelesen. (Entspricht der NF für TM)
+
+
+#### Beispiel eines Kellerautomaten
+
+![[Pasted image 20261109160502.png]]
+
+$$\delta(\underbrace{q}_{\text{Zustand}},\, \underbrace{x}_{\text{Eingabe}},\, \underbrace{Y}_{\text{Keller (Arbeitsband)}}) = \{(\underbrace{q'}_{\text{neuer Zustand}},\, \underbrace{W}_{\text{schreibe}},\, \underbrace{E}_{\text{Eingabekopf}},\, \underbrace{K}_{\text{Kellerkopf}})\}$$
+
+| Schritt | Regel | Zustand | Eingabeband   | Arbeitsband      |     |
+| ------- | ----- | ------- | ------------- | ---------------- | --- |
+| 0       | Start | $q_0$   | `[0]011111`   | `Z₀ [B] B B B B` |     |
+| 1       | 1     | $q_1$   | `[0]011111`   | `Z₀ A [B] B B B` |     |
+| 2       | 2     | $q_0$   | `0[0]11111`   | `Z₀ A A [B] B B` |     |
+| 3       | 1     | $q_1$   | `0[0]11111`   | `Z₀ A A A [B] B` |     |
+| 4       | 2     | $q_0$   | `00[1]1111`   | `Z₀ A A A A [B]` |     |
+| 5       | 3     | $q_2$   | `001[1]111`   | `Z₀ A A A [A] B` |     |
+| 6       | 4     | $q_2$   | `0011[1]11`   | `Z₀ A A [A] B B` |     |
+| 7       | 4     | $q_2$   | `00111[1]1`   | `Z₀ A [A] B B B` |     |
+| 8       | 4     | $q_2$   | `001111[1]`   | `Z₀ [A] B B B B` |     |
+| 9       | 4     | $q_2$   | `0011111[Z₂]` | `[Z₀] B B B B B` |     |
+| 10      | 5     | $q_f$   | `0011111[Z₂]` | `Z₀ [B] B B B B` |     |
+|         |       |         |               |                  |     |
+Oder in Worten 
+![[Pasted image 20261109163712.png]]
+
+
+#### Turingmaschinen: Eingeschränkte Varianten -EA 
+
+**Endlicher Automat:** Turingmaschine, die das Arbeitsband gar nicht benötigt. Übergänge besitzen einfache Form $(q,a;p,D_{E})$ erlaubt man nur $D_{E}\in\{R, S\}$ kann die Übergangsfunktion $\de$ 
+
 
 
 
