@@ -45,9 +45,12 @@ genau wie {0} etc pp
 #### Mengenoperation auf Sprachen
 ![[Pasted image 20261109124355.png]]
 
-
 #### Abgeschlossenheit
 ![[Pasted image 20261109124421.png]]
+
+<br>
+
+---
 
 ### Turingmaschinen
 
@@ -237,18 +240,91 @@ Oder in Worten
 ![[Pasted image 20261109163712.png]]
 
 
-#### Turingmaschinen: Eingeschränkte Varianten -EA 
+#### Turingmaschinen: Eingeschränkte Varianten - Endlicher Automat (EA) 
 
-**Endlicher Automat:** Turingmaschine, die das Arbeitsband gar nicht benötigt. Übergänge besitzen einfache Form $(q,a;p,D_{E})$ erlaubt man nur $D_{E}\in\{R, S\}$ kann die Übergangsfunktion $\de$ 
+**Endlicher Automat:** Turingmaschine, die das Arbeitsband gar nicht benötigt. Übergänge besitzen einfache Form $(q,a;p,D_{E})$ erlaubt man nur $D_{E}\in\{R, S\}$ kann die Übergangsfunktion $\delta$ durch Tripel der Gestalt $(q,a;p)$ beschrieben werden $(a \in T \cup \{\varepsilon\})$ 
 
+![[Pasted image 20261109164219.png]]
 
+Also er akzeptiert es wenn $Z_{2}$ erreicht wird im Eingabeband
 
+#### Akzeptierte Sprachen
+![[Pasted image 20261109164435.png]]
 
+<br>
+
+---
 
 ### Reguläre Sprachen
 
-{}^* = {e} durch vereinigen, habe ich nur  jede endlich emenge ist regulär, (siehe vereinigung) 13:23 aufschreiben
-aber nicht jede reguläre menge ist endlich, siehe kleene stern. Weil der Kleenestern, nach definition quasi, bis ins unendliche geht. Es gibt unendliche Mengen die keine 
+Reguläre Sprachen sind allgegenwärtig.
+- Gebildet durch Vereinigung, Konkatenation und Stern
+- Äquivalent: endliche Automaten, reguläre Grammatiken
+- Compilerbau, Token bilden reguläre Sprache, verabeitet durch Scanner (Lexer)
+
+---
+
+![[Pasted image 20261109165115.png]]
+
+
+Es gilt außderdem bei Regulären Sprachen
+$\{\}^*=\{\varepsilon\}$
+
+Q: Ist jede endliche Menge regulär? 
+A: Ich kann eine endliche Menge immer durch vereinigen von einelementigen Mengen kriegen, deshalb ja
+
+- Einzelne Buchstaben sind nach Definition regulär $\{a\} \in \mathcal{L}_{\mathrm{reg}}(\Sigma)$.
+- **Jedes Wort** $w = a_1 a_2 \cdots a_n$ ist regulär, weil $\{w\} = \{a_1\} \cdot \{a_2\} \cdots \{a_n\}$ ein Produkt/Konkatanation regulärer Mengen ist.
+-  **Das leere Wort:** $\{\varepsilon\}$ steht nicht direkt in der Definition, ist aber regulär, denn $\{\}^* = \{\varepsilon\}$.
+-  **Endliche Vereinigung:** $L = \{w_1\} \cup \dots \cup \{w_k\}$ ist eine endliche Vereinigung regulärer Mengen, also regulär. Für $k=0$ ist $L=\{\}$, und die ist direkt in der Definition enthalten.
+
+---
+
+
+Q: Jede reguläre Menge endlich? 
+A: Der Kleene Stern bringt die unendlichkeit, deshalb nein 
+
+$$A^* = \bigcup_{k \ge 0} A^k$$
+
+
+Jede endliche Sprache ist regulär, denn jedes Wort ist ein Produkt einzelner Buchstaben, und endlich viele Wörter lassen sich vereinigen. Nicht jede reguläre Sprache ist endlich, denn $A^*$ ist für jedes $A$ mit einem nichtleeren Wort unendlich, z. B. $\{a\}^*$.
+
+
+#### Endliche Automaten
+
+Modell für Systeme mit Ein/Ausgaben aus endlichem Wertebereich und mit endlichem Speicher
+
+![[Pasted image 20261109171320.png]]
+
+
+#### DEA: Beispiel
+![[Pasted image 20261109171344.png]]
+
+Eingabe: Wort; Ausgehend vom Startzustand liest der Automat $\mathcal{A}$ von links nach rechts Symbol für Symbol.
+
+Nach dem Lesen eines Symbols geht $\mathcal{A}$ in den nächsten Zustand über indem er entlang der mit diesem Symbol markierten Kante geht. Nach dem Lesen des letzten Symbols wird der Output erzeugt:
+	Befindet sich $\mathcal{A}$ in einem Endzustand, wird das Wort akzeptiert; ansonsten wird das Wort nicht akzeptiert
+
+
+#### Deterministische endliche Automaten
+![[Pasted image 20261109171413.png]]
+Hat ein fixes eingabealphabet
+
+##### Falle
+![[Pasted image 20261109171434.png]]
+
+#### Deterministischer endlicher Automat
+![[Pasted image 20261109171623.png]]
+![[Pasted image 20261109171630.png]]
+
+
+#### Nichtdeterminsitsche endliche Automaten (NEA)
+![[Pasted image 20261109172001.png]]
+
+![[Pasted image 20261109172012.png]]
+
+
+
 
 ---
 
@@ -262,8 +338,8 @@ aber nicht jede reguläre menge ist endlich, siehe kleene stern. Weil der Kleene
 
 
 # TODO 
-- [ ] Turingmaschinen hier machen und verstehen
-- [ ] 📅 2026-11-09 VO schöner nacharbeiten, statt stumpf abzuschreiben
+- [x] Turingmaschinen hier machen und verstehen ✅ 2026-11-09
+- [x] 📅 2026-11-09 VO schöner nacharbeiten, statt stumpf abzuschreiben ✅ 2026-11-09
 
 
 
