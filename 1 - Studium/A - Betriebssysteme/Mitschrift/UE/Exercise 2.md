@@ -142,12 +142,10 @@ int fd = open("/binls",O_RDONLY);
 fexecve(fd,cmd,NULL);
 ```
 
->![Note on Arguments]
+>[!Note on Arguments]
 >Provide the full argument list, including argv[0] (program name)
 >
 >Last argument must be a NULL pointer!
-
-
 
 
 ### Pipes
