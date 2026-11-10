@@ -213,11 +213,14 @@ var choosing: array[0...n-1] of boolean;
 
 #### Bedingungssynchronisation
 
+
+
+
 #### Aufgabe
 
 13:29 1:1 wie in den Prüfungen gut anschauen
 
-
+57 man kann schon lesen bevor, irgendwas hiniengeschrieben worden ist
 
 
 ## Anmerkung
