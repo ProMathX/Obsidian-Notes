@@ -324,6 +324,16 @@ Hat ein fixes eingabealphabet
 ![[Pasted image 20261109172012.png]]
 
 
+>[!kurze wh, im Anfang der VO niederschreiben]
+
+startzustand = endzustand -> akzeotiert das leerwort
+
+Rgeuläre sprachen sind auch in ihrem Komplement abgeschlossen
+13:50 sehr wichtig in der Vo nachahsuchen foliensatz zu 43, sehr viel wertvolle info
+
+
+
+
 
 
 ---
