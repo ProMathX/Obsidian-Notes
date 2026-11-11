@@ -333,6 +333,16 @@ Rgeuläre sprachen sind auch in ihrem Komplement abgeschlossen
 
 |xy|<= m ersten m symbole !!!! du pumpst das erster occurance von einem m
 
+m ist di eanzahl der minimalzustände im Minimalautomaten
+
+i = 0 für den Widerspruch 
+
+Aufarbeitung ab hier:
+
+
+
+
+----
 
 
 
