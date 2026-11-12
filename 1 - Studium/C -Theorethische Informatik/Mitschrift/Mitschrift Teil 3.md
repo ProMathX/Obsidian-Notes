@@ -473,7 +473,61 @@ $$
 #### Abschlusseigenschaften regulärer Sprachen
 ![[Pasted image 20261112125701.png]]
 
+#### Homomorphismus
 
+Seien $\Sigma$ und $\Gamma$ zwei Alphabete. 
+
+Homomorphismus: $h: \Sigma\to\Gamma^*$
+Induktive Erweiterung auf Wörter über $\Sigma$
+
+1. $h(\varepsilon) = \varepsilon$
+2. $h(wa) = h(w)h(a)$ $\forall w\in\Sigma^*    \text{und } a\in\Sigma$
+
+Anwendung von h auf jedes Wort der Sprache L:
+
+$$
+h(L) = \{h(w) | w \in L\}
+$$
+
+![[Pasted image 20261112130244.png]]
+
+
+
+#### Entscheidungsprobleme
+
+![[Pasted image 20261112130315.png]]
+
+
+
+#### Grenzen der Regularität
+![[Pasted image 20261112130336.png]]
+
+
+#### Schubfachprinzip
+
+kennt man aus ADM
+![[Pasted image 20261112130403.png]]
+
+
+
+#### Pumping Lemma
+
+(Unendliche) Reguläre Sprachen haben eine spzeielle Eigenschaft. 
+Jedes Wort aber iener bestimmten Länge kann "aufgepumpt" werden, dh jedes solche Wort enthält ein Teilstück, das beliebig oft wiederholt werden kann wobei die resultierenden Wörter noch immer in derselben Sprache liegen.
+
+>[!Pumping Lemma für reguläre Sprachen]
+>Sei L eine unendliche reguläre Sprache. Dann **gibt es** eine (nur von L abhängige) Schranke m > 0 so, dass **jedes** Wort $w \in L$ mit  $|w| \geq m$ Wörter x,y,z so **exisitieren**, dass:
+> 
+> $w = xyz \text{ mit } |xy|\leq m \text{ und } |y|>0$
+> 
+> sowie
+> 
+> $w_{i} = xy^iz \in L$          $\forall i \geq 0$
+
+
+##### Beispiel
+
+![[Pasted image 20261112130954.png]]
 
 
 
