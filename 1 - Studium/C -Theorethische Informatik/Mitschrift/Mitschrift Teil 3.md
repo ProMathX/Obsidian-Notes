@@ -355,6 +355,9 @@ Die Transformation geht über Teilmengenkonstruktion oder auch besser gesagt Pot
 
 ![[Pasted image 20261112113606.png]]
 
+https://de.wikipedia.org/wiki/Potenzmengenkonstruktion?useskin=vector
+
+
 
 #### Reguläre Menge $\to \varepsilon-NEA$
 
