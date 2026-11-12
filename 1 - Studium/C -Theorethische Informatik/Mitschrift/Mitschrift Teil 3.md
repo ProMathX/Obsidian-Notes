@@ -386,9 +386,94 @@ Jede von ienem DEA akzeptierte Sprache ist regulär.
 **Beweis.** Induktion über $k$:
 - $k = 0$: $R^0_{ij}$ ist endlich, also regulär.
 - $k-1 \to k$: $R^k_{ij}$ entsteht aus $R^{k-1}_{\cdot\cdot}$ nur durch $\cup$, $\cdot$ und $^*$, und reguläre Sprachen sind darunter abgeschlossen.
-- $k = n$: Alle Zwischenzustände sind erlaubt, also ist $L(\mathcal{A})$ eine endliche Vereinigung regulärer Sprachen. $\qquad\blacksquare$
+- $k = n$: Alle Zwischenzustände sind erlaubt, also ist $L(\mathcal{A})$ eine endliche Vereinigung regulärer Sprachen. 
 
 **Merke.** Das Verfahren ist Floyd-Warshall mit $(\cup, \cdot)$ statt $(\min, +)$. Die Ausdrücke können exponentiell groß werden.
+
+- https://en.wikipedia.org/wiki/Kleene%27s_algorithm?useskin=vector
+
+
+![[Pasted image 20261112121611.png]]
+
+Hier gilt k = n
+###### Schritt 0: Automat und Rekursion
+
+$$
+\begin{array}{c|cc}
+ & 0 & 1 \\ \hline
+q_1\ (\text{Start}) & q_2 & q_3 \\
+q_2\ (\text{Ende}) & q_1 & q_3 \\
+q_3\ (\text{Ende}) & q_2 & q_2
+\end{array}
+$$
+
+$$
+R^k_{ij} = R^{k-1}_{ij} \,\cup\, R^{k-1}_{ik}\,\bigl(R^{k-1}_{kk}\bigr)^*\,R^{k-1}_{kj}
+$$
+
+###### Schritt 1: $k=0$ (nur direkte Kanten, bei $i=j$ zusätzlich $\varepsilon$)
+
+$$
+\begin{aligned}
+R^0_{11} = R^0_{22} = R^0_{33} &= \{\varepsilon\} \\
+R^0_{12} = R^0_{21} &= \{0\} \\
+R^0_{13} = R^0_{23} &= \{1\} \\
+R^0_{32} &= \{0,1\} \\
+R^0_{31} &= \{\}
+\end{aligned}
+$$
+
+###### Schritt 2: $k=1$ ($q_1$ darf Zwischenstation sein)
+
+$(R^0_{11})^* = \{\varepsilon\}^* = \{\varepsilon\}$
+
+- Zeile 1: Umweg $q_1 \to q_1 \to q_j$ bringt nichts Neues, alles bleibt gleich.
+- Zeile 3: $R^0_{31} = \{\}$, also kein Weg über $q_1$, alles bleibt gleich.
+- Zeile 2 ($R^0_{21} = \{0\}$):
+
+$$
+\begin{aligned}
+R^1_{21} &= \{0\} \cup \{0\}\{\varepsilon\}\{\varepsilon\} = \{0\} \\
+R^1_{22} &= \{\varepsilon\} \cup \{0\}\{\varepsilon\}\{0\} = \{\varepsilon, 00\} \\
+R^1_{23} &= \{1\} \cup \{0\}\{\varepsilon\}\{1\} = \{1, 01\}
+\end{aligned}
+$$
+
+###### Schritt 3: $k=2$ ($q_2$ darf Zwischenstation sein)
+
+Hilfsfakten:
+
+$$
+(R^1_{22})^* = \{\varepsilon,00\}^* = \{00\}^*, \qquad \{00\}^*\cdot\{\varepsilon,00\} = \{00\}^*, \qquad \{00\}^*\{1,01\} = \{0\}^*\{1\}
+$$
+
+$$
+\begin{aligned}
+R^2_{11} &= \{\varepsilon\} \cup \{0\}\{00\}^*\{0\} = \{00\}^* \\
+R^2_{12} &= \{0\} \cup \{0\}\{00\}^*\{\varepsilon,00\} = \{0\}\{00\}^* \\
+R^2_{13} &= \{1\} \cup \{0\}\{00\}^*\{1,01\} = \{0\}^*\{1\} \\[4pt]
+R^2_{21} &= \{0\} \cup \{\varepsilon,00\}\{00\}^*\{0\} = \{0\}\{00\}^* \\
+R^2_{22} &= \{\varepsilon,00\} \cup \{\varepsilon,00\}\{00\}^*\{\varepsilon,00\} = \{00\}^* \\
+R^2_{23} &= \{1,01\} \cup \{\varepsilon,00\}\{00\}^*\{1,01\} = \{0\}^*\{1\} \\[4pt]
+R^2_{31} &= \{\} \cup \{0,1\}\{00\}^*\{0\} = \{0,1\}\{00\}^*\{0\} \\
+R^2_{32} &= \{0,1\} \cup \{0,1\}\{00\}^*\{\varepsilon,00\} = \{0,1\}\{00\}^* \\
+R^2_{33} &= \{\varepsilon\} \cup \{0,1\}\{00\}^*\{1,01\} = \{\varepsilon\} \cup \{0,1\}\{0\}^*\{1\}
+\end{aligned}
+$$
+
+
+#### Minimalautomat
+![[Pasted image 20261112125616.png]]
+
+#### Minimierungsalgorithmus von Brzozowski
+
+![[Pasted image 20261112125641.png]]
+
+
+#### Abschlusseigenschaften regulärer Sprachen
+![[Pasted image 20261112125701.png]]
+
+
 
 
 
