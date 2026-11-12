@@ -337,12 +337,58 @@ m ist di eanzahl der minimalzustände im Minimalautomaten
 
 i = 0 für den Widerspruch 
 
+Also, fuck that, es gibt keine Aufzeichnung, fuck that dude
+
+
 Aufarbeitung ab hier:
 
-
-
-
 ----
+#### Determinisierung $NEA \to DEA$
+
+Zu jedem NEA gibt es einen äquivalenten DEA. Man kkan aber keinen DEA zu einem NEA transformieren, weil jeder DEA auch ein NEA schon ist.
+
+Die Transformation geht über Teilmengenkonstruktion oder auch besser gesagt Potenzkonstruktion.
+
+![[Pasted image 20261112113423.png]]
+
+**Tipp:** Berechne die Übergangsfunktion ausgehend von $\hat{q}_{0}$ nur für tatsächlich erreichbare Zustände.
+
+![[Pasted image 20261112113606.png]]
+
+
+#### Reguläre Menge $\to \varepsilon-NEA$
+
+>[!Merke]
+>Zu jeder regulären Sprache L gibt einen endlichen Automaten $\mathcal{A}$, sodass $L = \mathcal{L}(\mathcal{A})$
+
+![[Pasted image 20261112114545.png]]
+
+![[Pasted image 20261112120231.png]]
+
+https://en.wikipedia.org/wiki/Thompson%27s_construction?useskin=vector
+
+Es wurde in der Vorlesung aucht so sehr darauf eingegangen.
+
+
+#### DEA $\to$ reguläre Menge
+
+>[!Theorem]
+>
+Jede von ienem DEA akzeptierte Sprache ist regulär.
+
+![[Pasted image 20261112120330.png]]
+
+**Idee für $k > 0$.** Ein Weg von $q_i$ nach $q_j$ benutzt $q_k$ entweder gar nicht (erster Term) oder mindestens einmal. Dann zerfällt er in drei Teile:
+1. $q_i \to q_k$ bis zum ersten Besuch von $q_k$ ($R^{k-1}_{ik}$),
+2. beliebig viele Schleifen $q_k \to q_k$ ($(R^{k-1}_{kk})^*$),
+3. $q_k \to q_j$ nach dem letzten Besuch von $q_k$ ($R^{k-1}_{kj}$).
+
+**Beweis.** Induktion über $k$:
+- $k = 0$: $R^0_{ij}$ ist endlich, also regulär.
+- $k-1 \to k$: $R^k_{ij}$ entsteht aus $R^{k-1}_{\cdot\cdot}$ nur durch $\cup$, $\cdot$ und $^*$, und reguläre Sprachen sind darunter abgeschlossen.
+- $k = n$: Alle Zwischenzustände sind erlaubt, also ist $L(\mathcal{A})$ eine endliche Vereinigung regulärer Sprachen. $\qquad\blacksquare$
+
+**Merke.** Das Verfahren ist Floyd-Warshall mit $(\cup, \cdot)$ statt $(\min, +)$. Die Ausdrücke können exponentiell groß werden.
 
 
 
