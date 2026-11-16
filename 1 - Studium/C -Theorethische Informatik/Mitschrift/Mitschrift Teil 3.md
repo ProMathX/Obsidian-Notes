@@ -557,10 +557,13 @@ Jedes Wort aber iener bestimmten Länge kann "aufgepumpt" werden, dh jedes solch
 ![[Pasted image 20261112130954.png]]
 
 
+Review Produktautomaten entscheiden, dass $L \cap L$ oder $L - L$ einen Produktautomaten
 
 ---
-
 ### Grammatiken
+![[Pasted image 20261116121956.png]]
+
+
 
 ### Kontextfreie Grammatiken und Sprachen
 
