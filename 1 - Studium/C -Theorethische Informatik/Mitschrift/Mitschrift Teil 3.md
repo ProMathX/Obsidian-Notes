@@ -326,10 +326,25 @@ Hat ein fixes eingabealphabet
 
 >[!kurze wh, im Anfang der VO niederschreiben]
 
-startzustand = endzustand -> akzeotiert das leerwort
+Kurze Wh von letzter Vorlesung
+
+- Arbeitsband nur als Stack -> kontextfreie Sprachen
+- kein Arbeitsband -> regulaere Sprachen
+
+Regulaere Sprachen/Mengen sind  definiert durch konkatenation, vereinigung und stern. Andere moeglichkeit, sind endliche Automaten.
+
+startzustand = endzustand -> akzeptiert das leerwort
 
 Rgeuläre sprachen sind auch in ihrem Komplement abgeschlossen
 13:50 sehr wichtig in der Vo nachahsuchen foliensatz zu 43, sehr viel wertvolle info
+
+
+
+
+
+
+
+---
 
 |xy|<= m ersten m symbole !!!! du pumpst das erster occurance von einem m
 
@@ -337,7 +352,6 @@ m ist di eanzahl der minimalzustände im Minimalautomaten
 
 i = 0 für den Widerspruch 
 
-Also, fuck that, es gibt keine Aufzeichnung, fuck that dude
 
 
 Aufarbeitung ab hier:
@@ -475,6 +489,16 @@ $$
 
 #### Abschlusseigenschaften regulärer Sprachen
 ![[Pasted image 20261112125701.png]]
+
+Nicht im Komplement abgeschlossen Sprachen gibt es. Regulaere Sprachen sind immer im Komplement abgeschlossen. Falle, Woerter die nicht zur Sprache gehoeren.
+
+Vertausche End mit nicht endzustaende
+
+![[Pasted image 20261113154754.png]]
+
+
+
+
 
 #### Homomorphismus
 
