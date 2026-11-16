@@ -563,6 +563,30 @@ Review Produktautomaten entscheiden, dass $L \cap L$ oder $L - L$ einen Produkta
 ### Grammatiken
 ![[Pasted image 20261116121956.png]]
 
+linke seite muss mindestens ein Symbol sein, seihe + 
+
+#### Ableitungen 
+![[Pasted image 20261116144128.png]]
+
+![[Pasted image 20261116144226.png]]
+
+![[Pasted image 20261116144302.png]]
+
+![[Pasted image 20261116144313.png]]
+
+![[Pasted image 20261116144329.png]]
+
+
+#### Grammatik-Typen
+![[Pasted image 20261116144453.png]]
+
+#### Erzeugte Sprachen 
+
+![[Pasted image 20261116144809.png]]
+
+
+
+
 
 
 ### Kontextfreie Grammatiken und Sprachen
