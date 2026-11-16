@@ -585,8 +585,15 @@ linke seite muss mindestens ein Symbol sein, seihe +
 ![[Pasted image 20261116144809.png]]
 
 
+#### Regulaere Grammatiken
+![[Pasted image 20261116195721.png]]
 
+Eine Sprache ist genau dann regulär, wenn sie von einer regulären
+Grammatik erzeugt wird. Umgekehrt lässt sich zu jeder regulären
+Sprache eine reguläre Grammatik finden, die sie generiert.
 
+Beweis:
+Simuliere DEA mittels regulärer Grammatik und umgekehrt.
 
 
 ### Kontextfreie Grammatiken und Sprachen
