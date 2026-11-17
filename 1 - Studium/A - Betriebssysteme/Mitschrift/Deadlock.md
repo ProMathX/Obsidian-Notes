@@ -23,3 +23,6 @@ Ein Deadlock: jedes Auto blockiert ein Fahrbahnstück und möchte auf das Fahrba
 
 ![[Pasted image 20261117131350.png]]
 
+
+
+
