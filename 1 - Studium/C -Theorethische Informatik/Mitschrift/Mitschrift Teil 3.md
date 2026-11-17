@@ -1,7 +1,7 @@
 ---
 topic: Sprachen, Kontextfreie Grammatiken
 date: 2026-03-16
-course:
+course: ThIf
 tags:
   - studies
   - ThIf
@@ -596,11 +596,212 @@ Beweis:
 Simuliere DEA mittels regulärer Grammatik und umgekehrt.
 
 
+#### DEA und regulaere Grammatiken
+
+DEA:
+ A = (Q, Σ, δ, q0 , F )
+ 
+definiere reguläre Grammatik
+	G = (Q, Σ, P, q0 )
+
+wobei P wie folgt definiert wird:
+	q → ap ∈ P wenn δ(q, a) = p
+	q → ε ∈ P wenn q ∈ F
+
+Es folgt dann:
+	 δ ∗ (q0 , w ) ∈ F g.d.w. q0 ⇒∗ w
+
+![[Pasted image 20261116231113.png]]
+
+![[Pasted image 20261116231242.png]]
+
+und dann $q_{0}\to \varepsilon$
+
+
+#### Kontextfreie Grammatiken
+
+- Eine Grammatik heißt kontextfrei, wenn alle Produktionen von der Form A → β sind, wobei A ∈ N und β ∈ (N ∪ T )∗ 
+
+- Eine Sprache L heißt kontextfrei, wenn es eine kontextfreie Grammatik G gibt, sodass L = L(G)
+
+![[Pasted image 20261116231658.png]]
+
+
+Merke alle Ableitungsvarianten ergeben dieselbe Sprache
+![[Pasted image 20261116231723.png]]
+
+Folgende Beispiele
+
+![[Pasted image 20261116231750.png]]
+
+![[Pasted image 20261116231755.png]]
+
+![[Pasted image 20261116231800.png]]
+
+#### Baeume 
+![[Pasted image 20261116231855.png]]
+![[Pasted image 20261116231900.png]]
+
+Sei $G = (N, T, P, S)$ eine kontextfreie Grammatik und $g = (K, E, L)$ ein $A$-Baum für $G$.
+
+Wir definieren nun eine Ordnungsrelation auf den Pfaden von $g$: Seien $P(j) = (p_{j,0}, e_{j,1}, p_{j,1}, \dots, e_{j,k_j}, p_{j,k_j})$ für $j \in \{1, 2\}$ zwei voneinander verschiedene Pfade in $g$, die in der Wurzel beginnen (i.e., $p_{1,0} = p_{2,0} = p_0$) und zu einem Blatt von $g$ führen, dann definieren wir $P(1) < P(2)$ genau dann, wenn es ein $m \geq 1$ so gibt, dass $e_{1,i} = e_{2,i}$ für alle $1 \leq i < m$ und $e_{1,m} < e_{2,m}$.
+
+Betrachten wir nun alle derartigen Pfade in $g$, so sind diese wohlgeordnet und sind $p_1, \dots, p_k$ die Blätter dieser Pfade, so ist die Front von $g$ durch $L(p_1) \dots L(p_k)$ definiert.
+
+Sei $G = (N, T, P, S)$ eine kontextfreie Grammatik und $g = (K, E, L)$ ein $A$-Baum für $G$ sowie $w \in (N \cup T)^*$.
+
+Dann gilt $A \Rightarrow^* w$ genau dann, wenn es einen $A$-Baum für $G$ mit Front $w$ gibt. Somit gilt für alle $w \in T^*$ auch $S \Rightarrow^* w$ genau dann, wenn es einen Ableitungsbaum für $G$ mit Front $w$ gibt.
+
+![[Pasted image 20261116231948.png]]
+
+![[Pasted image 20261116231952.png]]
+
+![[Pasted image 20261116232547.png]]
+
+
+
+
+
+#### Eindeutigkeit, Mehrdeutigkeit (inheraente)
+
+Sei G = (N, T , P, S) eine kontextfreie Grammatik. G heißt
+eindeutig, wenn es zu jedem in G ableitbaren Terminalwort genau
+eine Linksableitung in G gibt. Ansonsten heißt G mehrdeutig.
+Eine kontextfreie Sprache L heißt inhärent mehrdeutig, wenn jede
+Grammatik, die L erzeugt, mehrdeutig ist.
+
+![[Pasted image 20261116232145.png]]
+
+
+![[Pasted image 20261116232153.png]]
+
+
+![[Pasted image 20261116232200.png]]
+
+
+#### Transformation von Produktionen 
+![[Pasted image 20261116232253.png]]
+
+#### Chomsky Normalform
+![[Pasted image 20261116232257.png]]
+
+
+#### Greibach Normalform fuer kf Grammatiken
+![[Pasted image 20261116232302.png]]
+
+![[Pasted image 20261116232309.png]]
+
+<br>
+
+----
+
+
 ### Kontextfreie Grammatiken und Sprachen
+
+Abschlusseigenschaften
+Kontextfreie Sprachen sind abgeschlossen unter
+- ∪, ·, * ,
+- Homomorphismen,
+- Schnitt mit regulären Sprachen
+
+Kontextfreie Sprachen sind nicht abgeschlossen unter
+- Durchschnitt und Komplement.
+
+![[Pasted image 20261116232415.png]]
+
+
+#### Dyck Sprachen
+
+![[Pasted image 20261116232431.png]]
+
+
+#### Satz von Chomsky-Schuetzenberger
+
+![[Pasted image 20261116232501.png]]
+
+![[Pasted image 20261116232520.png]]
+
+![[Pasted image 20261116232619.png]]
+
+
+![[Pasted image 20261116232631.png]]
+
+Wir haben gesehen, dass kontextfreie Sprachen unter ∪ abgeschlossen
+sind. Wären diese auch unter Komplement abgeschlossen, so – wegen
+obiger Beziehung – auch unter Durchschnitt. Wir haben aber gezeigt,
+dass dies nicht der Fall ist.
+
+
+#### Entscheidungsprobleme fuer kontextfreie Sprachen
+Entscheidbare Probleme:
+- Ist die k.f. Sprache L leer/endlich/unendlich?
+- Liegt ein Wort w in der k.f. Sprache L? (Wort-Problem)
+
+Unentscheidbare Probleme:
+- Gilt L = Σ∗ ?
+- L1 = L2 (Äquivalenzproblem)?
+- L1 ⊆ L2 ?
+- L1 ∩ L2 = {}?
+- Ist L regulär?
+- Ist L1 ∩ L2 bzw. Σ∗ − L kontextfrei?
+
+#### Pumping Lemma fuer kontextfreie Sprachen
+![[Pasted image 20261116232748.png]]
+
+![[Pasted image 20261116232831.png]]
+![[Pasted image 20261116232840.png]]
+![[Pasted image 20261116232848.png]]
+
+![[Pasted image 20261116232956.png]]
+
+Bemerkung: Für kontextfreie Sprachen über einem einelementigen
+Alphabet gilt jedoch der folgende Satz:
+
+> [!Theorem]
+> Jede kontextfreie Sprache über einem einelementigen Alphabet ist
+regulär.
+
+###### Beweis
+
+Ich werde behindert
+
+![[Pasted image 20261116232804.png]]
+
+![[Pasted image 20261116232809.png]]
+
+![[Pasted image 20261116232815.png]]
+
 
 ### Jenseits der Kontextfreiheit 
 
 ### Chomsky Hierarchie
+![[Pasted image 20261116233032.png]]
+
+
+![[Pasted image 20261116233041.png]]
+
+![[Pasted image 20261116233052.png]]
+![[Pasted image 20261116233057.png]]
+
+#### gsm- Abbildungen
+
+![[Pasted image 20261116233115.png]]
+
+![[Pasted image 20261116233121.png]]
+
+![[Pasted image 20261116233126.png]]
+
+
+#### Homomorphismen und gsm-Abbildungen
+![[Pasted image 20261116233143.png]]
+
+
+Merke 
+![[Pasted image 20261116233148.png]]
+
+
+![[Pasted image 20261116233158.png]]
+
 
 
 # TODO 
