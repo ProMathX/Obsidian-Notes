@@ -340,6 +340,64 @@ Bedingungssynchronisation über Monitorvariable
 ![[Pasted image 20261111125550.png]]
 
 
+#### Charakteristika von Nachrichten
+
+-  Synchronisation
+	– send: blocking, non-blocking
+	– receive: blocking, non-blocking, test for arrival
+
+- Datenverwaltung
+	– Ereignissemantik: Warteschlange (Queue)
+	– Zustandssemantik: empfangene Daten überschreiben alte Werte
+
+Adressierung
+	– 1:1 vs. 1:N
+	physikalisch vs. logisch
+	direkt vs. indirekt (Mailbox, Portadressierung)
+
+
+#### Mailbox und Portadressierung
+![[Pasted image 20261117125919.png]]
+
+
+Man kann auch mutual-exclusion (MutEx) mittels Nachrichten-Synchronisation gewährtleisten
+
+- gemeinsame Mailbox mutex + Token-Nachricht
+- Blocking receive, non -blocking send
+
+![[Pasted image 20261117130036.png]]
+
+#### Locks
+![[Pasted image 20261117130051.png]]
+
+![[Pasted image 20261117130131.png]]
+
+### Zusammenfassung
+
+- Anforderungen paralleler Prozesse
+	- Konsistenter Zugriff auf gemeinsame Daten
+	- Vorgegebene Reihenfolge von Aktionen
+
+- MuEx -> Konsistenz
+- Condition Synchronization -> Reihenfolge
+
+- Kritischer Abschnitt 
+	- Aktionen, die gemeinsame Daten manipulieren
+	- mit Konstrukten zur Synchronsation gesichert
+	
+- Sicherung des kritischen Abschnitts
+	- Lösungen abhängig vom Instruction Set
+	- Unterstützung durch OS -> kein Busy Waiting
+
+- Semaphor 
+	- init,wait bzw. P und signal bzw V
+	- Achtung: Reihenfolge der wait Operationen
+
+- Monitor
+- Nachrichten
+
+Anzahl der Prozesse können Parallelität besitmmen
+
 
 ## Anmerkung
 VO 3.11 ist ziemlich gut, und relevant für Prüfung! Seine Skizze!
