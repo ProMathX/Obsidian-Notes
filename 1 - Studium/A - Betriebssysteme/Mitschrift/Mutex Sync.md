@@ -396,6 +396,8 @@ Man kann auch mutual-exclusion (MutEx) mittels Nachrichten-Synchronisation gewä
 - Monitor
 - Nachrichten
 
+Anzahl der Prozesse können Parallelität besitmmen
+
 
 ## Anmerkung
 VO 3.11 ist ziemlich gut, und relevant für Prüfung! Seine Skizze!
